@@ -16,8 +16,8 @@ export default function RootLayout({ children }) {
       {/* <body className={inter.className}> */}
       <body className="flex flex-col h-screen">
 
-        <header class="py-4">
-          <div class="container mx-auto flex justify-between items-center">
+        <header className="py-4">
+          <div className="container mx-auto flex justify-between items-center">
             <Link href="/" className="font-bold text-4xl">hc</Link>
             <nav className="flex flex-row gap-x-10 justify-end">
               <Link href="/" className="flex flex-row">
@@ -87,8 +87,8 @@ export default function RootLayout({ children }) {
 
         {children}
 
-        <footer class="w-full py-4">
-          <div class="container mx-auto text-center text-sm">
+        <footer className="w-full py-4">
+          <div className="container mx-auto text-center text-sm">
             <p>Copyright © 2023 <Link href="/" className="font-bold">Hiren Chhatbar</Link> All rights reserved.</p>
           </div>
         </footer>

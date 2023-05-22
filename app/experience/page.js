@@ -2,13 +2,13 @@ import Image from 'next/image'
 
 export default function Page() {
   return (
-    <main class="container mx-auto my-6">
+    <main className="container mx-auto my-6">
       <section>
-        <div class="flex">
-          <div class="w-1/2 flex items-center px-4 py-8">
-            <h2 class="text-3xl">Turning complex problems into elegant solutions, one line of code at a time</h2>
+        <div className="flex">
+          <div className="w-1/2 flex items-center px-4 py-8">
+            <h2 className="text-3xl">Turning complex problems into elegant solutions, one line of code at a time</h2>
           </div>
-          <div class="w-1/2">
+          <div className="w-1/2">
             <Image
               src="/experience4.svg"
               width={500}
@@ -19,69 +19,69 @@ export default function Page() {
           </div>
         </div>
 
-        <h1 class="text-2xl font-bold mb-20">Experience</h1>
+        <h1 className="text-2xl font-bold mb-20">Experience</h1>
 
-        <div class="container mx-auto mb-4">
-          <div class="border-l-2 border-gray-400 pl-4">
-            <div class="flex items-center mb-6">
-              <div class="flex-shrink-0 mr-4">
-                <span class="bg-gray-400 rounded-full h-8 w-8 flex items-center justify-center text-white font-bold">1</span>
+        <div className="container mx-auto mb-4">
+          <div className="border-l-2 border-gray-400 pl-4">
+            <div className="flex items-center mb-6">
+              <div className="flex-shrink-0 mr-4">
+                <span className="bg-gray-400 rounded-full h-8 w-8 flex items-center justify-center text-white font-bold">1</span>
               </div>
               <div>
-                <h4 class="text-xl font-bold">Job Title 1</h4>
-                <p class="text-gray-600">Employer Name 1</p>
-                <p class="text-gray-600">Job Period 1</p>
+                <h4 className="text-xl font-bold">Job Title 1</h4>
+                <p className="text-gray-600">Employer Name 1</p>
+                <p className="text-gray-600">Job Period 1</p>
               </div>
             </div>
-            <p class="pl-12 text-gray-700 mb-6">Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra.</p>
+            <p className="pl-12 text-gray-700 mb-6">Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra.</p>
 
-            <div class="flex items-center mb-6">
-              <div class="flex-shrink-0 mr-4">
-                <span class="bg-gray-400 rounded-full h-8 w-8 flex items-center justify-center text-white font-bold">2</span>
+            <div className="flex items-center mb-6">
+              <div className="flex-shrink-0 mr-4">
+                <span className="bg-gray-400 rounded-full h-8 w-8 flex items-center justify-center text-white font-bold">2</span>
               </div>
               <div>
-                <h4 class="text-xl font-bold">Job Title 2</h4>
-                <p class="text-gray-600">Employer Name 2</p>
-                <p class="text-gray-600">Job Period 2</p>
+                <h4 className="text-xl font-bold">Job Title 2</h4>
+                <p className="text-gray-600">Employer Name 2</p>
+                <p className="text-gray-600">Job Period 2</p>
               </div>
             </div>
-            <p class="pl-12 text-gray-700 mb-6">Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra.</p>
+            <p className="pl-12 text-gray-700 mb-6">Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra.</p>
 
-            <div class="flex items-center mb-6">
-              <div class="flex-shrink-0 mr-4">
-                <span class="bg-gray-400 rounded-full h-8 w-8 flex items-center justify-center text-white font-bold">3</span>
+            <div className="flex items-center mb-6">
+              <div className="flex-shrink-0 mr-4">
+                <span className="bg-gray-400 rounded-full h-8 w-8 flex items-center justify-center text-white font-bold">3</span>
               </div>
               <div>
-                <h4 class="text-xl font-bold">Job Title 2</h4>
-                <p class="text-gray-600">Employer Name 2</p>
-                <p class="text-gray-600">Job Period 2</p>
+                <h4 className="text-xl font-bold">Job Title 2</h4>
+                <p className="text-gray-600">Employer Name 2</p>
+                <p className="text-gray-600">Job Period 2</p>
               </div>
             </div>
-            <p class="pl-12 text-gray-700 mb-6">Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra.</p>
+            <p className="pl-12 text-gray-700 mb-6">Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra.</p>
 
-            <div class="flex items-center mb-6">
-              <div class="flex-shrink-0 mr-4">
-                <span class="bg-gray-400 rounded-full h-8 w-8 flex items-center justify-center text-white font-bold">4</span>
+            <div className="flex items-center mb-6">
+              <div className="flex-shrink-0 mr-4">
+                <span className="bg-gray-400 rounded-full h-8 w-8 flex items-center justify-center text-white font-bold">4</span>
               </div>
               <div>
-                <h4 class="text-xl font-bold">Job Title 2</h4>
-                <p class="text-gray-600">Employer Name 2</p>
-                <p class="text-gray-600">Job Period 2</p>
+                <h4 className="text-xl font-bold">Job Title 2</h4>
+                <p className="text-gray-600">Employer Name 2</p>
+                <p className="text-gray-600">Job Period 2</p>
               </div>
             </div>
-            <p class="pl-12 text-gray-700 mb-6">Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra.</p>
+            <p className="pl-12 text-gray-700 mb-6">Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra.</p>
 
-            <div class="flex items-center mb-6">
-              <div class="flex-shrink-0 mr-4">
-                <span class="bg-gray-400 rounded-full h-8 w-8 flex items-center justify-center text-white font-bold">5</span>
+            <div className="flex items-center mb-6">
+              <div className="flex-shrink-0 mr-4">
+                <span className="bg-gray-400 rounded-full h-8 w-8 flex items-center justify-center text-white font-bold">5</span>
               </div>
               <div>
-                <h4 class="text-xl font-bold">Job Title 2</h4>
-                <p class="text-gray-600">Employer Name 2</p>
-                <p class="text-gray-600">Job Period 2</p>
+                <h4 className="text-xl font-bold">Job Title 2</h4>
+                <p className="text-gray-600">Employer Name 2</p>
+                <p className="text-gray-600">Job Period 2</p>
               </div>
             </div>
-            <p class="pl-12 text-gray-700 mb-6">Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra.</p>
+            <p className="pl-12 text-gray-700 mb-6">Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra.</p>
 
           </div>
         </div>

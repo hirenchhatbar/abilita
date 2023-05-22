@@ -2,18 +2,18 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main class="container mx-auto my-6">
+    <main className="container mx-auto my-6">
       <section>
-        <div class="flex flex-wrap">
-          <div class="w-full md:w-1/2 flex items-center justify-center">
-            <div class="mx-auto">
+        <div className="flex flex-wrap">
+          <div className="w-full md:w-1/2 flex items-center justify-center">
+            <div className="mx-auto">
               <span className="text-sm pl-1">Hi, my name is</span>
               <h1 className="text-7xl mt-4">Hiren Chhatbar</h1>
               <h2 className="text-3xl mt-4 pl-1">I’m a PHP/JavaScript Technical Architect</h2>
               <p className="mt-4 pl-1">I’m a software engineer specializing in building web apps and websites. Currently, I’m working as a PHP/JavaScript Technical Architect at <a href="https://www.weignyte.com" target="_blank">Weignyte</a>.</p>
             </div>
           </div>
-          <div class="w-full md:w-1/2 flex items-center justify-center">
+          <div className="w-full md:w-1/2 flex items-center justify-center">
             <Image
               src="/avatar6.svg"
               width={500}
