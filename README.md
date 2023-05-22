@@ -1,34 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# abilita
 
-## Getting Started
+## References
 
-First, run the development server:
+https://themeforest.net/search/web%20developer%20portfolio
+https://preview.themeforest.net/item/lendex-personal-portfolio-bootstrap-5-template/full_screen_preview/31542002
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+https://themewagon.com/themes/free-bootstrap-4-html5-web-developer-portfolio-website-template-satner/
+https://themewagon.github.io/satner/index.html
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+https://github.com/MuriungiPatrick/Bootstrap-5-portfolio-template
+https://bootstrap-5-website.netlify.app/#
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Experience Timeline:
+https://github.com/jigar-sable/Portfolio-Website
+https://jigarsable.netlify.app/
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+https://www.templatemonster.com/specialty-pages/portfolio-resume-home-page-design-speciality-page-247446.html
+https://demo.templatemonster.com/demo/247446.html
 
-## Learn More
+Animation:
+https://github.com/saadpasta/developerFolio
+https://developerfolio.js.org/
 
-To learn more about Next.js, take a look at the following resources:
+Images/Photos:
+https://github.com/ashutosh1919/masterPortfolio
+https://ashutoshhathidara.com/#/contact
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Text animation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+https://www.npmjs.com/package/animejs
+https://tobiasahlin.com/moving-letters/
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+https://www.npmjs.com/package/typed.js
+https://mattboldt.github.io/typed.js/
+https://mattboldt.com/demos/typed-js/
