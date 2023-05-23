@@ -20,6 +20,10 @@
 ### saas [https://sass-lang.com]
 ### animejs [https://animejs.com]
 
+## Fonts
+
+## Icons
+
 ## References
 
 https://themeforest.net/search/web%20developer%20portfolio
