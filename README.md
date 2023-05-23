@@ -1,5 +1,25 @@
 # abilita
 
+## Goal
+
+## Study
+
+### Bootstrap
+- Configuring
+- Flexbox
+- Theming
+
+### Next.js
+- Routing
+- SSR / CSR etc...
+
+## Libraries
+
+### Next.js [https://nextjs.org/docs]
+### Bootstrap [https://getbootstrap.com]
+### saas [https://sass-lang.com]
+### animejs [https://animejs.com]
+
 ## References
 
 https://themeforest.net/search/web%20developer%20portfolio
