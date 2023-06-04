@@ -1,6 +1,8 @@
-import './globals.scss'
-import { Inter } from 'next/font/google'
-import Image from 'next/image'
+import './globals.scss';
+import { Inter } from 'next/font/google';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+
 import Link from 'next/link';
 
 const inter = Inter({ subsets: ['latin'] })
@@ -12,7 +14,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" data-bs-theme="light">
       {/* <body className={inter.className}> */}
       <body className="flex flex-col h-screen">
 
@@ -21,62 +23,27 @@ export default function RootLayout({ children }) {
             <Link href="/" className="font-bold text-4xl">hc</Link>
             <nav className="flex flex-row gap-x-10 justify-end">
               <Link href="/" className="flex flex-row">
-                <Image
-                  src="/home.svg"
-                  width={25}
-                  height={25}
-                  alt="Hiren Chhatbar"
-                  className="pr-1"
-                />
-
+                <FontAwesomeIcon icon={faEnvelope} width={25} height={25} />
                 Home
               </Link>
 
               <Link href="/about" className="flex flex-row">
-                <Image
-                  src="/about.svg"
-                  width={25}
-                  height={25}
-                  alt="Hiren Chhatbar"
-                  className="pr-1"
-                />
-
+                <FontAwesomeIcon icon={faEnvelope} width={25} height={25} />
                 About
               </Link>
 
               <Link href="/experience" className="flex flex-row">
-                <Image
-                  src="/experience.svg"
-                  width={25}
-                  height={25}
-                  alt="Hiren Chhatbar"
-                  className="pr-1"
-                />
-
+                <FontAwesomeIcon icon={faEnvelope} width={25} height={25} />
                 Experience
               </Link>
 
               <Link href="/portfolio" className="flex flex-row">
-                <Image
-                  src="/portfolio.svg"
-                  width={25}
-                  height={25}
-                  alt="Hiren Chhatbar"
-                  className="pr-1"
-                />
-
+                <FontAwesomeIcon icon={faEnvelope} width={25} height={25} />
                 Portfolio
               </Link>
 
               <Link href="/contact" className="flex flex-row">
-                <Image
-                  src="/contact.svg"
-                  width={25}
-                  height={25}
-                  alt="Hiren Chhatbar"
-                  className="pr-1"
-                />
-
+                <FontAwesomeIcon icon={faEnvelope} width={25} height={25} />
                 Contact
               </Link>
 
