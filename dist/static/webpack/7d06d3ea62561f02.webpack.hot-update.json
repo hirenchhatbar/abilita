@@ -1,0 +1,1 @@
+{"c":["app/layout","webpack"],"r":[],"m":["(app-client)/./node_modules/@next/font/google/target.css?{\"path\":\"app\\\\layout.js\",\"import\":\"Pacifico\",\"arguments\":[{\"weight\":[\"400\"],\"subsets\":[\"latin\"]}],\"variableName\":\"pacifico\"}","(app-client)/./node_modules/next/dist/compiled/mini-css-extract-plugin/hmr/hotModuleReplacement.js"]}

@@ -1,11 +1,16 @@
+'use client';
 import './globals.scss';
-import { Inter } from 'next/font/google';
+import { Pacifico } from '@next/font/google';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faHome, faBookOpen, faBullhorn, faPaperclip, faPaperPlane } from '@fortawesome/free-solid-svg-icons';
+import { Container, Nav, Navbar } from 'react-bootstrap';
 
 import Link from 'next/link';
 
-const inter = Inter({ subsets: ['latin'] })
+const pacifico = Pacifico({
+  weight: ["400"],
+  subsets: ['latin'],
+});
 
 export const metadata = {
   title: 'Hiren Chhatbar',
@@ -15,48 +20,42 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" data-bs-theme="light">
-      {/* <body className={inter.className}> */}
-      <body className="flex flex-col h-screen">
-
-        <header className="py-4">
-          <div className="container mx-auto flex justify-between items-center">
-            <Link href="/" className="font-bold text-4xl">hc</Link>
-            <nav className="flex flex-row gap-x-10 justify-end">
-              <Link href="/" className="flex flex-row">
-                <FontAwesomeIcon icon={faEnvelope} width={25} height={25} />
-                Home
-              </Link>
-
-              <Link href="/about" className="flex flex-row">
-                <FontAwesomeIcon icon={faEnvelope} width={25} height={25} />
-                About
-              </Link>
-
-              <Link href="/experience" className="flex flex-row">
-                <FontAwesomeIcon icon={faEnvelope} width={25} height={25} />
-                Experience
-              </Link>
-
-              <Link href="/portfolio" className="flex flex-row">
-                <FontAwesomeIcon icon={faEnvelope} width={25} height={25} />
-                Portfolio
-              </Link>
-
-              <Link href="/contact" className="flex flex-row">
-                <FontAwesomeIcon icon={faEnvelope} width={25} height={25} />
-                Contact
-              </Link>
-
-
-            </nav>
+      <body>
+        <header>
+          <div className="d-flex justify-content-around align-items-center">
+            <Navbar bg="bs-light shadow" expand="lg" className='container-fluid py-2'>
+              <Container fluid className='px-5'>
+                <Navbar.Brand href="/" className={pacifico.className} style={{fontWeight: "bold", fontSize: "2rem",color:"#0E2431"}}>HC</Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav">
+                  <Nav className="ms-auto fs-5 gap-3 fw-bold">
+                    <Nav.Link href="/">
+                      <FontAwesomeIcon icon={faHome} width={25} height={25} className='me-1'/>
+                      Home</Nav.Link>
+                    <Nav.Link href="/about">
+                      <FontAwesomeIcon icon={faBookOpen} width={25} height={25} className='me-1'/>
+                      About</Nav.Link>
+                    <Nav.Link href="/experience">
+                      <FontAwesomeIcon icon={faBullhorn} width={25} height={25} className='me-1'/>
+                      Experience</Nav.Link>
+                    <Nav.Link href="/portfolio">
+                      <FontAwesomeIcon icon={faPaperclip} width={25} height={25} className='me-1'/>
+                      Portfolio</Nav.Link>
+                    <Nav.Link href="/contact">
+                      <FontAwesomeIcon icon={faPaperPlane} width={25} height={25} className='me-1'/>
+                      Contact</Nav.Link>
+                  </Nav>
+                </Navbar.Collapse>
+              </Container>
+            </Navbar>
           </div>
         </header>
 
         {children}
 
-        <footer className="w-full py-4">
-          <div className="container mx-auto text-center text-sm">
-            <p>Copyright © 2023 <Link href="/" className="font-bold">Hiren Chhatbar</Link> All rights reserved.</p>
+        <footer className="container-fluid py-4" style={{background: "rgb(243, 240, 240)"}}>
+          <div className="container text-center text-sm fw-bold mt-2">
+            <p>Copyright © 2023 <Link href="/" style={{color: "grey"}}>Hiren Chhatbar</Link> All rights reserved.</p>
           </div>
         </footer>
       </body>

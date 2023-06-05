@@ -1,0 +1,18 @@
+{
+  "cssImports": {
+    "C:\\Users\\Henant\\Documents\\Javascript\\trainig 2\\abilita\\app\\layout.js": [
+      "C:\\Users\\Henant\\Documents\\Javascript\\trainig 2\\abilita\\node_modules\\@next\\font\\google\\target.css?{\"path\":\"app\\\\layout.js\",\"import\":\"Pacifico\",\"arguments\":[{\"weight\":[\"400\"],\"subsets\":[\"latin\"]}],\"variableName\":\"pacifico\"}",
+      "C:\\Users\\Henant\\Documents\\Javascript\\trainig 2\\abilita\\app\\globals.scss"
+    ]
+  },
+  "cssModules": {
+    "C:\\Users\\Henant\\Documents\\Javascript\\trainig 2\\abilita\\app\\page": [
+      "C:\\Users\\Henant\\Documents\\Javascript\\trainig 2\\abilita\\app\\globals.scss",
+      "C:\\Users\\Henant\\Documents\\Javascript\\trainig 2\\abilita\\node_modules\\@next\\font\\google\\target.css?{\"path\":\"app\\\\layout.js\",\"import\":\"Pacifico\",\"arguments\":[{\"weight\":[\"400\"],\"subsets\":[\"latin\"]}],\"variableName\":\"pacifico\"}"
+    ],
+    "C:\\Users\\Henant\\Documents\\Javascript\\trainig 2\\abilita\\app\\about\\page": [
+      "C:\\Users\\Henant\\Documents\\Javascript\\trainig 2\\abilita\\app\\globals.scss",
+      "C:\\Users\\Henant\\Documents\\Javascript\\trainig 2\\abilita\\node_modules\\@next\\font\\google\\target.css?{\"path\":\"app\\\\layout.js\",\"import\":\"Pacifico\",\"arguments\":[{\"weight\":[\"400\"],\"subsets\":[\"latin\"]}],\"variableName\":\"pacifico\"}"
+    ]
+  }
+}
