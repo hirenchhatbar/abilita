@@ -758,6 +758,32 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
+    "(app-client)/./app/page.js": {
+      "*": {
+        "id": "(sc_client)/./app/page.js",
+        "name": "*",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/page.js",
+        "name": "",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/page.js",
+        "name": "default",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./node_modules/next/dist/client/image.js": {
       "*": {
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
@@ -2723,6 +2749,30 @@ self.__RSC_MANIFEST={
       "name": "default",
       "chunks": [
         "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\Henant\\Documents\\Javascript\\trainig 2\\abilita\\app\\page.js": {
+      "id": "(app-client)/./app/page.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\Henant\\Documents\\Javascript\\trainig 2\\abilita\\app\\page.js#": {
+      "id": "(app-client)/./app/page.js",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\Henant\\Documents\\Javascript\\trainig 2\\abilita\\app\\page.js#default": {
+      "id": "(app-client)/./app/page.js",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
