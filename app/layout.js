@@ -33,30 +33,36 @@ export default function RootLayout({ children }) {
           <div className="d-flex justify-content-around align-items-center">
             <Navbar bg="bs-light shadow" expand="lg" className='container-fluid py-2'>
               <Container fluid className='px-5'>
-                <Navbar.Brand href="/" className={logoFont.className} style={{ fontWeight: "bold", fontSize: "2rem", color: "#0E2431" }}>Hiren Chhatbar</Navbar.Brand>
+                <Link href="/" className={`navbar-brand ${logoFont.className}`} style={{ fontWeight: "bold", fontSize: "2rem", color: "#0E2431" }}>Hiren Chhatbar</Link>
+                {/* <Navbar.Brand href="/" className={logoFont.className} style={{ fontWeight: "bold", fontSize: "2rem", color: "#0E2431" }}>Hiren Chhatbar</Navbar.Brand> */}
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                   <Nav className="ms-auto fs-5 gap-3 fw-bold">
-                    <Nav.Link href="/" className={router.pathname == "/" ? "active" : ""}>
+                    <Link href="/" className="nav-link">
                       <FontAwesomeIcon icon={faHome} width={25} height={25} className='me-1' />
                       Home
-                    </Nav.Link>
-                    <Nav.Link href="/about" className={router.pathname == "/about" ? "active" : ""}>
+                    </Link>
+
+                    <Link href="/about" className="nav-link">
                       <FontAwesomeIcon icon={faBookOpen} width={25} height={25} className='me-1' />
                       About
-                    </Nav.Link>
-                    <Nav.Link href="/experience" className={router.pathname == "/experience" ? "active" : ""}>
+                    </Link>
+
+                    <Link href="/experience" className="nav-link">
                       <FontAwesomeIcon icon={faBullhorn} width={25} height={25} className='me-1' />
                       Experience
-                    </Nav.Link>
-                    <Nav.Link href="/portfolio" className={router.pathname == "/portfolio" ? "active" : ""}>
+                    </Link>
+
+                    <Link href="/portfolio" className="nav-link">
                       <FontAwesomeIcon icon={faPaperclip} width={25} height={25} className='me-1' />
                       Portfolio
-                    </Nav.Link>
-                    <Nav.Link href="/contact" className={router.pathname == "/contact" ? "active" : ""}>
+                    </Link>
+
+                    <Link href="/contact" className="nav-link">
                       <FontAwesomeIcon icon={faPaperPlane} width={25} height={25} className='me-1' />
                       Contact
-                    </Nav.Link>
+                    </Link>
+
                   </Nav>
                 </Navbar.Collapse>
               </Container>
