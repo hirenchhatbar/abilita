@@ -3069,13 +3069,6 @@ self.__RSC_MANIFEST={
         "static/css/app/layout.css"
       ]
     },
-    "C:\\Users\\Henant\\Documents\\Javascript\\trainig 2\\abilita\\node_modules\\@next\\font\\google\\target.css?{\"path\":\"app\\\\layout.js\",\"import\":\"Pacifico\",\"arguments\":[{\"weight\":[\"400\"],\"subsets\":[\"latin\"]}],\"variableName\":\"pacifico\"}#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
     "C:\\Users\\Henant\\Documents\\Javascript\\trainig 2\\abilita\\app\\layout.js": {
       "id": "(app-client)/./app/layout.js",
       "name": "*",
