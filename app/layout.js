@@ -7,8 +7,6 @@ import { faHome, faBookOpen, faBullhorn, faPaperclip, faPaperPlane, faEnvelope, 
 import { faFacebook, faGithub, faLinkedin, faTelegram, faTwitter } from '@fortawesome/free-brands-svg-icons'
 
 import { Container, Nav, Navbar } from 'react-bootstrap';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 
 import { useRouter } from 'next/navigation';
 
@@ -32,8 +30,8 @@ export default function RootLayout({ children }) {
         <header>
           <div className="d-flex justify-content-around align-items-center">
             <Navbar bg="bs-light shadow" expand="lg" className='container-fluid py-2'>
-              <Container fluid className='px-5'>
-                <Link href="/" className={`navbar-brand ${logoFont.className}`} style={{ fontWeight: "bold", fontSize: "2rem", color: "#0E2431" }}>Hiren Chhatbar</Link>
+              <Container fluid className='px-2 px-sm-4 px-xl-5 px-md-5 px-lg-5'>
+                <Link href="/" className={`navbar-brand ${logoFont.className}`} style={{ fontWeight: "bold", fontSize: "2rem", color: "#d6564d" }}>Hiren Chhatbar</Link>
                 {/* <Navbar.Brand href="/" className={logoFont.className} style={{ fontWeight: "bold", fontSize: "2rem", color: "#0E2431" }}>Hiren Chhatbar</Navbar.Brand> */}
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
@@ -72,87 +70,85 @@ export default function RootLayout({ children }) {
 
         {children}
 
-        <footer bgcolor='light' className='text-center text-lg-start text-muted' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
-          <section>
-            <Container className='text-center text-md-start mt-5 pt-2'>
-              <Row className='mt-3'>
-                <Col md="3" lg="4" xl="3" className='mx-auto mb-2'>
-                  <Link href="/" className='text-reset fw-bold' style={{ fontSize: "1.5rem" }}>Hiren Chhatbar</Link>
-                  <p className='mt-2'>
-                    Thank you for visiting my personal portfolio website. Connect with me over socials.
-                  </p>
-                </Col>
+        <footer className='text-center text-lg-start text-muted pt-3 pb-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
+          <div className='container text-center text-md-start'>
+            <div className='row text-start text-md-left'>
+              <div className="col-md-3 col-lg-3 col-xl-3 mx-auto">
+                <Link href='/' className={`mb-4 fw-bold fs-3 text-reset ${logoFont.className}`}>Hiren Chhatbar</Link>
+                <p className='mt-2'>
+                  Thank you for visiting my personal portfolio website. Connect with me over socials.
+                </p>
+              </div>
 
-                <Col md="3" lg="2" xl="2" className='mx-auto mb-2'>
-                  <h6 className='text-uppercase fw-bold mb-3'>Useful links</h6>
-                  <p>
-                    <Link href='/' className='text-reset'>
-                      Home
-                    </Link>
-                  </p>
-                  <p>
-                    <Link href='/about' className='text-reset'>
-                      About
-                    </Link>
-                  </p>
-                  <p>
-                    <Link href='/experience' className='text-reset'>
-                      Experience
-                    </Link>
-                  </p>
-                  <p>
-                    <Link href='/portfolio' className='text-reset'>
-                      Portfolio
-                    </Link>
-                  </p>
-                  <p>
-                    <Link href='/contact' className='text-reset'>
-                      Contact
-                    </Link>
-                  </p>
-                </Col>
+              <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-2">
+                <h5 className='text-uppercase fw-bold mb-3'>Useful links</h5>
+                <p>
+                  <Link href='/' className='text-reset'>
+                    Home
+                  </Link>
+                </p>
+                <p>
+                  <Link href='/about' className='text-reset'>
+                    About
+                  </Link>
+                </p>
+                <p>
+                  <Link href='/experience' className='text-reset'>
+                    Experience
+                  </Link>
+                </p>
+                <p>
+                  <Link href='/portfolio' className='text-reset'>
+                    Portfolio
+                  </Link>
+                </p>
+                <p>
+                  <Link href='/contact' className='text-reset'>
+                    Contact
+                  </Link>
+                </p>
+              </div>
 
-                <Col md="4" lg="3" xl="3" className='mx-auto mb-md-0 mb-4'>
-                  <h6 className='text-uppercase fw-bold mb-3'>Contact</h6>
-                  <Link href="+01 234 567 88" className='text-reset'><p>
-                    <FontAwesomeIcon icon={faPhone} width={25} height={25} className="me-3" />+01 234 567 88</p>
+              <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <h5 className='text-uppercase fw-bold mb-3'>Contact</h5>
+                <Link href="+01 234 567 88" className='text-reset'><p>
+                  <FontAwesomeIcon icon={faPhone} width={25} height={25} className="me-3" />+01 234 567 88</p>
+                </Link>
+                <Link href="mailto:info@example.com" className="text-reset"><p>
+                  <FontAwesomeIcon icon={faEnvelope} width={25} height={25} className="me-3" />
+                  info@example.com</p>
+                </Link>
+                <p>
+                  <FontAwesomeIcon icon={faLocationDot} width={25} height={25} className="me-3" />
+                  New York, NY 10012, US
+                </p>
+                <div className='pt-4'>
+                  <Link href='' className='me-3 text-reset fs-4'>
+                    <FontAwesomeIcon icon={faLinkedin} width={25} height={25} />
                   </Link>
-                  <Link href="mailto:info@example.com" className="text-reset"><p>
-                    <FontAwesomeIcon icon={faEnvelope} width={25} height={25} className="me-3" />
-                    info@example.com</p>
+                  <Link href='' className='me-3 text-reset fs-4'>
+                    <FontAwesomeIcon icon={faGithub} width={25} height={25} />
                   </Link>
-                  <p>
-                    <FontAwesomeIcon icon={faLocationDot} width={25} height={25} className="me-3" />
-                    New York, NY 10012, US
-                  </p>
-                  <div className='pt-2'>
-                    <Link href='' className='me-3 text-reset fs-4'>
-                      <FontAwesomeIcon icon={faLinkedin} width={25} height={25} />
-                    </Link>
-                    <Link href='' className='me-3 text-reset fs-4'>
-                      <FontAwesomeIcon icon={faGithub} width={25} height={25} />
-                    </Link>
-                    <Link href='' className='me-3 text-reset fs-4'>
-                      <FontAwesomeIcon icon={faEnvelope} width={25} height={25} />
-                    </Link>
-                    <Link href='' className='me-3 text-reset fs-4'>
-                      <FontAwesomeIcon icon={faTwitter} width={25} height={25} />
-                    </Link>
-                    <Link href='' className='me-3 text-reset fs-4'>
-                      <FontAwesomeIcon icon={faTelegram} width={25} height={25} />
-                    </Link>
-                    <Link href='' className='me-3 text-reset fs-4'>
-                      <FontAwesomeIcon icon={faFacebook} width={25} height={25} />
-                    </Link>
-                  </div>
-                </Col>
-              </Row>
-            </Container>
-          </section>
+                  <Link href="mailto:info@example.com" className='me-3 text-reset fs-4'>
+                    <FontAwesomeIcon icon={faEnvelope} width={25} height={25} />
+                  </Link>
+                  <Link href='' className='me-3 text-reset fs-4'>
+                    <FontAwesomeIcon icon={faTwitter} width={25} height={25} />
+                  </Link>
+                  <Link href='' className='me-3 text-reset fs-4'>
+                    <FontAwesomeIcon icon={faTelegram} width={25} height={25} />
+                  </Link>
+                  <Link href='' className='me-3 text-reset fs-4'>
+                    <FontAwesomeIcon icon={faFacebook} width={25} height={25} />
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
 
           <div className='text-center p-3 border-top border-2'>
             <p>Copyright © 2023
-              <Link className='text-reset fw-bold mx-1' href='/'>
+              <Link className={`text-reset fw-bold mx-1 ${logoFont.className}`} href='/'>
                 Hiren Chhatbar
               </Link>
               All rights reserved.
