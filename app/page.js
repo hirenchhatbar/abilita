@@ -5,24 +5,24 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { faBootstrap } from '@fortawesome/free-brands-svg-icons';
 
-const skills = [  
-  {  
-    'icon': faBootstrap,   
-    'name': 'Bootstrap'  
-  },  
-  {  
-    'icon': 'faBootstrap',   
-    'name': 'Bootstrap'  
+const skills = [
+  {
+    'icon': faBootstrap,
+    'name': 'Bootstrap'
   },
-  {  
-    'icon': 'faBootstrap',   
-    'name': 'Bootstrap'  
+  {
+    'icon': faBootstrap,
+    'name': 'Bootstrap'
   },
-  {  
-    'icon': 'faBootstrap',   
-    'name': 'Bootstrap'  
-  },  
-];  
+  {
+    'icon': faBootstrap,
+    'name': 'Bootstrap'
+  },
+  {
+    'icon': faBootstrap,
+    'name': 'Bootstrap'
+  },
+];
 
 export default function Home() {
   return (
@@ -52,68 +52,19 @@ export default function Home() {
 
         <div className="container">
           <h2 className='text-center fw-bold py-4 text-decoration-underline mb-4' style={{ color: "#d6564d" }}><FontAwesomeIcon icon={faLaptopCode} width={40} height={40} className='me-2' />Skills</h2>
-          
-          {/* {skills.map((skill, index) => (  
-              <tr data-index={index}>  
-                <td>
-                    <FontAwesomeIcon icon={skill.icon} className='text-center mt-2' style={{ width: "50px", height: "50px" }} />
-                </td>  
-                <td><h4 className="card-text fw-bold text-center">{skill.name}</h4></td>  
-              </tr>             
-            ))}   */}
-          
-          
 
           <div className="container">
             <div className="row mt-2">
-              <div className="col-2">
-                <div className="card shadow-sm d-flex justify-content-center flex-column align-items-center">
-                  <FontAwesomeIcon icon={faBootstrap} className='text-center mt-2' style={{ width: "50px", height: "50px" }} />
-                  <div class="card-body">
-                    <h4 className="card-text fw-bold text-center">Bootstrap</h4>
+              {skills.map((skill, index) => (
+                <div className="col-2" data-index={index}>
+                  <div className="card shadow-sm d-flex justify-content-center flex-column align-items-center">
+                    <FontAwesomeIcon icon={skill.icon} className='text-center mt-2' style={{ width: "50px", height: "50px" }} />
+                    <div className="card-body">
+                      <h4 className="card-text fw-bold text-center">{skill.name}</h4>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div className="col-2">
-                <div className="card shadow-sm d-flex justify-content-center flex-column align-items-center">
-                  <FontAwesomeIcon icon={faBootstrap} className='text-center mt-2' style={{ width: "50px", height: "50px" }} />
-                  <div class="card-body">
-                    <h4 className="card-text fw-bold text-center">Bootstrap</h4>
-                  </div>
-                </div>
-              </div>
-              <div className="col-2">
-                <div className="card shadow-sm d-flex justify-content-center flex-column align-items-center">
-                  <FontAwesomeIcon icon={faBootstrap} className='text-center mt-2' style={{ width: "50px", height: "50px" }} />
-                  <div class="card-body">
-                    <h4 className="card-text fw-bold text-center">Bootstrap</h4>
-                  </div>
-                </div>
-              </div>
-              <div className="col-2">
-                <div className="card shadow-sm d-flex justify-content-center flex-column align-items-center">
-                  <FontAwesomeIcon icon={faBootstrap} className='text-center mt-2' style={{ width: "50px", height: "50px" }} />
-                  <div class="card-body">
-                    <h4 className="card-text fw-bold text-center">Bootstrap</h4>
-                  </div>
-                </div>
-              </div>
-              <div className="col-2">
-                <div className="card shadow-sm d-flex justify-content-center flex-column align-items-center">
-                  <FontAwesomeIcon icon={faBootstrap} className='text-center mt-2' style={{ width: "50px", height: "50px" }} />
-                  <div class="card-body">
-                    <h4 className="card-text fw-bold text-center">Bootstrap</h4>
-                  </div>
-                </div>
-              </div>
-              <div className="col-2">
-                <div className="card shadow-sm d-flex justify-content-center flex-column align-items-center">
-                  <FontAwesomeIcon icon={faBootstrap} className='text-center mt-2' style={{ width: "50px", height: "50px" }} />
-                  <div class="card-body">
-                    <h4 className="card-text fw-bold text-center">Bootstrap</h4>
-                  </div>
-                </div>
-              </div>
+              ))}
             </div>
           </div>
         </div>
