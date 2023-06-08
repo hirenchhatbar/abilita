@@ -1,26 +1,82 @@
 'use client';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLaptopCode, faUser } from '@fortawesome/free-solid-svg-icons';
+import { faBootstrap, faReact, faSass, faNode, faHtml5, faCss3, faPython, faWordpress, faJava, faNodeJs, faAndroid, faWolfPackBattalion, faPhp, faAws, faGithub, faDigitalOcean, faJsSquare, faGithubSquare, faGitAlt, faKorvue } from '@fortawesome/free-brands-svg-icons';
 import Image from 'next/image';
 import Link from 'next/link';
-import { faBootstrap } from '@fortawesome/free-brands-svg-icons';
 
 const skills = [
   {
-    'icon': faBootstrap,
-    'name': 'Bootstrap'
+    'icon': faReact,
+    'name': 'ReactJS'
   },
   {
     'icon': faBootstrap,
     'name': 'Bootstrap'
   },
   {
-    'icon': faBootstrap,
-    'name': 'Bootstrap'
+    'icon': faSass,
+    'name': 'Sass'
   },
   {
-    'icon': faBootstrap,
-    'name': 'Bootstrap'
+    'icon': faNode,
+    'name': 'NodeJS'
+  },
+  {
+    'icon': faHtml5,
+    'name': 'HTML5'
+  },
+  {
+    'icon': faCss3,
+    'name': 'CSS3'
+  },
+  {
+    'icon': faPython,
+    'name': 'Python'
+  },
+  {
+    'icon': faWordpress,
+    'name': 'Wordpress'
+  },
+  {
+    'icon': faJava,
+    'name': 'Java'
+  },
+  {
+    'icon': faJsSquare,
+    'name': 'JavaScript'
+  },
+  {
+    'icon': faNodeJs,
+    'name': 'ExpressJs'
+  },
+  {
+    'icon': faAndroid,
+    'name': 'Android'
+  },
+  {
+    'icon': faPhp,
+    'name': 'PHP'
+  },
+  {
+    'icon': faAws,
+    'name': 'AWS'
+  },
+  {
+    'icon': faGithub,
+    'name': 'GitHub'
+  },
+  {
+    'icon': faDigitalOcean,
+    'name': 'DigitalOcean'
+  },
+  {
+    'icon': faGitAlt,
+    'name': 'GitVCS'
+  },
+  {
+    'icon': faKorvue,
+    'name': 'Kotlin'
   },
 ];
 
@@ -51,15 +107,14 @@ export default function Home() {
         </div>
 
         <div className="container">
-          <h2 className='text-center fw-bold py-4 text-decoration-underline mb-4' style={{ color: "#d6564d" }}><FontAwesomeIcon icon={faLaptopCode} width={40} height={40} className='me-2' />Skills</h2>
-
+          <h2 className='text-center fw-bold pt-4 text-decoration-underline mb-4' style={{ color: "#d6564d" }}><FontAwesomeIcon icon={faLaptopCode} width={40} height={40} className='me-2' />Skills</h2>
           <div className="container">
             <div className="row mt-2">
               {skills.map((skill, index) => (
-                <div className="col-2" data-index={index}>
-                  <div className="card shadow-sm d-flex justify-content-center flex-column align-items-center">
+                <div data-index={index} className="col-sm-4 col-md-3 col-xs-3 col-lg-2 col-xl-2 pt-4">
+                  <div className="card shadow d-flex justify-content-center flex-column align-items-center">
                     <FontAwesomeIcon icon={skill.icon} className='text-center mt-2' style={{ width: "50px", height: "50px" }} />
-                    <div className="card-body">
+                    <div class="card-body">
                       <h4 className="card-text fw-bold text-center">{skill.name}</h4>
                     </div>
                   </div>

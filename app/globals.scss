@@ -3,3 +3,8 @@
 @import "bootstrap";
 
 @import "theme";
+
+.card:hover{
+    filter: invert(100%);
+}
+
