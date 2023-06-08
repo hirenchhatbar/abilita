@@ -47,11 +47,24 @@ https://jigarsable.netlify.app/#home
 ### Homepage
 
 [Hero section](https://demo.templatemonster.com/demo/247446.html)
+[Stats](https://preview.themeforest.net/item/lendex-personal-portfolio-bootstrap-5-template/full_screen_preview/31542002 - Happy Clients)
 [Skills & Abilities](https://jigarsable.netlify.app/#home)
 
 ### About
 
+Two paragraphs about personal detail
+[Education](https://ashutoshhathidara.com/#/education)
+[Certifications](https://ashutoshhathidara.com/#/education)
+[Achievements](https://developerfolio.js.org/#achievements)
+[Testimonials](https://froala.com/wp-content/uploads/2021/05/testimonial-page-5-1024x428.png)
+[Languages known](https://developerfolio.js.org/#skills - similar to proficiency)
+Hobbies
+
 ### Contact
+
+[Contact text and button](https://www.hirenchhatbar.com/#contact)
+[Social media icons](https://ashutoshhathidara.com/#/contact)
+[Blog section](https://ashutoshhathidara.com/#/contact)
 
 ### Experience
 
@@ -89,3 +102,8 @@ https://tobiasahlin.com/moving-letters/
 https://www.npmjs.com/package/typed.js
 https://mattboldt.github.io/typed.js/
 https://mattboldt.com/demos/typed-js/
+
+## Color schemes
+
+https://coolors.co/
+https://colorhunt.co/

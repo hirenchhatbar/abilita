@@ -19,58 +19,6 @@ export default function Page() {
                     </div>
                 </div>
 
-                <div className="container d-flex justify-content-center flex-column">
-                    <h2 className='text-center fw-bold mb-4 pt-2 text-decoration-underline' style={{ color: "#d6564d" }}><FontAwesomeIcon icon={faUsersGear} width={40} height={30} className='me-2' />Experience</h2>
-                    <div className="container my-2">
-                        <h4 className="fw-bold text-center mb-3">Job Title: 1</h4>
-                        <h5 className='mb-3'>Employer Name: 1</h5>
-                        <h5 className='mb-3'>Job Period: 1</h5>
-                        <p className="text-wrap">Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra.</p>
-                    </div>
-                    <div className="container my-2">
-                        <h4 className="fw-bold text-center mb-3">Job Title: 2</h4>
-                        <h5 className='mb-3'>Employer Name: 2</h5>
-                        <h5 className='mb-3'>Job Period: 2</h5>
-                        <p className="text-wrap">Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra.</p>
-                    </div>
-                    <div className="container my-2">
-                        <h4 className="fw-bold text-center mb-3">Job Title: 3</h4>
-                        <h5 className='mb-3'>Employer Name: 3</h5>
-                        <h5 className='mb-3'>Job Period: 3</h5>
-                        <p className="text-wrap">Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra.</p>
-                    </div>
-                    <div className="container my-2">
-                        <h4 className="fw-bold text-center mb-3">Job Title: 4</h4>
-                        <h5 className='mb-3'>Employer Name: 4</h5>
-                        <h5 className='mb-3'>Job Period: 4</h5>
-                        <p className="text-wrap">Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra.</p>
-                    </div>
-                    <div className="container my-2">
-                        <h4 className="fw-bold text-center mb-3">Job Title: 5</h4>
-                        <h5 className='mb-3'>Employer Name: 5</h5>
-                        <h5 className='mb-3'>Job Period: 5</h5>
-                        <p className="text-wrap">Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra.</p>
-                    </div>
-                    <div className="container my-2">
-                        <h4 className="fw-bold text-center mb-3">Job Title: 6</h4>
-                        <h5 className='mb-3'>Employer Name: 6</h5>
-                        <h5 className='mb-3'>Job Period: 6</h5>
-                        <p className="text-wrap">Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra.</p>
-                    </div>
-                    <div className="container my-2">
-                        <h4 className="fw-bold text-center mb-3">Job Title: 7</h4>
-                        <h5 className='mb-3'>Employer Name: 7</h5>
-                        <h5 className='mb-3'>Job Period: 7</h5>
-                        <p className="text-wrap">Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra.</p>
-                    </div>
-                    <div className="container my-2">
-                        <h4 className="fw-bold text-center mb-3">Job Title: 8</h4>
-                        <h5 className='mb-3'>Employer Name: 8</h5>
-                        <h5 className='mb-3'>Job Period: 8</h5>
-                        <p className="text-wrap">Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra. Roles and responsibilities for Job 1 go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem eu elit tristique pharetra.</p>
-                    </div>
-                </div>
-                
             </section>
 
             {/* TimeLine section */}
@@ -79,7 +27,9 @@ export default function Page() {
                     <div className="row justify-content-center">
                         <div className="col-12 col-sm-8 col-lg-6 mb-2">
                             <div className="text-center">
-                                <h2 className='text-center fw-bold mb-5 text-decoration-underline' style={{ color: "#d6564d" }}><FontAwesomeIcon icon={faBookOpen} width={40} height={30} className='me-2' />A brief stories of our journey</h2>
+                                <h2 className='text-center fw-bold mb-5 text-decoration-underline' style={{ color: "#d6564d" }}>
+                                    <FontAwesomeIcon icon={faUsersGear} width={40} height={30} className='me-2' />Experience
+                                </h2>
                                 <div className="line"></div>
                             </div>
                         </div>
