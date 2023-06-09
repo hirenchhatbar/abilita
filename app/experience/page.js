@@ -2,7 +2,7 @@ import Link from 'next/link';
 import './timeline.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAddressBook, faAddressCard, faArchive, faBookOpen, faBriefcase, faDesktop, faIdCard, faImage, faUser, faUsersGear } from '@fortawesome/free-solid-svg-icons';
-import { } from '@fortawesome/free-brands-svg-icons';
+
 
 export default function Page() {
     return (
@@ -18,7 +18,6 @@ export default function Page() {
                         <img src="/experience4.svg" className='img-fluid' alt="Hiren Chhatbar" />
                     </div>
                 </div>
-
             </section>
 
             {/* TimeLine section */}

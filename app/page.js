@@ -1,6 +1,6 @@
 'use client';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLaptopCode, faUser } from '@fortawesome/free-solid-svg-icons';
+import { faCalendar, faGear, faLaptopCode, faUser,  } from '@fortawesome/free-solid-svg-icons';
 import { faBootstrap, faReact, faSass, faNode, faHtml5, faCss3, faPython, faWordpress, faJava, faNodeJs, faAndroid, faWolfPackBattalion, faPhp, faAws, faGithub, faDigitalOcean, faJsSquare, faGithubSquare, faGitAlt, faKorvue } from '@fortawesome/free-brands-svg-icons';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -101,14 +101,58 @@ export default function Home() {
           <p className="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
         </div>
 
+        <div className="container mb-5 pt-5">
+          <div className="row container justify-content-lg-center gap-5">
+            <div className="col-lg-3 me-4">
+              <div className="shadow-sm rounded">
+                <div className="mt-2 d-flex justify-content-around align-items-center">
+                  <div className='mb-2'>
+                    <FontAwesomeIcon icon={faUser} className='fs-1' />
+                  </div>
+                  <div>
+                    <h3 className='fw-bold' style={{ color: "#d6564d" }}>258k+</h3>
+                    <p>Happy Clients</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-3 me-4">
+              <div className="shadow-sm rounded">
+                <div className="mt-2 d-flex justify-content-around align-items-center">
+                  <div className='mb-2'>
+                    <FontAwesomeIcon icon={faGear} className='fs-1' />
+                  </div>
+                  <div>
+                    <h3 className='fw-bold' style={{ color: "#d6564d" }}>590+</h3>
+                    <p>Project Complete</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-3 me-4">
+              <div className="shadow-sm rounded">
+                <div className="mt-2 d-flex justify-content-around align-items-center">
+                  <div className='mb-2'>
+                    <FontAwesomeIcon icon={faCalendar} className='fs-1' />
+                  </div>
+                  <div>
+                    <h3 className='fw-bold' style={{ color: "#d6564d" }}>28+</h3>
+                    <p>Years of Experience</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
         <div className="container">
-          <h2 className='text-center fw-bold pt-4 text-decoration-underline mb-4' style={{ color: "#d6564d" }}><FontAwesomeIcon icon={faLaptopCode} width={40} height={40} className='me-2' />Skills</h2>
+          <h2 className='text-center fw-bold pt-4 text-decoration-underline mb-4' style={{color: "#d6564d"}}><FontAwesomeIcon icon={faLaptopCode} width={40} height={40} className='me-2' />Skills</h2>
           <div className="container">
             <div className="row mt-2">
               {skills.map((skill, index) => (
                 <div data-index={index} className="col-sm-4 col-md-3 col-xs-3 col-lg-2 col-xl-2 pt-4">
                   <div className="card shadow d-flex justify-content-center flex-column align-items-center">
-                    <FontAwesomeIcon icon={skill.icon} className='text-center mt-2' style={{ width: "50px", height: "50px" }} />
+                    <FontAwesomeIcon icon={skill.icon} className='text-center mt-2' style={{width: "50px", height: "50px"}} />
                     <div class="card-body">
                       <h4 className="card-text fw-bold text-center">{skill.name}</h4>
                     </div>
@@ -118,6 +162,7 @@ export default function Home() {
             </div>
           </div>
         </div>
+
       </div>
     </section>
   )
