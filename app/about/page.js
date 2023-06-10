@@ -358,50 +358,50 @@ export default function Page() {
             <FontAwesomeIcon
               icon={faTrophy}
               width={35}
-              height={25}
-              className="me-2"
+              height={30}
+              className="me-2 mb-1"
             />
             Achievements & Certifications
           </h2>
           <div className="row mb-5">
-            <div class="container d-flex justify-content-center mt-50 mb-50">
-              <div class="row">
-                <div class="col-md-4 mt-2">
-                  <div class="card shadow">
-                    <div class="card-body">
-                      <div class="card-img-actions text-center">
+            <div className="container d-flex justify-content-center mt-50 mb-50">
+              <div className="row">
+                <div className="col-md-4 mt-2">
+                  <div className="card shadow">
+                    <div className="card-body">
+                      <div className="card-img-actions text-center">
                         <FontAwesomeIcon icon={faGoogle} width={100} height={100} />
                       </div>
                     </div>
-                    <div class="card-body text-center">
+                    <div className="card-body text-center">
                     <h2>Google Code-In Finalist</h2>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel dolorum earum accusamus aspernatur vitae consequuntur facere soluta odit quis voluptate fugiat debitis recusandae pariatur est, itaque porro.</p>
                     </div>
                   </div>
                 </div>
 
-                <div class="col-md-4 mt-2">
-                  <div class="card shadow">
-                    <div class="card-body">
-                      <div class="card-img-actions text-center">
+                <div className="col-md-4 mt-2">
+                  <div className="card shadow">
+                    <div className="card-body">
+                      <div className="card-img-actions text-center">
                       <FontAwesomeIcon icon={faApple} width={100} height={100}/>
                       </div>
                     </div>
-                    <div class="card-body text-center">
+                    <div className="card-body text-center">
                     <h2>Apple IOS App Developer</h2>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ducimus minus commodi iste similique ex enim iure odit, inventore sequi hic quibusdam temporibus at eligendi amet fugiat incidunt omnis quis.</p>
                     </div>
                   </div>
                 </div>
 
-                <div class="col-md-4 mt-2">
-                  <div class="card shadow">
-                    <div class="card-body">
-                      <div class="card-img-actions text-center">
+                <div className="col-md-4 mt-2">
+                  <div className="card shadow">
+                    <div className="card-body">
+                      <div className="card-img-actions text-center">
                       <FontAwesomeIcon icon={faPaypal} width={100} height={100}/>
                       </div>
                     </div>
-                    <div class="card-body text-center">
+                    <div className="card-body text-center">
                     <h2>Paypal Web App Developer</h2>
                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque voluptatibus cum repellendus quidem sed autem similique necessitatibus? Repellat repellendus consequatur, voluptatem iste esse excepturi.</p>
                     </div>
