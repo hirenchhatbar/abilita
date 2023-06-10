@@ -89,7 +89,7 @@ export default function Home() {
             <h5 className='fw-bold fs-4 mb-0'>Hi, my name is</h5>
             <h2 className='fw-bolder fs-1 my-3' style={{ color: "#d6564d" }}>Hiren Chhatbar</h2>
             <h3 className="mb-3">I’m a <span>PHP/JavaScript</span> Technical Architect</h3>
-            <p className="lh-4" style={{ fontSize: "1rem" }}>I’m a software engineer specializing in building web apps and websites. Currently, I’m working as a PHP/JavaScript Technical Architect at <Link href="https://www.weignyte.com" target="_blank" style={{ color: "#d6564d", fontWeight: "bold" }}>Weignyte</Link>.</p>
+            <p className="lh-4" style={{fontSize: "1rem"}}>I’m a software engineer specializing in building web apps and websites. Currently, I’m working as a PHP/JavaScript Technical Architect at <Link href="https://www.weignyte.com" target="_blank" style={{ color: "#d6564d", fontWeight: "bold" }}>Weignyte</Link>.</p>
           </div>
           <div className="col-md-6 col-12 col-lg-6">
             <img src="/avatar6.svg" className='img-fluid' alt="Hiren Chhatbar" />
