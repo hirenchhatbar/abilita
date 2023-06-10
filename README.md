@@ -74,6 +74,8 @@ https://jigarsable.netlify.app/experience/
 https://github.com/jigar-sable/Portfolio-Website
 
 ### Portfolio
+[Projects page](https://preview.themeforest.net/item/lendex-personal-portfolio-bootstrap-5-template/full_screen_preview/31542002)
+Image, Project name, Category, Description, Tech stack, Responsibilities in Bootstrap Modal
 
 ## Misc
 
