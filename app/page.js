@@ -144,7 +144,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        
+
         <div className="container">
           <h2 className='text-center fw-bold pt-4 text-decoration-underline mb-4' style={{color: "#d6564d"}}><FontAwesomeIcon icon={faLaptopCode} width={40} height={40} className='me-2' />Skills</h2>
           <div className="container">
@@ -153,7 +153,7 @@ export default function Home() {
                 <div data-index={index} className="col-sm-4 col-md-3 col-xs-3 col-lg-2 col-xl-2 pt-4">
                   <div className="card shadow d-flex justify-content-center flex-column align-items-center">
                     <FontAwesomeIcon icon={skill.icon} className='text-center mt-2' style={{width: "50px", height: "50px"}} />
-                    <div class="card-body">
+                    <div className="card-body">
                       <h4 className="card-text fw-bold text-center">{skill.name}</h4>
                     </div>
                   </div>
