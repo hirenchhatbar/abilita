@@ -32,7 +32,7 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <section className="Container-fluid">
+      <section className="container-fluid">
         <div className="container d-flex justify-content-center flex-column">
           <h2
             className="text-center fw-bold py-5 text-decoration-underline"
@@ -68,202 +68,6 @@ export default function Page() {
             and more recently with desktop publishing software like Aldus
             PageMaker including versions of Lorem Ipsum.
           </p>
-        </div>
-      </section>
-      <section className="Container-fluid">
-        <div className="container d-flex justify-content-center flex-column">
-          <h2
-            className="text-center fw-bold py-5 text-decoration-underline"
-            style={{ color: "#d6564d" }}
-          >
-            <FontAwesomeIcon
-              icon={faUserCheck}
-              width={35}
-              height={25}
-              className="me-2"
-            />
-            Testimonials
-          </h2>
-          <div className="row mb-3">
-            <div className="col-md-4">
-              <div className="p-3 text-center px-4">
-                <div>
-                  <h6 className="lh-base">
-                    "Far far away, behind the word mountains, far from the
-                    countries Vokalia and Consonantia."
-                  </h6>
-                </div>
-                <div className="mt-4">
-                  <img
-                    src="https://i.imgur.com/PKHvlRS.jpg"
-                    className="rounded-circle"
-                    width={80}
-                  />
-                  <h5 className="mb-0" style={{ color: "gray" }}>
-                    Person Name
-                  </h5>
-                  <span style={{ color: "gray" }}>Co-founder, Company</span>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="p-3 text-center px-4">
-                <div>
-                  <h6 className="lh-base">
-                    "Separated they live in Bookmarksgrove right at the coast of
-                    the Semantics, a large language ocean. "
-                  </h6>
-                </div>
-                <div className="mt-4">
-                  <img
-                    src="https://i.imgur.com/w2CKRB9.jpg"
-                    className="rounded-circle"
-                    width={80}
-                  />
-                  <h5 className="mb-0" style={{ color: "gray" }}>
-                    {" "}
-                    Person Name
-                  </h5>
-                  <span style={{ color: "gray" }}>Co-founder, Company</span>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="p-3 text-center px-4">
-                <div>
-                  <h6 className="lh-base">
-                    "A small river named Duden flows by their place and supplies
-                    it with the necessary regelialia."
-                  </h6>
-                </div>
-                <div className="mt-4">
-                  <img
-                    src="https://i.imgur.com/ACeArwY.jpg"
-                    className="rounded-circle"
-                    width={80}
-                  />
-                  <h5 className="mb-0" style={{ color: "gray" }}>
-                    Person Name
-                  </h5>
-                  <span style={{ color: "gray" }}>Co-founder, Company</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="container-fluid">
-        <div className="row container mx-auto">
-          <div className="col-md-6 col-12 col-lg-6 d-flex justify-content-center flex-column">
-            <h2
-              className="text-center fw-bold py-5 text-decoration-underline"
-              style={{ color: "#d6564d" }}
-            >
-              <FontAwesomeIcon
-                icon={faCode}
-                width={35}
-                height={25}
-                className="me-2"
-              />
-              Languages
-            </h2>
-            <h4 className="mb-3">English</h4>
-            <div
-              className="progress mb-4 rounded-pill"
-              style={{ width: "90%" }}
-            >
-              <div
-                className="progress-bar"
-                role="progressbar"
-                style={{ width: "75%" }}
-                aria-valuenow="75"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              ></div>
-            </div>
-            <h4 className="mb-3">Hindi</h4>
-            <div
-              className="progress mb-4 rounded-pill"
-              style={{ width: "90%" }}
-            >
-              <div
-                className="progress-bar"
-                role="progressbar"
-                style={{ width: "50%" }}
-                aria-valuenow="50"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              ></div>
-            </div>
-            <h4 className="mb-3">Gujarati</h4>
-            <div
-              className="progress mb-4 rounded-pill"
-              style={{ width: "90%" }}
-            >
-              <div
-                className="progress-bar"
-                role="progressbar"
-                style={{ width: "25%" }}
-                aria-valuenow="25"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              ></div>
-            </div>
-          </div>
-          <div className="col-md-6 col-12 col-lg-6">
-            <h2
-              className="text-center fw-bold py-5 text-decoration-underline"
-              style={{ color: "#d6564d" }}
-            >
-              <FontAwesomeIcon
-                icon={faHeartCircleCheck}
-                width={35}
-                height={25}
-                className="me-2"
-              />
-              Hobbies
-            </h2>
-            <div className="mx-lg-5 mx-xl-5 d-flex flex-column flex-wrap">
-              <div className="d-flex justify-content-around mb-4">
-                <span className="fs-5 p-2 badge rounded-pill text-bg-primary">
-                  Cycling
-                </span>
-                <span className="fs-5 p-2 badge rounded-pill text-bg-secondary">
-                  Dancing
-                </span>
-              </div>
-              <div className="d-flex justify-content-between mb-4">
-                <span className="fs-5 p-2 badge rounded-pill text-bg-success">
-                  Journaling
-                </span>
-                <span className="fs-5 p-2 badge rounded-pill text-bg-light">
-                  Reading
-                </span>
-                <span className="fs-5 p-2 badge rounded-pill text-bg-warning">
-                  Gardening
-                </span>
-              </div>
-              <div className="d-flex justify-content-around mb-4">
-                <span className="fs-5 p-2 badge rounded-pill text-bg-danger">
-                  Blogging
-                </span>
-                <span className="fs-5 p-2 badge rounded-pill text-bg-info">
-                  Dancing
-                </span>
-              </div>
-              <div className="d-flex justify-content-between mb-4">
-                <span className="fs-5 p-2 badge rounded-pill text-bg-warning">
-                  Journaling
-                </span>
-                <span className="fs-5 p-2 badge rounded-pill text-bg-secondary">
-                  Reading
-                </span>
-                <span className="fs-5 p-2 badge rounded-pill text-bg-success">
-                  Gardening
-                </span>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
       <section className="container-fluid">
@@ -408,6 +212,202 @@ export default function Page() {
                   </div>
                 </div>
 
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="container-fluid">
+        <div className="row container mx-auto">
+          <div className="col-md-6 col-12 col-lg-6 d-flex justify-content-center flex-column">
+            <h2
+              className="text-center fw-bold py-5 text-decoration-underline"
+              style={{ color: "#d6564d" }}
+            >
+              <FontAwesomeIcon
+                icon={faCode}
+                width={35}
+                height={25}
+                className="me-2"
+              />
+              Languages
+            </h2>
+            <h4 className="mb-3">English</h4>
+            <div
+              className="progress mb-4 rounded-pill"
+              style={{ width: "90%" }}
+            >
+              <div
+                className="progress-bar"
+                role="progressbar"
+                style={{ width: "75%" }}
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+            <h4 className="mb-3">Hindi</h4>
+            <div
+              className="progress mb-4 rounded-pill"
+              style={{ width: "90%" }}
+            >
+              <div
+                className="progress-bar"
+                role="progressbar"
+                style={{ width: "50%" }}
+                aria-valuenow="50"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+            <h4 className="mb-3">Gujarati</h4>
+            <div
+              className="progress mb-4 rounded-pill"
+              style={{ width: "90%" }}
+            >
+              <div
+                className="progress-bar"
+                role="progressbar"
+                style={{ width: "25%" }}
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+          <div className="col-md-6 col-12 col-lg-6">
+            <h2
+              className="text-center fw-bold py-5 text-decoration-underline"
+              style={{ color: "#d6564d" }}
+            >
+              <FontAwesomeIcon
+                icon={faHeartCircleCheck}
+                width={35}
+                height={25}
+                className="me-2"
+              />
+              Hobbies
+            </h2>
+            <div className="mx-lg-5 mx-xl-5 d-flex flex-column flex-wrap">
+              <div className="d-flex justify-content-around mb-4">
+                <span className="fs-5 p-2 badge rounded-pill text-bg-primary">
+                  Cycling
+                </span>
+                <span className="fs-5 p-2 badge rounded-pill text-bg-secondary">
+                  Dancing
+                </span>
+              </div>
+              <div className="d-flex justify-content-between mb-4">
+                <span className="fs-5 p-2 badge rounded-pill text-bg-success">
+                  Journaling
+                </span>
+                <span className="fs-5 p-2 badge rounded-pill text-bg-light">
+                  Reading
+                </span>
+                <span className="fs-5 p-2 badge rounded-pill text-bg-warning">
+                  Gardening
+                </span>
+              </div>
+              <div className="d-flex justify-content-around mb-4">
+                <span className="fs-5 p-2 badge rounded-pill text-bg-danger">
+                  Blogging
+                </span>
+                <span className="fs-5 p-2 badge rounded-pill text-bg-info">
+                  Dancing
+                </span>
+              </div>
+              <div className="d-flex justify-content-between mb-4">
+                <span className="fs-5 p-2 badge rounded-pill text-bg-warning">
+                  Journaling
+                </span>
+                <span className="fs-5 p-2 badge rounded-pill text-bg-secondary">
+                  Reading
+                </span>
+                <span className="fs-5 p-2 badge rounded-pill text-bg-success">
+                  Gardening
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="container-fluid">
+        <div className="container d-flex justify-content-center flex-column">
+          <h2
+            className="text-center fw-bold py-5 text-decoration-underline"
+            style={{ color: "#d6564d" }}
+          >
+            <FontAwesomeIcon
+              icon={faUserCheck}
+              width={35}
+              height={25}
+              className="me-2"
+            />
+            Testimonials
+          </h2>
+          <div className="row mb-3">
+            <div className="col-md-4">
+              <div className="p-3 text-center px-4">
+                <div>
+                  <h6 className="lh-base">
+                    "Far far away, behind the word mountains, far from the
+                    countries Vokalia and Consonantia."
+                  </h6>
+                </div>
+                <div className="mt-4">
+                  <img
+                    src="https://i.imgur.com/PKHvlRS.jpg"
+                    className="rounded-circle"
+                    width={80}
+                  />
+                  <h5 className="mb-0" style={{ color: "gray" }}>
+                    Person Name
+                  </h5>
+                  <span style={{ color: "gray" }}>Co-founder, Company</span>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className="p-3 text-center px-4">
+                <div>
+                  <h6 className="lh-base">
+                    "Separated they live in Bookmarksgrove right at the coast of
+                    the Semantics, a large language ocean. "
+                  </h6>
+                </div>
+                <div className="mt-4">
+                  <img
+                    src="https://i.imgur.com/w2CKRB9.jpg"
+                    className="rounded-circle"
+                    width={80}
+                  />
+                  <h5 className="mb-0" style={{ color: "gray" }}>
+                    {" "}
+                    Person Name
+                  </h5>
+                  <span style={{ color: "gray" }}>Co-founder, Company</span>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className="p-3 text-center px-4">
+                <div>
+                  <h6 className="lh-base">
+                    "A small river named Duden flows by their place and supplies
+                    it with the necessary regelialia."
+                  </h6>
+                </div>
+                <div className="mt-4">
+                  <img
+                    src="https://i.imgur.com/ACeArwY.jpg"
+                    className="rounded-circle"
+                    width={80}
+                  />
+                  <h5 className="mb-0" style={{ color: "gray" }}>
+                    Person Name
+                  </h5>
+                  <span style={{ color: "gray" }}>Co-founder, Company</span>
+                </div>
               </div>
             </div>
           </div>

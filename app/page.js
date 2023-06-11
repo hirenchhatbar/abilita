@@ -1,8 +1,7 @@
-'use client';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCalendar, faGear, faLaptopCode, faUser,  } from '@fortawesome/free-solid-svg-icons';
 import { faBootstrap, faReact, faSass, faNode, faHtml5, faCss3, faPython, faWordpress, faJava, faNodeJs, faAndroid, faWolfPackBattalion, faPhp, faAws, faGithub, faDigitalOcean, faJsSquare, faGithubSquare, faGitAlt, faKorvue } from '@fortawesome/free-brands-svg-icons';
-import Image from 'next/image';
+
 import Link from 'next/link';
 
 const skills = [

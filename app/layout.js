@@ -1,4 +1,4 @@
-import './globals.scss';
+import '../assets/scss/globals.scss';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome, faBookOpen, faBullhorn, faPaperclip, faPaperPlane, faEnvelope, faPhone, faLocationDot } from '@fortawesome/free-solid-svg-icons';

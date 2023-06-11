@@ -1,8 +1,7 @@
-import Link from 'next/link';
-import './timeline.scss';
+import '../../assets/scss/timeline.scss';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAddressBook, faAddressCard, faArchive, faBookOpen, faBriefcase, faDesktop, faIdCard, faImage, faUser, faUsersGear } from '@fortawesome/free-solid-svg-icons';
-
 
 export default function Page() {
     return (
@@ -21,7 +20,7 @@ export default function Page() {
             </section>
 
             {/* TimeLine section */}
-            <section className="timeline_area mb-5">
+            <section className="timeline-area mb-5">
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-12 col-sm-8 col-lg-6 mb-2">
