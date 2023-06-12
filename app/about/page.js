@@ -17,18 +17,11 @@ export default function Page() {
       <section className="container-fluid px-lg-0 px-xl-0 my-5">
         <div className="row container mx-auto">
           <div className="col-md-6 col-12 col-lg-6 d-flex justify-content-center flex-column">
-            <p className="fw-bold fs-4 mb-0">Debugging is like </p>
-            <h4 className="fw-bolder fs-1 my-3" style={{ color: "#d6564d" }}>
-              Solving a puzzle,{" "}
-            </h4>
-            <h2 className="mb-3">But with one crucial difference: </h2>
-            <h2 className="mb-3">
-              All the pieces are in your{" "}
-              <span style={{ color: "#d6564d" }}>Head</span>.
-            </h2>
+            <h1 className='fw-bold mb-4' style={{ color: "#d6564d" }}>About</h1>
+            <p className='fs-4'>Debugging is like solving a puzzle, but with one crucial difference: all the pieces are in your head.</p>
           </div>
           <div className="col-md-6 col-12 col-lg-6">
-            <img src="/about6.svg" className="img-fluid" alt="Hiren Chhatbar" />
+            <img src="/about6.svg" className="img-fluid mx-lg-5" alt="Hiren Chhatbar" style={{ width: "350px", height: "350px" }} />
           </div>
         </div>
       </section>
@@ -178,7 +171,7 @@ export default function Page() {
                       </div>
                     </div>
                     <div className="card-body text-center">
-                    <h2>Google Code-In Finalist</h2>
+                      <h2>Google Code-In Finalist</h2>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel dolorum earum accusamus aspernatur vitae consequuntur facere soluta odit quis voluptate fugiat debitis recusandae pariatur est, itaque porro.</p>
                     </div>
                   </div>
@@ -188,11 +181,11 @@ export default function Page() {
                   <div className="card shadow">
                     <div className="card-body">
                       <div className="card-img-actions text-center">
-                      <FontAwesomeIcon icon={faApple} width={100} height={100}/>
+                        <FontAwesomeIcon icon={faApple} width={100} height={100} />
                       </div>
                     </div>
                     <div className="card-body text-center">
-                    <h2>Apple IOS App Developer</h2>
+                      <h2>Apple IOS App Developer</h2>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ducimus minus commodi iste similique ex enim iure odit, inventore sequi hic quibusdam temporibus at eligendi amet fugiat incidunt omnis quis.</p>
                     </div>
                   </div>
@@ -202,11 +195,11 @@ export default function Page() {
                   <div className="card shadow">
                     <div className="card-body">
                       <div className="card-img-actions text-center">
-                      <FontAwesomeIcon icon={faPaypal} width={100} height={100}/>
+                        <FontAwesomeIcon icon={faPaypal} width={100} height={100} />
                       </div>
                     </div>
                     <div className="card-body text-center">
-                    <h2>Paypal Web App Developer</h2>
+                      <h2>Paypal Web App Developer</h2>
                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque voluptatibus cum repellendus quidem sed autem similique necessitatibus? Repellat repellendus consequatur, voluptatem iste esse excepturi.</p>
                     </div>
                   </div>
@@ -235,7 +228,7 @@ export default function Page() {
             <h4 className="mb-3">English</h4>
             <div
               className="progress mb-4 rounded-pill"
-              style={{ width: "90%" }}
+              style={{ width: "90%", height: "13px" }}
             >
               <div
                 className="progress-bar"
@@ -249,7 +242,7 @@ export default function Page() {
             <h4 className="mb-3">Hindi</h4>
             <div
               className="progress mb-4 rounded-pill"
-              style={{ width: "90%" }}
+              style={{ width: "90%", height: "13px" }}
             >
               <div
                 className="progress-bar"
@@ -263,7 +256,7 @@ export default function Page() {
             <h4 className="mb-3">Gujarati</h4>
             <div
               className="progress mb-4 rounded-pill"
-              style={{ width: "90%" }}
+              style={{ width: "90%", height: "13px" }}
             >
               <div
                 className="progress-bar"
@@ -288,18 +281,93 @@ export default function Page() {
               />
               Hobbies
             </h2>
-            <div className="mx-lg-5 mx-xl-5 d-flex flex-column flex-wrap">
-              <div className="d-flex justify-content-around mb-4">
-                <span className="fs-5 p-2 badge rounded-pill text-bg-primary">
+            <div className="">
+              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-primary">Primary</span>
+              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-secondary">Secondary</span>
+              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-success">Success</span>
+              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-danger">Danger</span>
+              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-warning">Warning</span>
+              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-info">Info</span>
+              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-light">Light</span>
+              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-dark">Dark</span>
+              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-primary">Primary</span>
+              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-secondary">Secondary</span>
+              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-success">Success</span>
+              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-danger">Danger</span>
+              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-warning">Warning</span>
+              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-info">Info</span>
+              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-light">Light</span>
+              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-dark">Dark</span>
+              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-primary">Primary</span>
+              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-secondary">Secondary</span>
+              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-success">Success</span>
+              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-danger">Danger</span>
+              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-warning">Warning</span>
+              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-info">Info</span>
+              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-light">Light</span>
+              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-dark">Dark</span>
+              {/* <div className="mb-4">
+                <span class="fs-5 p-2 badge text-bg-primary">Primary</span>
+                <span class="fs-5 p-2 badge text-bg-secondary">Secondary</span>
+                <span class="fs-5 p-2 badge text-bg-success">Success</span>
+                <span class="fs-5 p-2 badge text-bg-danger">Danger</span>
+
+                {/* <span className="fs-5 p-2 badge rounded-pill text-bg-primary">
                   Cycling
                 </span>
                 <span className="fs-5 p-2 badge rounded-pill text-bg-secondary">
                   Dancing
                 </span>
-              </div>
-              <div className="d-flex justify-content-between mb-4">
                 <span className="fs-5 p-2 badge rounded-pill text-bg-success">
                   Journaling
+                </span>
+                <span className="fs-5 p-2 badge rounded-pill text-bg-light">
+                  Reading
+                </span> 
+              </div> */}
+              {/* <div className="mb-4">
+                <span class="fs-5 p-2 badge text-bg-warning">Warning</span>
+                <span class="fs-5 p-2 badge text-bg-info">Info</span>
+                <span class="fs-5 p-2 badge text-bg-light">Light</span>
+                <span class="fs-5 p-2 badge text-bg-dark">Dark</span>
+                {/* <span className="fs-5 p-2 badge rounded-pill text-bg-warning">
+                  Gardening
+                </span>
+                <span className="fs-5 p-2 badge rounded-pill text-bg-info">
+                  Blogging
+                </span>
+                <span className="fs-5 p-2 badge rounded-pill text-bg-danger">
+                  Dancing
+                </span>
+                <span className="fs-5 p-2 badge rounded-pill text-bg-secondary">
+                  Cooking
+                </span>
+              </div> */}
+              {/* <div className="mb-4">
+                <span class="fs-5 p-2 badge text-bg-primary">Primary</span>
+                <span class="fs-5 p-2 badge text-bg-secondary">Secondary</span>
+                <span class="fs-5 p-2 badge text-bg-success">Success</span>
+                <span class="fs-5 p-2 badge text-bg-danger">Danger</span>
+                {/* <span className="fs-5 p-2 badge rounded-pill text-bg-dark">
+                  Journaling
+                </span>
+                <span className="fs-5 p-2 badge rounded-pill text-bg-success">
+                  Reading
+                </span>
+                <span className="fs-5 p-2 badge rounded-pill text-bg-secondary">
+                  Blogging
+                </span>
+                <span className="fs-5 p-2 badge rounded-pill text-bg-primary">
+                  Gardening
+                </span> 
+              </div> */}
+              {/* <div className="mb-4">
+                <span class="fs-5 p-2 badge text-bg-warning">Warning</span>
+                <span class="fs-5 p-2 badge text-bg-info">Info</span>
+                <span class="fs-5 p-2 badge text-bg-light">Light</span>
+                <span class="fs-5 p-2 badge text-bg-dark">Dark</span>
+                {/* <span className="fs-5 p-2 badge rounded-pill text-bg-danger">
+                  Travelling
                 </span>
                 <span className="fs-5 p-2 badge rounded-pill text-bg-light">
                   Reading
@@ -307,26 +375,10 @@ export default function Page() {
                 <span className="fs-5 p-2 badge rounded-pill text-bg-warning">
                   Gardening
                 </span>
-              </div>
-              <div className="d-flex justify-content-around mb-4">
-                <span className="fs-5 p-2 badge rounded-pill text-bg-danger">
-                  Blogging
-                </span>
-                <span className="fs-5 p-2 badge rounded-pill text-bg-info">
-                  Dancing
-                </span>
-              </div>
-              <div className="d-flex justify-content-between mb-4">
-                <span className="fs-5 p-2 badge rounded-pill text-bg-warning">
-                  Journaling
-                </span>
-                <span className="fs-5 p-2 badge rounded-pill text-bg-secondary">
-                  Reading
-                </span>
-                <span className="fs-5 p-2 badge rounded-pill text-bg-success">
+                <span className="fs-5 p-2 badge rounded-pill text-bg-dark">
                   Gardening
-                </span>
-              </div>
+                </span> 
+              </div> */}
             </div>
           </div>
         </div>

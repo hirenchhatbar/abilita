@@ -8,3 +8,12 @@
     filter: invert(100%);
 }
 
+.btn{
+    border: 2px solid #d6564d;
+    color: #d6564d
+}
+
+.btn:hover{
+    background-color: #d6564d;
+    color: white;
+}
