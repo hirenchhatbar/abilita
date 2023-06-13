@@ -2,21 +2,17 @@
 [data-bs-theme=dark] {
     color-scheme: dark;
 
-    --bs-body-bg: #212529;
-    --bs-body-color: #f8f1f1;//for text color
+    // body variables
+    --bs-body-bg: rgb(33, 37, 41);
+    --bs-body-color: #f8f1f1; //for text color
 
     // navbar variables
-    // --bs-nav-link-color: #fff;
-    // --bs-link-color: #fff;
+    --bs-danger-rgb: 128, 128, 128;
     --bs-primary-rgb: 33, 37, 41;
-    --bs-navbar-light-color: rgb(255, 255, 255);
 
     // card variables
-    --bs-card-color: #fff; //for font color
-    --bs-card-bg: rgb(33, 37, 41); //for bg color
-    --bs-white-rgb: 248,241,241;
-    
-    // experience page vaertical bar text
-    --bs-success-rgb: 248,241,241;
+    --bs-white-rgb: 248, 241, 241;
 
+    // experience page vaertical bar text
+    --bs-success-rgb: 248, 241, 241;
 }

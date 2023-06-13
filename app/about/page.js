@@ -159,7 +159,7 @@ export default function Page() {
             <div className="container d-flex justify-content-center mt-50 mb-50">
               <div className="row">
                 <div className="col-md-4 mt-2">
-                  <div className="card bg-primary shadow">
+                  <div className="card bg-primary border-white shadow">
                     <div className="card-body">
                       <div className="card-img-actions text-center">
                         <FontAwesomeIcon icon={faGoogle} width={100} height={100} />
@@ -173,7 +173,7 @@ export default function Page() {
                 </div>
 
                 <div className="col-md-4 mt-2">
-                  <div className="card bg-primary shadow">
+                  <div className="card bg-primary border-white shadow">
                     <div className="card-body">
                       <div className="card-img-actions text-center">
                         <FontAwesomeIcon icon={faApple} width={100} height={100} />
@@ -187,7 +187,7 @@ export default function Page() {
                 </div>
 
                 <div className="col-md-4 mt-2">
-                  <div className="card bg-primary shadow">
+                  <div className="card bg-primary border-white shadow">
                     <div className="card-body">
                       <div className="card-img-actions text-center">
                         <FontAwesomeIcon icon={faPaypal} width={100} height={100} />
