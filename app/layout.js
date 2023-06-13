@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
       <body>
         <header>
           <div className="d-flex justify-content-around align-items-center">
-            <nav className='navbar navbar-expand-lg bg-body-tertiary container-fluid py-2 bs-light shadow'>
+            <nav className='navbar bg-primary navbar-expand-lg container-fluid py-2 shadow'>
               <div className='container-fluid px-2 px-sm-4 px-xl-5 px-md-5 px-lg-5'>
                 <Link href="/" className={`navbar-brand ${logoFont.className}`} style={{ fontWeight: "bold", fontSize: "2rem", color: "#d6564d" }}>Hiren Chhatbar</Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,31 +32,31 @@ export default function RootLayout({ children }) {
                 <div className="collapse navbar-collapse fs-5 fw-bold" id="menu">
                   <ul className="navbar-nav ms-auto gap-3">
                     <li className="nav-item">
-                      <Link href="/" className="nav-link">
+                      <Link href="/" className="nav-link text-danger">
                         <FontAwesomeIcon icon={faHome} width={25} height={25} className='me-1' />
                         Home
                       </Link>
                     </li>
                     <li className="nav-item">
-                      <Link href="/about" className="nav-link">
+                      <Link href="/about" className="nav-link text-danger">
                         <FontAwesomeIcon icon={faBookOpen} width={25} height={25} className='me-1' />
                         About
                       </Link>
                     </li>
                     <li className="nav-item">
-                      <Link href="/experience" className="nav-link">
+                      <Link href="/experience" className="nav-link text-danger">
                         <FontAwesomeIcon icon={faBullhorn} width={25} height={25} className='me-1' />
                         Experience
                       </Link>
                     </li>
                     <li className="nav-item">
-                      <Link href="/portfolio" className="nav-link">
+                      <Link href="/portfolio" className="nav-link text-danger">
                         <FontAwesomeIcon icon={faPaperclip} width={25} height={25} className='me-1' />
                         Portfolio
                       </Link>
                     </li>
-                    <li className="nav-item">
-                    <Link href="/contact" className="nav-link">
+                    <li className="nav-item text-white">
+                    <Link href="/contact" className="nav-link text-danger">
                       <FontAwesomeIcon icon={faPaperPlane} width={25} height={25} className='me-1' />
                       Contact
                     </Link>
@@ -159,22 +159,22 @@ export default function RootLayout({ children }) {
                   New York, NY 10012, US
                 </p>
                 <div className='pt-4'>
-                  <Link href='' className='me-3 text-reset fs-4'>
+                  <Link href='' className='me-2 text-reset fs-4'>
                     <FontAwesomeIcon icon={faLinkedin} width={25} height={25} />
                   </Link>
-                  <Link href='' className='me-3 text-reset fs-4'>
+                  <Link href='' className='me-2 text-reset fs-4'>
                     <FontAwesomeIcon icon={faGithub} width={25} height={25} />
                   </Link>
-                  <Link href="mailto:info@example.com" className='me-3 text-reset fs-4'>
+                  <Link href="mailto:info@example.com" className='me-2 text-reset fs-4'>
                     <FontAwesomeIcon icon={faEnvelope} width={25} height={25} />
                   </Link>
-                  <Link href='' className='me-3 text-reset fs-4'>
+                  <Link href='' className='me-2 text-reset fs-4'>
                     <FontAwesomeIcon icon={faTwitter} width={25} height={25} />
                   </Link>
-                  <Link href='' className='me-3 text-reset fs-4'>
+                  <Link href='' className='me-2 text-reset fs-4'>
                     <FontAwesomeIcon icon={faTelegram} width={25} height={25} />
                   </Link>
-                  <Link href='' className='me-3 text-reset fs-4'>
+                  <Link href='' className='me-2 text-reset fs-4'>
                     <FontAwesomeIcon icon={faFacebook} width={25} height={25} />
                   </Link>
                 </div>

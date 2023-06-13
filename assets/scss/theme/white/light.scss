@@ -1,0 +1,19 @@
+:root,
+[data-bs-theme=light] {
+    // body variables
+    --bs-body-bg: rgb(255, 255, 255);
+    --bs-body-color: black;//for text color
+
+    // navbar variables
+    --bs-nav-link-hover-color: #d6564d;
+    --bs-primary-rgb: 255, 255, 255;
+    --bs-danger-rgb: 128, 128, 128;
+
+    // card variables
+    --bs-card-color: #000; //for font color
+    --bs-card-bg: #fff; //for bg color
+    --bs-white-rgb: 0,0,0,0.175;
+    
+    // experience page vaertical bar text
+    --bs-success-rgb: 0,0,0;
+}

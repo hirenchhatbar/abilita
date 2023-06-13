@@ -25,7 +25,7 @@ export default function Page() {
 
       <section>
         <div className="container d-flex justify-content-center flex-column text-center">
-          <h2 className="text-center fw-bold py-4 text-decoration-underline" style={{ color: "#d6564d" }}>
+          <h2 className="text-center fw-bold py-4 text-decoration-underline">
             <FontAwesomeIcon icon={faHandshake} width={40} height={40} className="me-2 mb-1"
             />
             Get In Touch
@@ -40,14 +40,14 @@ export default function Page() {
       <section className="container-fluid px-lg-0 px-xl-0 my-5">
         <div className="row container mx-auto">
           <div className="col-md-6 col-12 col-lg-6 d-flex justify-content-center flex-column text-center">
-            <h2 className="text-center fw-bold py-4 text-decoration-underline" style={{ color: "#d6564d" }}>
+            <h2 className="text-center fw-bold py-4 text-decoration-underline">
               <FontAwesomeIcon icon={faMessage} width={30} height={30} className="me-2 mb-1"
               />
               Contact Me
             </h2>
             <p className="fs-5">I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.</p>
             <div className="mt-2">
-              <span className="me-2"><Link href="/" style={{ color: "#333333" }}><FontAwesomeIcon icon={faGithubSquare} width={35} height={35} /></Link></span>
+              <span className="me-2"><Link href="/" style={{ color: "#333333" }}><FontAwesomeIcon icon={faGithubSquare} width={35} height={35}/></Link></span>
               <span className="me-2"><Link href="/" style={{ color: "#0082ca" }}><FontAwesomeIcon icon={faLinkedin} width={35} height={35} /></Link></span>
               <span className="me-2"><Link href="/" style={{ color: "#ed302f" }}><FontAwesomeIcon icon={faYoutube} width={35} height={35} /></Link></span>
               <span className="me-2"><Link href="/" style={{ color: "#55acee" }}><FontAwesomeIcon icon={faTwitter} width={35} height={35} /></Link></span>
@@ -57,23 +57,23 @@ export default function Page() {
             </div>
           </div>
           <div className="col-md-6 col-12 col-lg-6">
-            <h2 className="text-center fw-bold py-4 my-sm-3 my-3 my-xl-0 my-lg-0 text-decoration-underline" style={{ color: "#d6564d" }}>
+            <h2 className="text-center fw-bold py-4 my-sm-3 my-3 my-xl-0 my-lg-0 text-decoration-underline" >
               <FontAwesomeIcon icon={faAddressBook} width={30} height={30} className="me-2 mb-1"
               />
               Address
             </h2>
-            <div className="mx-xl-5 mx-lg-5 px-lg-5 px-xl-5">
-              <div className="mx-xl-4 mx-lg-4 mx-md-4">
+            <div className="mx-xl-5 mx-lg-5 px-lg-4 px-xl-5">
+              <div>
               <Link href="/" className="text-reset fs-5"><p>
-                <FontAwesomeIcon icon={faLocationDot} width={25} height={25} className="me-4" />
+                <FontAwesomeIcon icon={faLocationDot} width={25} height={25} className="me-3" />
                 New York, NY 10012, US
               </p></Link>
               <Link href="mailto:info@example.com" className="text-reset fs-5"><p>
-                <FontAwesomeIcon icon={faEnvelope} width={25} height={25} className="me-4" />
+                <FontAwesomeIcon icon={faEnvelope} width={25} height={25} className="me-3" />
                 info@example.com</p>
               </Link>
               <Link href="+01 234 567 88" className='text-reset fs-5'><p>
-                <FontAwesomeIcon icon={faPhone} width={25} height={25} className="me-4" />+01 234 567 88</p>
+                <FontAwesomeIcon icon={faPhone} width={25} height={25} className="me-3" />+01 234 567 88</p>
               </Link>
               </div>
 

@@ -24,7 +24,7 @@ export default function Page() {
                     <div className="row justify-content-center">
                         <div className="col-12 col-sm-8 col-lg-6 mb-2">
                             <div className="text-center">
-                                <h2 className='text-center fw-bold mb-5 text-decoration-underline' style={{ color: "#d6564d" }}>
+                                <h2 className='text-center fw-bold mb-5 text-decoration-underline'>
                                     <FontAwesomeIcon icon={faUsersGear} width={40} height={30} className='me-2' />Experience
                                 </h2>
                                 <div className="line"></div>
@@ -36,7 +36,7 @@ export default function Page() {
                             <div className="apland-timeline-area">
                                 <div className="single-timeline-area">
                                     <div className="timeline-date wow fadeInLeft" data-wow-delay="0.1s" style={{ visibility: "visible", animationDelay: "0.1s", animatioName: "fadeInLeft" }}>
-                                        <p>Near Future</p>
+                                        <p className='text-success'>Near Future</p>
                                     </div>
                                     <div className="row">
                                         <div className="col-12 col-md-6 col-lg-4">
@@ -70,7 +70,7 @@ export default function Page() {
                                 </div>
                                 <div className="single-timeline-area">
                                     <div className="timeline-date wow fadeInLeft" data-wow-delay="0.1s" style={{ visibility: "visible", animationDelay: "0.1s", animationName: "fadeInLeft" }}>
-                                        <p>2020</p>
+                                        <p className='text-success'>2020</p>
                                     </div>
                                     <div className="row">
                                         <div className="col-12 col-md-6 col-lg-4">
@@ -96,7 +96,7 @@ export default function Page() {
 
                                 <div className="single-timeline-area">
                                     <div className="timeline-date wow fadeInLeft" data-wow-delay="0.1s" style={{ visibility: "visible", animationDelay: "0.1s", animationName: "fadeInLeft" }}>
-                                        <p>2019</p>
+                                        <p className='text-success'>2019</p>
                                     </div>
                                     <div className="row">
                                         <div className="col-12 col-md-6 col-lg-4">
@@ -130,7 +130,7 @@ export default function Page() {
                                 </div>
                                 <div className="single-timeline-area">
                                     <div className="timeline-date wow fadeInLeft" data-wow-delay="0.1s" style={{ visibility: "visible", animationDelay: "0.1s", animationName: "fadeInLeft" }}>
-                                        <p>2018</p>
+                                        <p className='text-success'>2018</p>
                                     </div>
                                     <div className="row">
                                         <div className="col-12 col-md-6 col-lg-4">
@@ -164,7 +164,7 @@ export default function Page() {
                                 </div>
                                 <div className="single-timeline-area">
                                     <div className="timeline-date wow fadeInLeft" data-wow-delay="0.1s" style={{ visibility: "visible", animationDelay: "0.1s", animationName: "fadeInLeft" }}>
-                                        <p>2017</p>
+                                        <p className='text-success'>2017</p>
                                     </div>
                                     <div className="row">
                                         <div className="col-12 col-md-6 col-lg-4">

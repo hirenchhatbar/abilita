@@ -29,7 +29,6 @@ export default function Page() {
         <div className="container d-flex justify-content-center flex-column">
           <h2
             className="text-center fw-bold py-5 text-decoration-underline"
-            style={{ color: "#d6564d" }}
           >
             <FontAwesomeIcon
               icon={faUser}
@@ -66,9 +65,7 @@ export default function Page() {
       <section className="container-fluid">
         <div className="container d-flex justify-content-center flex-column">
           <h2
-            className="text-center fw-bold py-5 text-decoration-underline"
-            style={{ color: "#d6564d" }}
-          >
+            className="text-center fw-bold py-5 text-decoration-underline">
             <FontAwesomeIcon
               icon={faBook}
               width={35}
@@ -149,9 +146,7 @@ export default function Page() {
       <section>
         <div className="container d-flex justify-content-center flex-column">
           <h2
-            className="text-center fw-bold py-5 text-decoration-underline"
-            style={{ color: "#d6564d" }}
-          >
+            className="text-center fw-bold py-5 text-decoration-underline">
             <FontAwesomeIcon
               icon={faTrophy}
               width={35}
@@ -164,7 +159,7 @@ export default function Page() {
             <div className="container d-flex justify-content-center mt-50 mb-50">
               <div className="row">
                 <div className="col-md-4 mt-2">
-                  <div className="card shadow">
+                  <div className="card bg-primary shadow">
                     <div className="card-body">
                       <div className="card-img-actions text-center">
                         <FontAwesomeIcon icon={faGoogle} width={100} height={100} />
@@ -178,7 +173,7 @@ export default function Page() {
                 </div>
 
                 <div className="col-md-4 mt-2">
-                  <div className="card shadow">
+                  <div className="card bg-primary shadow">
                     <div className="card-body">
                       <div className="card-img-actions text-center">
                         <FontAwesomeIcon icon={faApple} width={100} height={100} />
@@ -192,7 +187,7 @@ export default function Page() {
                 </div>
 
                 <div className="col-md-4 mt-2">
-                  <div className="card shadow">
+                  <div className="card bg-primary shadow">
                     <div className="card-body">
                       <div className="card-img-actions text-center">
                         <FontAwesomeIcon icon={faPaypal} width={100} height={100} />
@@ -215,7 +210,6 @@ export default function Page() {
           <div className="col-md-6 col-12 col-lg-6 d-flex justify-content-center flex-column">
             <h2
               className="text-center fw-bold py-5 text-decoration-underline"
-              style={{ color: "#d6564d" }}
             >
               <FontAwesomeIcon
                 icon={faCode}
@@ -271,7 +265,7 @@ export default function Page() {
           <div className="col-md-6 col-12 col-lg-6">
             <h2
               className="text-center fw-bold py-5 text-decoration-underline"
-              style={{ color: "#d6564d" }}
+              
             >
               <FontAwesomeIcon
                 icon={faHeartCircleCheck}
@@ -298,87 +292,10 @@ export default function Page() {
               <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-info">Info</span>
               <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-light">Light</span>
               <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-dark">Dark</span>
-              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-primary">Primary</span>
-              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-secondary">Secondary</span>
-              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-success">Success</span>
-              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-danger">Danger</span>
-              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-warning">Warning</span>
-              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-info">Info</span>
-              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-light">Light</span>
-              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-dark">Dark</span>
-              {/* <div className="mb-4">
-                <span class="fs-5 p-2 badge text-bg-primary">Primary</span>
-                <span class="fs-5 p-2 badge text-bg-secondary">Secondary</span>
-                <span class="fs-5 p-2 badge text-bg-success">Success</span>
-                <span class="fs-5 p-2 badge text-bg-danger">Danger</span>
-
-                {/* <span className="fs-5 p-2 badge rounded-pill text-bg-primary">
-                  Cycling
-                </span>
-                <span className="fs-5 p-2 badge rounded-pill text-bg-secondary">
-                  Dancing
-                </span>
-                <span className="fs-5 p-2 badge rounded-pill text-bg-success">
-                  Journaling
-                </span>
-                <span className="fs-5 p-2 badge rounded-pill text-bg-light">
-                  Reading
-                </span> 
-              </div> */}
-              {/* <div className="mb-4">
-                <span class="fs-5 p-2 badge text-bg-warning">Warning</span>
-                <span class="fs-5 p-2 badge text-bg-info">Info</span>
-                <span class="fs-5 p-2 badge text-bg-light">Light</span>
-                <span class="fs-5 p-2 badge text-bg-dark">Dark</span>
-                {/* <span className="fs-5 p-2 badge rounded-pill text-bg-warning">
-                  Gardening
-                </span>
-                <span className="fs-5 p-2 badge rounded-pill text-bg-info">
-                  Blogging
-                </span>
-                <span className="fs-5 p-2 badge rounded-pill text-bg-danger">
-                  Dancing
-                </span>
-                <span className="fs-5 p-2 badge rounded-pill text-bg-secondary">
-                  Cooking
-                </span>
-              </div> */}
-              {/* <div className="mb-4">
-                <span class="fs-5 p-2 badge text-bg-primary">Primary</span>
-                <span class="fs-5 p-2 badge text-bg-secondary">Secondary</span>
-                <span class="fs-5 p-2 badge text-bg-success">Success</span>
-                <span class="fs-5 p-2 badge text-bg-danger">Danger</span>
-                {/* <span className="fs-5 p-2 badge rounded-pill text-bg-dark">
-                  Journaling
-                </span>
-                <span className="fs-5 p-2 badge rounded-pill text-bg-success">
-                  Reading
-                </span>
-                <span className="fs-5 p-2 badge rounded-pill text-bg-secondary">
-                  Blogging
-                </span>
-                <span className="fs-5 p-2 badge rounded-pill text-bg-primary">
-                  Gardening
-                </span> 
-              </div> */}
-              {/* <div className="mb-4">
-                <span class="fs-5 p-2 badge text-bg-warning">Warning</span>
-                <span class="fs-5 p-2 badge text-bg-info">Info</span>
-                <span class="fs-5 p-2 badge text-bg-light">Light</span>
-                <span class="fs-5 p-2 badge text-bg-dark">Dark</span>
-                {/* <span className="fs-5 p-2 badge rounded-pill text-bg-danger">
-                  Travelling
-                </span>
-                <span className="fs-5 p-2 badge rounded-pill text-bg-light">
-                  Reading
-                </span>
-                <span className="fs-5 p-2 badge rounded-pill text-bg-warning">
-                  Gardening
-                </span>
-                <span className="fs-5 p-2 badge rounded-pill text-bg-dark">
-                  Gardening
-                </span> 
-              </div> */}
+              <span class="fs-5 p-2 mx-2 badge text-bg-primary">Primary</span>
+              <span class="fs-5 p-2 mx-2 badge text-bg-secondary">Secondary</span>
+              <span class="fs-5 p-2 mx-2 badge text-bg-success">Success</span>
+              <span class="fs-5 p-2 mx-2 badge text-bg-danger">Danger</span>              
             </div>
           </div>
         </div>
@@ -387,7 +304,6 @@ export default function Page() {
         <div className="container d-flex justify-content-center flex-column">
           <h2
             className="text-center fw-bold py-5 text-decoration-underline"
-            style={{ color: "#d6564d" }}
           >
             <FontAwesomeIcon
               icon={faUserCheck}
@@ -412,10 +328,10 @@ export default function Page() {
                     className="rounded-circle"
                     width={80}
                   />
-                  <h5 className="mb-0" style={{ color: "gray" }}>
+                  <h5 className="mb-0">
                     Person Name
                   </h5>
-                  <span style={{ color: "gray" }}>Co-founder, Company</span>
+                  <span>Co-founder, Company</span>
                 </div>
               </div>
             </div>
@@ -423,8 +339,8 @@ export default function Page() {
               <div className="p-3 text-center px-4">
                 <div>
                   <h6 className="lh-base">
-                    "Separated they live in Bookmarksgrove right at the coast of
-                    the Semantics, a large language ocean. "
+                    "Separated they live in right at the coast of
+                    the Semantics, a large language ocean."
                   </h6>
                 </div>
                 <div className="mt-4">
@@ -433,11 +349,11 @@ export default function Page() {
                     className="rounded-circle"
                     width={80}
                   />
-                  <h5 className="mb-0" style={{ color: "gray" }}>
+                  <h5 className="mb-0">
                     {" "}
                     Person Name
                   </h5>
-                  <span style={{ color: "gray" }}>Co-founder, Company</span>
+                  <span>Co-founder, Company</span>
                 </div>
               </div>
             </div>
@@ -455,10 +371,10 @@ export default function Page() {
                     className="rounded-circle"
                     width={80}
                   />
-                  <h5 className="mb-0" style={{ color: "gray" }}>
+                  <h5 className="mb-0">
                     Person Name
                   </h5>
-                  <span style={{ color: "gray" }}>Co-founder, Company</span>
+                  <span>Co-founder, Company</span>
                 </div>
               </div>
             </div>

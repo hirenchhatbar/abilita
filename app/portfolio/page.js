@@ -28,7 +28,6 @@ export default function Page() {
         <div className="container d-flex justify-content-center flex-column">
           <h2
             className="text-center fw-bold py-4 text-decoration-underline"
-            style={{ color: "#d6564d" }}
           >
             <FontAwesomeIcon
               icon={faPaperclip}
@@ -42,7 +41,7 @@ export default function Page() {
             <div className="container d-flex justify-content-center mt-50 mb-50">
               <div className="row">
                 <div className="col-md-4 mt-3">
-                  <div className="card shadow">
+                  <div className="card border-white bg-primary shadow">
                     <div className="card-body">
                       <div className="card-img-actions text-center">
                         <FontAwesomeIcon icon={faPepperHot} width={100} height={100} />
@@ -62,7 +61,7 @@ export default function Page() {
                 </div>
 
                 <div className="col-md-4 mt-3">
-                  <div className="card shadow">
+                  <div className="card border-white bg-primary shadow">
                     <div className="card-body">
                       <div className="card-img-actions text-center">
                         <FontAwesomeIcon icon={faBuilding} width={100} height={100} />
@@ -82,7 +81,7 @@ export default function Page() {
                 </div>
 
                 <div className="col-md-4 mt-3">
-                  <div className="card shadow">
+                  <div className="card border-white bg-primary shadow">
                     <div className="card-body">
                       <div className="card-img-actions text-center">
                         <FontAwesomeIcon icon={faAirbnb} width={100} height={100} />
@@ -102,7 +101,7 @@ export default function Page() {
                 </div>
 
                 <div className="col-md-4 mt-4">
-                  <div className="card shadow">
+                  <div className="card border-white bg-primary shadow">
                     <div className="card-body">
                       <div className="card-img-actions text-center">
                         <FontAwesomeIcon icon={faAmazon} width={100} height={100} />
@@ -122,7 +121,7 @@ export default function Page() {
                 </div>
 
                 <div className="col-md-4 mt-4">
-                  <div className="card shadow">
+                  <div className="card border-white bg-primary shadow">
                     <div className="card-body">
                       <div className="card-img-actions text-center">
                         <FontAwesomeIcon icon={faPaypal} width={100} height={100} />
@@ -141,7 +140,7 @@ export default function Page() {
                   </div>
                 </div>
                 <div className="col-md-4 mt-4">
-                  <div className="card shadow">
+                  <div className="card border-white bg-primary  shadow">
                     <div className="card-body">
                       <div className="card-img-actions text-center">
                         <FontAwesomeIcon icon={faFacebook} width={100} height={100} />
