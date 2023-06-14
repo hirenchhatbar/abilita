@@ -9,8 +9,8 @@ export default function Page() {
             <section className="container-fluid px-lg-0 px-xl-0 my-5">
                 <div className="row container mx-auto">
                     <div className="col-md-6 col-12 col-lg-6 d-flex justify-content-center flex-column">
-                        <h1 className='fw-bold mb-4'>Experience</h1>
-                        <p className='fs-4 mb-0'>Turning complex problems into elegant solutions, one line of code at a time</p>
+                        <h1 className='mb-4'>Experience</h1>
+                        <p className='mb-0'>Turning complex problems into elegant solutions, one line of code at a time</p>
                     </div>
                     <div className="col-md-6 col-12 col-lg-6">
                         <img src="/experience4.svg" className='img-fluid mx-lg-5' alt="Hiren Chhatbar" style={{width: "350px", height: "350px"}}/>
@@ -21,16 +21,6 @@ export default function Page() {
             {/* TimeLine section */}
             <section className="timeline-area mb-5">
                 <div className="container">
-                    <div className="row justify-content-center">
-                        <div className="col-12 col-sm-8 col-lg-6 mb-2">
-                            <div className="text-center">
-                                <h2 className='text-center fw-bold mb-5 text-decoration-underline'>
-                                    <FontAwesomeIcon icon={faUsersGear} width={40} height={30} className='me-2' />Experience
-                                </h2>
-                                <div className="line"></div>
-                            </div>
-                        </div>
-                    </div>
                     <div className="row">
                         <div className="col-12">
                             <div className="apland-timeline-area">

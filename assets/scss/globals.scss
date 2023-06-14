@@ -4,7 +4,7 @@
 
 @import "theme/white/light.scss";
 
-// @import "theme/white/dark.scss";
+@import "theme/white/dark.scss";
 
 .card:hover{
     filter: invert(100%);

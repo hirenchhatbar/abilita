@@ -1,4 +1,3 @@
-:root,
 [data-bs-theme=dark] {
     color-scheme: dark;
 
@@ -10,9 +9,13 @@
     --bs-btn-bg: rgb(255, 255, 255);
     --bs-btn-color: rgb(33,37,41);
 
+    --bs-link-color: white;
+    --bs-link-hover-color: white;
+
     .navbar {
         --bs-navbar-color: white;
         --bs-navbar-brand-color: white;
+        --bs-navbar-hover-color: white;
     }
 
     .card{

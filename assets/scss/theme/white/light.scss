@@ -8,9 +8,13 @@
     // button color
     --bs-btn-bg: rgb(33,37,41);
     --bs-btn-color: rgb(255, 255, 255);
-    
+
+    --bs-link-color: black;
+    --bs-link-hover-color: black;
+
     .navbar {
         --bs-navbar-color: black;
+        --bs-navbar-hover-color: black;
     }
 
     .timeline-date p{
