@@ -14,7 +14,7 @@ export default function Page() {
       <section className="container-fluid px-lg-0 px-xl-0 my-5">
         <div className="row container mx-auto">
           <div className="col-md-6 col-12 col-lg-6 d-flex justify-content-center flex-column">
-            <h1 className='fw-bold mb-4' style={{ color: "#d6564d" }}>Contact</h1>
+            <h1 className='fw-bold mb-4'>Contact</h1>
             <p className='fs-4'>Code is my language, and I speak it fluently. Let's have a conversation about your project.</p>
           </div>
           <div className="col-md-6 col-12 col-lg-6">
@@ -32,7 +32,7 @@ export default function Page() {
           </h2>
           <p className="fs-5 mx-lg-5 mx-xl-5">We'll create high-quality linkable content and build at least 40 high-authority links to each asset, paving the way for you to grow your rankings, improve brand.</p>
           <div>
-            <button type="button" class="btn px-3 my-3 fs-5 fw-bold">Say Hello</button>
+            <button type="button" class="btn btn-dark px-3 my-3 fs-5 fw-bold">Say Hello</button>
           </div>
         </div>
       </section>
@@ -47,13 +47,13 @@ export default function Page() {
             </h2>
             <p className="fs-5">I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.</p>
             <div className="mt-2">
-              <span className="me-2"><Link href="/" style={{ color: "#333333" }}><FontAwesomeIcon icon={faGithubSquare} width={35} height={35}/></Link></span>
-              <span className="me-2"><Link href="/" style={{ color: "#0082ca" }}><FontAwesomeIcon icon={faLinkedin} width={35} height={35} /></Link></span>
-              <span className="me-2"><Link href="/" style={{ color: "#ed302f" }}><FontAwesomeIcon icon={faYoutube} width={35} height={35} /></Link></span>
-              <span className="me-2"><Link href="/" style={{ color: "#55acee" }}><FontAwesomeIcon icon={faTwitter} width={35} height={35} /></Link></span>
-              <span className="me-2"><Link href="/" style={{ color: "#dd4b39" }}><FontAwesomeIcon icon={faGoogle} width={30} height={31} /></Link></span>
-              <span className="me-2"><Link href="/" style={{ color: "#3b5998" }}><FontAwesomeIcon icon={faFacebook} width={35} height={33} /></Link></span>
-              <span className="me-2"><Link href="/" style={{ color: "#ac2bac" }}><FontAwesomeIcon icon={faInstagram} width={35} height={35} /></Link></span>
+              <span className="me-2"><Link href="/"><FontAwesomeIcon icon={faGithubSquare} width={35} height={35}/></Link></span>
+              <span className="me-2"><Link href="/"><FontAwesomeIcon icon={faLinkedin} width={35} height={35} /></Link></span>
+              <span className="me-2"><Link href="/"><FontAwesomeIcon icon={faYoutube} width={35} height={35} /></Link></span>
+              <span className="me-2"><Link href="/"><FontAwesomeIcon icon={faTwitter} width={35} height={35} /></Link></span>
+              <span className="me-2"><Link href="/"><FontAwesomeIcon icon={faGoogle} width={30} height={31} /></Link></span>
+              <span className="me-2"><Link href="/"><FontAwesomeIcon icon={faFacebook} width={35} height={33} /></Link></span>
+              <span className="me-2"><Link href="/"><FontAwesomeIcon icon={faInstagram} width={35} height={35} /></Link></span>
             </div>
           </div>
           <div className="col-md-6 col-12 col-lg-6">

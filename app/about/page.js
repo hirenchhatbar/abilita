@@ -17,7 +17,7 @@ export default function Page() {
       <section className="container-fluid px-lg-0 px-xl-0 my-5">
         <div className="row container mx-auto">
           <div className="col-md-6 col-12 col-lg-6 d-flex justify-content-center flex-column">
-            <h1 className='fw-bold mb-4' style={{ color: "#d6564d" }}>About</h1>
+            <h1 className='fw-bold mb-4'>About</h1>
             <p className='fs-4'>Debugging is like solving a puzzle, but with one crucial difference: all the pieces are in your head.</p>
           </div>
           <div className="col-md-6 col-12 col-lg-6">
@@ -80,7 +80,6 @@ export default function Page() {
                 icon={faUserGraduate}
                 width={120}
                 height={120}
-                style={{ color: "#d6564d" }}
               />
             </div>
             <div className="mx-4">
@@ -91,7 +90,7 @@ export default function Page() {
               <span>
                 Participated in the research of XXX and published 3 papers.
               </span>
-              <ul className="mt-1" style={{ color: "gray" }}>
+              <ul className="mt-1">
                 <li>
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
@@ -114,7 +113,6 @@ export default function Page() {
                 icon={faUserGraduate}
                 width={120}
                 height={120}
-                style={{ color: "#d6564d" }}
               />
             </div>
             <div className="mx-4">
@@ -125,7 +123,7 @@ export default function Page() {
               <span>
                 Participated in the research of XXX and published 3 papers.
               </span>
-              <ul className="mt-1" style={{ color: "gray" }}>
+              <ul className="mt-1">
                 <li>
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
@@ -159,7 +157,7 @@ export default function Page() {
             <div className="container d-flex justify-content-center mt-50 mb-50">
               <div className="row">
                 <div className="col-md-4 mt-2">
-                  <div className="card bg-primary border-white shadow">
+                  <div className="card shadow">
                     <div className="card-body">
                       <div className="card-img-actions text-center">
                         <FontAwesomeIcon icon={faGoogle} width={100} height={100} />
@@ -173,7 +171,7 @@ export default function Page() {
                 </div>
 
                 <div className="col-md-4 mt-2">
-                  <div className="card bg-primary border-white shadow">
+                  <div className="card shadow">
                     <div className="card-body">
                       <div className="card-img-actions text-center">
                         <FontAwesomeIcon icon={faApple} width={100} height={100} />
@@ -187,7 +185,7 @@ export default function Page() {
                 </div>
 
                 <div className="col-md-4 mt-2">
-                  <div className="card bg-primary border-white shadow">
+                  <div className="card shadow">
                     <div className="card-body">
                       <div className="card-img-actions text-center">
                         <FontAwesomeIcon icon={faPaypal} width={100} height={100} />

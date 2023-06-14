@@ -9,7 +9,7 @@ export default function Page() {
             <section className="container-fluid px-lg-0 px-xl-0 my-5">
                 <div className="row container mx-auto">
                     <div className="col-md-6 col-12 col-lg-6 d-flex justify-content-center flex-column">
-                        <h1 className='fw-bold mb-4' style={{ color: "#d6564d" }}>Experience</h1>
+                        <h1 className='fw-bold mb-4'>Experience</h1>
                         <p className='fs-4 mb-0'>Turning complex problems into elegant solutions, one line of code at a time</p>
                     </div>
                     <div className="col-md-6 col-12 col-lg-6">
@@ -36,7 +36,7 @@ export default function Page() {
                             <div className="apland-timeline-area">
                                 <div className="single-timeline-area">
                                     <div className="timeline-date wow fadeInLeft" data-wow-delay="0.1s" style={{ visibility: "visible", animationDelay: "0.1s", animatioName: "fadeInLeft" }}>
-                                        <p className='text-success'>Near Future</p>
+                                        <p>Near Future</p>
                                     </div>
                                     <div className="row">
                                         <div className="col-12 col-md-6 col-lg-4">
@@ -70,7 +70,7 @@ export default function Page() {
                                 </div>
                                 <div className="single-timeline-area">
                                     <div className="timeline-date wow fadeInLeft" data-wow-delay="0.1s" style={{ visibility: "visible", animationDelay: "0.1s", animationName: "fadeInLeft" }}>
-                                        <p className='text-success'>2020</p>
+                                        <p>2020</p>
                                     </div>
                                     <div className="row">
                                         <div className="col-12 col-md-6 col-lg-4">
@@ -96,7 +96,7 @@ export default function Page() {
 
                                 <div className="single-timeline-area">
                                     <div className="timeline-date wow fadeInLeft" data-wow-delay="0.1s" style={{ visibility: "visible", animationDelay: "0.1s", animationName: "fadeInLeft" }}>
-                                        <p className='text-success'>2019</p>
+                                        <p>2019</p>
                                     </div>
                                     <div className="row">
                                         <div className="col-12 col-md-6 col-lg-4">
@@ -130,7 +130,7 @@ export default function Page() {
                                 </div>
                                 <div className="single-timeline-area">
                                     <div className="timeline-date wow fadeInLeft" data-wow-delay="0.1s" style={{ visibility: "visible", animationDelay: "0.1s", animationName: "fadeInLeft" }}>
-                                        <p className='text-success'>2018</p>
+                                        <p>2018</p>
                                     </div>
                                     <div className="row">
                                         <div className="col-12 col-md-6 col-lg-4">
@@ -164,7 +164,7 @@ export default function Page() {
                                 </div>
                                 <div className="single-timeline-area">
                                     <div className="timeline-date wow fadeInLeft" data-wow-delay="0.1s" style={{ visibility: "visible", animationDelay: "0.1s", animationName: "fadeInLeft" }}>
-                                        <p className='text-success'>2017</p>
+                                        <p>2017</p>
                                     </div>
                                     <div className="row">
                                         <div className="col-12 col-md-6 col-lg-4">

@@ -19,44 +19,44 @@ const logoFont = localFont({ src:'../public/fonts/pacifico-regular.ttf'});
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" data-bs-theme="light">
+    <html lang="en" data-bs-theme="dark">
       <body>
         <header>
           <div className="d-flex justify-content-around align-items-center">
-            <nav className='navbar bg-primary navbar-expand-lg container-fluid py-2 shadow'>
+            <nav className='navbar navbar-expand-lg container-fluid py-2 shadow'>
               <div className='container-fluid px-2 px-sm-4 px-xl-5 px-md-5 px-lg-5'>
-                <Link href="/" className={`navbar-brand ${logoFont.className}`} style={{ fontWeight: "bold", fontSize: "2rem", color: "#d6564d" }}>Hiren Chhatbar</Link>
+                <Link href="/" className={`navbar-brand ${logoFont.className}`} style={{ fontWeight: "bold", fontSize: "2rem" }}>Hiren Chhatbar</Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
                   <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse fs-5 fw-bold" id="menu">
                   <ul className="navbar-nav ms-auto gap-3">
                     <li className="nav-item">
-                      <Link href="/" className="nav-link text-danger">
+                      <Link href="/" className="nav-link">
                         <FontAwesomeIcon icon={faHome} width={25} height={25} className='me-1' />
                         Home
                       </Link>
                     </li>
                     <li className="nav-item">
-                      <Link href="/about" className="nav-link text-danger">
+                      <Link href="/about" className="nav-link">
                         <FontAwesomeIcon icon={faBookOpen} width={25} height={25} className='me-1' />
                         About
                       </Link>
                     </li>
                     <li className="nav-item">
-                      <Link href="/experience" className="nav-link text-danger">
+                      <Link href="/experience" className="nav-link">
                         <FontAwesomeIcon icon={faBullhorn} width={25} height={25} className='me-1' />
                         Experience
                       </Link>
                     </li>
                     <li className="nav-item">
-                      <Link href="/portfolio" className="nav-link text-danger">
+                      <Link href="/portfolio" className="nav-link">
                         <FontAwesomeIcon icon={faPaperclip} width={25} height={25} className='me-1' />
                         Portfolio
                       </Link>
                     </li>
-                    <li className="nav-item text-white">
-                    <Link href="/contact" className="nav-link text-danger">
+                    <li className="nav-item">
+                    <Link href="/contact" className="nav-link">
                       <FontAwesomeIcon icon={faPaperPlane} width={25} height={25} className='me-1' />
                       Contact
                     </Link>
@@ -106,7 +106,7 @@ export default function RootLayout({ children }) {
 
         {children}
 
-        <footer className='text-center text-lg-start text-muted pt-3 pb-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
+        <footer className='text-center text-lg-start pt-3 pb-4' >
           <div className='container text-center text-md-start'>
             <div className='row text-start text-md-left'>
               <div className="col-md-3 col-lg-3 col-xl-3 mx-auto">

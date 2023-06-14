@@ -51,7 +51,7 @@
     width: 11px;
     height: 11px;
     border-radius: 50%;
-    background-color: #d6564d;
+    background-color: black;
     content: "";
     top: 50%;
     right: 26px;
@@ -87,7 +87,7 @@
     transition-duration: 500ms;
     width: 40px;
     height: 33px;
-    background-color: #d6564d;
+    background-color: black;
     -webkit-box-flex: 0;
     -ms-flex: 0 0 30px;
     flex: 0 0 30px;
@@ -115,5 +115,5 @@
 }
 .single-timeline-area .single-timeline-content:hover .timeline-text h6,
 .single-timeline-area .single-timeline-content:focus .timeline-text h6 {
-    color: #d6564d;
+    color: black;
 }

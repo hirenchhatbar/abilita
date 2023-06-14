@@ -15,7 +15,7 @@ export default function Page() {
       <section className="container-fluid px-lg-0 px-xl-0 mt-5 mb-3">
         <div className="row container mx-auto">
           <div className="col-md-6 col-12 col-lg-6 d-flex justify-content-center flex-column">
-            <h1 className='fw-bold mb-4' style={{ color: "#d6564d" }}>Portfolio</h1>
+            <h1 className='fw-bold mb-4'>Portfolio</h1>
             <p className='fs-4'>Building websites isn't just about coding - it's about creating seamless digital experiences that connect people to information and inspire them to take action.</p>
           </div>
           <div className="col-md-6 col-12 col-lg-6">
@@ -41,7 +41,7 @@ export default function Page() {
             <div className="container d-flex justify-content-center mt-50 mb-50">
               <div className="row">
                 <div className="col-md-4 mt-3">
-                  <div className="card border-white bg-primary shadow">
+                  <div className="card shadow">
                     <div className="card-body">
                       <div className="card-img-actions text-center">
                         <FontAwesomeIcon icon={faPepperHot} width={100} height={100} />
@@ -61,7 +61,7 @@ export default function Page() {
                 </div>
 
                 <div className="col-md-4 mt-3">
-                  <div className="card border-white bg-primary shadow">
+                  <div className="card shadow">
                     <div className="card-body">
                       <div className="card-img-actions text-center">
                         <FontAwesomeIcon icon={faBuilding} width={100} height={100} />
@@ -81,7 +81,7 @@ export default function Page() {
                 </div>
 
                 <div className="col-md-4 mt-3">
-                  <div className="card border-white bg-primary shadow">
+                  <div className="card shadow">
                     <div className="card-body">
                       <div className="card-img-actions text-center">
                         <FontAwesomeIcon icon={faAirbnb} width={100} height={100} />
@@ -101,7 +101,7 @@ export default function Page() {
                 </div>
 
                 <div className="col-md-4 mt-4">
-                  <div className="card border-white bg-primary shadow">
+                  <div className="card shadow">
                     <div className="card-body">
                       <div className="card-img-actions text-center">
                         <FontAwesomeIcon icon={faAmazon} width={100} height={100} />
@@ -121,7 +121,7 @@ export default function Page() {
                 </div>
 
                 <div className="col-md-4 mt-4">
-                  <div className="card border-white bg-primary shadow">
+                  <div className="card shadow">
                     <div className="card-body">
                       <div className="card-img-actions text-center">
                         <FontAwesomeIcon icon={faPaypal} width={100} height={100} />
@@ -140,7 +140,7 @@ export default function Page() {
                   </div>
                 </div>
                 <div className="col-md-4 mt-4">
-                  <div className="card border-white bg-primary  shadow">
+                  <div className="card shadow">
                     <div className="card-body">
                       <div className="card-img-actions text-center">
                         <FontAwesomeIcon icon={faFacebook} width={100} height={100} />

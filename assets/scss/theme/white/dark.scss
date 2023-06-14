@@ -3,16 +3,23 @@
     color-scheme: dark;
 
     // body variables
-    --bs-body-bg: rgb(33, 37, 41);
-    --bs-body-color: #f8f1f1; //for text color
+    --bs-body-bg: black;
+    --bs-body-color: white; //for text color
 
-    // navbar variables
-    --bs-danger-rgb: 128, 128, 128;
-    --bs-primary-rgb: 33, 37, 41;
+    // Navbar variables
+    --bs-navbar-brand-color: white;
+    --bs-nav-link-color: white;
+    // --bs-link-color:black; //if remove nav-link class this is apply
+    // --bs-navbar-color: black;
+
+    // Hero section variables
+    --bs-link-color: white;
 
     // card variables
-    --bs-white-rgb: 248, 241, 241;
+    --bs-card-bg: black;
+    --bs-card-color: white;
 
-    // experience page vaertical bar text
-    --bs-success-rgb: 248, 241, 241;
+    // button color
+    --bs-btn-bg: rgb(255, 255, 255);
+    --bs-btn-color: rgb(33,37,41);
 }

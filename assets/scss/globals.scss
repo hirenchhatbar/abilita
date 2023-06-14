@@ -2,24 +2,11 @@
 
 @import "bootstrap";
 
-@import "theme/white/light.scss";
+// @import "theme/white/light.scss";
 
-// @import "theme/white/dark.scss";
+@import "theme/white/dark.scss";
 
-li:hover{
-    color: #d6564d;
-}
 
 .card:hover{
     filter: invert(100%);
-}
-
-.btn{
-    border: 2px solid #d6564d;
-    color: #d6564d
-}
-
-.btn:hover{
-    background-color: #d6564d;
-    color: white;
 }

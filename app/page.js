@@ -86,9 +86,9 @@ export default function Home() {
         <div className="row container mx-auto">
           <div className="col-md-6 col-12 col-lg-6 d-flex justify-content-center flex-column">
             <h5 className='fw-bold fs-4 mb-0'>Hi, my name is</h5>
-            <h2 className='fw-bolder fs-1 my-3' style={{ color: "#d6564d" }}>Hiren Chhatbar</h2>
+            <h2 className='fw-bolder fs-1 my-3'>Hiren Chhatbar</h2>
             <h3 className="mb-3">I’m a <span>PHP/JavaScript</span> Technical Architect.</h3>
-            <p className="lh-4" style={{fontSize: "1rem"}}>I’m a software engineer specializing in building web apps and websites. Currently, I’m working as a PHP/JavaScript Technical Architect at <Link href="https://www.weignyte.com" target="_blank" style={{ color: "#d6564d", fontWeight: "bold" }}>Weignyte</Link>.</p>
+            <p className="lh-4" style={{fontSize: "1rem"}}>I’m a software engineer specializing in building web apps and websites. Currently, I’m working as a PHP/JavaScript Technical Architect at <Link href="https://www.weignyte.com" target="_blank" style={{ fontWeight: "bold" }}>Weignyte</Link>.</p>
           </div>
           <div className="col-md-6 col-12 col-lg-6">
             <img src="/avatar6.svg" className='img-fluid' alt="Hiren Chhatbar" />
@@ -109,7 +109,7 @@ export default function Home() {
                     <FontAwesomeIcon icon={faUser} width={40} height={40} className='fs-1' />
                   </div>
                   <div>
-                    <h3 className='fw-bold' style={{ color: "#d6564d" }}>258k+</h3>
+                    <h3 className='fw-bold'>258k+</h3>
                     <p>Happy Clients</p>
                   </div>
                 </div>
@@ -122,7 +122,7 @@ export default function Home() {
                     <FontAwesomeIcon icon={faGear} width={40} height={40} className='fs-1' />
                   </div>
                   <div>
-                    <h3 className='fw-bold' style={{ color: "#d6564d" }}>590+</h3>
+                    <h3 className='fw-bold'>590+</h3>
                     <p>Project Complete</p>
                   </div>
                 </div>
@@ -135,7 +135,7 @@ export default function Home() {
                     <FontAwesomeIcon icon={faCalendar} width={40} height={40} className='fs-1' />
                   </div>
                   <div>
-                    <h3 className='fw-bold' style={{ color: "#d6564d" }}>28+</h3>
+                    <h3 className='fw-bold'>28+</h3>
                     <p>Years of Experience</p>
                   </div>
                 </div>
@@ -150,7 +150,7 @@ export default function Home() {
             <div className="row mt-2">
               {skills.map((skill, index) => (
                 <div data-index={index} className="col-sm-4 col-md-3 col-xs-3 col-lg-2 col-xl-2 pt-4">
-                  <div className="card border-white bg-primary shadow d-flex justify-content-center flex-column align-items-center">
+                  <div className="card shadow d-flex justify-content-center flex-column align-items-center">
                     <FontAwesomeIcon icon={skill.icon} className='text-center mt-2' style={{width: "50px", height: "50px"}} />
                     <div className="card-body">
                       <h4 className="card-text fw-bold text-center">{skill.name}</h4>
