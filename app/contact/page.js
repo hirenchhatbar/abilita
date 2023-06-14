@@ -32,7 +32,7 @@ export default function Page() {
           </h2>
           <p className="fs-5 mx-lg-5 mx-xl-5">We'll create high-quality linkable content and build at least 40 high-authority links to each asset, paving the way for you to grow your rankings, improve brand.</p>
           <div>
-            <button type="button" class="btn btn-dark px-3 my-3 fs-5 fw-bold">Say Hello</button>
+            <button type="button" className="btn btn-dark px-3 my-3 fs-5 fw-bold">Say Hello</button>
           </div>
         </div>
       </section>

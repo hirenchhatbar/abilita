@@ -263,7 +263,7 @@ export default function Page() {
           <div className="col-md-6 col-12 col-lg-6">
             <h2
               className="text-center fw-bold py-5 text-decoration-underline"
-              
+
             >
               <FontAwesomeIcon
                 icon={faHeartCircleCheck}
@@ -274,26 +274,26 @@ export default function Page() {
               Hobbies
             </h2>
             <div>
-              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-dark">Primary</span>
-              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-dark">Secondary</span>
-              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-dark">Success</span>
-              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-dark">Danger</span>
-              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-dark">Warning</span>
-              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-dark">Info</span>
-              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-dark">Light</span>
-              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-dark">Dark</span>
-              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-dark">Primary</span>
-              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-dark">Secondary</span>
-              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-dark">Success</span>
-              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-dark">Danger</span>
-              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-dark">Warning</span>
-              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-dark">Info</span>
-              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-dark">Light</span>
-              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-dark">Dark</span>
-              <span class="fs-5 p-2 mx-2 badge text-bg-dark">Primary</span>
-              <span class="fs-5 p-2 mx-2 badge text-bg-dark">Secondary</span>
-              <span class="fs-5 p-2 mx-2 badge text-bg-dark">Success</span>
-              <span class="fs-5 p-2 mx-2 badge text-bg-dark">Danger</span>              
+              <span className="fs-5 p-2 mx-2 mb-3 badge text-bg-dark">Primary</span>
+              <span className="fs-5 p-2 mx-2 mb-3 badge text-bg-dark">Secondary</span>
+              <span className="fs-5 p-2 mx-2 mb-3 badge text-bg-dark">Success</span>
+              <span className="fs-5 p-2 mx-2 mb-3 badge text-bg-dark">Danger</span>
+              <span className="fs-5 p-2 mx-2 mb-3 badge text-bg-dark">Warning</span>
+              <span className="fs-5 p-2 mx-2 mb-3 badge text-bg-dark">Info</span>
+              <span className="fs-5 p-2 mx-2 mb-3 badge text-bg-dark">Light</span>
+              <span className="fs-5 p-2 mx-2 mb-3 badge text-bg-dark">Dark</span>
+              <span className="fs-5 p-2 mx-2 mb-3 badge text-bg-dark">Primary</span>
+              <span className="fs-5 p-2 mx-2 mb-3 badge text-bg-dark">Secondary</span>
+              <span className="fs-5 p-2 mx-2 mb-3 badge text-bg-dark">Success</span>
+              <span className="fs-5 p-2 mx-2 mb-3 badge text-bg-dark">Danger</span>
+              <span className="fs-5 p-2 mx-2 mb-3 badge text-bg-dark">Warning</span>
+              <span className="fs-5 p-2 mx-2 mb-3 badge text-bg-dark">Info</span>
+              <span className="fs-5 p-2 mx-2 mb-3 badge text-bg-dark">Light</span>
+              <span className="fs-5 p-2 mx-2 mb-3 badge text-bg-dark">Dark</span>
+              <span className="fs-5 p-2 mx-2 badge text-bg-dark">Primary</span>
+              <span className="fs-5 p-2 mx-2 badge text-bg-dark">Secondary</span>
+              <span className="fs-5 p-2 mx-2 badge text-bg-dark">Success</span>
+              <span className="fs-5 p-2 mx-2 badge text-bg-dark">Danger</span>
             </div>
           </div>
         </div>

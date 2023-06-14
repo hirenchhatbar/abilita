@@ -51,9 +51,9 @@ export default function Page() {
                       <h3>Red-Chilli Restaurant</h3>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel dolorum earum accusamus aspernatur vitae consequuntur facere soluta odit quis voluptate fugiat debitis recusandae pariatur est, itaque porro.</p>
                       <div>
-                        <span class="fs-5 p-1 badge bg-secondary me-3">PHP</span>
-                        <span class="fs-5 p-1 badge bg-secondary me-3">React js</span>
-                        <span class="fs-5 p-1 badge bg-secondary me-3">Node js</span>
+                        <span className="fs-5 p-1 badge bg-secondary me-3">PHP</span>
+                        <span className="fs-5 p-1 badge bg-secondary me-3">React js</span>
+                        <span className="fs-5 p-1 badge bg-secondary me-3">Node js</span>
                       </div>
                       <h5 className="mt-3"><Link href="/" className="text-reset text-decoration-underline">Visit Project<FontAwesomeIcon icon={faArrowUpRightFromSquare} width={25} height={19} className="mx-1"/></Link></h5>
                     </div>
@@ -71,9 +71,9 @@ export default function Page() {
                       <h3>Real-Estate</h3>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ducimus minus commodi iste similique ex enim iure odit, inventore sequi hic quibusdam temporibus at eligendi amet fugiat incidunt omnis quis.</p>
                       <div>
-                        <span class="fs-5 p-1 badge bg-secondary me-3">React js</span>
-                        <span class="fs-5 p-1 badge bg-secondary me-3">Javascript</span>
-                        <span class="fs-5 p-1 badge bg-secondary me-3">Laravel</span>
+                        <span className="fs-5 p-1 badge bg-secondary me-3">React js</span>
+                        <span className="fs-5 p-1 badge bg-secondary me-3">Javascript</span>
+                        <span className="fs-5 p-1 badge bg-secondary me-3">Laravel</span>
                       </div>
                       <h5 className="mt-3"><Link href="/" className="text-reset text-decoration-underline">Visit Project<FontAwesomeIcon icon={faArrowUpRightFromSquare} width={25} height={19} className="mx-1"/></Link></h5>
                     </div>
@@ -91,9 +91,9 @@ export default function Page() {
                       <h3>Airbnb</h3>
                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque voluptatibus cum repellendus quidem sed autem similique necessitatibus? Repellat repellendus consequatur, voluptatem iste esse excepturi.</p>
                       <div>
-                        <span class="fs-5 p-1 badge bg-secondary me-3">Python</span>
-                        <span class="fs-5 p-1 badge bg-secondary me-3">HTML</span>
-                        <span class="fs-5 p-1 badge bg-secondary me-3">CSS</span>
+                        <span className="fs-5 p-1 badge bg-secondary me-3">Python</span>
+                        <span className="fs-5 p-1 badge bg-secondary me-3">HTML</span>
+                        <span className="fs-5 p-1 badge bg-secondary me-3">CSS</span>
                       </div>
                       <h5 className="mt-3"><Link href="/" className="text-reset text-decoration-underline">Visit Project<FontAwesomeIcon icon={faArrowUpRightFromSquare} width={25} height={19} className="mx-1"/></Link></h5>
                     </div>
@@ -111,9 +111,9 @@ export default function Page() {
                       <h3>Amazon</h3>
                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque voluptatibus cum repellendus quidem sed autem similique necessitatibus? Repellat repellendus consequatur, voluptatem iste esse excepturi.</p>
                       <div>
-                        <span class="fs-5 p-1 badge bg-secondary me-3">Java</span>
-                        <span class="fs-5 p-1 badge bg-secondary me-3">c++</span>
-                        <span class="fs-5 p-1 badge bg-secondary me-3">Node js</span>
+                        <span className="fs-5 p-1 badge bg-secondary me-3">Java</span>
+                        <span className="fs-5 p-1 badge bg-secondary me-3">c++</span>
+                        <span className="fs-5 p-1 badge bg-secondary me-3">Node js</span>
                       </div>
                       <h5 className="mt-3"><Link href="/" className="text-reset text-decoration-underline">Visit Project<FontAwesomeIcon icon={faArrowUpRightFromSquare} width={25} height={19} className="mx-1"/></Link></h5>
                     </div>
@@ -131,9 +131,9 @@ export default function Page() {
                       <h3>Paypal</h3>
                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque voluptatibus cum repellendus quidem sed autem similique necessitatibus? Repellat repellendus consequatur, voluptatem iste esse excepturi.</p>
                       <div>
-                        <span class="fs-5 p-1 badge bg-secondary me-3">PHP</span>
-                        <span class="fs-5 p-1 badge bg-secondary me-3">Vue js</span>
-                        <span class="fs-5 p-1 badge bg-secondary me-3">SASS</span>
+                        <span className="fs-5 p-1 badge bg-secondary me-3">PHP</span>
+                        <span className="fs-5 p-1 badge bg-secondary me-3">Vue js</span>
+                        <span className="fs-5 p-1 badge bg-secondary me-3">SASS</span>
                       </div>
                       <h5 className="mt-3"><Link href="/" className="text-reset text-decoration-underline">Visit Project<FontAwesomeIcon icon={faArrowUpRightFromSquare} width={25} height={19} className="mx-1"/></Link></h5>
                     </div>
@@ -150,9 +150,9 @@ export default function Page() {
                       <h3>Facebook</h3>
                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque voluptatibus cum repellendus quidem sed autem similique necessitatibus? Repellat repellendus consequatur, voluptatem iste esse excepturi.</p>
                       <div>
-                        <span class="fs-5 p-1 badge bg-secondary me-3">Angular</span>
-                        <span class="fs-5 p-1 badge bg-secondary me-3">Tailwind</span>
-                        <span class="fs-5 p-1 badge bg-secondary me-3">Node js</span>
+                        <span className="fs-5 p-1 badge bg-secondary me-3">Angular</span>
+                        <span className="fs-5 p-1 badge bg-secondary me-3">Tailwind</span>
+                        <span className="fs-5 p-1 badge bg-secondary me-3">Node js</span>
                       </div>
                       <h5 className="mt-3"><Link href="/" className="text-reset text-decoration-underline">Visit Project<FontAwesomeIcon icon={faArrowUpRightFromSquare} width={25} height={19} className="mx-1"/></Link></h5>
                     </div>
@@ -165,6 +165,6 @@ export default function Page() {
         </div>
       </section>
     </main>
-    
+
   )
 }
