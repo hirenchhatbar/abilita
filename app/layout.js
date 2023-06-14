@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
       <body>
         <header>
           <div className="d-flex justify-content-around align-items-center">
-            <nav className='navbar navbar-expand-lg container-fluid py-2 shadow'>
+            <nav className='navbar navbar-expand-lg container-fluid py-3'>
               <div className='container-fluid px-2 px-sm-4 px-xl-5 px-md-5 px-lg-5'>
                 <Link href="/" className={`navbar-brand ${logoFont.className}`}>Hiren Chhatbar</Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
