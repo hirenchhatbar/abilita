@@ -5,24 +5,39 @@
     --bs-body-bg: white;
     --bs-body-color: black;//for text color
 
-    // Navbar variables
-    --bs-nav-link-color: black;
-    // --bs-link-color:black; //if remove nav-link class this is apply
-    // --bs-navbar-color: black;
-
-    // Hero section variables
-    --bs-link-color: black;
-
-    // card variables
-    --bs-card-bg: white;
-    --bs-card-color: black;
-
-    // Progress bar variables
-    --bs-progress-bar-bg: rgb(13, 110, 253);
-    --bs-progress-bar-color: rgb(255, 255, 255);
-
     // button color
     --bs-btn-bg: rgb(33,37,41);
     --bs-btn-color: rgb(255, 255, 255);
+    
+    .navbar {
+        --bs-navbar-color: black;
+    }
 
+    .timeline-date p{
+        color: #020710;
+    }
+
+    .progress{
+        --bs-progress-bar-bg: rgb(0, 0, 0);
+        // --bs-progress-bar-color: rgb(255, 255, 255);//if what to make bg of progress bar white
+    }
+
+    .form-check-input{
+        border: 2px solid black;
+    }
+
+    .form-check-input:checked{
+        background-color: black;
+        border-color: black;
+        box-shadow: 0 0 0 1px rgb(255, 255, 255);
+    }
+
+    .form-check-input:focus{
+        box-shadow: 0 0 0 1px rgb(255, 255, 255);
+    }
+
+    // .badge{
+    //     --bs-badge-color: rgb(255,255,255);
+    //     --bs-body-color: rgb(0,0,0);
+    // }
 }

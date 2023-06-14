@@ -6,20 +6,45 @@
     --bs-body-bg: black;
     --bs-body-color: white; //for text color
 
-    // Navbar variables
-    --bs-navbar-brand-color: white;
-    --bs-nav-link-color: white;
-    // --bs-link-color:black; //if remove nav-link class this is apply
-    // --bs-navbar-color: black;
-
-    // Hero section variables
-    --bs-link-color: white;
-
-    // card variables
-    --bs-card-bg: black;
-    --bs-card-color: white;
-
     // button color
     --bs-btn-bg: rgb(255, 255, 255);
     --bs-btn-color: rgb(33,37,41);
+
+    .navbar {
+        --bs-navbar-color: white;
+        --bs-navbar-brand-color: white;
+    }
+
+    .card{
+        --bs-card-bg: black;
+        --bs-card-color: white;
+        --bs-border-color-translucent: white;
+    }
+
+    .timeline-date p{
+        color: white;
+    }
+
+    .progress{
+        --bs-progress-bar-bg: rgb(255, 255, 255);
+        // --bs-progress-bar-color: rgb(255, 255, 255);
+    }
+
+    .form-check-input{
+        border: 2px solid white;
+    }
+
+    .form-check-input:checked{
+        background-color: black;
+        border-color: white;
+        box-shadow: 0 0 0 1px rgb(0, 0, 0);
+    }
+
+    .form-check-input:focus{
+        box-shadow: 0 0 0 1px rgb(0, 0, 0);
+    }
+    // .badge{
+    //     --bs-badge-color: rgb(255,255,255);
+    //     --bs-body-color: rgb(0,0,0);
+    // }
 }

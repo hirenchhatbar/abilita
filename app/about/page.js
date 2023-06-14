@@ -273,27 +273,27 @@ export default function Page() {
               />
               Hobbies
             </h2>
-            <div className="">
-              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-primary">Primary</span>
-              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-secondary">Secondary</span>
-              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-success">Success</span>
-              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-danger">Danger</span>
-              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-warning">Warning</span>
-              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-info">Info</span>
-              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-light">Light</span>
+            <div>
+              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-dark">Primary</span>
+              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-dark">Secondary</span>
+              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-dark">Success</span>
+              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-dark">Danger</span>
+              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-dark">Warning</span>
+              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-dark">Info</span>
+              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-dark">Light</span>
               <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-dark">Dark</span>
-              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-primary">Primary</span>
-              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-secondary">Secondary</span>
-              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-success">Success</span>
-              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-danger">Danger</span>
-              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-warning">Warning</span>
-              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-info">Info</span>
-              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-light">Light</span>
+              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-dark">Primary</span>
+              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-dark">Secondary</span>
+              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-dark">Success</span>
+              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-dark">Danger</span>
+              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-dark">Warning</span>
+              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-dark">Info</span>
+              <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-dark">Light</span>
               <span class="fs-5 p-2 mx-2 mb-3 badge text-bg-dark">Dark</span>
-              <span class="fs-5 p-2 mx-2 badge text-bg-primary">Primary</span>
-              <span class="fs-5 p-2 mx-2 badge text-bg-secondary">Secondary</span>
-              <span class="fs-5 p-2 mx-2 badge text-bg-success">Success</span>
-              <span class="fs-5 p-2 mx-2 badge text-bg-danger">Danger</span>              
+              <span class="fs-5 p-2 mx-2 badge text-bg-dark">Primary</span>
+              <span class="fs-5 p-2 mx-2 badge text-bg-dark">Secondary</span>
+              <span class="fs-5 p-2 mx-2 badge text-bg-dark">Success</span>
+              <span class="fs-5 p-2 mx-2 badge text-bg-dark">Danger</span>              
             </div>
           </div>
         </div>
