@@ -1,5 +1,5 @@
-// 'use client';
 import '../assets/scss/globals.scss';
+import '../components/Theme';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faPhone, faLocationDot } from '@fortawesome/free-solid-svg-icons';
@@ -142,13 +142,18 @@ export default function RootLayout({ children }) {
             </div>
           </div>
 
-          <div className='p-3 border-top text-center'>
+          <div className='p-3 border-top'>
+            <div>
             <p>Copyright © 2023
               <Link className={`mx-1 ${logoFont.className}`} href='/'>
                 Hiren Chhatbar
               </Link>
               All rights reserved.
             </p>
+            </div>
+            <div>
+              <Theme />
+            </div>
           </div>
         </footer>
       </body>

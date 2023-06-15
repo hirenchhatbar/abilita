@@ -37,14 +37,14 @@ export default function Page() {
                       </div>
                     </div>
                     <div className="card-body">
-                      <h3>Red-Chilli Restaurant</h3>
+                      <h3>Red-Chilli</h3>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel dolorum earum accusamus aspernatur vitae consequuntur facere soluta odit quis voluptate fugiat debitis recusandae pariatur est, itaque porro.</p>
                       <div>
                         <span className="p-1 badge bg-secondary me-3">PHP</span>
                         <span className="p-1 badge bg-secondary me-3">React js</span>
                         <span className="p-1 badge bg-secondary me-3">Node js</span>
                       </div>
-                      <h5 className="mt-3"><Link href="/">Visit Project<FontAwesomeIcon icon={faArrowUpRightFromSquare} width={25} height={19} className="mx-1"/></Link></h5>
+                      <Link href="/">Visit Project<FontAwesomeIcon icon={faArrowUpRightFromSquare} width={25} height={19} className="mx-1"/></Link>
                     </div>
                   </div>
                 </div>
@@ -58,13 +58,13 @@ export default function Page() {
                     </div>
                     <div className="card-body">
                       <h3>Real-Estate</h3>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ducimus minus commodi iste similique ex enim iure odit, inventore sequi hic quibusdam temporibus at eligendi amet fugiat incidunt omnis quis.</p>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel dolorum earum accusamus aspernatur vitae consequuntur facere soluta odit quis voluptate fugiat debitis recusandae pariatur est, itaque porro.</p>
                       <div>
                         <span className="p-1 badge bg-secondary me-3">React js</span>
                         <span className="p-1 badge bg-secondary me-3">Javascript</span>
                         <span className="p-1 badge bg-secondary me-3">Laravel</span>
                       </div>
-                      <h5 className="mt-3"><Link href="/">Visit Project<FontAwesomeIcon icon={faArrowUpRightFromSquare} width={25} height={19} className="mx-1"/></Link></h5>
+                      <Link href="/">Visit Project<FontAwesomeIcon icon={faArrowUpRightFromSquare} width={25} height={19} className="mx-1"/></Link>
                     </div>
                   </div>
                 </div>
@@ -78,13 +78,13 @@ export default function Page() {
                     </div>
                     <div className="card-body">
                       <h3>Airbnb</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque voluptatibus cum repellendus quidem sed autem similique necessitatibus? Repellat repellendus consequatur, voluptatem iste esse excepturi.</p>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel dolorum earum accusamus aspernatur vitae consequuntur facere soluta odit quis voluptate fugiat debitis recusandae pariatur est, itaque porro.</p>
                       <div>
                         <span className="p-1 badge bg-secondary me-3">Python</span>
                         <span className="p-1 badge bg-secondary me-3">HTML</span>
                         <span className="p-1 badge bg-secondary me-3">CSS</span>
                       </div>
-                      <h5 className="mt-3"><Link href="/">Visit Project<FontAwesomeIcon icon={faArrowUpRightFromSquare} width={25} height={19} className="mx-1"/></Link></h5>
+                      <Link href="/">Visit Project<FontAwesomeIcon icon={faArrowUpRightFromSquare} width={25} height={19} className="mx-1"/></Link>
                     </div>
                   </div>
                 </div>
@@ -104,7 +104,7 @@ export default function Page() {
                         <span className="p-1 badge bg-secondary me-3">c++</span>
                         <span className="p-1 badge bg-secondary me-3">Node js</span>
                       </div>
-                      <h5 className="mt-3"><Link href="/">Visit Project<FontAwesomeIcon icon={faArrowUpRightFromSquare} width={25} height={19} className="mx-1"/></Link></h5>
+                      <Link href="/">Visit Project<FontAwesomeIcon icon={faArrowUpRightFromSquare} width={25} height={19} className="mx-1"/></Link>
                     </div>
                   </div>
                 </div>
@@ -124,7 +124,7 @@ export default function Page() {
                         <span className="p-1 badge bg-secondary me-3">Vue js</span>
                         <span className="p-1 badge bg-secondary me-3">SASS</span>
                       </div>
-                      <h5 className="mt-3"><Link href="/">Visit Project<FontAwesomeIcon icon={faArrowUpRightFromSquare} width={25} height={19} className="mx-1"/></Link></h5>
+                      <Link href="/">Visit Project<FontAwesomeIcon icon={faArrowUpRightFromSquare} width={25} height={19} className="mx-1"/></Link>
                     </div>
                   </div>
                 </div>
@@ -143,7 +143,7 @@ export default function Page() {
                         <span className="p-1 badge bg-secondary me-3">Tailwind</span>
                         <span className="p-1 badge bg-secondary me-3">Node js</span>
                       </div>
-                      <h5 className="mt-3"><Link href="/">Visit Project<FontAwesomeIcon icon={faArrowUpRightFromSquare} width={25} height={19} className="mx-1"/></Link></h5>
+                      <Link href="/">Visit Project<FontAwesomeIcon icon={faArrowUpRightFromSquare} width={25} height={19} className="mx-1"/></Link>
                     </div>
                   </div>
                 </div>

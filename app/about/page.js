@@ -6,6 +6,7 @@ import {
   faUserGraduate,
   faBook,
   faTrophy,
+  faUser,
 } from "@fortawesome/free-solid-svg-icons";
 import { faApple, faGoogle, faPaypal } from "@fortawesome/free-brands-svg-icons";
 
@@ -194,7 +195,7 @@ export default function Page() {
         <div className="row container mx-auto">
           <div className="col-md-6 col-12 col-lg-6 d-flex justify-content-center flex-column">
             <h2
-              className="py-5"
+              className="py-4"
             >
               <FontAwesomeIcon
                 icon={faCode}
@@ -204,10 +205,10 @@ export default function Page() {
               />
               Languages
             </h2>
-            <h4 className="mb-3">English</h4>
+            <p className="mb-2">English</p>
             <div
               className="progress mb-4 rounded-pill"
-              style={{ width: "90%", height: "13px" }}
+              style={{ width: "50%", height: "30%" }}
             >
               <div
                 className="progress-bar"
@@ -218,10 +219,10 @@ export default function Page() {
                 aria-valuemax="100"
               ></div>
             </div>
-            <h4 className="mb-3">Hindi</h4>
+            <p className="mb-2">Hindi</p>
             <div
               className="progress mb-4 rounded-pill"
-              style={{ width: "90%", height: "13px" }}
+              style={{ width: "50%", height: "30%" }}
             >
               <div
                 className="progress-bar"
@@ -232,10 +233,10 @@ export default function Page() {
                 aria-valuemax="100"
               ></div>
             </div>
-            <h4 className="mb-3">Gujarati</h4>
+            <p className="mb-2">Gujarati</p>
             <div
               className="progress mb-4 rounded-pill"
-              style={{ width: "90%", height: "13px" }}
+              style={{ width: "50%", height: "30%" }}
             >
               <div
                 className="progress-bar"
@@ -247,9 +248,9 @@ export default function Page() {
               ></div>
             </div>
           </div>
-          <div className="col-md-6 col-12 col-lg-6">
+          <div className="col-md-5 col-12 col-lg-5">
             <h2
-              className="py-5"
+              className="py-4"
             >
               <FontAwesomeIcon
                 icon={faHeartCircleCheck}
@@ -287,7 +288,7 @@ export default function Page() {
       <section className="container-fluid">
         <div className="container d-flex justify-content-center flex-column">
           <h2
-            className="py-5"
+            className="py-3"
           >
             <FontAwesomeIcon
               icon={faUserCheck}
@@ -301,17 +302,13 @@ export default function Page() {
             <div className="col-md-4">
               <div className="p-3 px-4">
                 <div>
-                  <h6 className="lh-base">
+                  <p className="lh-base">
                     "Far far away, behind the word mountains, far from the
                     countries Vokalia and Consonantia."
-                  </h6>
+                  </p>
                 </div>
                 <div className="mt-4 text-center">
-                  <img
-                    src="https://i.imgur.com/PKHvlRS.jpg"
-                    className="rounded-circle"
-                    width={80}
-                  />
+                  <FontAwesomeIcon icon={faUser} width={40} height={40} />
                   <h5 className="mb-0">
                     Person Name
                   </h5>
@@ -322,19 +319,14 @@ export default function Page() {
             <div className="col-md-4">
               <div className="p-3 px-4">
                 <div>
-                  <h6 className="lh-base">
+                  <p className="lh-base">
                     "Separated they live in right at the coast of
                     the Semantics, a large language ocean."
-                  </h6>
+                  </p>
                 </div>
                 <div className="mt-4 text-center">
-                  <img
-                    src="https://i.imgur.com/w2CKRB9.jpg"
-                    className="rounded-circle"
-                    width={80}
-                  />
+                  <FontAwesomeIcon icon={faUser} width={40} height={40} />
                   <h5 className="mb-0">
-                    {" "}
                     Person Name
                   </h5>
                   <span>Co-founder, Company</span>
@@ -344,17 +336,13 @@ export default function Page() {
             <div className="col-md-4">
               <div className="p-3 px-4">
                 <div>
-                  <h6 className="lh-base">
+                  <p className="lh-base">
                     "A small river named Duden flows by their place and supplies
                     it with the necessary regelialia."
-                  </h6>
+                  </p>
                 </div>
                 <div className="mt-4 text-center">
-                  <img
-                    src="https://i.imgur.com/ACeArwY.jpg"
-                    className="rounded-circle"
-                    width={80}
-                  />
+                  <FontAwesomeIcon icon={faUser} width={40} height={40} />
                   <h5 className="mb-0">
                     Person Name
                   </h5>
