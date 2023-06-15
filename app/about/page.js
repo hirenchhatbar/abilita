@@ -286,9 +286,9 @@ export default function Page() {
         </div>
       </section>
       <section className="container-fluid">
-        <div className="container d-flex justify-content-center flex-column">
+        <div className="mt-3 container d-flex justify-content-center flex-column">
           <h2
-            className="py-3"
+            className="py-4"
           >
             <FontAwesomeIcon
               icon={faUserCheck}

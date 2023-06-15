@@ -1,9 +1,9 @@
 'use client';
+
 import Link from "next/link";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
-import { } from "@fortawesome/free-brands-svg-icons";
-import "../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js";
 
 export default function Theme() {
     const setDarkMode = () => {

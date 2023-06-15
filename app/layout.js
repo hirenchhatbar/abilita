@@ -1,4 +1,5 @@
 import "../assets/scss/globals.scss";
+
 import Theme from "../components/Theme";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -107,12 +108,12 @@ export default function RootLayout({ children }) {
 
               <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                 <h5 className="text-uppercase mb-3">Contact</h5>
-                <Link href="+01 234 567 88"><p>
-                  <FontAwesomeIcon icon={faPhone} width={25} height={25} className="me-3" />+01 234 567 88</p>
-                </Link>
                 <Link href="mailto:info@example.com"><p>
                   <FontAwesomeIcon icon={faEnvelope} width={25} height={25} className="me-3" />
                   info@example.com</p>
+                </Link>
+                <Link href="+01 234 567 88"><p>
+                  <FontAwesomeIcon icon={faPhone} width={25} height={25} className="me-3" />+01 234 567 88</p>
                 </Link>
                 <p>
                   <FontAwesomeIcon icon={faLocationDot} width={25} height={25} className="me-3" />
@@ -155,7 +156,7 @@ export default function RootLayout({ children }) {
           </div>
         </footer>
       </body>
-      {/* <Script src="/bootstrap.bundle.min.js" /> */}
+      <Script src="/bootstrap.bundle.min.js" />
     </html>
   )
 }

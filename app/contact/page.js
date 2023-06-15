@@ -27,10 +27,6 @@ export default function Page() {
         <div className="row container mx-auto ">
           <div className="col-md-6 col-12 col-lg-6 d-flex justify-content-center flex-column">
             <div>
-              <Link href="/"><p>
-                <FontAwesomeIcon icon={faLocationDot} width={25} height={25} className="me-3" />
-                New York, NY 10012, US
-              </p></Link>
               <Link href="mailto:info@example.com"><p>
                 <FontAwesomeIcon icon={faEnvelope} width={25} height={25} className="me-3" />
                 info@example.com</p>
@@ -38,6 +34,10 @@ export default function Page() {
               <Link href="+01 234 567 88"><p>
                 <FontAwesomeIcon icon={faPhone} width={25} height={25} className="me-3" />+01 234 567 88</p>
               </Link>
+              <Link href="/"><p>
+                <FontAwesomeIcon icon={faLocationDot} width={25} height={25} className="me-3" />
+                New York, NY 10012, US
+              </p></Link>
             </div>
             <div className="mt-2">
               <span className="me-2"><Link href="/"><FontAwesomeIcon icon={faGithubSquare} width={35} height={35} /></Link></span>
