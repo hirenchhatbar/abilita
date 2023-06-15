@@ -39,7 +39,7 @@ export default function Page() {
                     <div className="card-body">
                       <h3>Red-Chilli</h3>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel dolorum earum accusamus aspernatur vitae consequuntur facere soluta odit quis voluptate fugiat debitis recusandae pariatur est, itaque porro.</p>
-                      <div>
+                      <div className="mb-2">
                         <span className="p-1 badge bg-secondary me-3">PHP</span>
                         <span className="p-1 badge bg-secondary me-3">React js</span>
                         <span className="p-1 badge bg-secondary me-3">Node js</span>
@@ -59,7 +59,7 @@ export default function Page() {
                     <div className="card-body">
                       <h3>Real-Estate</h3>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel dolorum earum accusamus aspernatur vitae consequuntur facere soluta odit quis voluptate fugiat debitis recusandae pariatur est, itaque porro.</p>
-                      <div>
+                      <div className="mb-2">
                         <span className="p-1 badge bg-secondary me-3">React js</span>
                         <span className="p-1 badge bg-secondary me-3">Javascript</span>
                         <span className="p-1 badge bg-secondary me-3">Laravel</span>
@@ -79,7 +79,7 @@ export default function Page() {
                     <div className="card-body">
                       <h3>Airbnb</h3>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel dolorum earum accusamus aspernatur vitae consequuntur facere soluta odit quis voluptate fugiat debitis recusandae pariatur est, itaque porro.</p>
-                      <div>
+                      <div className="mb-2">
                         <span className="p-1 badge bg-secondary me-3">Python</span>
                         <span className="p-1 badge bg-secondary me-3">HTML</span>
                         <span className="p-1 badge bg-secondary me-3">CSS</span>
@@ -99,7 +99,7 @@ export default function Page() {
                     <div className="card-body">
                       <h3>Amazon</h3>
                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque voluptatibus cum repellendus quidem sed autem similique necessitatibus? Repellat repellendus consequatur, voluptatem iste esse excepturi.</p>
-                      <div>
+                      <div className="mb-2">
                         <span className="p-1 badge bg-secondary me-3">Java</span>
                         <span className="p-1 badge bg-secondary me-3">c++</span>
                         <span className="p-1 badge bg-secondary me-3">Node js</span>
@@ -119,7 +119,7 @@ export default function Page() {
                     <div className="card-body">
                       <h3>Paypal</h3>
                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque voluptatibus cum repellendus quidem sed autem similique necessitatibus? Repellat repellendus consequatur, voluptatem iste esse excepturi.</p>
-                      <div>
+                      <div className="mb-2">
                         <span className="p-1 badge bg-secondary me-3">PHP</span>
                         <span className="p-1 badge bg-secondary me-3">Vue js</span>
                         <span className="p-1 badge bg-secondary me-3">SASS</span>
@@ -138,7 +138,7 @@ export default function Page() {
                     <div className="card-body">
                       <h3>Facebook</h3>
                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque voluptatibus cum repellendus quidem sed autem similique necessitatibus? Repellat repellendus consequatur, voluptatem iste esse excepturi.</p>
-                      <div>
+                      <div className="mb-2">
                         <span className="p-1 badge bg-secondary me-3">Angular</span>
                         <span className="p-1 badge bg-secondary me-3">Tailwind</span>
                         <span className="p-1 badge bg-secondary me-3">Node js</span>
