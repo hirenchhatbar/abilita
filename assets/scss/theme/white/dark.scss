@@ -1,14 +1,9 @@
 [data-bs-theme=dark] {
     color-scheme: dark;
-
-    // body variables
     --bs-body-bg: black;
-    --bs-body-color: white; //for text color
-
-    // button color
+    --bs-body-color: white; 
     --bs-btn-bg: rgb(255, 255, 255);
     --bs-btn-color: rgb(33,37,41);
-
     --bs-link-color: white;
     --bs-link-hover-color: white;
 
@@ -30,7 +25,6 @@
 
     .progress{
         --bs-progress-bar-bg: rgb(255, 255, 255);
-        // --bs-progress-bar-color: rgb(255, 255, 255);
     }
 
     .form-check-input{
@@ -46,8 +40,9 @@
     .form-check-input:focus{
         box-shadow: 0 0 0 1px rgb(0, 0, 0);
     }
-    // .badge{
-    //     --bs-badge-color: rgb(255,255,255);
-    //     --bs-body-color: rgb(0,0,0);
-    // }
+    
+    button{
+        border: none;
+        background-color: black;
+    }
 }

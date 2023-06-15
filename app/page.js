@@ -1,81 +1,81 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCalendar, faGear, faLaptopCode, faUser,  } from '@fortawesome/free-solid-svg-icons';
-import { faBootstrap, faReact, faSass, faNode, faHtml5, faCss3, faPython, faWordpress, faJava, faNodeJs, faAndroid, faWolfPackBattalion, faPhp, faAws, faGithub, faDigitalOcean, faJsSquare, faGithubSquare, faGitAlt, faKorvue } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCalendar, faGear, faLaptopCode, faUser,  } from "@fortawesome/free-solid-svg-icons";
+import { faBootstrap, faReact, faSass, faNode, faHtml5, faCss3, faPython, faWordpress, faJava, faNodeJs, faAndroid, faWolfPackBattalion, faPhp, faAws, faGithub, faDigitalOcean, faJsSquare, faGithubSquare, faGitAlt, faKorvue } from "@fortawesome/free-brands-svg-icons";
 
-import Link from 'next/link';
+import Link from "next/link";
 
 const skills = [
   {
-    'icon': faReact,
-    'name': 'ReactJS'
+    "icon": faReact,
+    "name": "ReactJS"
   },
   {
-    'icon': faBootstrap,
-    'name': 'Bootstrap'
+    "icon": faBootstrap,
+    "name": "Bootstrap"
   },
   {
-    'icon': faSass,
-    'name': 'Sass'
+    "icon": faSass,
+    "name": "Sass"
   },
   {
-    'icon': faNode,
-    'name': 'NodeJS'
+    "icon": faNode,
+    "name": "NodeJS"
   },
   {
-    'icon': faHtml5,
-    'name': 'HTML5'
+    "icon": faHtml5,
+    "name": "HTML5"
   },
   {
-    'icon': faCss3,
-    'name': 'CSS3'
+    "icon": faCss3,
+    "name": "CSS3"
   },
   {
-    'icon': faPython,
-    'name': 'Python'
+    "icon": faPython,
+    "name": "Python"
   },
   {
-    'icon': faWordpress,
-    'name': 'Wordpress'
+    "icon": faWordpress,
+    "name": "Wordpress"
   },
   {
-    'icon': faJava,
-    'name': 'Java'
+    "icon": faJava,
+    "name": "Java"
   },
   {
-    'icon': faJsSquare,
-    'name': 'JavaScript'
+    "icon": faJsSquare,
+    "name": "JavaScript"
   },
   {
-    'icon': faNodeJs,
-    'name': 'ExpressJs'
+    "icon": faNodeJs,
+    "name": "ExpressJs"
   },
   {
-    'icon': faAndroid,
-    'name': 'Android'
+    "icon": faAndroid,
+    "name": "Android"
   },
   {
-    'icon': faPhp,
-    'name': 'PHP'
+    "icon": faPhp,
+    "name": "PHP"
   },
   {
-    'icon': faAws,
-    'name': 'AWS'
+    "icon": faAws,
+    "name": "AWS"
   },
   {
-    'icon': faGithub,
-    'name': 'GitHub'
+    "icon": faGithub,
+    "name": "GitHub"
   },
   {
-    'icon': faDigitalOcean,
-    'name': 'DigitalOcean'
+    "icon": faDigitalOcean,
+    "name": "DigitalOcean"
   },
   {
-    'icon': faGitAlt,
-    'name': 'GitVCS'
+    "icon": faGitAlt,
+    "name": "GitVCS"
   },
   {
-    'icon': faKorvue,
-    'name': 'Kotlin'
+    "icon": faKorvue,
+    "name": "Kotlin"
   },
 ];
 
@@ -85,13 +85,13 @@ export default function Home() {
       <div className="container-fluid px-lg-0 px-xl-0 my-5">
         <div className="row container mx-auto">
           <div className="col-md-6 col-12 col-lg-6 d-flex justify-content-center flex-column">
-            <h5 className='mb-0'>Hi, my name is</h5>
-            <h1 className='my-3'>Hiren Chhatbar</h1>
+            <h5 className="mb-0">Hi, my name is</h5>
+            <h1 className="my-3">Hiren Chhatbar</h1>
             <h2 className="mb-3">I’m a <span>PHP/JavaScript</span> Technical Architect.</h2>
             <p className="lh-4" style={{fontSize: "1rem"}}>I’m a software engineer specializing in building web apps and websites. Currently, I’m working as a PHP/JavaScript Technical Architect at <Link href="https://www.weignyte.com" target="_blank" style={{ fontWeight: "bold" }}>Weignyte</Link>.</p>
           </div>
           <div className="col-md-6 col-12 col-lg-6">
-            <img src="/avatar6.svg" className='img-fluid' alt="Hiren Chhatbar" />
+            <img src="/avatar6.svg" className="img-fluid" alt="Hiren Chhatbar" />
           </div>
         </div>
 
@@ -104,7 +104,7 @@ export default function Home() {
             <div className="col-lg-3 me-4">
               <div className="shadow-sm rounded">
                 <div className="mt-2 d-flex justify-content-around align-items-center">
-                  <div className='mb-2'>
+                  <div className="mb-2">
                     <FontAwesomeIcon icon={faUser} width={40} height={40} />
                   </div>
                   <div>
@@ -117,7 +117,7 @@ export default function Home() {
             <div className="col-lg-3 me-4">
               <div className="shadow-sm rounded">
                 <div className="mt-2 d-flex justify-content-around align-items-center">
-                  <div className='mb-2'>
+                  <div className="mb-2">
                     <FontAwesomeIcon icon={faGear} width={40} height={40} />
                   </div>
                   <div>
@@ -130,7 +130,7 @@ export default function Home() {
             <div className="col-lg-3 me-4">
               <div className="shadow-sm rounded">
                 <div className="mt-2 d-flex justify-content-around align-items-center">
-                  <div className='mb-2'>
+                  <div className="mb-2">
                     <FontAwesomeIcon icon={faCalendar} width={40} height={40} />
                   </div>
                   <div>
@@ -144,13 +144,13 @@ export default function Home() {
         </div>
 
         <div className="container">
-          <h2 className='pt-4 mb-4 text-center'><FontAwesomeIcon icon={faLaptopCode} width={40} height={40} className='me-2' />Skills</h2>
+          <h2 className="pt-4 mb-4 text-center"><FontAwesomeIcon icon={faLaptopCode} width={40} height={40} className="me-2" />Skills</h2>
           <div className="container">
             <div className="row mt-2">
               {skills.map((skill, index) => (
                 <div data-index={index} className="col-sm-4 col-md-3 col-xs-3 col-lg-2 col-xl-2 pt-4">
                   <div className="card shadow d-flex justify-content-center flex-column align-items-center">
-                    <FontAwesomeIcon icon={skill.icon} className='mt-2' style={{width: "50px", height: "50px"}} />
+                    <FontAwesomeIcon icon={skill.icon} className="mt-2" style={{width: "50px", height: "50px"}} />
                     <div className="card-body">
                       <h4 className="card-text">{skill.name}</h4>
                     </div>

@@ -208,7 +208,7 @@ export default function Page() {
             <p className="mb-2">English</p>
             <div
               className="progress mb-4 rounded-pill"
-              style={{ width: "50%", height: "30%" }}
+              style={{ width: "50%", height: "10px" }}
             >
               <div
                 className="progress-bar"
@@ -222,7 +222,7 @@ export default function Page() {
             <p className="mb-2">Hindi</p>
             <div
               className="progress mb-4 rounded-pill"
-              style={{ width: "50%", height: "30%" }}
+              style={{ width: "50%", height: "10px" }}
             >
               <div
                 className="progress-bar"
@@ -236,7 +236,7 @@ export default function Page() {
             <p className="mb-2">Gujarati</p>
             <div
               className="progress mb-4 rounded-pill"
-              style={{ width: "50%", height: "30%" }}
+              style={{ width: "50%", height: "10px" }}
             >
               <div
                 className="progress-bar"

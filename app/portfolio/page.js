@@ -7,7 +7,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { faAirbnb, faAmazon, faFacebook, faPaypal } from "@fortawesome/free-brands-svg-icons";
 
-import Link from 'next/link';
+import Link from "next/link";
 
 export default function Page() {
   return (
@@ -15,11 +15,11 @@ export default function Page() {
       <section className="container-fluid px-lg-0 px-xl-0 mt-5 mb-3">
         <div className="row container mx-auto">
           <div className="col-md-6 col-12 col-lg-6 d-flex justify-content-center flex-column">
-            <h1 className='mb-4'>Portfolio</h1>
+            <h1 className="mb-4">Portfolio</h1>
             <p>Building websites isn't just about coding - it's about creating seamless digital experiences that connect people to information and inspire them to take action.</p>
           </div>
           <div className="col-md-6 col-12 col-lg-6">
-            <img src="/portfolio2.svg" className='img-fluid mx-lg-5' alt="Hiren Chhatbar" style={{ width: "350px", height: "350px" }} />
+            <img src="/portfolio2.svg" className="img-fluid mx-lg-5" alt="Hiren Chhatbar" style={{ width: "350px", height: "350px" }} />
           </div>
         </div>
       </section>

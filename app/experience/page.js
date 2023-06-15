@@ -1,7 +1,7 @@
-import '../../assets/scss/timeline.scss';
+import "../../assets/scss/timeline.scss";
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAddressBook, faAddressCard, faArchive, faBriefcase, faDesktop, faIdCard, faImage, faUser, faUsersGear } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAddressBook, faAddressCard, faArchive, faBriefcase, faDesktop, faIdCard, faImage, faUser, faUsersGear } from "@fortawesome/free-solid-svg-icons";
 
 export default function Page() {
     return (
@@ -9,11 +9,11 @@ export default function Page() {
             <section className="container-fluid px-lg-0 px-xl-0 my-5">
                 <div className="row container mx-auto">
                     <div className="col-md-6 col-12 col-lg-6 d-flex justify-content-center flex-column">
-                        <h1 className='mb-4'>Experience</h1>
-                        <p className='mb-0'>Turning complex problems into elegant solutions, one line of code at a time</p>
+                        <h1 className="mb-4">Experience</h1>
+                        <p className="mb-0">Turning complex problems into elegant solutions, one line of code at a time</p>
                     </div>
                     <div className="col-md-6 col-12 col-lg-6">
-                        <img src="/experience4.svg" className='img-fluid mx-lg-5' alt="Hiren Chhatbar" style={{width: "350px", height: "350px"}}/>
+                        <img src="/experience4.svg" className="img-fluid mx-lg-5" alt="Hiren Chhatbar" style={{width: "350px", height: "350px"}}/>
                     </div>
                 </div>
             </section>

@@ -6,7 +6,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { faFacebook, faGithubSquare, faGoogle, faInstagram, faLinkedin, faTwitter, faYoutube } from "@fortawesome/free-brands-svg-icons";
 
-import Link from 'next/link';
+import Link from "next/link";
 
 export default function Page() {
   return (
@@ -14,11 +14,11 @@ export default function Page() {
       <section className="container-fluid px-lg-0 px-xl-0 my-5">
         <div className="row container mx-auto">
           <div className="col-md-6 col-12 col-lg-6 d-flex justify-content-center flex-column">
-            <h1 className='mb-4'>Contact</h1>
+            <h1 className="mb-4">Contact</h1>
             <p>Code is my language, and I speak it fluently. Let's have a conversation about your project.</p>
           </div>
           <div className="col-md-6 col-12 col-lg-6">
-            <img src="/contact6.svg" className='img-fluid mx-lg-5' alt="Hiren Chhatbar" style={{ width: "350px", height: "350px" }} />
+            <img src="/contact6.svg" className="img-fluid mx-lg-5" alt="Hiren Chhatbar" style={{ width: "350px", height: "350px" }} />
           </div>
         </div>
       </section>
@@ -47,13 +47,6 @@ export default function Page() {
               <span className="me-2"><Link href="/"><FontAwesomeIcon icon={faGoogle} width={30} height={31} /></Link></span>
               <span className="me-2"><Link href="/"><FontAwesomeIcon icon={faFacebook} width={35} height={33} /></Link></span>
               <span className="me-2"><Link href="/"><FontAwesomeIcon icon={faInstagram} width={35} height={35} /></Link></span>
-            </div>
-          </div>
-          <div className="col-md-6 col-12 col-lg-6">
-
-            <div className="mx-xl-5 mx-lg-5 px-lg-4 px-xl-5">
-
-
             </div>
           </div>
         </div>
