@@ -9,7 +9,7 @@ export default function Theme() {
     const [theme, setTheme] = useState('light');
 
     const switchTheme = () => {
-        let theme = 'light' === document.querySelector("body").getAttribute("data-bs-theme") ? "dark" : "light";
+        let theme = "light" === document.querySelector("body").getAttribute("data-bs-theme") ? "dark" : "light";
 
         document.querySelector("body").setAttribute("data-bs-theme", theme);
 
