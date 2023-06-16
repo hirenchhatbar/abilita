@@ -1,4 +1,5 @@
 import "../assets/scss/globals.scss";
+
 import Theme from "../components/Theme";
 import GoTop from "../components/GoTop";
 
@@ -159,7 +160,7 @@ export default function RootLayout({ children }) {
         </footer>
         
       </body>
-      {/* <Script src="/bootstrap.bundle.min.js" /> */}
+      <Script src="/bootstrap.bundle.min.js" />
     </html>
   )
 }
