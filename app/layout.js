@@ -1,6 +1,7 @@
 import "../assets/scss/globals.scss";
 
 import Theme from "../components/Theme";
+import GoTop from "../components/GoTop";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faPhone, faLocationDot } from "@fortawesome/free-solid-svg-icons";
@@ -67,6 +68,8 @@ export default function RootLayout({ children }) {
 
         {children}
 
+        <GoTop />
+
         <footer className="text-lg-start pt-5 pb-4" >
           <div className="container text-md-start">
             <div className="row text-start text-md-left">
@@ -108,13 +111,13 @@ export default function RootLayout({ children }) {
 
               <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                 <h5 className="text-uppercase mb-3">Contact</h5>
-                <Link href="mailto:info@example.com"><p>
+                <p><Link href="+01 234 567 88">
+                  <FontAwesomeIcon icon={faPhone} width={25} height={25} className="me-3" />+01 234 567 88
+                </Link></p>
+                <p><Link href="mailto:info@example.com">
                   <FontAwesomeIcon icon={faEnvelope} width={25} height={25} className="me-3" />
-                  info@example.com</p>
-                </Link>
-                <Link href="+01 234 567 88"><p>
-                  <FontAwesomeIcon icon={faPhone} width={25} height={25} className="me-3" />+01 234 567 88</p>
-                </Link>
+                  info@example.com
+                </Link></p>
                 <p>
                   <FontAwesomeIcon icon={faLocationDot} width={25} height={25} className="me-3" />
                   New York, NY 10012, US
@@ -142,7 +145,7 @@ export default function RootLayout({ children }) {
               </div>
             </div>
           </div>
-
+          
           <div className="p-3 border-top">
             <div className="d-flex align-items-start">
             <p className="mx-auto">Copyright © 2023
@@ -155,6 +158,7 @@ export default function RootLayout({ children }) {
             </div>
           </div>
         </footer>
+        
       </body>
       <Script src="/bootstrap.bundle.min.js" />
     </html>

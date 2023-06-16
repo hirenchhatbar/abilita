@@ -23,6 +23,9 @@
         color: white;
     }
 
+    .single-timeline-area .timeline-date::before {
+        background-color: white;;
+    }
     .progress{
         --bs-progress-bar-bg: rgb(255, 255, 255);
     }

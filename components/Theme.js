@@ -1,28 +1,29 @@
 'use client';
 
-import Link from "next/link";
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
 
-export default function Theme() {
-    const setDarkMode = () => {
-        document.querySelector("body").setAttribute("data-bs-theme","dark");
-    };
+import { useState } from "react";
 
-    const setLightMode = () => {
-        document.querySelector("body").setAttribute("data-bs-theme","light");
-    };
+export default function Theme() {
+    const [theme, setTheme] = useState('light');
+
+    const switchTheme = () => {
+        let theme = 'light' === document.querySelector("body").getAttribute("data-bs-theme") ? "dark" : "light";
+
+        document.querySelector("body").setAttribute("data-bs-theme", theme);
+
+        setTheme(theme);
+    }
 
     return (
         <div className="btn-group dropup">
-            <button data-bs-toggle="dropdown" aria-expanded="false">
-                <FontAwesomeIcon icon={faSun} width={25} height={25}/>
+            <button className="dropdown-item" onClick={switchTheme}>
+                {'light' === theme
+                    ? <FontAwesomeIcon icon={faMoon} width={20} height={20} />
+                    : <FontAwesomeIcon icon={faSun} width={20} height={20} />
+                }
             </button>
-            <ul className="dropdown-menu">
-                <li><Link className="dropdown-item" href="/" onClick={setLightMode}><FontAwesomeIcon icon={faSun} width={20} height={20} className="me-1"/>Light</Link></li>
-                <li><Link className="dropdown-item" href="/" onClick={setDarkMode}><FontAwesomeIcon icon={faMoon} width={20} height={20} className="me-1"/>Dark</Link></li>
-            </ul>
         </div>
     )
 }
