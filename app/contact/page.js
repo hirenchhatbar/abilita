@@ -28,25 +28,25 @@ export default function Page() {
           <div className="col-md-6 col-12 col-lg-6 d-flex justify-content-center flex-column">
             <div>
               <p><Link href="/">
-                <FontAwesomeIcon icon={faLocationDot} width={25} height={25} className="me-3" />
+                <FontAwesomeIcon icon={faLocationDot} size="xl" className="me-3" />
                 New York, NY 10012, US
               </Link></p>
               <p><Link href="mailto:info@example.com">
-                <FontAwesomeIcon icon={faEnvelope} width={25} height={25} className="me-3" />
+                <FontAwesomeIcon icon={faEnvelope} size="xl" className="me-3" />
                 info@example.com
               </Link></p>
               <p><Link href="+01 234 567 88">
-                <FontAwesomeIcon icon={faPhone} width={25} height={25} className="me-3" />+01 234 567 88
+                <FontAwesomeIcon icon={faPhone} size="xl" className="me-3" />+01 234 567 88
               </Link></p>
             </div>
             <div className="mt-2">
-              <span className="me-2"><Link href="/"><FontAwesomeIcon icon={faGithubSquare} width={35} height={35} /></Link></span>
-              <span className="me-2"><Link href="/"><FontAwesomeIcon icon={faLinkedin} width={35} height={35} /></Link></span>
-              <span className="me-2"><Link href="/"><FontAwesomeIcon icon={faYoutube} width={35} height={35} /></Link></span>
-              <span className="me-2"><Link href="/"><FontAwesomeIcon icon={faTwitter} width={35} height={35} /></Link></span>
-              <span className="me-2"><Link href="/"><FontAwesomeIcon icon={faGoogle} width={30} height={31} /></Link></span>
-              <span className="me-2"><Link href="/"><FontAwesomeIcon icon={faFacebook} width={35} height={33} /></Link></span>
-              <span className="me-2"><Link href="/"><FontAwesomeIcon icon={faInstagram} width={35} height={35} /></Link></span>
+              <span className="me-3"><Link href="/"><FontAwesomeIcon icon={faGithubSquare} size="xl" /></Link></span>
+              <span className="me-3"><Link href="/"><FontAwesomeIcon icon={faLinkedin} size="xl" /></Link></span>
+              <span className="me-3"><Link href="/"><FontAwesomeIcon icon={faYoutube} size="xl" /></Link></span>
+              <span className="me-3"><Link href="/"><FontAwesomeIcon icon={faTwitter} size="xl" /></Link></span>
+              <span className="me-3"><Link href="/"><FontAwesomeIcon icon={faGoogle} size="xl" /></Link></span>
+              <span className="me-3"><Link href="/"><FontAwesomeIcon icon={faFacebook} size="xl" /></Link></span>
+              <span className="me-3"><Link href="/"><FontAwesomeIcon icon={faInstagram} size="xl" /></Link></span>
             </div>
           </div>
         </div>

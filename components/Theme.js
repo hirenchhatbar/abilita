@@ -20,8 +20,8 @@ export default function Theme() {
         <div className="btn-group dropup">
             <button className="dropdown-item" onClick={switchTheme}>
                 {'light' === theme
-                    ? <FontAwesomeIcon icon={faMoon} width={20} height={20} />
-                    : <FontAwesomeIcon icon={faSun} width={20} height={20} />
+                    ? <FontAwesomeIcon icon={faMoon} size="lg" />
+                    : <FontAwesomeIcon icon={faSun} size="lg" />
                 }
             </button>
         </div>

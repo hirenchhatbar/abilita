@@ -112,40 +112,40 @@ export default function RootLayout({ children }) {
               <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                 <h5 className="text-uppercase mb-3">Contact</h5>
                 <p><Link href="+01 234 567 88">
-                  <FontAwesomeIcon icon={faPhone} width={25} height={25} className="me-3" />+01 234 567 88
+                  <FontAwesomeIcon icon={faPhone} size="xl" className="me-3" />+01 234 567 88
                 </Link></p>
                 <p><Link href="mailto:info@example.com">
-                  <FontAwesomeIcon icon={faEnvelope} width={25} height={25} className="me-3" />
+                  <FontAwesomeIcon icon={faEnvelope} size="xl" className="me-3" />
                   info@example.com
                 </Link></p>
                 <p>
-                  <FontAwesomeIcon icon={faLocationDot} width={25} height={25} className="me-3" />
+                  <FontAwesomeIcon icon={faLocationDot} size="xl" className="me-3" />
                   New York, NY 10012, US
                 </p>
                 <div className="pt-4">
                   <Link href="/" className="me-2">
-                    <FontAwesomeIcon icon={faLinkedin} width={25} height={25} />
+                    <FontAwesomeIcon icon={faLinkedin} size="xl" />
                   </Link>
                   <Link href="/" className="me-2">
-                    <FontAwesomeIcon icon={faGithub} width={25} height={25} />
+                    <FontAwesomeIcon icon={faGithub} size="xl" />
                   </Link>
                   <Link href="mailto:info@example.com" className="me-2">
-                    <FontAwesomeIcon icon={faEnvelope} width={25} height={25} />
+                    <FontAwesomeIcon icon={faEnvelope} size="xl" />
                   </Link>
                   <Link href="/" className="me-2">
-                    <FontAwesomeIcon icon={faTwitter} width={25} height={25} />
+                    <FontAwesomeIcon icon={faTwitter} size="xl" />
                   </Link>
                   <Link href="/" className="me-2">
-                    <FontAwesomeIcon icon={faTelegram} width={25} height={25} />
+                    <FontAwesomeIcon icon={faTelegram} size="xl" />
                   </Link>
                   <Link href="/" className="me-2">
-                    <FontAwesomeIcon icon={faFacebook} width={25} height={25} />
+                    <FontAwesomeIcon icon={faFacebook} size="xl" />
                   </Link>
                 </div>
               </div>
             </div>
           </div>
-          
+
           <div className="p-3 border-top">
             <div className="d-flex align-items-start">
             <p className="mx-auto">Copyright © 2023
@@ -158,7 +158,7 @@ export default function RootLayout({ children }) {
             </div>
           </div>
         </footer>
-        
+
       </body>
       <Script src="/bootstrap.bundle.min.js" />
     </html>

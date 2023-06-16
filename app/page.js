@@ -105,7 +105,7 @@ export default function Home() {
               <div className="shadow-sm rounded">
                 <div className="mt-2 d-flex justify-content-around align-items-center">
                   <div className="mb-2">
-                    <FontAwesomeIcon icon={faUser} width={40} height={40} />
+                    <FontAwesomeIcon icon={faUser} size="3x" />
                   </div>
                   <div>
                     <h3>258k+</h3>
@@ -118,7 +118,7 @@ export default function Home() {
               <div className="shadow-sm rounded">
                 <div className="mt-2 d-flex justify-content-around align-items-center">
                   <div className="mb-2">
-                    <FontAwesomeIcon icon={faGear} width={40} height={40} />
+                    <FontAwesomeIcon icon={faGear} size="3x" />
                   </div>
                   <div>
                     <h3>590+</h3>
@@ -131,7 +131,7 @@ export default function Home() {
               <div className="shadow-sm rounded">
                 <div className="mt-2 d-flex justify-content-around align-items-center">
                   <div className="mb-2">
-                    <FontAwesomeIcon icon={faCalendar} width={40} height={40} />
+                    <FontAwesomeIcon icon={faCalendar} size="3x" />
                   </div>
                   <div>
                     <h3>28+</h3>
@@ -150,9 +150,9 @@ export default function Home() {
               {skills.map((skill, index) => (
                 <div data-index={index} className="col-sm-4 col-md-3 col-xs-3 col-lg-2 col-xl-2 pt-4">
                   <div className="card shadow d-flex justify-content-center flex-column align-items-center">
-                    <FontAwesomeIcon icon={skill.icon} className="mt-2" style={{width: "50px", height: "50px"}} />
+                    <FontAwesomeIcon icon={skill.icon} className="mt-2" size="3x" />
                     <div className="card-body">
-                      <h4 className="card-text">{skill.name}</h4>
+                      <p className="card-text">{skill.name}</p>
                     </div>
                   </div>
                 </div>
