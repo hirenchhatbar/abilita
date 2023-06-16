@@ -302,7 +302,7 @@ export default function Page() {
             <div className="col-md-4">
               <div className="p-3 px-4">
                 <div>
-                  <p className="lh-base">
+                  <p className="lh-base text-center">
                     "Far far away, behind the word mountains, far from the
                     countries Vokalia and Consonantia."
                   </p>
@@ -319,7 +319,7 @@ export default function Page() {
             <div className="col-md-4">
               <div className="p-3 px-4">
                 <div>
-                  <p className="lh-base">
+                  <p className="lh-base text-center">
                     "Separated they live in right at the coast of
                     the Semantics, a large language ocean."
                   </p>
@@ -336,7 +336,7 @@ export default function Page() {
             <div className="col-md-4">
               <div className="p-3 px-4">
                 <div>
-                  <p className="lh-base">
+                  <p className="lh-base text-center">
                     "A small river named Duden flows by their place and supplies
                     it with the necessary regelialia."
                   </p>
