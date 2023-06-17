@@ -20,7 +20,7 @@ export default function Page() {
             <p>Debugging is like solving a puzzle, but with one crucial difference: all the pieces are in your head.</p>
           </div>
           <div className="col-md-6 col-12 col-lg-6">
-            <img src="/about.jpg" className="img-fluid mx-lg-5" alt="Hiren Chhatbar" style={{ width: "350px", height: "350px" }} />
+            <img src="/about.jpg" className="img-fluid mx-lg-5" alt="Hiren Chhatbar" />
           </div>
         </div>
       </section>
@@ -293,7 +293,7 @@ export default function Page() {
                   </p>
                 </div>
                 <div className="mt-4 text-center">
-                  <FontAwesomeIcon icon={faUser} size="1x" />
+                  <FontAwesomeIcon icon={faUser} size="2x" />
                   <h5 className="mb-0">
                     Person Name
                   </h5>
@@ -310,7 +310,7 @@ export default function Page() {
                   </p>
                 </div>
                 <div className="mt-4 text-center">
-                  <FontAwesomeIcon icon={faUser} size="1x" />
+                  <FontAwesomeIcon icon={faUser} size="2x" />
                   <h5 className="mb-0">
                     Person Name
                   </h5>
@@ -327,7 +327,7 @@ export default function Page() {
                   </p>
                 </div>
                 <div className="mt-4 text-center">
-                  <FontAwesomeIcon icon={faUser} size="1x" />
+                  <FontAwesomeIcon icon={faUser} size="2x" />
                   <h5 className="mb-0">
                     Person Name
                   </h5>

@@ -13,7 +13,7 @@ export default function Page() {
                         <p className="mb-0">Turning complex problems into elegant solutions, one line of code at a time</p>
                     </div>
                     <div className="col-md-6 col-12 col-lg-6">
-                        <img src="/experience.jpg" className="img-fluid mx-lg-5" alt="Hiren Chhatbar" style={{width: "350px", height: "350px"}}/>
+                        <img src="/experience.jpg" className="img-fluid mx-lg-5" alt="Hiren Chhatbar" />
                     </div>
                 </div>
             </section>

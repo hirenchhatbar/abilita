@@ -4,8 +4,8 @@
     --bs-body-color: rgb(255, 255, 255);
     --bs-btn-bg: rgb(255, 255, 255);
     --bs-btn-color: rgb(33, 37, 41);
-    --bs-link-color: white;
-    --bs-link-hover-color: white;
+    --bs-link-color-rgb: white;
+    --bs-link-hover-color-rgb: white;
 
     .navbar {
         --bs-navbar-color: white;
@@ -14,34 +14,18 @@
         --bs-navbar-brand-hover-color: white;
     }
 
-    // path {
-    //     fill: white;
-    // }
-
     .card {
         --bs-card-bg: black;
         --bs-card-color: white;
         --bs-border-color-translucent: white;
     }
 
-    .timeline-date p {
-        color: white;
-    }
-
-    .single-timeline-area .timeline-date::before {
-        background-color: white;
-    }
-
     .progress {
         --bs-progress-bar-bg: rgb(255, 255, 255);
     }
 
-    .form-check-input {
-        border: 2px solid white;
-    }
-
-    button {
-        border: none;
-        background-color: black;
+    img {
+        -webkit-filter: invert(100%); /* Safari/Chrome */
+        filter: invert(100%);
     }
 }
