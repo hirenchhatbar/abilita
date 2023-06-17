@@ -20,7 +20,7 @@ export default function Page() {
             <p>Debugging is like solving a puzzle, but with one crucial difference: all the pieces are in your head.</p>
           </div>
           <div className="col-md-6 col-12 col-lg-6">
-            <img src="/about6.svg" className="img-fluid mx-lg-5" alt="Hiren Chhatbar" style={{ width: "350px", height: "350px" }} />
+            <img src="/about.jpg" className="img-fluid mx-lg-5" alt="Hiren Chhatbar" style={{ width: "350px", height: "350px" }} />
           </div>
         </div>
       </section>
@@ -55,9 +55,7 @@ export default function Page() {
           <h2
             className="py-5">
             <FontAwesomeIcon
-              icon={faBook}
-              width={35}
-              height={25}
+              icon={faBook} size="1x"
               className="me-2"
             />
             Education
@@ -65,12 +63,9 @@ export default function Page() {
           <div className="container rounded d-flex">
             <div className="me-4 mt-3">
               <FontAwesomeIcon
-                icon={faUserGraduate}
-                width={120}
-                height={120}
-              />
+                icon={faUserGraduate} size="7x" />
             </div>
-            <div className="mx-4">
+            <div className="mx-lg-4 mx-xl-4">
               <h3>Gujarat Technological University</h3>
               <h5>Master of science in Computer science</h5>
               <span>September 2017 - April 2019</span>
@@ -98,12 +93,10 @@ export default function Page() {
           <div className="container rounded d-flex my-3">
             <div className="me-4 mt-3">
               <FontAwesomeIcon
-                icon={faUserGraduate}
-                width={120}
-                height={120}
+                icon={faUserGraduate} size="7x"
               />
             </div>
-            <div className="mx-4">
+            <div className="mx-lg-4 mx-xl-4">
               <h3>Gujarat Technological University</h3>
               <h5>Master of science in Computer science</h5>
               <span>September 2017 - April 2019</span>
@@ -134,9 +127,7 @@ export default function Page() {
           <h2
             className="py-5">
             <FontAwesomeIcon
-              icon={faTrophy}
-              width={35}
-              height={30}
+              icon={faTrophy} size="1x"
               className="me-2 mb-1"
             />
             Achievements & Certifications
@@ -148,7 +139,7 @@ export default function Page() {
                   <div className="card shadow">
                     <div className="card-body">
                       <div className="card-img-actions text-center">
-                        <FontAwesomeIcon icon={faGoogle} width={100} height={100} />
+                        <FontAwesomeIcon icon={faGoogle} size="6x" />
                       </div>
                     </div>
                     <div className="card-body">
@@ -162,7 +153,7 @@ export default function Page() {
                   <div className="card shadow">
                     <div className="card-body">
                       <div className="card-img-actions text-center">
-                        <FontAwesomeIcon icon={faApple} width={100} height={100} />
+                        <FontAwesomeIcon icon={faApple} size="6x" />
                       </div>
                     </div>
                     <div className="card-body">
@@ -176,7 +167,7 @@ export default function Page() {
                   <div className="card shadow">
                     <div className="card-body">
                       <div className="card-img-actions text-center">
-                        <FontAwesomeIcon icon={faPaypal} width={100} height={100} />
+                        <FontAwesomeIcon icon={faPaypal} size="6x" />
                       </div>
                     </div>
                     <div className="card-body">
@@ -198,9 +189,7 @@ export default function Page() {
               className="py-4"
             >
               <FontAwesomeIcon
-                icon={faCode}
-                width={35}
-                height={25}
+                icon={faCode} size="1x"
                 className="me-2"
               />
               Languages
@@ -253,9 +242,7 @@ export default function Page() {
               className="py-4"
             >
               <FontAwesomeIcon
-                icon={faHeartCircleCheck}
-                width={35}
-                height={25}
+                icon={faHeartCircleCheck} size="1x"
                 className="me-2"
               />
               Hobbies
@@ -291,9 +278,7 @@ export default function Page() {
             className="py-4"
           >
             <FontAwesomeIcon
-              icon={faUserCheck}
-              width={35}
-              height={25}
+              icon={faUserCheck} size="1x"
               className="me-2"
             />
             Testimonials
@@ -308,7 +293,7 @@ export default function Page() {
                   </p>
                 </div>
                 <div className="mt-4 text-center">
-                  <FontAwesomeIcon icon={faUser} width={40} height={40} />
+                  <FontAwesomeIcon icon={faUser} size="1x" />
                   <h5 className="mb-0">
                     Person Name
                   </h5>
@@ -325,7 +310,7 @@ export default function Page() {
                   </p>
                 </div>
                 <div className="mt-4 text-center">
-                  <FontAwesomeIcon icon={faUser} width={40} height={40} />
+                  <FontAwesomeIcon icon={faUser} size="1x" />
                   <h5 className="mb-0">
                     Person Name
                   </h5>
@@ -342,7 +327,7 @@ export default function Page() {
                   </p>
                 </div>
                 <div className="mt-4 text-center">
-                  <FontAwesomeIcon icon={faUser} width={40} height={40} />
+                  <FontAwesomeIcon icon={faUser} size="1x" />
                   <h5 className="mb-0">
                     Person Name
                   </h5>

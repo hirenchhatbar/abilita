@@ -13,7 +13,7 @@ export default function Page() {
                         <p className="mb-0">Turning complex problems into elegant solutions, one line of code at a time</p>
                     </div>
                     <div className="col-md-6 col-12 col-lg-6">
-                        <img src="/experience4.svg" className="img-fluid mx-lg-5" alt="Hiren Chhatbar" style={{width: "350px", height: "350px"}}/>
+                        <img src="/experience.jpg" className="img-fluid mx-lg-5" alt="Hiren Chhatbar" style={{width: "350px", height: "350px"}}/>
                     </div>
                 </div>
             </section>
@@ -31,7 +31,7 @@ export default function Page() {
                                     <div className="row">
                                         <div className="col-12 col-md-6 col-lg-4">
                                             <div className="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.3s" style={{ visibility: "visible", animationDelay: "0.3s", animationName: "fadeInLeft" }}>
-                                                <div className="timeline-icon"><FontAwesomeIcon icon={faAddressCard} width={22} height={25}/></div>
+                                                <div className="timeline-icon"><FontAwesomeIcon icon={faAddressCard} size="1x"/></div>
                                                 <div className="timeline-text">
                                                     <h6>Updated 5.0</h6>
                                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -40,7 +40,7 @@ export default function Page() {
                                         </div>
                                         <div className="col-12 col-md-6 col-lg-4">
                                             <div className="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.5s" style={{ visibility: "visible", animationDelay: "0.5s", animationName: "fadeInLeft" }}>
-                                                <div className="timeline-icon"><FontAwesomeIcon icon={faArchive} width={22} height={25} /></div>
+                                                <div className="timeline-icon"><FontAwesomeIcon icon={faArchive} size="1x" /></div>
                                                 <div className="timeline-text">
                                                     <h6>Fixed bug</h6>
                                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -49,7 +49,7 @@ export default function Page() {
                                         </div>
                                         <div className="col-12 col-md-6 col-lg-4">
                                             <div className="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.7s" style={{ visibility: "visible", animationDelay: "0.7s", animationName: "fadeInLeft" }}>
-                                                <div className="timeline-icon"><FontAwesomeIcon icon={faAddressBook} width={22} height={25} /></div>
+                                                <div className="timeline-icon"><FontAwesomeIcon icon={faAddressBook} size="1x" /></div>
                                                 <div className="timeline-text">
                                                     <h6>Reach 1k Users</h6>
                                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -65,7 +65,7 @@ export default function Page() {
                                     <div className="row">
                                         <div className="col-12 col-md-6 col-lg-4">
                                             <div className="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.3s" style={{ visibility: "visible", animationDelay: "0.3s", animationName: "fadeInLeft" }}>
-                                                <div className="timeline-icon"><FontAwesomeIcon icon={faBriefcase}  width={22} height={25}/></div>
+                                                <div className="timeline-icon"><FontAwesomeIcon icon={faBriefcase} size="1x"/></div>
                                                 <div className="timeline-text">
                                                     <h6>Updated 4.4.0</h6>
                                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -74,7 +74,7 @@ export default function Page() {
                                         </div>
                                         <div className="col-12 col-md-6 col-lg-4">
                                             <div className="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.5s" style={{ visibility: "visible", animationDelay: "0.5s", animationName: "fadeInLeft" }}>
-                                                <div className="timeline-icon"><FontAwesomeIcon icon={faDesktop}  width={22} height={25}/></div>
+                                                <div className="timeline-icon"><FontAwesomeIcon icon={faDesktop} size="1x"/></div>
                                                 <div className="timeline-text">
                                                     <h6>Fixed bug</h6>
                                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -91,7 +91,7 @@ export default function Page() {
                                     <div className="row">
                                         <div className="col-12 col-md-6 col-lg-4">
                                             <div className="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.3s" style={{ visibility: "visible", animationDelay: "0.3s", animationName: "fadeInLeft" }}>
-                                                <div className="timeline-icon"><FontAwesomeIcon icon={faIdCard} width={22} height={25}/></div>
+                                                <div className="timeline-icon"><FontAwesomeIcon icon={faIdCard} size="1x"/></div>
                                                 <div className="timeline-text">
                                                     <h6>Updated 4.0</h6>
                                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -100,7 +100,7 @@ export default function Page() {
                                         </div>
                                         <div className="col-12 col-md-6 col-lg-4">
                                             <div className="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.5s" style={{ visibility: "visible", animationDelay: "0.5s", animationName: "fadeInLeft" }}>
-                                                <div className="timeline-icon"><FontAwesomeIcon icon={faDesktop}  width={22} height={25}/></div>
+                                                <div className="timeline-icon"><FontAwesomeIcon icon={faDesktop} size="1x"/></div>
                                                 <div className="timeline-text">
                                                     <h6>Fixed bug</h6>
                                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -109,7 +109,7 @@ export default function Page() {
                                         </div>
                                         <div className="col-12 col-md-6 col-lg-4">
                                             <div className="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.7s" style={{ visibility: "visible", animationDelay: "0.7s", animationName: "fadeInLeft" }}>
-                                                <div className="timeline-icon"><FontAwesomeIcon icon={faImage}  width={22} height={25}/></div>
+                                                <div className="timeline-icon"><FontAwesomeIcon icon={faImage} size="1x"/></div>
                                                 <div className="timeline-text">
                                                     <h6>Reach 500 Users</h6>
                                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -125,7 +125,7 @@ export default function Page() {
                                     <div className="row">
                                         <div className="col-12 col-md-6 col-lg-4">
                                             <div className="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.3s" style={{ visibility: "visible", animationDelay: "0.3s", animationName: "fadeInLeft" }}>
-                                                <div className="timeline-icon"><FontAwesomeIcon icon={faIdCard}  width={22} height={25}/></div>
+                                                <div className="timeline-icon"><FontAwesomeIcon icon={faIdCard} size="1x"/></div>
                                                 <div className="timeline-text">
                                                     <h6>Updated 4.0</h6>
                                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -134,7 +134,7 @@ export default function Page() {
                                         </div>
                                         <div className="col-12 col-md-6 col-lg-4">
                                             <div className="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.5s" style={{ visibility: "visible", animationDelay: "0.5s", animationName: "fadeInLeft" }}>
-                                                <div className="timeline-icon"><FontAwesomeIcon icon={faDesktop}  width={22} height={25}/></div>
+                                                <div className="timeline-icon"><FontAwesomeIcon icon={faDesktop} size="1x"/></div>
                                                 <div className="timeline-text">
                                                     <h6>Fixed bug</h6>
                                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -143,7 +143,7 @@ export default function Page() {
                                         </div>
                                         <div className="col-12 col-md-6 col-lg-4">
                                             <div className="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.7s" style={{ visibility: "visible", animationDelay: "0.7s", animationName: "fadeInLeft" }}>
-                                                <div className="timeline-icon"><FontAwesomeIcon icon={faImage}  width={22} height={25}/></div>
+                                                <div className="timeline-icon"><FontAwesomeIcon icon={faImage} size="1x"/></div>
                                                 <div className="timeline-text">
                                                     <h6>Reach 500 Users</h6>
                                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -159,7 +159,7 @@ export default function Page() {
                                     <div className="row">
                                         <div className="col-12 col-md-6 col-lg-4">
                                             <div className="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.3s" style={{ visibility: "visible", animationDelay: "0.3s", animationName: "fadeInLeft" }}>
-                                                <div className="timeline-icon"><FontAwesomeIcon icon={faIdCard}  width={22} height={25}/></div>
+                                                <div className="timeline-icon"><FontAwesomeIcon icon={faIdCard} size="1x"/></div>
                                                 <div className="timeline-text">
                                                     <h6>Updated 4.0</h6>
                                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -168,7 +168,7 @@ export default function Page() {
                                         </div>
                                         <div className="col-12 col-md-6 col-lg-4">
                                             <div className="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.5s" style={{ visibility: "visible", animationDelay: "0.5s", animationName: "fadeInLeft" }}>
-                                                <div className="timeline-icon"><FontAwesomeIcon icon={faDesktop}  width={22} height={25}/></div>
+                                                <div className="timeline-icon"><FontAwesomeIcon icon={faDesktop} size="1x"/></div>
                                                 <div className="timeline-text">
                                                     <h6>Fixed bug</h6>
                                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -177,7 +177,7 @@ export default function Page() {
                                         </div>
                                         <div className="col-12 col-md-6 col-lg-4">
                                             <div className="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.7s" style={{ visibility: "visible", animationDelay: "0.7s", animationName: "fadeInLeft" }}>
-                                                <div className="timeline-icon"><FontAwesomeIcon icon={faImage}  width={22} height={25}/></div>
+                                                <div className="timeline-icon"><FontAwesomeIcon icon={faImage} size="1x"/></div>
                                                 <div className="timeline-text">
                                                     <h6>Reach 500 Users</h6>
                                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>

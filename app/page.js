@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCalendar, faGear, faLaptopCode, faUser,  } from "@fortawesome/free-solid-svg-icons";
-import { faBootstrap, faReact, faSass, faNode, faHtml5, faCss3, faPython, faWordpress, faJava, faNodeJs, faAndroid, faWolfPackBattalion, faPhp, faAws, faGithub, faDigitalOcean, faJsSquare, faGithubSquare, faGitAlt, faKorvue } from "@fortawesome/free-brands-svg-icons";
+import { faCalendar, faGear, faLaptopCode, faUser } from "@fortawesome/free-solid-svg-icons";
+import { faBootstrap, faReact, faSass, faNode, faHtml5, faCss3, faPython, faWordpress, faJava, faNodeJs, faAndroid, faPhp, faAws, faGithub, faDigitalOcean, faJsSquare, faGitAlt, faKorvue } from "@fortawesome/free-brands-svg-icons";
 
 import Link from "next/link";
 
@@ -87,11 +87,11 @@ export default function Home() {
           <div className="col-md-6 col-12 col-lg-6 d-flex justify-content-center flex-column">
             <h5 className="mb-0">Hi, my name is</h5>
             <h1 className="my-3">Hiren Chhatbar</h1>
-            <h2 className="mb-3">I’m a <span>PHP/JavaScript</span> Technical Architect.</h2>
-            <p className="lh-4" style={{fontSize: "1rem"}}>I’m a software engineer specializing in building web apps and websites. Currently, I’m working as a PHP/JavaScript Technical Architect at <Link href="https://www.weignyte.com" target="_blank" style={{ fontWeight: "bold" }}>Weignyte</Link>.</p>
+            <h2 className="mb-3">I’m a PHP/JavaScript Technical Architect.</h2>
+            <p className="lh-4" style={{ fontSize: "1rem"}}>I’m a software engineer specializing in building web apps and websites. Currently, I’m working as a PHP/JavaScript Technical Architect at <Link href="https://www.weignyte.com" target="_blank" style={{ fontWeight: "bold" }}>Weignyte</Link>.</p>
           </div>
           <div className="col-md-6 col-12 col-lg-6">
-            <img src="/avatar6.svg" className="img-fluid" alt="Hiren Chhatbar" />
+            <img src="/hero.png" className="img-fluid" alt="Hiren Chhatbar" />
           </div>
         </div>
 
@@ -144,7 +144,7 @@ export default function Home() {
         </div>
 
         <div className="container">
-          <h2 className="pt-4 mb-4 text-center"><FontAwesomeIcon icon={faLaptopCode} width={40} height={40} className="me-2" />Skills</h2>
+          <h2 className="pt-4 mb-4 text-center"><FontAwesomeIcon icon={faLaptopCode} size="1x" className="me-2" />Skills</h2>
           <div className="container">
             <div className="row mt-2">
               {skills.map((skill, index) => (

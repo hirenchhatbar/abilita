@@ -28,7 +28,7 @@ export default function GoTop() {
     return (
         <>
         { isVisible && (
-            <div className="text-end pe-5 position-fixed bottom-50 end-0 z-3" onClick={gotoBtn}>
+            <div className="text-end pe-5 pb-5 position-fixed bottom-0 end-0 z-3" onClick={gotoBtn}>
                 <button>
                     <FontAwesomeIcon icon={faArrowCircleUp} size="2x" />
                 </button>

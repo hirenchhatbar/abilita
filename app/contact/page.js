@@ -18,7 +18,7 @@ export default function Page() {
             <p>Code is my language, and I speak it fluently. Let's have a conversation about your project.</p>
           </div>
           <div className="col-md-6 col-12 col-lg-6">
-            <img src="/contact6.svg" className="img-fluid mx-lg-5" alt="Hiren Chhatbar" style={{ width: "350px", height: "350px" }} />
+            <img src="/contact.jpg" className="img-fluid mx-lg-5" alt="Hiren Chhatbar" style={{ width: "350px", height: "350px" }} />
           </div>
         </div>
       </section>

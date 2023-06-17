@@ -19,7 +19,7 @@ export default function Page() {
             <p>Building websites isn't just about coding - it's about creating seamless digital experiences that connect people to information and inspire them to take action.</p>
           </div>
           <div className="col-md-6 col-12 col-lg-6">
-            <img src="/portfolio2.svg" className="img-fluid mx-lg-5" alt="Hiren Chhatbar" style={{ width: "350px", height: "350px" }} />
+            <img src="/portfolio.jpg" className="img-fluid mx-lg-5" alt="Hiren Chhatbar" style={{ width: "350px", height: "350px" }} />
           </div>
         </div>
       </section>
@@ -33,7 +33,7 @@ export default function Page() {
                   <div className="card shadow">
                     <div className="card-body">
                       <div className="card-img-actions text-center">
-                        <FontAwesomeIcon icon={faPepperHot} width={100} height={100} />
+                        <FontAwesomeIcon icon={faPepperHot} size="7x" />
                       </div>
                     </div>
                     <div className="card-body">
@@ -44,7 +44,7 @@ export default function Page() {
                         <span className="p-1 badge bg-secondary me-3">React js</span>
                         <span className="p-1 badge bg-secondary me-3">Node js</span>
                       </div>
-                      <Link href="/">visit project<FontAwesomeIcon icon={faArrowUpRightFromSquare} width={25} height={19} className="mx-1"/></Link>
+                      <Link href="/">visit project<FontAwesomeIcon icon={faArrowUpRightFromSquare} size="x" className="mx-1"/></Link>
                     </div>
                   </div>
                 </div>
@@ -53,7 +53,7 @@ export default function Page() {
                   <div className="card shadow">
                     <div className="card-body">
                       <div className="card-img-actions text-center">
-                        <FontAwesomeIcon icon={faBuilding} width={100} height={100} />
+                        <FontAwesomeIcon icon={faBuilding} size="7x" />
                       </div>
                     </div>
                     <div className="card-body">
@@ -64,7 +64,7 @@ export default function Page() {
                         <span className="p-1 badge bg-secondary me-3">Javascript</span>
                         <span className="p-1 badge bg-secondary me-3">Laravel</span>
                       </div>
-                      <Link href="/">visit project<FontAwesomeIcon icon={faArrowUpRightFromSquare} width={25} height={19} className="mx-1"/></Link>
+                      <Link href="/">visit project<FontAwesomeIcon icon={faArrowUpRightFromSquare} size="x" className="mx-1"/></Link>
                     </div>
                   </div>
                 </div>
@@ -73,7 +73,7 @@ export default function Page() {
                   <div className="card shadow">
                     <div className="card-body">
                       <div className="card-img-actions text-center">
-                        <FontAwesomeIcon icon={faAirbnb} width={100} height={100} />
+                        <FontAwesomeIcon icon={faAirbnb} size="7x" />
                       </div>
                     </div>
                     <div className="card-body">
@@ -84,7 +84,7 @@ export default function Page() {
                         <span className="p-1 badge bg-secondary me-3">HTML</span>
                         <span className="p-1 badge bg-secondary me-3">CSS</span>
                       </div>
-                      <Link href="/">visit project<FontAwesomeIcon icon={faArrowUpRightFromSquare} width={25} height={19} className="mx-1"/></Link>
+                      <Link href="/">visit project<FontAwesomeIcon icon={faArrowUpRightFromSquare} size="x" className="mx-1"/></Link>
                     </div>
                   </div>
                 </div>
@@ -93,7 +93,7 @@ export default function Page() {
                   <div className="card shadow">
                     <div className="card-body">
                       <div className="card-img-actions text-center">
-                        <FontAwesomeIcon icon={faAmazon} width={100} height={100} />
+                        <FontAwesomeIcon icon={faAmazon} size="7x" />
                       </div>
                     </div>
                     <div className="card-body">
@@ -104,7 +104,7 @@ export default function Page() {
                         <span className="p-1 badge bg-secondary me-3">c++</span>
                         <span className="p-1 badge bg-secondary me-3">Node js</span>
                       </div>
-                      <Link href="/">visit project<FontAwesomeIcon icon={faArrowUpRightFromSquare} width={25} height={19} className="mx-1"/></Link>
+                      <Link href="/">visit project<FontAwesomeIcon icon={faArrowUpRightFromSquare} size="x" className="mx-1"/></Link>
                     </div>
                   </div>
                 </div>
@@ -113,7 +113,7 @@ export default function Page() {
                   <div className="card shadow">
                     <div className="card-body">
                       <div className="card-img-actions text-center">
-                        <FontAwesomeIcon icon={faPaypal} width={100} height={100} />
+                        <FontAwesomeIcon icon={faPaypal} size="7x" />
                       </div>
                     </div>
                     <div className="card-body">
@@ -124,7 +124,7 @@ export default function Page() {
                         <span className="p-1 badge bg-secondary me-3">Vue js</span>
                         <span className="p-1 badge bg-secondary me-3">SASS</span>
                       </div>
-                      <Link href="/">visit project<FontAwesomeIcon icon={faArrowUpRightFromSquare} width={25} height={19} className="mx-1"/></Link>
+                      <Link href="/">visit project<FontAwesomeIcon icon={faArrowUpRightFromSquare} size="x" className="mx-1"/></Link>
                     </div>
                   </div>
                 </div>
@@ -132,7 +132,7 @@ export default function Page() {
                   <div className="card shadow">
                     <div className="card-body">
                       <div className="card-img-actions text-center">
-                        <FontAwesomeIcon icon={faFacebook} width={100} height={100} />
+                        <FontAwesomeIcon icon={faFacebook} size="7x" />
                       </div>
                     </div>
                     <div className="card-body">
@@ -143,7 +143,7 @@ export default function Page() {
                         <span className="p-1 badge bg-secondary me-3">Tailwind</span>
                         <span className="p-1 badge bg-secondary me-3">Node js</span>
                       </div>
-                      <Link href="/">visit project<FontAwesomeIcon icon={faArrowUpRightFromSquare} width={25} height={19} className="mx-1"/></Link>
+                      <Link href="/">visit project<FontAwesomeIcon icon={faArrowUpRightFromSquare} size="x" className="mx-1"/></Link>
                     </div>
                   </div>
                 </div>

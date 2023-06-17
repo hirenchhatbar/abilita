@@ -6,7 +6,7 @@ import { faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
 
 export default function Theme() {
-    const [theme, setTheme] = useState('light');
+    const [theme, setTheme] = useState("light");
 
     const switchTheme = () => {
         let theme = "light" === document.querySelector("body").getAttribute("data-bs-theme") ? "dark" : "light";
@@ -17,9 +17,9 @@ export default function Theme() {
     }
 
     return (
-        <div className="btn-group dropup">
-            <button className="dropdown-item" onClick={switchTheme}>
-                {'light' === theme
+        <div className="btn-group">
+            <button onClick={switchTheme}>
+                {"light" === theme
                     ? <FontAwesomeIcon icon={faMoon} size="lg" />
                     : <FontAwesomeIcon icon={faSun} size="lg" />
                 }

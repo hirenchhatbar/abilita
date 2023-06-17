@@ -1,50 +1,46 @@
 [data-bs-theme=dark] {
     color-scheme: dark;
     --bs-body-bg: black;
-    --bs-body-color: white; 
+    --bs-body-color: rgb(255, 255, 255);
     --bs-btn-bg: rgb(255, 255, 255);
-    --bs-btn-color: rgb(33,37,41);
+    --bs-btn-color: rgb(33, 37, 41);
     --bs-link-color: white;
     --bs-link-hover-color: white;
 
     .navbar {
         --bs-navbar-color: white;
-        --bs-navbar-brand-color: white;
         --bs-navbar-hover-color: white;
+        --bs-navbar-brand-color: white;
+        --bs-navbar-brand-hover-color: white;
     }
 
-    .card{
+    // path {
+    //     fill: white;
+    // }
+
+    .card {
         --bs-card-bg: black;
         --bs-card-color: white;
         --bs-border-color-translucent: white;
     }
 
-    .timeline-date p{
+    .timeline-date p {
         color: white;
     }
 
     .single-timeline-area .timeline-date::before {
-        background-color: white;;
+        background-color: white;
     }
-    .progress{
+
+    .progress {
         --bs-progress-bar-bg: rgb(255, 255, 255);
     }
 
-    .form-check-input{
+    .form-check-input {
         border: 2px solid white;
     }
 
-    .form-check-input:checked{
-        background-color: black;
-        border-color: white;
-        box-shadow: 0 0 0 1px rgb(0, 0, 0);
-    }
-
-    .form-check-input:focus{
-        box-shadow: 0 0 0 1px rgb(0, 0, 0);
-    }
-    
-    button{
+    button {
         border: none;
         background-color: black;
     }
