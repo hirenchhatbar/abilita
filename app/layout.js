@@ -1,8 +1,6 @@
 import "../assets/scss/globals.scss";
-
 import Theme from "../components/Theme";
 import GoTop from "../components/GoTop";
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faPhone, faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { faFacebook, faGithub, faLinkedin, faTelegram, faTwitter } from "@fortawesome/free-brands-svg-icons";
@@ -76,7 +74,7 @@ export default function RootLayout({ children }) {
                 </p>
               </div>
 
-              <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-2">
+              <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mb-2">
                 <h5 className="text-uppercase mb-3">Useful links</h5>
                 <p>
                   <Link href="/">

@@ -18,7 +18,7 @@ export default function Theme() {
 
     return (
         <div className="btn-group">
-            <button onClick={switchTheme}>
+            <button onClick={switchTheme} className="btn btn-link">
                 {"light" === theme
                     ? <FontAwesomeIcon icon={faMoon} size="lg" />
                     : <FontAwesomeIcon icon={faSun} size="lg" />
