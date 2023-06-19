@@ -1,11 +1,15 @@
 [data-bs-theme=dark] {
     color-scheme: dark;
-    --bs-body-bg: black;
     --bs-body-color: rgb(255, 255, 255);
-    --bs-btn-bg: white;
+    --bs-body-bg: black;
+
     --bs-btn-color: white;
+    --bs-btn-bg: white;
+
     --bs-link-color: white;
     --bs-link-hover-color: white;
+    --bs-link-color-rgb: white;
+    --bs-link-hover-color-rgb: white;
 
     .navbar {
         --bs-navbar-color: white;
