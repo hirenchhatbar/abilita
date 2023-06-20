@@ -1,29 +1,33 @@
-'use client';
+'use client'
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faMoon, faSun } from '@fortawesome/free-solid-svg-icons'
 
-import { useState } from "react";
+import { useState } from 'react'
 
 export default function Theme() {
-    const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState('light')
 
-    const switchTheme = () => {
-        let theme = "light" === document.querySelector("body").getAttribute("data-bs-theme") ? "dark" : "light";
+  const switchTheme = () => {
+    let theme =
+      'light' === document.querySelector('body').getAttribute('data-bs-theme')
+        ? 'dark'
+        : 'light'
 
-        document.querySelector("body").setAttribute("data-bs-theme", theme);
+    document.querySelector('body').setAttribute('data-bs-theme', theme)
 
-        setTheme(theme);
-    }
+    setTheme(theme)
+  }
 
-    return (
-        <div className="btn-group">
-            <button onClick={switchTheme} className="btn btn-link">
-                {"light" === theme
-                    ? <FontAwesomeIcon icon={faMoon} size="lg" />
-                    : <FontAwesomeIcon icon={faSun} size="lg" />
-                }
-            </button>
-        </div>
-    )
+  return (
+    <div className="btn-group">
+      <button onClick={switchTheme} className="btn btn-link">
+        {'light' === theme ? (
+          <FontAwesomeIcon icon={faMoon} size="lg" />
+        ) : (
+          <FontAwesomeIcon icon={faSun} size="lg" />
+        )}
+      </button>
+    </div>
+  )
 }

@@ -1,45 +1,22 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCalendar, faGear, faLaptopCode, faUser } from "@fortawesome/free-solid-svg-icons";
-import { faBootstrap, faReact, faSass, faNode, faHtml5, faCss3, faPython, faWordpress, faJava, faNodeJs, faAndroid, faPhp, faAws, faGithub, faDigitalOcean, faJsSquare, faGitAlt, faKorvue } from "@fortawesome/free-brands-svg-icons";
+import { faCalendar, faCreditCard, faFileCsv, faGear, faInfinity, faLaptopCode, faQuestion, faUser } from "@fortawesome/free-solid-svg-icons";
+import {faSymfony, faBootstrap, faReact, faNode, faNodeJs, faPhp, faAws, faJsSquare, faDocker, faJenkins, faGitlab, faBitbucket, faGit, faNpm, faJira, faTrello, faLinux } from "@fortawesome/free-brands-svg-icons";
 
 import Link from "next/link";
+import Image from "next/image";
 
 const skills = [
   {
-    "icon": faReact,
-    "name": "ReactJS"
-  },
-  {
-    "icon": faBootstrap,
-    "name": "Bootstrap"
-  },
-  {
-    "icon": faSass,
-    "name": "Sass"
+    "icon": faSymfony,
+    "name": "Symfony"
   },
   {
     "icon": faNode,
     "name": "NodeJS"
   },
   {
-    "icon": faHtml5,
-    "name": "HTML5"
-  },
-  {
-    "icon": faCss3,
-    "name": "CSS3"
-  },
-  {
-    "icon": faPython,
-    "name": "Python"
-  },
-  {
-    "icon": faWordpress,
-    "name": "Wordpress"
-  },
-  {
-    "icon": faJava,
-    "name": "Java"
+    "icon": faPhp,
+    "name": "PHP"
   },
   {
     "icon": faJsSquare,
@@ -47,35 +24,119 @@ const skills = [
   },
   {
     "icon": faNodeJs,
-    "name": "ExpressJs"
+    "name": "Express"
   },
   {
-    "icon": faAndroid,
-    "name": "Android"
+    "icon": faReact,
+    "name": "React.js"
   },
   {
-    "icon": faPhp,
-    "name": "PHP"
+    "icon": faLinux,
+    "name": "Linux"
+  },
+  {
+    "icon": faQuestion,
+    "name": "Nginx"
+  },
+  {
+    "icon": faQuestion,
+    "name": "My SQL"
+  },
+  {
+    "icon": faDocker,
+    "name": "Docker"
+  },
+  {
+    "icon": faInfinity,
+    "name": "CI/CD"
+  },
+  {
+    "icon": faJenkins,
+    "name": "Jenkins"
+  },
+  {
+    "icon": faQuestion,
+    "name": "Selenium IDE"
+  },
+  {
+    "icon": faQuestion,
+    "name": "Twig"
+  },
+  {
+    "icon": faQuestion,
+    "name": "Doctrine"
+  },
+  {
+    "icon": faQuestion,
+    "name": "REST API"
+  },
+  {
+    "icon": faQuestion,
+    "name": "Elasticsearch"
+  },
+  {
+    "icon": faQuestion,
+    "name": "Solr"
+  },
+  {
+    "icon": faQuestion,
+    "name": "Redis"
   },
   {
     "icon": faAws,
     "name": "AWS"
   },
   {
-    "icon": faGithub,
-    "name": "GitHub"
+    "icon": faGitlab,
+    "name": "GitLab"
   },
   {
-    "icon": faDigitalOcean,
-    "name": "DigitalOcean"
+    "icon": faBitbucket,
+    "name": "Bitbucket"
   },
   {
-    "icon": faGitAlt,
-    "name": "GitVCS"
+    "icon": faGit,
+    "name": "Git"
   },
   {
-    "icon": faKorvue,
-    "name": "Kotlin"
+    "icon": faFileCsv,
+    "name": "CSV"
+  },
+  {
+    "icon": faNpm,
+    "name": "NPM"
+  },
+  {
+    "icon": faQuestion,
+    "name": "jQuery"
+  },
+  {
+    "icon": faBootstrap,
+    "name": "Bootstrap"
+  },
+  {
+    "icon": faQuestion,
+    "name": "RabbitMQ"
+  },
+  {
+    "icon": faQuestion,
+    "name": "Grafana"
+  },
+  {
+    "icon": faQuestion,
+    "name": "Graylog"
+  },
+  {
+    "icon": faCreditCard,
+    "name": "Payment gateways"
+  },
+  {
+    "icon": faJira,
+    "name": "Jira"
+  },
+  {
+    "icon": faTrello,
+    "name": "Trello"
   },
 ];
 
@@ -88,15 +149,17 @@ export default function Home() {
             <h5 className="mb-0">Hi, my name is</h5>
             <h1 className="my-3">Hiren Chhatbar</h1>
             <h2 className="mb-3">I’m a PHP/JavaScript Technical Architect.</h2>
-            <p className="lh-4" style={{ fontSize: "1rem"}}>I’m a software engineer specializing in building web apps and websites. Currently, I’m working as a PHP/JavaScript Technical Architect at <Link href="https://www.weignyte.com" target="_blank" style={{ fontWeight: "bold" }}>Weignyte</Link>.</p>
+            <p className="lh-4">I’m a software engineer specializing in building web apps and websites. Currently, I’m working as a PHP/JavaScript Technical Architect at <Link href="https://www.weignyte.com" target="_blank">Weignyte</Link>.</p>
           </div>
           <div className="col-md-6 col-12 col-lg-6">
-            <img src="/hero.png" className="img-fluid" alt="Hiren Chhatbar" />
+            <Image src="/hero.png" width={500} height={500} className="img-fluid" alt="Hiren Chhatbar" />
           </div>
         </div>
 
         <div className="container d-flex justify-content-center flex-column">
-          <p className="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          <p className="mb-4">Greetings! I am Hiren, a Technical Architect specialized in PHP and JavaScript. My approach is to keep things simple, straightforward, and efficient. I have a particular fondness for Linux and strive to enhance my problem-solving skills every day.</p>
+          <p className="mb-4">My career began as a junior PHP developer, and I still recall my excitement on integrating phpmailer/phpmailer to send successful contact form submissions. Since then, I have grown into a passionate and tech-savvy senior web developer. Presently, I focus on developing web applications, portals, and REST APIs for various clients at Weignyte.</p>
+          <p>Learning is an integral part of my professional journey, and I strive to learn, unlearn and relearn every day to stay updated with the latest trends and technologies. Apart from my professional life, I am an avid nature enthusiast and find peace in practicing yoga. I also have a keen interest in music, movies, cricket, reading, history, and psychology.</p>
         </div>
 
         <div className="container mb-5 pt-5">

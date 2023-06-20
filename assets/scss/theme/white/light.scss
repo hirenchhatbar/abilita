@@ -1,29 +1,29 @@
 :root,
-[data-bs-theme=light] {
-    --bs-body-color: black;
-    --bs-body-bg: white;
+[data-bs-theme='light'] {
+  --bs-body-color: rgb(0, 0, 0);
+  --bs-body-bg: white;
 
-    --bs-btn-color: white;
-    --bs-btn-bg: black;
+  --bs-btn-color: white;
+  --bs-btn-bg: black;
 
-    --bs-link-color: black;
-    --bs-link-hover-color: black;
-    --bs-link-color-rgb: black;
-    --bs-link-hover-color-rgb: black;
+  --bs-link-color: black;
+  --bs-link-hover-color: black;
+  --bs-link-color-rgb: black;
+  --bs-link-hover-color-rgb: black;
 
-    --bs-body-font-family: 'Roboto';
-    --bs-headings-font-family: 'Nunito';
+  --bs-body-font-family: 'Roboto';
+  --bs-headings-font-family: 'Nunito';
 
-    .navbar {
-        --bs-navbar-color: black;
-        --bs-navbar-hover-color: black;
-    }
+  .navbar {
+    --bs-navbar-color: black;
+    --bs-navbar-hover-color: black;
+  }
 
-    .navbar-brand{
-        font-family: 'Indie Flower';
-    }
+  .logo-text {
+    font-family: 'Indie Flower';
+  }
 
-    .progress {
-        --bs-progress-bar-bg: rgb(0, 0, 0);
-    }
+  .progress {
+    --bs-progress-bar-bg: rgb(0, 0, 0);
+  }
 }

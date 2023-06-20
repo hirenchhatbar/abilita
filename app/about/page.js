@@ -1,4 +1,4 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faCode,
   faHeartCircleCheck,
@@ -7,8 +7,9 @@ import {
   faBook,
   faTrophy,
   faUser,
-} from "@fortawesome/free-solid-svg-icons";
-import { faApple, faGoogle, faPaypal } from "@fortawesome/free-brands-svg-icons";
+} from '@fortawesome/free-solid-svg-icons'
+import { faApple, faGoogle, faPaypal } from '@fortawesome/free-brands-svg-icons'
+import Image from 'next/image'
 
 export default function Page() {
   return (
@@ -16,11 +17,18 @@ export default function Page() {
       <section className="container-fluid px-lg-0 px-xl-0 my-5">
         <div className="row container mx-auto">
           <div className="col-md-6 col-12 col-lg-6 d-flex justify-content-center flex-column">
-            <h1 className='mb-4'>About</h1>
-            <p>Debugging is like solving a puzzle, but with one crucial difference: all the pieces are in your head.</p>
+            <h1 className="mb-4">About</h1>
+            <p>
+              Debugging is like solving a puzzle, but with one crucial
+              difference: all the pieces are in your head.
+            </p>
           </div>
           <div className="col-md-6 col-12 col-lg-6">
-            <img src="/about.jpg" className="img-fluid mx-lg-5" alt="Hiren Chhatbar" />
+            <Image
+              src="/about.jpg"
+              className="img-fluid mx-lg-5"
+              alt="Hiren Chhatbar"
+            />
           </div>
         </div>
       </section>
@@ -52,18 +60,13 @@ export default function Page() {
       </section>
       <section className="container-fluid">
         <div className="container d-flex justify-content-center flex-column">
-          <h2
-            className="py-5">
-            <FontAwesomeIcon
-              icon={faBook} size="1x"
-              className="me-2"
-            />
+          <h2 className="py-5">
+            <FontAwesomeIcon icon={faBook} size="1x" className="me-2" />
             Education
           </h2>
           <div className="container rounded d-flex">
             <div className="me-4 mt-3">
-              <FontAwesomeIcon
-                icon={faUserGraduate} size="7x" />
+              <FontAwesomeIcon icon={faUserGraduate} size="7x" />
             </div>
             <div className="mx-lg-4 mx-xl-4">
               <h3>Gujarat Technological University</h3>
@@ -92,9 +95,7 @@ export default function Page() {
           <hr className="hr" />
           <div className="container rounded d-flex my-3">
             <div className="me-4 mt-3">
-              <FontAwesomeIcon
-                icon={faUserGraduate} size="7x"
-              />
+              <FontAwesomeIcon icon={faUserGraduate} size="7x" />
             </div>
             <div className="mx-lg-4 mx-xl-4">
               <h3>Gujarat Technological University</h3>
@@ -124,12 +125,8 @@ export default function Page() {
       </section>
       <section>
         <div className="container d-flex justify-content-center flex-column">
-          <h2
-            className="py-5">
-            <FontAwesomeIcon
-              icon={faTrophy} size="1x"
-              className="me-2 mb-1"
-            />
+          <h2 className="py-5">
+            <FontAwesomeIcon icon={faTrophy} size="1x" className="me-2 mb-1" />
             Achievements & Certifications
           </h2>
           <div className="row mb-5">
@@ -144,7 +141,12 @@ export default function Page() {
                     </div>
                     <div className="card-body">
                       <h2>Google Code-In Finalist</h2>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel dolorum earum accusamus aspernatur vitae consequuntur facere soluta odit quis voluptate fugiat debitis recusandae pariatur est, itaque porro.</p>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Vel dolorum earum accusamus aspernatur vitae
+                        consequuntur facere soluta odit quis voluptate fugiat
+                        debitis recusandae pariatur est, itaque porro.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -158,7 +160,12 @@ export default function Page() {
                     </div>
                     <div className="card-body">
                       <h2>Apple IOS App Developer</h2>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ducimus minus commodi iste similique ex enim iure odit, inventore sequi hic quibusdam temporibus at eligendi amet fugiat incidunt omnis quis.</p>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Vel ducimus minus commodi iste similique ex enim iure
+                        odit, inventore sequi hic quibusdam temporibus at
+                        eligendi amet fugiat incidunt omnis quis.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -172,11 +179,15 @@ export default function Page() {
                     </div>
                     <div className="card-body">
                       <h2>Paypal Web App Developer</h2>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque voluptatibus cum repellendus quidem sed autem similique necessitatibus? Repellat repellendus consequatur, voluptatem iste esse excepturi.</p>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Doloremque voluptatibus cum repellendus quidem sed
+                        autem similique necessitatibus? Repellat repellendus
+                        consequatur, voluptatem iste esse excepturi.
+                      </p>
                     </div>
                   </div>
                 </div>
-
               </div>
             </div>
           </div>
@@ -185,52 +196,35 @@ export default function Page() {
       <section className="container-fluid">
         <div className="row container mx-auto">
           <div className="col-md-6 col-12 col-lg-6 d-flex justify-content-center flex-column">
-            <h2
-              className="py-4"
-            >
-              <FontAwesomeIcon
-                icon={faCode} size="1x"
-                className="me-2"
-              />
+            <h2 className="py-4">
+              <FontAwesomeIcon icon={faCode} size="1x" className="me-2" />
               Languages
             </h2>
             <p className="mb-2">English</p>
-            <div
-              className="progress mb-4 rounded-pill"
-              style={{ width: "50%", height: "10px" }}
-            >
+            <div className="progress mb-4 rounded-pill h-25 w-50">
               <div
-                className="progress-bar"
+                className="progress-bar w-75"
                 role="progressbar"
-                style={{ width: "75%" }}
                 aria-valuenow="75"
                 aria-valuemin="0"
                 aria-valuemax="100"
               ></div>
             </div>
             <p className="mb-2">Hindi</p>
-            <div
-              className="progress mb-4 rounded-pill"
-              style={{ width: "50%", height: "10px" }}
-            >
+            <div className="progress mb-4 rounded-pill h-25 w-50">
               <div
-                className="progress-bar"
+                className="progress-bar w-50"
                 role="progressbar"
-                style={{ width: "50%" }}
                 aria-valuenow="50"
                 aria-valuemin="0"
                 aria-valuemax="100"
               ></div>
             </div>
             <p className="mb-2">Gujarati</p>
-            <div
-              className="progress mb-4 rounded-pill"
-              style={{ width: "50%", height: "10px" }}
-            >
+            <div className="progress mb-4 rounded-pill h-25 w-50">
               <div
-                className="progress-bar"
+                className="progress-bar w-25"
                 role="progressbar"
-                style={{ width: "25%" }}
                 aria-valuenow="25"
                 aria-valuemin="0"
                 aria-valuemax="100"
@@ -238,18 +232,19 @@ export default function Page() {
             </div>
           </div>
           <div className="col-md-5 col-12 col-lg-5">
-            <h2
-              className="py-4"
-            >
+            <h2 className="py-4">
               <FontAwesomeIcon
-                icon={faHeartCircleCheck} size="1x"
+                icon={faHeartCircleCheck}
+                size="1x"
                 className="me-2"
               />
               Hobbies
             </h2>
             <div>
               <span className="p-2 mx-2 mb-3 badge text-bg-dark">Primary</span>
-              <span className="p-2 mx-2 mb-3 badge text-bg-dark">Secondary</span>
+              <span className="p-2 mx-2 mb-3 badge text-bg-dark">
+                Secondary
+              </span>
               <span className="p-2 mx-2 mb-3 badge text-bg-dark">Success</span>
               <span className="p-2 mx-2 mb-3 badge text-bg-dark">Danger</span>
               <span className="p-2 mx-2 mb-3 badge text-bg-dark">Warning</span>
@@ -257,7 +252,9 @@ export default function Page() {
               <span className="p-2 mx-2 mb-3 badge text-bg-dark">Light</span>
               <span className="p-2 mx-2 mb-3 badge text-bg-dark">Dark</span>
               <span className="p-2 mx-2 mb-3 badge text-bg-dark">Primary</span>
-              <span className="p-2 mx-2 mb-3 badge text-bg-dark">Secondary</span>
+              <span className="p-2 mx-2 mb-3 badge text-bg-dark">
+                Secondary
+              </span>
               <span className="p-2 mx-2 mb-3 badge text-bg-dark">Success</span>
               <span className="p-2 mx-2 mb-3 badge text-bg-dark">Danger</span>
               <span className="p-2 mx-2 mb-3 badge text-bg-dark">Warning</span>
@@ -274,13 +271,8 @@ export default function Page() {
       </section>
       <section className="container-fluid">
         <div className="mt-3 container d-flex justify-content-center flex-column">
-          <h2
-            className="py-4"
-          >
-            <FontAwesomeIcon
-              icon={faUserCheck} size="1x"
-              className="me-2"
-            />
+          <h2 className="py-4">
+            <FontAwesomeIcon icon={faUserCheck} size="1x" className="me-2" />
             Testimonials
           </h2>
           <div className="row mb-3">
@@ -294,9 +286,7 @@ export default function Page() {
                 </div>
                 <div className="mt-4 text-center">
                   <FontAwesomeIcon icon={faUser} size="2x" />
-                  <h5 className="mb-0">
-                    Person Name
-                  </h5>
+                  <h5 className="mb-0">Person Name</h5>
                   <span>Co-founder, Company</span>
                 </div>
               </div>
@@ -305,15 +295,13 @@ export default function Page() {
               <div className="p-3 px-4">
                 <div>
                   <p className="lh-base text-center">
-                    "Separated they live in right at the coast of
-                    the Semantics, a large language ocean."
+                    "Separated they live in right at the coast of the Semantics,
+                    a large language ocean."
                   </p>
                 </div>
                 <div className="mt-4 text-center">
                   <FontAwesomeIcon icon={faUser} size="2x" />
-                  <h5 className="mb-0">
-                    Person Name
-                  </h5>
+                  <h5 className="mb-0">Person Name</h5>
                   <span>Co-founder, Company</span>
                 </div>
               </div>
@@ -328,9 +316,7 @@ export default function Page() {
                 </div>
                 <div className="mt-4 text-center">
                   <FontAwesomeIcon icon={faUser} size="2x" />
-                  <h5 className="mb-0">
-                    Person Name
-                  </h5>
+                  <h5 className="mb-0">Person Name</h5>
                   <span>Co-founder, Company</span>
                 </div>
               </div>
@@ -339,5 +325,5 @@ export default function Page() {
         </div>
       </section>
     </main>
-  );
+  )
 }
