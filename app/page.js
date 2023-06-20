@@ -171,7 +171,7 @@ export default function Home() {
                     <FontAwesomeIcon icon={faUser} size="3x" />
                   </div>
                   <div>
-                    <h3>258k+</h3>
+                    <h3>100+</h3>
                     <p>Happy Clients</p>
                   </div>
                 </div>
@@ -184,8 +184,8 @@ export default function Home() {
                     <FontAwesomeIcon icon={faGear} size="3x" />
                   </div>
                   <div>
-                    <h3>590+</h3>
-                    <p>Project Complete</p>
+                    <h3>150+</h3>
+                    <p>Projects Complete</p>
                   </div>
                 </div>
               </div>
@@ -197,7 +197,7 @@ export default function Home() {
                     <FontAwesomeIcon icon={faCalendar} size="3x" />
                   </div>
                   <div>
-                    <h3>28+</h3>
+                    <h3>15+</h3>
                     <p>Years of Experience</p>
                   </div>
                 </div>

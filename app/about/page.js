@@ -26,6 +26,8 @@ export default function Page() {
           <div className="col-md-6 col-12 col-lg-6">
             <Image
               src="/about.jpg"
+              width={500}
+              height={500}
               className="img-fluid mx-lg-5"
               alt="Hiren Chhatbar"
             />

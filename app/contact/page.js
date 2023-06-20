@@ -35,6 +35,8 @@ export default function Page() {
           <div className="col-md-6 col-12 col-lg-6">
             <Image
               src="/contact.jpg"
+              width={500}
+              height={500}
               className="img-fluid mx-lg-5"
               alt="Hiren Chhatbar"
             />
@@ -53,23 +55,23 @@ export default function Page() {
                     size="xl"
                     className="me-3"
                   />
-                  New York, NY 10012, US
+                  Rajkot, 360005, Gujarat, India
                 </Link>
               </p>
               <p>
-                <Link href="mailto:info@example.com">
+                <Link href="mailto:hc.rajkot@gmail.com">
                   <FontAwesomeIcon
                     icon={faEnvelope}
                     size="xl"
                     className="me-3"
                   />
-                  info@example.com
+                  hc.rajkot@gmail.com
                 </Link>
               </p>
               <p>
-                <Link href="+01 234 567 88">
+                <Link href="+91 99 24 33 74 18">
                   <FontAwesomeIcon icon={faPhone} size="xl" className="me-3" />
-                  +01 234 567 88
+                  +91 99 24 33 74 18
                 </Link>
               </p>
             </div>

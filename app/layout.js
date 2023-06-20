@@ -119,23 +119,23 @@ export default function RootLayout({ children }) {
               <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                 <h5 className="text-uppercase mb-3">Contact</h5>
                 <p>
-                  <Link href="+01 234 567 88">
+                  <Link href="+91 99 24 33 74 18">
                     <FontAwesomeIcon
                       icon={faPhone}
                       size="xl"
                       className="me-3"
                     />
-                    +01 234 567 88
+                    +91 99 24 33 74 18
                   </Link>
                 </p>
                 <p>
-                  <Link href="mailto:info@example.com">
+                  <Link href="mailto:hc.rajkot@gmail.com">
                     <FontAwesomeIcon
                       icon={faEnvelope}
                       size="xl"
                       className="me-3"
                     />
-                    info@example.com
+                    hc.rajkot@gmail.com
                   </Link>
                 </p>
                 <p>
@@ -144,7 +144,7 @@ export default function RootLayout({ children }) {
                     size="xl"
                     className="me-3"
                   />
-                  New York, NY 10012, US
+                  Rajkot, 360005, Gujarat, India
                 </p>
                 <div className="pt-4">
                   <Link href="/" className="me-2">
@@ -153,7 +153,7 @@ export default function RootLayout({ children }) {
                   <Link href="/" className="me-2">
                     <FontAwesomeIcon icon={faGithub} size="xl" />
                   </Link>
-                  <Link href="mailto:info@example.com" className="me-2">
+                  <Link href="mailto:hc.rajkot@gmail.com" className="me-2">
                     <FontAwesomeIcon icon={faEnvelope} size="xl" />
                   </Link>
                   <Link href="/" className="me-2">
