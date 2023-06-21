@@ -26,8 +26,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" data-bs-theme="light">
-      <body className="pt-5">
+    <html lang="en">
+      <body className="pt-5" data-bs-theme="light">
         <header>
           <div className="d-flex justify-content-around align-items-center fixed-top">
             <nav className="navbar navbar-expand-lg bg-white container-fluid py-3">
@@ -92,8 +92,7 @@ export default function RootLayout({ children }) {
                   Hiren Chhatbar
                 </Link>
                 <p className="mt-2">
-                  Thank you for visiting my personal portfolio website. Connect
-                  with me over socials.
+                  "The function of good software is to make the complex appear to be simple." - Grady Booch
                 </p>
               </div>
 

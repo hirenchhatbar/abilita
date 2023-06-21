@@ -211,7 +211,7 @@ export default function Home() {
           <div className="container">
             <div className="row mt-2">
               {skills.map((skill, index) => (
-                <div data-index={index} className="col-sm-4 col-md-3 col-xs-3 col-lg-2 col-xl-2 pt-4">
+                <div data-index={index} className="col-sm-4 col-md-3 col-xs-3 col-lg-2 col-xl-2 pt-4" key={skill.name}>
                   <div className="card shadow d-flex justify-content-center flex-column align-items-center">
                     <FontAwesomeIcon icon={skill.icon} className="mt-2" size="3x" />
                     <div className="card-body">
