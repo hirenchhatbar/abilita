@@ -203,7 +203,7 @@ export default function Page() {
               Languages
             </h2>
             <p className="mb-2">English</p>
-            <div className="progress mb-4 rounded-pill h-25 w-50">
+            <div className="progress mb-4 rounded-pill w-50">
               <div
                 className="progress-bar w-75"
                 role="progressbar"
@@ -213,7 +213,7 @@ export default function Page() {
               ></div>
             </div>
             <p className="mb-2">Hindi</p>
-            <div className="progress mb-4 rounded-pill h-25 w-50">
+            <div className="progress mb-4 rounded-pill w-50">
               <div
                 className="progress-bar w-50"
                 role="progressbar"
@@ -223,7 +223,7 @@ export default function Page() {
               ></div>
             </div>
             <p className="mb-2">Gujarati</p>
-            <div className="progress mb-4 rounded-pill h-25 w-50">
+            <div className="progress mb-4 rounded-pill w-50">
               <div
                 className="progress-bar w-25"
                 role="progressbar"

@@ -27,10 +27,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" data-bs-theme="light">
-      <body>
+      <body className="pt-5">
         <header>
-          <div className="d-flex justify-content-around align-items-center">
-            <nav className="navbar navbar-expand-lg container-fluid py-3">
+          <div className="d-flex justify-content-around align-items-center fixed-top">
+            <nav className="navbar navbar-expand-lg bg-white container-fluid py-3">
               <div className="container-fluid px-2 px-sm-4 px-xl-5 px-md-5 px-lg-5">
                 <Link href="/" className="navbar-brand logo-text">
                   Hiren Chhatbar
