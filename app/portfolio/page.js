@@ -33,7 +33,7 @@ export default function Page() {
               src="/portfolio.jpg"
               width={500}
               height={500}
-              className="img-fluid mx-lg-5"
+              className="img-fluid mx-lg-5 animate__animated animate__headShake animate__delay-2s"
               alt="Hiren Chhatbar"
             />
           </div>
@@ -260,7 +260,7 @@ export default function Page() {
                         <span className="p-1 badge bg-secondary me-3">Doctrine(ORM)</span>
                         <span className="p-1 badge bg-secondary me-3">Nginx</span>
                         <span className="p-1 badge bg-secondary me-3">Php-fpm</span>
-                        <span className="p-1 badge bg-secondary me-3">MariaDB</span>        
+                        <span className="p-1 badge bg-secondary me-3">MariaDB</span>
                         <span className="p-1 badge bg-secondary me-3">Elasticsearch</span>
                         <span className="p-1 badge bg-secondary me-3">API-first</span>
                         <span className="p-1 badge bg-secondary me-3">Bootstrap 5</span>

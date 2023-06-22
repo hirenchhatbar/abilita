@@ -37,7 +37,7 @@ export default function Page() {
               src="/contact.jpg"
               width={500}
               height={500}
-              className="img-fluid mx-lg-5"
+              className="img-fluid mx-lg-5 animate__animated animate__headShake animate__delay-2s"
               alt="Hiren Chhatbar"
             />
           </div>

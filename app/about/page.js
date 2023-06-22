@@ -1,4 +1,5 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 import {
   faCode,
   faHeartCircleCheck,
@@ -8,8 +9,11 @@ import {
   faTrophy,
   faUser,
 } from '@fortawesome/free-solid-svg-icons'
-import { faApple, faGoogle, faPaypal } from '@fortawesome/free-brands-svg-icons'
-import Image from 'next/image'
+import { faApple, faGoogle, faPaypal } from '@fortawesome/free-brands-svg-icons';
+
+import Image from 'next/image';
+
+import heroImage from '../../public/about.jpg';
 
 export default function Page() {
   return (
@@ -25,10 +29,8 @@ export default function Page() {
           </div>
           <div className="col-md-6 col-12 col-lg-6">
             <Image
-              src="/about.jpg"
-              width={500}
-              height={500}
-              className="img-fluid mx-lg-5"
+              src={heroImage}
+              className="img-fluid mx-lg-5 animate__animated animate__headShake animate__delay-2s"
               alt="Hiren Chhatbar"
             />
           </div>

@@ -5,6 +5,8 @@ import {faSymfony, faBootstrap, faReact, faNode, faNodeJs, faPhp, faAws, faJsSqu
 import Link from "next/link";
 import Image from "next/image";
 
+import heroImage from '../public/hero.png';
+
 const skills = [
   {
     "icon": faSymfony,
@@ -147,12 +149,12 @@ export default function Home() {
         <div className="row container mx-auto">
           <div className="col-md-6 col-12 col-lg-6 d-flex justify-content-center flex-column">
             <h5 className="mb-0">Hi, my name is</h5>
-            <h1 className="my-3 animate__animated animate__fadeInLeft">Hiren Chhatbar</h1>
-            <h2 className="mb-3 animate__animated animate__fadeInLeft">I’m a PHP/JavaScript Technical Architect.</h2>
+            <h1 className="my-3">Hiren Chhatbar</h1>
+            <h2 className="mb-3">I’m a PHP/JavaScript Technical Architect.</h2>
             <p>I’m a software engineer specializing in building web apps and websites. Currently, I’m working as a PHP/JavaScript Technical Architect at <Link href="https://www.weignyte.com" target="_blank">Weignyte</Link>.</p>
           </div>
           <div className="col-md-6 col-12 col-lg-6">
-            <Image src="/hero.png" width={500} height={500} className="img-fluid" alt="Hiren Chhatbar" />
+            <Image src={heroImage} className="img-fluid animate__animated animate__headShake animate__delay-2s" alt="Hiren Chhatbar" />
           </div>
         </div>
 
