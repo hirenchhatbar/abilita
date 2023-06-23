@@ -36,6 +36,7 @@ export default function Page() {
           </div>
         </div>
       </section>
+
       <section className="container-fluid">
         <div className="container d-flex flex-column">
           <p className="mb-5">
@@ -62,6 +63,7 @@ export default function Page() {
           </p>
         </div>
       </section>
+
       <section className="container-fluid">
         <div className="container d-flex justify-content-center flex-column">
           <h2 className="py-5">
@@ -73,9 +75,9 @@ export default function Page() {
               <FontAwesomeIcon icon={faUserGraduate} size="7x" />
             </div>
             <div className="mx-lg-4 mx-xl-4">
-              <h3>Gujarat Technological University</h3>
-              <h5>Master of science in Computer science</h5>
-              <span>September 2017 - April 2019</span>
+              <h3>K.K. Parekh Commerce Collage - Amreli</h3>
+              <h5>Bachelor of Commerce (B.Com)</h5>
+              <span>2004 - 2006</span>
               <br />
               <span>
                 Participated in the research of XXX and published 3 papers.
@@ -102,9 +104,9 @@ export default function Page() {
               <FontAwesomeIcon icon={faUserGraduate} size="7x" />
             </div>
             <div className="mx-lg-4 mx-xl-4">
-              <h3>Gujarat Technological University</h3>
-              <h5>Master of science in Computer science</h5>
-              <span>September 2017 - April 2019</span>
+              <h3>K.K. Parekh & Mehta R.P Vidhyalay - Amreli</h3>
+              <h5>Higher Secondary</h5>
+              <span>2002 - 2003</span>
               <br />
               <span>
                 Participated in the research of XXX and published 3 papers.
@@ -127,7 +129,8 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <section>
+
+      <section className="container-fluid">
         <div className="container d-flex justify-content-center flex-column">
           <h2 className="py-5">
             <FontAwesomeIcon icon={faTrophy} size="1x" className="me-2 mb-1" />
@@ -144,13 +147,10 @@ export default function Page() {
                       </div>
                     </div>
                     <div className="card-body">
-                      <h2>Google Code-In Finalist</h2>
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Vel dolorum earum accusamus aspernatur vitae
-                        consequuntur facere soluta odit quis voluptate fugiat
-                        debitis recusandae pariatur est, itaque porro.
-                      </p>
+                      <h2>DOEACC 'O' Level</h2>
+                      <p>Department of Electronics - New Delhi</p>
+                      <p>Issued Jan 2008</p>
+                      <p>Skills: Web Development - Programming</p>
                     </div>
                   </div>
                 </div>
@@ -163,13 +163,9 @@ export default function Page() {
                       </div>
                     </div>
                     <div className="card-body">
-                      <h2>Apple IOS App Developer</h2>
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Vel ducimus minus commodi iste similique ex enim iure
-                        odit, inventore sequi hic quibusdam temporibus at
-                        eligendi amet fugiat incidunt omnis quis.
-                      </p>
+                      <h2>DTP (Desktop Publishing)</h2>
+                      <p>Technical Education Board - Gujarat</p>
+                      <p>Issued Jul 2007</p>
                     </div>
                   </div>
                 </div>
@@ -182,13 +178,10 @@ export default function Page() {
                       </div>
                     </div>
                     <div className="card-body">
-                      <h2>Paypal Web App Developer</h2>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Doloremque voluptatibus cum repellendus quidem sed
-                        autem similique necessitatibus? Repellat repellendus
-                        consequatur, voluptatem iste esse excepturi.
-                      </p>
+                      <h2>COPA (Computer Programmer cum Programming Assistant)</h2>
+                      <p>I.T.I - Amreli</p>
+                      <p>Issued Aug 2003</p>
+                      <p>Skills: Programming</p>
                     </div>
                   </div>
                 </div>
@@ -197,15 +190,15 @@ export default function Page() {
           </div>
         </div>
       </section>
+
       <section className="container-fluid">
-        <div className="row container mx-auto">
-          <div className="col-md-6 col-12 col-lg-6 d-flex justify-content-center flex-column">
+        <div className="mt-3 container d-flex justify-content-center flex-column">
             <h2 className="py-4">
               <FontAwesomeIcon icon={faCode} size="1x" className="me-2" />
               Languages
             </h2>
-            <p className="mb-2">English</p>
-            <div className="progress mb-4 rounded-pill w-50">
+          <p className="mb-2">English</p>
+            <div className="progress mb-4 rounded-pill">
               <div
                 className="progress-bar w-75"
                 role="progressbar"
@@ -215,7 +208,7 @@ export default function Page() {
               ></div>
             </div>
             <p className="mb-2">Hindi</p>
-            <div className="progress mb-4 rounded-pill w-50">
+            <div className="progress mb-4 rounded-pill">
               <div
                 className="progress-bar w-50"
                 role="progressbar"
@@ -225,7 +218,7 @@ export default function Page() {
               ></div>
             </div>
             <p className="mb-2">Gujarati</p>
-            <div className="progress mb-4 rounded-pill w-50">
+            <div className="progress mb-4 rounded-pill">
               <div
                 className="progress-bar w-25"
                 role="progressbar"
@@ -234,8 +227,12 @@ export default function Page() {
                 aria-valuemax="100"
               ></div>
             </div>
-          </div>
-          <div className="col-md-5 col-12 col-lg-5">
+          
+        </div>
+      </section>
+
+      <section className="container-fluid">
+        <div className="mt-3 container d-flex justify-content-center flex-column">
             <h2 className="py-4">
               <FontAwesomeIcon
                 icon={faHeartCircleCheck}
@@ -246,9 +243,7 @@ export default function Page() {
             </h2>
             <div>
               <span className="p-2 mx-2 mb-3 badge text-bg-dark">Primary</span>
-              <span className="p-2 mx-2 mb-3 badge text-bg-dark">
-                Secondary
-              </span>
+              <span className="p-2 mx-2 mb-3 badge text-bg-dark">Secondary</span>
               <span className="p-2 mx-2 mb-3 badge text-bg-dark">Success</span>
               <span className="p-2 mx-2 mb-3 badge text-bg-dark">Danger</span>
               <span className="p-2 mx-2 mb-3 badge text-bg-dark">Warning</span>
@@ -256,9 +251,7 @@ export default function Page() {
               <span className="p-2 mx-2 mb-3 badge text-bg-dark">Light</span>
               <span className="p-2 mx-2 mb-3 badge text-bg-dark">Dark</span>
               <span className="p-2 mx-2 mb-3 badge text-bg-dark">Primary</span>
-              <span className="p-2 mx-2 mb-3 badge text-bg-dark">
-                Secondary
-              </span>
+              <span className="p-2 mx-2 mb-3 badge text-bg-dark">Secondary</span>
               <span className="p-2 mx-2 mb-3 badge text-bg-dark">Success</span>
               <span className="p-2 mx-2 mb-3 badge text-bg-dark">Danger</span>
               <span className="p-2 mx-2 mb-3 badge text-bg-dark">Warning</span>
@@ -270,9 +263,9 @@ export default function Page() {
               <span className="p-2 mx-2 badge text-bg-dark">Success</span>
               <span className="p-2 mx-2 badge text-bg-dark">Danger</span>
             </div>
-          </div>
         </div>
       </section>
+
       <section className="container-fluid">
         <div className="mt-3 container d-flex justify-content-center flex-column">
           <h2 className="py-4">

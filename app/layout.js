@@ -122,7 +122,7 @@ export default function RootLayout({ children }) {
               <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                 <h5 className="text-uppercase mb-3">Contact</h5>
                 <p>
-                  <Link href="+91 99 24 33 74 18">
+                  <Link href="tel:+919924337418">
                     <FontAwesomeIcon
                       icon={faPhone}
                       size="xl"

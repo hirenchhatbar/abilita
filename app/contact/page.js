@@ -19,6 +19,7 @@ import {
 
 import Link from 'next/link'
 import Image from 'next/image'
+import heroImage from '../../public/contact.jpg';
 
 export default function Page() {
   return (
@@ -34,9 +35,7 @@ export default function Page() {
           </div>
           <div className="col-md-6 col-12 col-lg-6">
             <Image
-              src="/contact.jpg"
-              width={500}
-              height={500}
+              src={heroImage}
               className="img-fluid mx-lg-5 animate__animated animate__headShake animate__delay-2s"
               alt="Hiren Chhatbar"
             />
@@ -69,7 +68,7 @@ export default function Page() {
                 </Link>
               </p>
               <p>
-                <Link href="+91 99 24 33 74 18">
+                <Link href="tel:+919924337418">
                   <FontAwesomeIcon icon={faPhone} size="xl" className="me-3" />
                   +91 99 24 33 74 18
                 </Link>

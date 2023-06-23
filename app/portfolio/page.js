@@ -14,6 +14,7 @@ import {
 
 import Link from 'next/link'
 import Image from 'next/image'
+import heroImage from '../../public/portfolio.jpg';
 
 export default function Page() {
   return (
@@ -30,9 +31,7 @@ export default function Page() {
           </div>
           <div className="col-md-6 col-12 col-lg-6">
             <Image
-              src="/portfolio.jpg"
-              width={500}
-              height={500}
+              src={heroImage}
               className="img-fluid mx-lg-5 animate__animated animate__headShake animate__delay-2s"
               alt="Hiren Chhatbar"
             />
@@ -45,6 +44,60 @@ export default function Page() {
           <div className="row mb-5">
             <div className="container d-flex justify-content-center mt-50 mb-50">
               <div className="row">
+
+              <div className="col-md-6 mt-3">
+                  <div className="card shadow">
+                    <div className="card-body">
+                      <div className="card-img-actions text-center">
+                        <FontAwesomeIcon icon={faFacebook} size="7x" />
+                      </div>
+                    </div>
+                    <div className="card-body">
+                      <h3>Care Preference (v2)</h3>
+                      <p>An online platform for the UK's care provider in the healthcare domain to manage employees, their training, rotas, performance. The system allows managing service users and their incidents as well.</p>
+                      <p>Role: JavaScript Technical Architect</p>
+                      <p>Status: Under development</p>
+                      <ul>
+                        <li>Employ the MVC design pattern to enhance the structure and organisation of the backend REST APIs constructed using Express.</li>
+                        <li>Devise a highly adaptable and efficient architecture, named 'Nova,' which facilitates rapid development of REST APIs, microservices, and CLI projects while adhering to the principles of Rapid Application Development (RAD).</li>
+                        <li>Construct an abstract and high-performing architecture, termed 'Nova UI,' tailored for swift development of efficient React-based user interfaces that align with the Rapid Application Development (RAD) philosophy.</li>
+                        <li>Seamlessly integrate various UI libraries, such as React, Bootstrap, and Dropzone, into the solution-building process, ensuring a cohesive and feature-rich user experience.</li>
+                        <li>Outline a solution and develop an NPM package specifically designed to manage hierarchical information for the Team module.</li>
+                        <li>Implement a robust authentication and authorization system in the REST APIs using middleware in Express, while also constructing a permission page in the React UI for efficient management.</li>
+                        <li>Define a comprehensive CI/CD pipeline and server setup, incorporating Nginx as a reverse proxy, MariaDB server, PM2, NVM (Node Version Manager), and cron jobs, all while adhering to robust security guidelines.</li>
+                        <li>Regularly update and upgrade NPM packages and Node.js to ensure the utilisation of the latest features and improvements.</li>
+                        <li>Implement optimization techniques such as lazy loading, minimising the number of React components, and utilising lightweight NPM packages in the React UI to proactively safeguard performance and prevent potential speed-related issues in the future.</li>
+                        <li>Establish comprehensive guidelines encompassing directory structure, coding conventions, naming conventions, and preferred NPM packages for both the frontend React UI and the backend REST API components.</li>
+                        <li>Prepare detailed documentation elucidating naming conventions, directory structure, SDLC Workflow, and popular open source NPM packages that can effectively address specific challenges encountered during application development.</li>
+                      </ul>
+                      <div className="mb-3">
+                        <span className="p-1 badge bg-secondary me-3">React</span>
+                        <span className="p-1 badge bg-secondary me-3">Bootstrap</span>
+                        <span className="p-1 badge bg-secondary me-3">SASS</span>
+                        <span className="p-1 badge bg-secondary me-3">Dropzone</span>
+                        <span className="p-1 badge bg-secondary me-3">Axios</span>
+                        <span className="p-1 badge bg-secondary me-3">Node.js</span>
+                        <span className="p-1 badge bg-secondary me-3">Express</span>
+                        <span className="p-1 badge bg-secondary me-3">Vite.js</span>
+                        <span className="p-1 badge bg-secondary me-3">MariaDB</span>
+                        <span className="p-1 badge bg-secondary me-3">Nginx</span>
+                        <span className="p-1 badge bg-secondary me-3">Linux</span>
+                        <span className="p-1 badge bg-secondary me-3">MySQL</span>
+                        <span className="p-1 badge bg-secondary me-3">Workbench</span>
+                        <span className="p-1 badge bg-secondary me-3">Postman</span>
+                      </div>
+                      <Link href="/">
+                        visit project
+                        <FontAwesomeIcon
+                          icon={faArrowUpRightFromSquare}
+                          size="1x"
+                          className="mx-1"
+                        />
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+
                 <div className="col-md-6 mt-3">
                   <div className="card shadow">
                     <div className="card-body">
@@ -266,53 +319,6 @@ export default function Page() {
                         <span className="p-1 badge bg-secondary me-3">Bootstrap 5</span>
                         <span className="p-1 badge bg-secondary me-3">jQuery</span>
                         <span className="p-1 badge bg-secondary me-3">Webpack</span>
-                      </div>
-                      <Link href="/">
-                        visit project
-                        <FontAwesomeIcon
-                          icon={faArrowUpRightFromSquare}
-                          size="1x"
-                          className="mx-1"
-                        />
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="col-md-6 mt-3">
-                  <div className="card shadow">
-                    <div className="card-body">
-                      <div className="card-img-actions text-center">
-                        <FontAwesomeIcon icon={faPepperHot} size="7x" />
-                      </div>
-                    </div>
-                    <div className="card-body">
-                      <h3>Care Preference (v2)</h3>
-                      <p>An online platform for the UK's care provider in the healthcare domain to manage employees, their training, rotas, performance. The system allows managing service users and their incidents as well.</p>
-                      <p>Role: JavaScript Technical Architect</p>
-                      <p>Status: Under development</p>
-                      <ul>
-                        <li>To be updated soon</li>
-                        <li>To be updated soon</li>
-                        <li>To be updated soon</li>
-                        <li>To be updated soon</li>
-                        <li>To be updated soon</li>
-                      </ul>
-                      <div className="mb-3">
-                        <span className="p-1 badge bg-secondary me-3">React</span>
-                        <span className="p-1 badge bg-secondary me-3">Bootstrap</span>
-                        <span className="p-1 badge bg-secondary me-3">SASS</span>
-                        <span className="p-1 badge bg-secondary me-3">Dropzone</span>
-                        <span className="p-1 badge bg-secondary me-3">Axios</span>
-                        <span className="p-1 badge bg-secondary me-3">Node.js</span>
-                        <span className="p-1 badge bg-secondary me-3">Express</span>
-                        <span className="p-1 badge bg-secondary me-3">Vite.js</span>
-                        <span className="p-1 badge bg-secondary me-3">MariaDB</span>
-                        <span className="p-1 badge bg-secondary me-3">Nginx</span>
-                        <span className="p-1 badge bg-secondary me-3">Linux</span>
-                        <span className="p-1 badge bg-secondary me-3">MySQL</span>
-                        <span className="p-1 badge bg-secondary me-3">Workbench</span>
-                        <span className="p-1 badge bg-secondary me-3">Postman</span>
                       </div>
                       <Link href="/">
                         visit project
