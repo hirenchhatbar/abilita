@@ -8,7 +8,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons'
 import Image from 'next/image';
 import Link from "next/link";
-import heroImage from '../../public/experience.jpg'; 
+import heroImage from '../../public/experience.jpg';
 
 export default function Page() {
   return (
@@ -127,7 +127,7 @@ export default function Page() {
                           <FontAwesomeIcon icon={faIdCard} size="1x" />
                         </div>
                         <div className="timeline-text">
-                          <h5><Link href="https://aspl.in/" target="_blank">Almighty Software Pvt. Ltd. (Rajkot, INDIA)</Link></h5>
+                          <h5><Link href="https://aspl.in/" target="_blank">Almighty Software Pvt. Ltd. (Rajkot, India)</Link></h5>
                           <h4>Senior Symfony/PHP Developer</h4>
                           <h6 className="d-lg-none d-xl-none d-sm-none">JANUARY 2012 - JANUARY 2020</h6>
                           <ul>
@@ -162,7 +162,7 @@ export default function Page() {
                           <FontAwesomeIcon icon={faIdCard} size="1x" />
                         </div>
                         <div className="timeline-text">
-                          <h5><Link href="https://www.aceinfoway.com/" target="_blank">Ace Infoway Pvt. Ltd. (Rajkot, INDIA)</Link></h5>
+                          <h5><Link href="https://www.aceinfoway.com/" target="_blank">Ace Infoway Pvt. Ltd. (Rajkot, India)</Link></h5>
                           <h4>PHP Developer</h4>
                           <h6 className="d-lg-none d-xl-none d-sm-none">JANUARY 2010 - DECEMBER 2012</h6>
                           <ul>
