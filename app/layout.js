@@ -9,7 +9,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faEnvelope,
   faPhone,
-  faLocationDot,
+  faLocationDot
 } from '@fortawesome/free-solid-svg-icons'
 import {
   faFacebook,
@@ -40,7 +40,7 @@ export default function RootLayout({ children }) {
                   Hiren Chhatbar
                 </Link>
                 <button
-                  className="navbar-toggler"
+                  className="navbar-toggler collapsed"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#menu"
@@ -48,7 +48,9 @@ export default function RootLayout({ children }) {
                   aria-expanded="false"
                   aria-label="Toggle navigation"
                 >
-                  <span className="navbar-toggler-icon"></span>
+                  <span className="toggler-icon top-bar"></span>
+                  <span className="toggler-icon middle-bar"></span>
+                  <span className="toggler-icon bottom-bar"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="menu">
                   <ul className="navbar-nav ms-auto gap-3">
