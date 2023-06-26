@@ -8,8 +8,12 @@ import {
   faBook,
   faTrophy,
   faUser,
-} from '@fortawesome/free-solid-svg-icons'
-import { faApple, faGoogle, faPaypal } from '@fortawesome/free-brands-svg-icons';
+} from '@fortawesome/free-solid-svg-icons';
+import {
+  faApple,
+  faGoogle,
+  faPaypal,
+} from '@fortawesome/free-brands-svg-icons';
 
 import Image from 'next/image';
 
@@ -178,7 +182,9 @@ export default function Page() {
                       </div>
                     </div>
                     <div className="card-body">
-                      <h2>COPA (Computer Programmer cum Programming Assistant)</h2>
+                      <h2>
+                        COPA (Computer Programmer cum Programming Assistant)
+                      </h2>
                       <p>I.T.I - Amreli</p>
                       <p>Issued Aug 2003</p>
                       <p>Skills: Programming</p>
@@ -193,76 +199,75 @@ export default function Page() {
 
       <section className="container-fluid">
         <div className="mt-3 container d-flex justify-content-center flex-column">
-            <h2 className="py-4">
-              <FontAwesomeIcon icon={faCode} size="1x" className="me-2" />
-              Languages
-            </h2>
+          <h2 className="py-4">
+            <FontAwesomeIcon icon={faCode} size="1x" className="me-2" />
+            Languages
+          </h2>
           <p className="mb-2">English</p>
-            <div className="progress mb-4 rounded-pill">
-              <div
-                className="progress-bar w-75"
-                role="progressbar"
-                aria-valuenow="75"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              ></div>
-            </div>
-            <p className="mb-2">Hindi</p>
-            <div className="progress mb-4 rounded-pill">
-              <div
-                className="progress-bar w-50"
-                role="progressbar"
-                aria-valuenow="50"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              ></div>
-            </div>
-            <p className="mb-2">Gujarati</p>
-            <div className="progress mb-4 rounded-pill">
-              <div
-                className="progress-bar w-25"
-                role="progressbar"
-                aria-valuenow="25"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              ></div>
-            </div>
-          
+          <div className="progress mb-4 rounded-pill">
+            <div
+              className="progress-bar w-75"
+              role="progressbar"
+              aria-valuenow="75"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            ></div>
+          </div>
+          <p className="mb-2">Hindi</p>
+          <div className="progress mb-4 rounded-pill">
+            <div
+              className="progress-bar w-50"
+              role="progressbar"
+              aria-valuenow="50"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            ></div>
+          </div>
+          <p className="mb-2">Gujarati</p>
+          <div className="progress mb-4 rounded-pill">
+            <div
+              className="progress-bar w-25"
+              role="progressbar"
+              aria-valuenow="25"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            ></div>
+          </div>
         </div>
       </section>
 
       <section className="container-fluid">
         <div className="mt-3 container d-flex justify-content-center flex-column">
-            <h2 className="py-4">
-              <FontAwesomeIcon
-                icon={faHeartCircleCheck}
-                size="1x"
-                className="me-2"
-              />
-              Hobbies
-            </h2>
-            <div>
-              <span className="p-2 mx-2 mb-3 badge text-bg-dark">Primary</span>
-              <span className="p-2 mx-2 mb-3 badge text-bg-dark">Secondary</span>
-              <span className="p-2 mx-2 mb-3 badge text-bg-dark">Success</span>
-              <span className="p-2 mx-2 mb-3 badge text-bg-dark">Danger</span>
-              <span className="p-2 mx-2 mb-3 badge text-bg-dark">Warning</span>
-              <span className="p-2 mx-2 mb-3 badge text-bg-dark">Info</span>
-              <span className="p-2 mx-2 mb-3 badge text-bg-dark">Light</span>
-              <span className="p-2 mx-2 mb-3 badge text-bg-dark">Dark</span>
-              <span className="p-2 mx-2 mb-3 badge text-bg-dark">Primary</span>
-              <span className="p-2 mx-2 mb-3 badge text-bg-dark">Secondary</span>
-              <span className="p-2 mx-2 mb-3 badge text-bg-dark">Success</span>
-              <span className="p-2 mx-2 mb-3 badge text-bg-dark">Danger</span>
-              <span className="p-2 mx-2 mb-3 badge text-bg-dark">Warning</span>
-              <span className="p-2 mx-2 mb-3 badge text-bg-dark">Info</span>
-              <span className="p-2 mx-2 mb-3 badge text-bg-dark">Light</span>
-              <span className="p-2 mx-2 mb-3 badge text-bg-dark">Dark</span>
-              <span className="p-2 mx-2 badge text-bg-dark">Primary</span>
-              <span className="p-2 mx-2 badge text-bg-dark">Secondary</span>
-              <span className="p-2 mx-2 badge text-bg-dark">Success</span>
-              <span className="p-2 mx-2 badge text-bg-dark">Danger</span>
-            </div>
+          <h2 className="py-4">
+            <FontAwesomeIcon
+              icon={faHeartCircleCheck}
+              size="1x"
+              className="me-2"
+            />
+            Hobbies
+          </h2>
+          <div>
+            <span className="p-2 mx-2 mb-3 badge text-bg-dark">Primary</span>
+            <span className="p-2 mx-2 mb-3 badge text-bg-dark">Secondary</span>
+            <span className="p-2 mx-2 mb-3 badge text-bg-dark">Success</span>
+            <span className="p-2 mx-2 mb-3 badge text-bg-dark">Danger</span>
+            <span className="p-2 mx-2 mb-3 badge text-bg-dark">Warning</span>
+            <span className="p-2 mx-2 mb-3 badge text-bg-dark">Info</span>
+            <span className="p-2 mx-2 mb-3 badge text-bg-dark">Light</span>
+            <span className="p-2 mx-2 mb-3 badge text-bg-dark">Dark</span>
+            <span className="p-2 mx-2 mb-3 badge text-bg-dark">Primary</span>
+            <span className="p-2 mx-2 mb-3 badge text-bg-dark">Secondary</span>
+            <span className="p-2 mx-2 mb-3 badge text-bg-dark">Success</span>
+            <span className="p-2 mx-2 mb-3 badge text-bg-dark">Danger</span>
+            <span className="p-2 mx-2 mb-3 badge text-bg-dark">Warning</span>
+            <span className="p-2 mx-2 mb-3 badge text-bg-dark">Info</span>
+            <span className="p-2 mx-2 mb-3 badge text-bg-dark">Light</span>
+            <span className="p-2 mx-2 mb-3 badge text-bg-dark">Dark</span>
+            <span className="p-2 mx-2 badge text-bg-dark">Primary</span>
+            <span className="p-2 mx-2 badge text-bg-dark">Secondary</span>
+            <span className="p-2 mx-2 badge text-bg-dark">Success</span>
+            <span className="p-2 mx-2 badge text-bg-dark">Danger</span>
+          </div>
         </div>
       </section>
 
@@ -322,5 +327,5 @@ export default function Page() {
         </div>
       </section>
     </main>
-  )
+  );
 }

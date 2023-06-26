@@ -1,33 +1,33 @@
-'use client'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+'use client';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faArrowCircleUp,
   faMoon,
   faSun,
-} from '@fortawesome/free-solid-svg-icons'
-import { useEffect, useState } from 'react'
+} from '@fortawesome/free-solid-svg-icons';
+import { useEffect, useState } from 'react';
 
 export default function GoTop() {
-  const [isVisible, setIsVisible] = useState(false)
+  const [isVisible, setIsVisible] = useState(false);
 
   const gotoBtn = () => {
-    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' })
-  }
+    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+  };
   const listenToScroll = () => {
-    let heightToHideen = 250
+    let heightToHideen = 250;
     const winScroll =
-      document.body.scrollTop || document.documentElement.scrollTop
+      document.body.scrollTop || document.documentElement.scrollTop;
 
     if (winScroll > heightToHideen) {
-      setIsVisible(true)
+      setIsVisible(true);
     } else {
-      setIsVisible(false)
+      setIsVisible(false);
     }
-  }
+  };
   useEffect(() => {
-    window.addEventListener('scroll', listenToScroll)
-    return () => window.removeEventListener('scroll', listenToScroll)
-  }, [])
+    window.addEventListener('scroll', listenToScroll);
+    return () => window.removeEventListener('scroll', listenToScroll);
+  }, []);
 
   return (
     <>
@@ -39,5 +39,5 @@ export default function GoTop() {
         </div>
       )}
     </>
-  )
+  );
 }

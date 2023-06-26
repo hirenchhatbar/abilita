@@ -1,5 +1,5 @@
-import Image from 'next/image'
-import Link from 'next/link'
+import Image from 'next/image';
+import Link from 'next/link';
 
 export default function NotFound() {
   return (
@@ -23,11 +23,11 @@ export default function NotFound() {
       <section className="container-fluid">
         <div className="container d-flex flex-column text-center">
           <p>Could not find requested resource</p>
-      <p>
-        View <Link href="/">Home Page</Link>
-      </p>
+          <p>
+            View <Link href="/">Home Page</Link>
+          </p>
         </div>
       </section>
     </main>
-  )
+  );
 }

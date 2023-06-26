@@ -1,10 +1,10 @@
-'use client'
+'use client';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faMoon, faSun } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
 
-import { useEffect, useState } from 'react'
-import Cookies from 'js-cookie'
+import { useEffect, useState } from 'react';
+import Cookies from 'js-cookie';
 
 export default function Theme() {
   const [theme, setTheme] = useState('light');
@@ -18,22 +18,21 @@ export default function Theme() {
 
     // display proper icon in footer
     setTheme(theme);
-  },[]);
+  }, []);
 
   const switchTheme = () => {
     let theme =
       'light' === document.querySelector('body').getAttribute('data-bs-theme')
         ? 'dark'
-        : 'light'
-
-    document.querySelector('body').setAttribute('data-bs-theme', theme)
+        : 'light';
+    document.querySelector('body').setAttribute('data-bs-theme', theme);
 
     // display proper icon in footer
     setTheme(theme);
 
     // the cookie is set for later use
-    Cookies.set('theme', theme, {expires: 365});
-  }
+    Cookies.set('theme', theme, { expires: 365 });
+  };
 
   return (
     <div className="btn-group">
@@ -45,5 +44,5 @@ export default function Theme() {
         )}
       </button>
     </div>
-  )
+  );
 }

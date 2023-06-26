@@ -1,12 +1,12 @@
-'use client'
+'use client';
 
-import { useEffect } from 'react'
-import Image from 'next/image'
+import { useEffect } from 'react';
+import Image from 'next/image';
 
 export default function Error({ error, reset }) {
   useEffect(() => {
-    console.error(error)
-  }, [error])
+    console.error(error);
+  }, [error]);
 
   return (
     <main>
@@ -28,11 +28,15 @@ export default function Error({ error, reset }) {
       </section>
       <section className="container-fluid">
         <div className="container text-center">
-          <button type="button" className="btn btn-dark" onClick={
-              () => reset()
-            }>Try again</button>
+          <button
+            type="button"
+            className="btn btn-dark"
+            onClick={() => reset()}
+          >
+            Try again
+          </button>
         </div>
       </section>
     </main>
-  )
+  );
 }

@@ -1,4 +1,4 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faAddressBook,
   faEnvelope,
@@ -6,7 +6,7 @@ import {
   faLocationDot,
   faMessage,
   faPhone,
-} from '@fortawesome/free-solid-svg-icons'
+} from '@fortawesome/free-solid-svg-icons';
 import {
   faFacebook,
   faGithubSquare,
@@ -15,10 +15,10 @@ import {
   faLinkedin,
   faTwitter,
   faYoutube,
-} from '@fortawesome/free-brands-svg-icons'
+} from '@fortawesome/free-brands-svg-icons';
 
-import Link from 'next/link'
-import Image from 'next/image'
+import Link from 'next/link';
+import Image from 'next/image';
 import heroImage from '../../public/contact.jpg';
 
 export default function Page() {
@@ -115,5 +115,5 @@ export default function Page() {
         </div>
       </section>
     </main>
-  )
+  );
 }
