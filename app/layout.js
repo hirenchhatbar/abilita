@@ -37,7 +37,7 @@ export default function RootLayout({ children }) {
             <nav className="navbar navbar-expand-lg bg-white container-fluid py-3">
               <div className="container-fluid px-2 px-sm-4 px-xl-5 px-md-5 px-lg-5">
                 <Link href="/" className="navbar-brand logo-text">
-                  Hiren Chhatbar
+                  {process.env.NEXT_PUBLIC_LOGO_TEXT }
                 </Link>
                 <button
                   className="navbar-toggler collapsed"
@@ -95,7 +95,7 @@ export default function RootLayout({ children }) {
             <div className="row text-start text-md-left">
               <div className="col-md-3 col-lg-3 col-xl-3 mx-auto">
                 <Link href="/" className="mb-4 logo-text">
-                  Hiren Chhatbar
+                  {process.env.NEXT_PUBLIC_LOGO_TEXT }
                 </Link>
                 <p className="mt-2">
                   "The function of good software is to make the complex appear
@@ -181,7 +181,7 @@ export default function RootLayout({ children }) {
               <p className="mx-auto">
                 Copyright © 2023
                 <Link className="mx-1 logo-text" href="/">
-                  Hiren Chhatbar
+                  {process.env.NEXT_PUBLIC_LOGO_TEXT }
                 </Link>
                 All rights reserved.
               </p>

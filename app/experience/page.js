@@ -8,6 +8,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import Image from 'next/image';
 import Link from 'next/link';
+import ReadMore from '@/components/ReadMore';
 import heroImage from '../../public/experience.jpg';
 
 export default function Page() {
@@ -46,7 +47,7 @@ export default function Page() {
                     <p>Present</p>
                   </div>
                   <div className="row">
-                    <div className="col-12">
+                    <div className="col-12 read-more" id="experience-1">
                       <div
                         className="single-timeline-content d-flex wow fadeInLeft"
                         data-wow-delay="0.3s"
@@ -122,6 +123,7 @@ export default function Page() {
                               the application development process.
                             </li>
                           </ul>
+                          <ReadMore  container="experience-1"/>
                         </div>
                       </div>
                     </div>
@@ -135,7 +137,7 @@ export default function Page() {
                     <p>February 2020</p>
                   </div>
                   <div className="row">
-                    <div className="col-12">
+                    <div className="col-12 read-more" id="experience-2">
                       <div
                         className="single-timeline-content d-flex wow fadeInLeft"
                         data-wow-delay="0.3s"
@@ -191,6 +193,7 @@ export default function Page() {
                               solutions.
                             </li>
                           </ul>
+                          <ReadMore  container="experience-2"/>
                         </div>
                       </div>
                     </div>
