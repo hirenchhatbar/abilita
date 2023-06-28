@@ -9,16 +9,16 @@ import Cookies from 'js-cookie';
 export default function Theme() {
   const [theme, setTheme] = useState('light');
 
-  useEffect(() => {
-    // the cook runs when page loads, reads cookie
-    const theme = Cookies.get('theme') ?? 'light';
+  // useEffect(() => {
+  //   // the cook runs when page loads, reads cookie
+  //   const theme = Cookies.get('theme') ?? 'light';
 
-    // it sets the theme
-    document.querySelector('body').setAttribute('data-bs-theme', theme);
+  //   // it sets the theme
+  //   document.querySelector('body').setAttribute('data-bs-theme', theme);
 
-    // display proper icon in footer
-    setTheme(theme);
-  }, []);
+  //   // display proper icon in footer
+  //   setTheme(theme);
+  // }, []);
 
   const switchTheme = () => {
     let theme =
@@ -31,7 +31,7 @@ export default function Theme() {
     setTheme(theme);
 
     // the cookie is set for later use
-    Cookies.set('theme', theme, { expires: 365 });
+    Cookies().set('theme', theme, { expires: 365 });
   };
 
   return (
