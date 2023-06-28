@@ -15,6 +15,7 @@ import {
 import Link from 'next/link';
 import Image from 'next/image';
 import heroImage from '../../public/portfolio.jpg';
+import ReadMore from '@/components/ReadMore';
 
 export default function Page() {
   return (
@@ -52,137 +53,141 @@ export default function Page() {
                       </div>
                     </div>
                     <div className="card-body">
-                      <h3>Care Preference (v2)</h3>
-                      <p>
-                        An online platform for the UK's care provider in the
-                        healthcare domain to manage employees, their training,
-                        rotas, performance. The system allows managing service
-                        users and their incidents as well.
-                      </p>
-                      <p>Role: JavaScript Technical Architect</p>
-                      <p>Status: Under development</p>
-                      <ul>
-                        <li>
-                          Employ the MVC design pattern to enhance the structure
-                          and organisation of the backend REST APIs constructed
-                          using Express.
-                        </li>
-                        <li>
-                          Devise a highly adaptable and efficient architecture,
-                          named 'Nova,' which facilitates rapid development of
-                          REST APIs, microservices, and CLI projects while
-                          adhering to the principles of Rapid Application
-                          Development (RAD).
-                        </li>
-                        <li>
-                          Construct an abstract and high-performing
-                          architecture, termed 'Nova UI,' tailored for swift
-                          development of efficient React-based user interfaces
-                          that align with the Rapid Application Development
-                          (RAD) philosophy.
-                        </li>
-                        <li>
-                          Seamlessly integrate various UI libraries, such as
-                          React, Bootstrap, and Dropzone, into the
-                          solution-building process, ensuring a cohesive and
-                          feature-rich user experience.
-                        </li>
-                        <li>
-                          Outline a solution and develop an NPM package
-                          specifically designed to manage hierarchical
-                          information for the Team module.
-                        </li>
-                        <li>
-                          Implement a robust authentication and authorization
-                          system in the REST APIs using middleware in Express,
-                          while also constructing a permission page in the React
-                          UI for efficient management.
-                        </li>
-                        <li>
-                          Define a comprehensive CI/CD pipeline and server
-                          setup, incorporating Nginx as a reverse proxy, MariaDB
-                          server, PM2, NVM (Node Version Manager), and cron
-                          jobs, all while adhering to robust security
-                          guidelines.
-                        </li>
-                        <li>
-                          Regularly update and upgrade NPM packages and Node.js
-                          to ensure the utilisation of the latest features and
-                          improvements.
-                        </li>
-                        <li>
-                          Implement optimization techniques such as lazy
-                          loading, minimising the number of React components,
-                          and utilising lightweight NPM packages in the React UI
-                          to proactively safeguard performance and prevent
-                          potential speed-related issues in the future.
-                        </li>
-                        <li>
-                          Establish comprehensive guidelines encompassing
-                          directory structure, coding conventions, naming
-                          conventions, and preferred NPM packages for both the
-                          frontend React UI and the backend REST API components.
-                        </li>
-                        <li>
-                          Prepare detailed documentation elucidating naming
-                          conventions, directory structure, SDLC Workflow, and
-                          popular open source NPM packages that can effectively
-                          address specific challenges encountered during
-                          application development.
-                        </li>
-                      </ul>
-                      <div className="mb-3">
-                        <span className="p-1 badge bg-secondary me-3">
-                          React
-                        </span>
-                        <span className="p-1 badge bg-secondary me-3">
-                          Bootstrap
-                        </span>
-                        <span className="p-1 badge bg-secondary me-3">
-                          SASS
-                        </span>
-                        <span className="p-1 badge bg-secondary me-3">
-                          Dropzone
-                        </span>
-                        <span className="p-1 badge bg-secondary me-3">
-                          Axios
-                        </span>
-                        <span className="p-1 badge bg-secondary me-3">
-                          Node.js
-                        </span>
-                        <span className="p-1 badge bg-secondary me-3">
-                          Express
-                        </span>
-                        <span className="p-1 badge bg-secondary me-3">
-                          Vite.js
-                        </span>
-                        <span className="p-1 badge bg-secondary me-3">
-                          MariaDB
-                        </span>
-                        <span className="p-1 badge bg-secondary me-3">
-                          Nginx
-                        </span>
-                        <span className="p-1 badge bg-secondary me-3">
-                          Linux
-                        </span>
-                        <span className="p-1 badge bg-secondary me-3">
-                          MySQL
-                        </span>
-                        <span className="p-1 badge bg-secondary me-3">
-                          Workbench
-                        </span>
-                        <span className="p-1 badge bg-secondary me-3">
-                          Postman
-                        </span>
+                      <div className="read-more" id="project-1">
+                        <h3>Care Preference (v2)</h3>
+                        <p>
+                          An online platform for the UK's care provider in the
+                          healthcare domain to manage employees, their training,
+                          rotas, performance. The system allows managing service
+                          users and their incidents as well.
+                        </p>
+                        <p>Role: JavaScript Technical Architect</p>
+                        <p>Status: Under development</p>
+                        <ul>
+                          <li>
+                            Employ the MVC design pattern to enhance the
+                            structure and organisation of the backend REST APIs
+                            constructed using Express.
+                          </li>
+                          <li>
+                            Devise a highly adaptable and efficient
+                            architecture, named 'Nova,' which facilitates rapid
+                            development of REST APIs, microservices, and CLI
+                            projects while adhering to the principles of Rapid
+                            Application Development (RAD).
+                          </li>
+                          <li>
+                            Construct an abstract and high-performing
+                            architecture, termed 'Nova UI,' tailored for swift
+                            development of efficient React-based user interfaces
+                            that align with the Rapid Application Development
+                            (RAD) philosophy.
+                          </li>
+                          <li>
+                            Seamlessly integrate various UI libraries, such as
+                            React, Bootstrap, and Dropzone, into the
+                            solution-building process, ensuring a cohesive and
+                            feature-rich user experience.
+                          </li>
+                          <li>
+                            Outline a solution and develop an NPM package
+                            specifically designed to manage hierarchical
+                            information for the Team module.
+                          </li>
+                          <li>
+                            Implement a robust authentication and authorization
+                            system in the REST APIs using middleware in Express,
+                            while also constructing a permission page in the
+                            React UI for efficient management.
+                          </li>
+                          <li>
+                            Define a comprehensive CI/CD pipeline and server
+                            setup, incorporating Nginx as a reverse proxy,
+                            MariaDB server, PM2, NVM (Node Version Manager), and
+                            cron jobs, all while adhering to robust security
+                            guidelines.
+                          </li>
+                          <li>
+                            Regularly update and upgrade NPM packages and
+                            Node.js to ensure the utilisation of the latest
+                            features and improvements.
+                          </li>
+                          <li>
+                            Implement optimization techniques such as lazy
+                            loading, minimising the number of React components,
+                            and utilising lightweight NPM packages in the React
+                            UI to proactively safeguard performance and prevent
+                            potential speed-related issues in the future.
+                          </li>
+                          <li>
+                            Establish comprehensive guidelines encompassing
+                            directory structure, coding conventions, naming
+                            conventions, and preferred NPM packages for both the
+                            frontend React UI and the backend REST API
+                            components.
+                          </li>
+                          <li>
+                            Prepare detailed documentation elucidating naming
+                            conventions, directory structure, SDLC Workflow, and
+                            popular open source NPM packages that can
+                            effectively address specific challenges encountered
+                            during application development.
+                          </li>
+                        </ul>
+                        <div className="mb-3">
+                          <span className="p-1 badge bg-secondary me-3">
+                            React
+                          </span>
+                          <span className="p-1 badge bg-secondary me-3">
+                            Bootstrap
+                          </span>
+                          <span className="p-1 badge bg-secondary me-3">
+                            SASS
+                          </span>
+                          <span className="p-1 badge bg-secondary me-3">
+                            Dropzone
+                          </span>
+                          <span className="p-1 badge bg-secondary me-3">
+                            Axios
+                          </span>
+                          <span className="p-1 badge bg-secondary me-3">
+                            Node.js
+                          </span>
+                          <span className="p-1 badge bg-secondary me-3">
+                            Express
+                          </span>
+                          <span className="p-1 badge bg-secondary me-3">
+                            Vite.js
+                          </span>
+                          <span className="p-1 badge bg-secondary me-3">
+                            MariaDB
+                          </span>
+                          <span className="p-1 badge bg-secondary me-3">
+                            Nginx
+                          </span>
+                          <span className="p-1 badge bg-secondary me-3">
+                            Linux
+                          </span>
+                          <span className="p-1 badge bg-secondary me-3">
+                            MySQL
+                          </span>
+                          <span className="p-1 badge bg-secondary me-3">
+                            Workbench
+                          </span>
+                          <span className="p-1 badge bg-secondary me-3">
+                            Postman
+                          </span>
+                        </div>
+                        <Link href="/">
+                          visit project
+                          <FontAwesomeIcon
+                            icon={faArrowUpRightFromSquare}
+                            size="1x"
+                            className="mx-1"
+                          />
+                        </Link>
                       </div>
-                      <Link href="/">
-                        visit project
-                        <FontAwesomeIcon
-                          icon={faArrowUpRightFromSquare}
-                          size="1x"
-                          className="mx-1"
-                        />
-                      </Link>
+                      <ReadMore container="project-1" />
                     </div>
                   </div>
                 </div>
@@ -195,150 +200,156 @@ export default function Page() {
                       </div>
                     </div>
                     <div className="card-body">
-                      <h3>Clearly Interiors</h3>
-                      <p>A SaaS based job management web app</p>
-                      <p>
-                        Role: Senior Symfony/PHP Developer cum Technical
-                        Architect
-                      </p>
-                      <p>
-                        Status: Fully released and stable for Clearly Interiors.
-                        SaaS in MVP phase.
-                      </p>
-                      <ul>
-                        <li>
-                          Develop a job listing page that includes a search
-                          dialog with various fields, data listing, and
-                          pagination functionality.
-                        </li>
-                        <li>
-                          Create a job detail page with multiple UI sections for
-                          job details, stages, tasks, logs, notes, and
-                          appointments.Provide users with the ability to add,
-                          edit, and delete job details and export reports in
-                          Excel format.
-                        </li>
-                        <li>
-                          Develop a custom Symfony command for sending
-                          appointment reminders to users at different intervals
-                          and integrate it with the Linux Crontab.Build an
-                          appointment calendar page with fullcalendar JS library
-                          to manage client appointments, allowing for the
-                          addition, editing, and deletion of appointments.
-                        </li>
-                        <li>
-                          Develop a user permissions system (ACL) that includes
-                          authentication and authorization in the resource and
-                          user role matrix using the symfony/security component
-                          by creating a custom Voter
-                        </li>
-                        <li>
-                          Build various detail and summary reports, allowing
-                          users to export them in Excel format by integrating
-                          the phpoffice/phpspreadsheet library.
-                        </li>
-                        <li>
-                          Develop a dedicated HR section with schedules and
-                          leave management for employees. Enable superiors to
-                          approve or decline leave requests and connect this
-                          with client appointments.
-                        </li>
-                        <li>
-                          Build an HR calendar using the fullcalendar JS
-                          library, which displays the schedule/occupancy of all
-                          employees in a colour-friendly manner using the
-                          mexitek/phpcolors library
-                        </li>
-                        <li>
-                          Create user dashboards and WIP (Work In Progress)
-                          pages for various user types. Develop a dynamic
-                          notification system based on user roles to alert users
-                          of any events in the system via email and popup
-                          notifications.
-                        </li>
-                        <li>
-                          Integrate the cropperjs JS library on the UI side and
-                          the intervention/image library on the backend side to
-                          develop an image editor with features such as moving,
-                          zooming, cropping, and rotating images. Provide images
-                          of various dimensions and sizes on-the-fly using the
-                          intervention/image library to meet design
-                          requirements.{' '}
-                        </li>
-                        <li>
-                          Build a file and directory uploader by integrating the
-                          dropzone JS library on the UI side and the
-                          league/flysystem-bundle library on the backend side.
-                          Incorporate the maennchen/zipstream-php library to
-                          enable users to download the ZIP of the entire
-                          directory.{' '}
-                        </li>
-                        <li>
-                          Implement a full-fledged SaaS by tweaking Nginx,
-                          Symfony bundle ecosystem, Doctrine query execution,
-                          and Linux bash scripting. This allows the same code
-                          base to run for many SME and enterprise customers with
-                          a single web root. Provide technical documentation and
-                          flow charts for system understanding.{' '}
-                        </li>
-                        <li>
-                          Integrate the fzaninotto/faker library to generate
-                          sample GDPR compliant data for test and demo
-                          environments.{' '}
-                        </li>
-                        <li>
-                          Coordinate with the project manager to plan version
-                          releases and prepare for release deployment on staging
-                          (UAT) and production servers upon approval.
-                        </li>
-                        <li>
-                          Prioritise tasks, fix urgent bugs, and deploy them on
-                          production to maintain customer service and meet value
-                          commitments.
-                        </li>
-                        <li>
-                          Keep Symfony, PHP libraries, and NPM packages
-                          up-to-date by updating and upgrading them at periodic
-                          intervals
-                        </li>
-                      </ul>
-                      <div className="mb-3">
-                        <span className="p-1 badge bg-secondary me-3">
-                          Symfony 5
-                        </span>
-                        <span className="p-1 badge bg-secondary me-3">
-                          Doctrine(ORM)
-                        </span>
-                        <span className="p-1 badge bg-secondary me-3">
-                          Nginx
-                        </span>
-                        <span className="p-1 badge bg-secondary me-3">
-                          Php-fpm
-                        </span>
-                        <span className="p-1 badge bg-secondary me-3">
-                          MariaDB
-                        </span>
-                        <span className="p-1 badge bg-secondary me-3">
-                          API-first
-                        </span>
-                        <span className="p-1 badge bg-secondary me-3">
-                          Bootstrap 5
-                        </span>
-                        <span className="p-1 badge bg-secondary me-3">
-                          jQuery
-                        </span>
-                        <span className="p-1 badge bg-secondary me-3">
-                          Webpack
-                        </span>
+                      <div className="read-more" id="project-2">
+                        <h3>Clearly Interiors</h3>
+                        <p>A SaaS based job management web app</p>
+                        <p>
+                          Role: Senior Symfony/PHP Developer cum Technical
+                          Architect
+                        </p>
+                        <p>
+                          Status: Fully released and stable for Clearly
+                          Interiors. SaaS in MVP phase.
+                        </p>
+                        <ul>
+                          <li>
+                            Develop a job listing page that includes a search
+                            dialog with various fields, data listing, and
+                            pagination functionality.
+                          </li>
+                          <li>
+                            Create a job detail page with multiple UI sections
+                            for job details, stages, tasks, logs, notes, and
+                            appointments.Provide users with the ability to add,
+                            edit, and delete job details and export reports in
+                            Excel format.
+                          </li>
+                          <li>
+                            Develop a custom Symfony command for sending
+                            appointment reminders to users at different
+                            intervals and integrate it with the Linux
+                            Crontab.Build an appointment calendar page with
+                            fullcalendar JS library to manage client
+                            appointments, allowing for the addition, editing,
+                            and deletion of appointments.
+                          </li>
+                          <li>
+                            Develop a user permissions system (ACL) that
+                            includes authentication and authorization in the
+                            resource and user role matrix using the
+                            symfony/security component by creating a custom
+                            Voter
+                          </li>
+                          <li>
+                            Build various detail and summary reports, allowing
+                            users to export them in Excel format by integrating
+                            the phpoffice/phpspreadsheet library.
+                          </li>
+                          <li>
+                            Develop a dedicated HR section with schedules and
+                            leave management for employees. Enable superiors to
+                            approve or decline leave requests and connect this
+                            with client appointments.
+                          </li>
+                          <li>
+                            Build an HR calendar using the fullcalendar JS
+                            library, which displays the schedule/occupancy of
+                            all employees in a colour-friendly manner using the
+                            mexitek/phpcolors library
+                          </li>
+                          <li>
+                            Create user dashboards and WIP (Work In Progress)
+                            pages for various user types. Develop a dynamic
+                            notification system based on user roles to alert
+                            users of any events in the system via email and
+                            popup notifications.
+                          </li>
+                          <li>
+                            Integrate the cropperjs JS library on the UI side
+                            and the intervention/image library on the backend
+                            side to develop an image editor with features such
+                            as moving, zooming, cropping, and rotating images.
+                            Provide images of various dimensions and sizes
+                            on-the-fly using the intervention/image library to
+                            meet design requirements.{' '}
+                          </li>
+                          <li>
+                            Build a file and directory uploader by integrating
+                            the dropzone JS library on the UI side and the
+                            league/flysystem-bundle library on the backend side.
+                            Incorporate the maennchen/zipstream-php library to
+                            enable users to download the ZIP of the entire
+                            directory.{' '}
+                          </li>
+                          <li>
+                            Implement a full-fledged SaaS by tweaking Nginx,
+                            Symfony bundle ecosystem, Doctrine query execution,
+                            and Linux bash scripting. This allows the same code
+                            base to run for many SME and enterprise customers
+                            with a single web root. Provide technical
+                            documentation and flow charts for system
+                            understanding.{' '}
+                          </li>
+                          <li>
+                            Integrate the fzaninotto/faker library to generate
+                            sample GDPR compliant data for test and demo
+                            environments.{' '}
+                          </li>
+                          <li>
+                            Coordinate with the project manager to plan version
+                            releases and prepare for release deployment on
+                            staging (UAT) and production servers upon approval.
+                          </li>
+                          <li>
+                            Prioritise tasks, fix urgent bugs, and deploy them
+                            on production to maintain customer service and meet
+                            value commitments.
+                          </li>
+                          <li>
+                            Keep Symfony, PHP libraries, and NPM packages
+                            up-to-date by updating and upgrading them at
+                            periodic intervals
+                          </li>
+                        </ul>
+                        <div className="mb-3">
+                          <span className="p-1 badge bg-secondary me-3">
+                            Symfony 5
+                          </span>
+                          <span className="p-1 badge bg-secondary me-3">
+                            Doctrine(ORM)
+                          </span>
+                          <span className="p-1 badge bg-secondary me-3">
+                            Nginx
+                          </span>
+                          <span className="p-1 badge bg-secondary me-3">
+                            Php-fpm
+                          </span>
+                          <span className="p-1 badge bg-secondary me-3">
+                            MariaDB
+                          </span>
+                          <span className="p-1 badge bg-secondary me-3">
+                            API-first
+                          </span>
+                          <span className="p-1 badge bg-secondary me-3">
+                            Bootstrap 5
+                          </span>
+                          <span className="p-1 badge bg-secondary me-3">
+                            jQuery
+                          </span>
+                          <span className="p-1 badge bg-secondary me-3">
+                            Webpack
+                          </span>
+                        </div>
+                        <Link href="/">
+                          visit project
+                          <FontAwesomeIcon
+                            icon={faArrowUpRightFromSquare}
+                            size="1x"
+                            className="mx-1"
+                          />
+                        </Link>
                       </div>
-                      <Link href="/">
-                        visit project
-                        <FontAwesomeIcon
-                          icon={faArrowUpRightFromSquare}
-                          size="1x"
-                          className="mx-1"
-                        />
-                      </Link>
+                      <ReadMore container="project-2" />
                     </div>
                   </div>
                 </div>
@@ -351,130 +362,134 @@ export default function Page() {
                       </div>
                     </div>
                     <div className="card-body">
-                      <h3>Yellow Meducation</h3>
-                      <p>
-                        An online platform by NHS UK which allows medical
-                        students to prepare for FRCEM exams by purchasing a
-                        subscription and then performing revision sessions and
-                        mock exams. The system provides statistics which allows
-                        students to gain insights about their progress and
-                        preparation.
-                      </p>
-                      <p>
-                        Role: Senior Symfony/PHP Developer cum Technical
-                        Architect
-                      </p>
-                      <p>Status: MVP</p>
-                      <ul>
-                        <li>
-                          Develop landing pages of revision sessions and mock
-                          exams in Twig. Develop UI/UX of question detail page
-                          with answers in option. Apply lazy loading with
-                          certain UI elements to load the question page faster
-                          when the user switches next and previous question.
-                        </li>
-                        <li>
-                          Integrate full-fledged user journey of registration,
-                          course selection, third-party payment integration and
-                          mailing.
-                        </li>
-                        <li>
-                          Integrate Stripe payment gateway (PCI compliant).
-                        </li>
-                        <li>
-                          Integrate Elasticsearch for faster / performant
-                          loading of question details consisting index handling,
-                          document creation, updates, removal and performing
-                          search with different criteria.
-                        </li>
-                        <li>
-                          Use mobiledetect/mobiledetectlib library to integrate
-                          different types of UI / UX rendering and complex
-                          responsiveness across multiple devices.
-                        </li>
-                        <li>
-                          Create a new custom Symfony constraint / validator by
-                          plugging google/recaptcha library for spam control.
-                        </li>
-                        <li>
-                          Create a custom Symfony command to import question
-                          data provided as Excel sheets by integrating
-                          phpoffice/phpspreadsheet. The command persists data in
-                          the database which includes downloading, optimising
-                          and storing images as well. Prepare raw SQL(s) to
-                          check data integrity and find out issues / bugs post
-                          import.
-                        </li>
-                        <li>
-                          Discover and implement a solution of syncing users
-                          between two systems - WordPress and Symfony App. Write
-                          technical documentation in Confluence.
-                        </li>
-                        <li>
-                          Use nesbot/carbon library to handle dates and its
-                          manipulation in the system.
-                        </li>
-                        <li>
-                          Prepare deployment for UAT and production release.
-                        </li>
-                        <li>
-                          Maintain DTAP environments, perform OS and PHP updates
-                          / upgrades at periodic intervals to keep them
-                          up-to-date.
-                        </li>
-                        <li>
-                          Update / upgrade Symfony, PHP libraries and NPM
-                          packages at periodic intervals to keep them
-                          up-to-date.
-                        </li>
-                        <li>
-                          Setup SSH and SFTP servers using public key
-                          authentication (.pem file)
-                        </li>
-                      </ul>
-                      <div className="mb-3">
-                        <span className="p-1 badge bg-secondary me-3">
-                          Symfony 6
-                        </span>
-                        <span className="p-1 badge bg-secondary me-3">
-                          Doctrine(ORM)
-                        </span>
-                        <span className="p-1 badge bg-secondary me-3">
-                          Nginx
-                        </span>
-                        <span className="p-1 badge bg-secondary me-3">
-                          Php-fpm
-                        </span>
-                        <span className="p-1 badge bg-secondary me-3">
-                          MariaDB
-                        </span>
-                        <span className="p-1 badge bg-secondary me-3">
-                          Elasticsearch
-                        </span>
-                        <span className="p-1 badge bg-secondary me-3">
-                          API-first
-                        </span>
-                        <span className="p-1 badge bg-secondary me-3">
-                          Twig
-                        </span>
-                        <span className="p-1 badge bg-secondary me-3">
-                          Bootstrap 5
-                        </span>
-                        <span className="p-1 badge bg-secondary me-3">
-                          jQuery
-                        </span>
-                        <span className="p-1 badge bg-secondary me-3">
-                          Webpack
-                        </span>
+                      <div className="read-more" id="project-3">
+                        <h3>Yellow Meducation</h3>
+                        <p>
+                          An online platform by NHS UK which allows medical
+                          students to prepare for FRCEM exams by purchasing a
+                          subscription and then performing revision sessions and
+                          mock exams. The system provides statistics which
+                          allows students to gain insights about their progress
+                          and preparation.
+                        </p>
+                        <p>
+                          Role: Senior Symfony/PHP Developer cum Technical
+                          Architect
+                        </p>
+                        <p>Status: MVP</p>
+                        <ul>
+                          <li>
+                            Develop landing pages of revision sessions and mock
+                            exams in Twig. Develop UI/UX of question detail page
+                            with answers in option. Apply lazy loading with
+                            certain UI elements to load the question page faster
+                            when the user switches next and previous question.
+                          </li>
+                          <li>
+                            Integrate full-fledged user journey of registration,
+                            course selection, third-party payment integration
+                            and mailing.
+                          </li>
+                          <li>
+                            Integrate Stripe payment gateway (PCI compliant).
+                          </li>
+                          <li>
+                            Integrate Elasticsearch for faster / performant
+                            loading of question details consisting index
+                            handling, document creation, updates, removal and
+                            performing search with different criteria.
+                          </li>
+                          <li>
+                            Use mobiledetect/mobiledetectlib library to
+                            integrate different types of UI / UX rendering and
+                            complex responsiveness across multiple devices.
+                          </li>
+                          <li>
+                            Create a new custom Symfony constraint / validator
+                            by plugging google/recaptcha library for spam
+                            control.
+                          </li>
+                          <li>
+                            Create a custom Symfony command to import question
+                            data provided as Excel sheets by integrating
+                            phpoffice/phpspreadsheet. The command persists data
+                            in the database which includes downloading,
+                            optimising and storing images as well. Prepare raw
+                            SQL(s) to check data integrity and find out issues /
+                            bugs post import.
+                          </li>
+                          <li>
+                            Discover and implement a solution of syncing users
+                            between two systems - WordPress and Symfony App.
+                            Write technical documentation in Confluence.
+                          </li>
+                          <li>
+                            Use nesbot/carbon library to handle dates and its
+                            manipulation in the system.
+                          </li>
+                          <li>
+                            Prepare deployment for UAT and production release.
+                          </li>
+                          <li>
+                            Maintain DTAP environments, perform OS and PHP
+                            updates / upgrades at periodic intervals to keep
+                            them up-to-date.
+                          </li>
+                          <li>
+                            Update / upgrade Symfony, PHP libraries and NPM
+                            packages at periodic intervals to keep them
+                            up-to-date.
+                          </li>
+                          <li>
+                            Setup SSH and SFTP servers using public key
+                            authentication (.pem file)
+                          </li>
+                        </ul>
+                        <div className="mb-3">
+                          <span className="p-1 badge bg-secondary me-3">
+                            Symfony 6
+                          </span>
+                          <span className="p-1 badge bg-secondary me-3">
+                            Doctrine(ORM)
+                          </span>
+                          <span className="p-1 badge bg-secondary me-3">
+                            Nginx
+                          </span>
+                          <span className="p-1 badge bg-secondary me-3">
+                            Php-fpm
+                          </span>
+                          <span className="p-1 badge bg-secondary me-3">
+                            MariaDB
+                          </span>
+                          <span className="p-1 badge bg-secondary me-3">
+                            Elasticsearch
+                          </span>
+                          <span className="p-1 badge bg-secondary me-3">
+                            API-first
+                          </span>
+                          <span className="p-1 badge bg-secondary me-3">
+                            Twig
+                          </span>
+                          <span className="p-1 badge bg-secondary me-3">
+                            Bootstrap 5
+                          </span>
+                          <span className="p-1 badge bg-secondary me-3">
+                            jQuery
+                          </span>
+                          <span className="p-1 badge bg-secondary me-3">
+                            Webpack
+                          </span>
+                        </div>
+                        <Link href="/">
+                          visit project
+                          <FontAwesomeIcon
+                            icon={faArrowUpRightFromSquare}
+                            size="1x"
+                            className="mx-1"
+                          />
+                        </Link>
                       </div>
-                      <Link href="/">
-                        visit project
-                        <FontAwesomeIcon
-                          icon={faArrowUpRightFromSquare}
-                          size="1x"
-                          className="mx-1"
-                        />
-                      </Link>
+                      <ReadMore container="project-3" />
                     </div>
                   </div>
                 </div>
@@ -487,85 +502,89 @@ export default function Page() {
                       </div>
                     </div>
                     <div className="card-body">
-                      <h3>Nettivuokraus</h3>
-                      <p>Rental solution operating in Finland</p>
-                      <p>Role: Senior Symfony/PHP Developer</p>
-                      <p>Status: Live (Production - Stable)</p>
-                      <ul>
-                        <li>
-                          {' '}
-                          Develop a database schema and Elasticsearch index
-                          mappings to efficiently store the availability of
-                          rental items based on their different rental models
-                          (such as daily, weekly, overnight, etc.).
-                        </li>
-                        <li>
-                          Build a Symfony command that generates availability in
-                          real-time during user actions on the website. This
-                          command will run in the background and sync database
-                          entries with Elasticsearch.
-                        </li>
-                        <li>
-                          Create a JavaScript solution that displays
-                          availability on a calendar using different colours and
-                          designs. Integrate AJAX requests to ensure the
-                          calendar accurately reflects the state of the database
-                          during navigation.
-                        </li>
-                        <li>
-                          Construct a join query in Elasticsearch to enable
-                          search options that display only available items.
-                        </li>
-                        <li>
-                          {' '}
-                          Import advertisements from various formats, such as
-                          JSON, XML, CSV, etc., provided by sister websites and
-                          third-party providers, along with their corresponding
-                          mapping information and business rules. This was
-                          achieved by creating Symfony commands and setting them
-                          to run daily using Jenkins.
-                        </li>
-                      </ul>
-                      <div className="mb-3">
-                        <span className="p-1 badge bg-secondary me-3">
-                          Symfony 3
-                        </span>
-                        <span className="p-1 badge bg-secondary me-3">
-                          Doctrine(ORM)
-                        </span>
-                        <span className="p-1 badge bg-secondary me-3">
-                          Nginx
-                        </span>
-                        <span className="p-1 badge bg-secondary me-3">
-                          Php-fpm
-                        </span>
-                        <span className="p-1 badge bg-secondary me-3">
-                          MariaDB
-                        </span>
-                        <span className="p-1 badge bg-secondary me-3">
-                          Elasticsearch
-                        </span>
-                        <span className="p-1 badge bg-secondary me-3">
-                          Redis
-                        </span>
-                        <span className="p-1 badge bg-secondary me-3">
-                          AWS S3
-                        </span>
-                        <span className="p-1 badge bg-secondary me-3">
-                          Jenkins
-                        </span>
-                        <span className="p-1 badge bg-secondary me-3">
-                          Docker
-                        </span>
+                      <div className="read-more" id="project-4">
+                        <h3>Nettivuokraus</h3>
+                        <p>Rental solution operating in Finland</p>
+                        <p>Role: Senior Symfony/PHP Developer</p>
+                        <p>Status: Live (Production - Stable)</p>
+                        <ul>
+                          <li>
+                            {' '}
+                            Develop a database schema and Elasticsearch index
+                            mappings to efficiently store the availability of
+                            rental items based on their different rental models
+                            (such as daily, weekly, overnight, etc.).
+                          </li>
+                          <li>
+                            Build a Symfony command that generates availability
+                            in real-time during user actions on the website.
+                            This command will run in the background and sync
+                            database entries with Elasticsearch.
+                          </li>
+                          <li>
+                            Create a JavaScript solution that displays
+                            availability on a calendar using different colours
+                            and designs. Integrate AJAX requests to ensure the
+                            calendar accurately reflects the state of the
+                            database during navigation.
+                          </li>
+                          <li>
+                            Construct a join query in Elasticsearch to enable
+                            search options that display only available items.
+                          </li>
+                          <li>
+                            {' '}
+                            Import advertisements from various formats, such as
+                            JSON, XML, CSV, etc., provided by sister websites
+                            and third-party providers, along with their
+                            corresponding mapping information and business
+                            rules. This was achieved by creating Symfony
+                            commands and setting them to run daily using
+                            Jenkins.
+                          </li>
+                        </ul>
+                        <div className="mb-3">
+                          <span className="p-1 badge bg-secondary me-3">
+                            Symfony 3
+                          </span>
+                          <span className="p-1 badge bg-secondary me-3">
+                            Doctrine(ORM)
+                          </span>
+                          <span className="p-1 badge bg-secondary me-3">
+                            Nginx
+                          </span>
+                          <span className="p-1 badge bg-secondary me-3">
+                            Php-fpm
+                          </span>
+                          <span className="p-1 badge bg-secondary me-3">
+                            MariaDB
+                          </span>
+                          <span className="p-1 badge bg-secondary me-3">
+                            Elasticsearch
+                          </span>
+                          <span className="p-1 badge bg-secondary me-3">
+                            Redis
+                          </span>
+                          <span className="p-1 badge bg-secondary me-3">
+                            AWS S3
+                          </span>
+                          <span className="p-1 badge bg-secondary me-3">
+                            Jenkins
+                          </span>
+                          <span className="p-1 badge bg-secondary me-3">
+                            Docker
+                          </span>
+                        </div>
+                        <Link href="/">
+                          visit project
+                          <FontAwesomeIcon
+                            icon={faArrowUpRightFromSquare}
+                            size="1x"
+                            className="mx-1"
+                          />
+                        </Link>
                       </div>
-                      <Link href="/">
-                        visit project
-                        <FontAwesomeIcon
-                          icon={faArrowUpRightFromSquare}
-                          size="1x"
-                          className="mx-1"
-                        />
-                      </Link>
+                      <ReadMore container="project-4" />
                     </div>
                   </div>
                 </div>
