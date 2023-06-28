@@ -115,15 +115,12 @@ export default function Page() {
                               the application development process.
                             </li>
                           </ul>
-                          <ReadMore  container="experience-1"/>
+                          <ReadMore container="experience-1" />
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-
-                
-                
               </div>
             </div>
           </div>
