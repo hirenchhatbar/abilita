@@ -2,7 +2,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faArrowUpRightFromSquare,
   faBuilding,
-  faPaperclip,
   faPepperHot,
 } from '@fortawesome/free-solid-svg-icons';
 import {
@@ -509,7 +508,6 @@ export default function Page() {
                         <p>Status: Live (Production - Stable)</p>
                         <ul>
                           <li>
-                            {' '}
                             Develop a database schema and Elasticsearch index
                             mappings to efficiently store the availability of
                             rental items based on their different rental models
@@ -597,6 +595,7 @@ export default function Page() {
                       </div>
                     </div>
                     <div className="card-body">
+                      <div className="read-more" id="project-5">
                       <h3>Care Preference(v1)</h3>
                       <p>
                         An online platform for the UK's care provider in the
@@ -659,6 +658,8 @@ export default function Page() {
                           className="mx-1"
                         />
                       </Link>
+                      </div>
+                      <ReadMore container="project-5"/>
                     </div>
                   </div>
                 </div>
@@ -671,6 +672,7 @@ export default function Page() {
                       </div>
                     </div>
                     <div className="card-body">
+                      <div className="read-more" id="project-6">
                       <h3>Purooz</h3>
                       <p>
                         SaaS based Real estate portal which facilitates property
@@ -759,6 +761,8 @@ export default function Page() {
                           className="mx-1"
                         />
                       </Link>
+                      </div>
+                      <ReadMore container="project-6" />
                     </div>
                   </div>
                 </div>

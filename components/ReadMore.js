@@ -10,8 +10,8 @@ const toggleRead = (container) => {
 export default function ReadMore({ container }) {
   return (
     <>
-      <span>
-        <button className="btn btn-link p-0 z-5">
+      <span className="d-flex justify-content-center mt-2">
+        <button className="btn btn-link p-0 z-5" title="Read more">
           <FontAwesomeIcon
             icon={faAnglesDown}
             size="2x"

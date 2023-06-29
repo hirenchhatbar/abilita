@@ -1,9 +1,8 @@
 import 'animate.css';
-
 import '../assets/scss/globals.scss';
-
 import Theme from '../components/Theme';
 import GoTop from '../components/GoTop';
+import Menu from '../components/Menu';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
@@ -18,9 +17,7 @@ import {
   faTelegram,
   faTwitter,
 } from '@fortawesome/free-brands-svg-icons';
-
 import Link from 'next/link';
-
 import Script from 'next/script';
 
 export const metadata = {
@@ -32,59 +29,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="pt-5" data-bs-theme="light">
-        <header>
-          <div className="d-flex justify-content-around align-items-center fixed-top">
-            <nav className="navbar navbar-expand-lg bg-white container-fluid py-3">
-              <div className="container-fluid px-2 px-sm-4 px-xl-5 px-md-5 px-lg-5">
-                <Link href="/" className="navbar-brand logo-text">
-                  {process.env.NEXT_PUBLIC_LOGO_TEXT}
-                </Link>
-                <button
-                  className="navbar-toggler collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#menu"
-                  aria-controls="menu"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation"
-                >
-                  <span className="toggler-icon top-bar"></span>
-                  <span className="toggler-icon middle-bar"></span>
-                  <span className="toggler-icon bottom-bar"></span>
-                </button>
-                <div className="collapse navbar-collapse" id="menu">
-                  <ul className="navbar-nav ms-auto gap-3">
-                    <li className="nav-item">
-                      <Link href="/" className="nav-link">
-                        Home
-                      </Link>
-                    </li>
-                    <li className="nav-item">
-                      <Link href="/about" className="nav-link">
-                        About
-                      </Link>
-                    </li>
-                    <li className="nav-item">
-                      <Link href="/experience" className="nav-link">
-                        Experience
-                      </Link>
-                    </li>
-                    <li className="nav-item">
-                      <Link href="/portfolio" className="nav-link">
-                        Portfolio
-                      </Link>
-                    </li>
-                    <li className="nav-item">
-                      <Link href="/contact" className="nav-link">
-                        Contact
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </nav>
-          </div>
-        </header>
+        <Menu />
 
         {children}
 
