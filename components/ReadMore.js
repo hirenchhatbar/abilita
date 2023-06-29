@@ -14,10 +14,11 @@ export default function ReadMore({ container }) {
         <button className="btn btn-link p-0 z-5" title="Read more">
           <FontAwesomeIcon
             icon={faAnglesDown}
-            size="2x"
+            size="1x"
             onClick={() => {
               toggleRead(container);
             }}
+            className='animate__animated animate__fadeIn animate__infinite animate__delay-2s'
           />
         </button>
       </span>
