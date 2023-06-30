@@ -169,17 +169,14 @@ const skills = [
   },
 ];
 
+export const metadata = {
+  title: process.env.NEXT_PUBLIC_LOGO_TEXT,
+  description: 'PHP/JavaScript Technical Architect',
+};
+
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>{process.env.NEXT_PUBLIC_LOGO_TEXT}</title>
-        <meta
-          name="description"
-          content="PHP/JavaScript Technical Architect"
-          key="desc"
-        />
-      </Head>
       <section>
         <div className="container-fluid px-lg-0 px-xl-0 my-5">
           <div className="row container mx-auto">

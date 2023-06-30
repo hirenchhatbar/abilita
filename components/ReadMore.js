@@ -5,7 +5,7 @@ import { useState } from 'react';
 
 export default function ReadMore({ container }) {
   const [isReadMore, setIsReadMore] = useState(true);
-  
+
   const toggleRead = (container) => {
     const element = document.getElementById(container);
     element.classList.toggle('read-more');
@@ -15,29 +15,16 @@ export default function ReadMore({ container }) {
   return (
     <>
       <span className="d-flex justify-content-center mt-2">
-        {isReadMore ? 
         <button className="btn btn-link p-0 z-5" title="Read more">
           <FontAwesomeIcon
-            icon={faAnglesDown}
+            icon={isReadMore ? faAnglesDown : faAnglesUp}
             size="1x"
             onClick={() => {
               toggleRead(container);
             }}
-            className='animate__animated animate__tada animate__infinite animate__delay-2s'
+            className="animate__animated animate__tada animate__infinite animate__delay-2s"
           />
         </button>
-        : <button className="btn btn-link p-0 z-5" title="Read less">
-        <FontAwesomeIcon
-          icon={faAnglesUp}
-          size="1x"
-          onClick={() => {
-            toggleRead(container);
-          }}
-          className='animate__animated animate__tada animate__infinite animate__delay-2s'
-        />
-      </button>}
-        
-        
       </span>
     </>
   );

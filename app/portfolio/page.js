@@ -17,17 +17,14 @@ import Head from 'next/head';
 import heroImage from '../../public/portfolio.jpg';
 import ReadMore from '@/components/ReadMore';
 
+export const metadata = {
+  title: process.env.NEXT_PUBLIC_LOGO_TEXT + ' | Portfolio',
+  description: 'PHP/JavaScript Technical Architect',
+};
+
 export default function Page() {
   return (
     <main>
-      <Head>
-        <title>{process.env.NEXT_PUBLIC_LOGO_TEXT}</title>
-        <meta
-          name="description"
-          content="PHP/JavaScript Technical Architect"
-          key="desc"
-        />
-      </Head>
       <section className="container-fluid px-lg-0 px-xl-0 mt-5 mb-3">
         <div className="row container mx-auto">
           <div className="col-md-6 col-12 col-lg-6 d-flex justify-content-center flex-column">
@@ -605,70 +602,71 @@ export default function Page() {
                     </div>
                     <div className="card-body">
                       <div className="read-more" id="project-5">
-                      <h3>Care Preference(v1)</h3>
-                      <p>
-                        An online platform for the UK's care provider in the
-                        healthcare domain to manage employees, their training,
-                        rotas, performance. The system allows managing service
-                        users and their incidents as well.
-                      </p>
-                      <p>Role: Senior Symfony/PHP Developer</p>
-                      <p>Status: Live (Production - Stable)</p>
-                      <ul>
-                        <li>
-                          Configured GitLab repositories by creating branches,
-                          set up DTAP environments, and resolved issues
-                          encountered during the App setup in PHP 7.2. This was
-                          done while ensuring that all steps in the Software
-                          Development Life Cycle (SDLC) were streamlined and
-                          adhered to as per the maintenance contract.
-                        </li>
-                        <li>
-                          Demonstrated expertise in code comprehension,
-                          debugging, and implementation of business logic as per
-                          the App owner's latest requirements. Completed partial
-                          implementation of features and resolved code-related
-                          issues.
-                        </li>
-                        <li>
-                          Developed new functionality for service user liaison,
-                          including a review system, competencies management,
-                          and policies and procedures that function as a file
-                          manager.
-                        </li>
-                        <li>
-                          Prepared the release and updated the staging (User
-                          Acceptance Testing) server. After approval, deployed
-                          the release to the production environment.
-                        </li>
-                      </ul>
-                      <div className="mb-3">
-                        <span className="p-1 badge bg-secondary me-3">
-                          Symfony 2.8
-                        </span>
-                        <span className="p-1 badge bg-secondary me-3">
-                          Doctrine(ORM)
-                        </span>
-                        <span className="p-1 badge bg-secondary me-3">
-                          Nginx
-                        </span>
-                        <span className="p-1 badge bg-secondary me-3">
-                          Php-fpm
-                        </span>
-                        <span className="p-1 badge bg-secondary me-3">
-                          MariaDB
-                        </span>
+                        <h3>Care Preference(v1)</h3>
+                        <p>
+                          An online platform for the UK's care provider in the
+                          healthcare domain to manage employees, their training,
+                          rotas, performance. The system allows managing service
+                          users and their incidents as well.
+                        </p>
+                        <p>Role: Senior Symfony/PHP Developer</p>
+                        <p>Status: Live (Production - Stable)</p>
+                        <ul>
+                          <li>
+                            Configured GitLab repositories by creating branches,
+                            set up DTAP environments, and resolved issues
+                            encountered during the App setup in PHP 7.2. This
+                            was done while ensuring that all steps in the
+                            Software Development Life Cycle (SDLC) were
+                            streamlined and adhered to as per the maintenance
+                            contract.
+                          </li>
+                          <li>
+                            Demonstrated expertise in code comprehension,
+                            debugging, and implementation of business logic as
+                            per the App owner's latest requirements. Completed
+                            partial implementation of features and resolved
+                            code-related issues.
+                          </li>
+                          <li>
+                            Developed new functionality for service user
+                            liaison, including a review system, competencies
+                            management, and policies and procedures that
+                            function as a file manager.
+                          </li>
+                          <li>
+                            Prepared the release and updated the staging (User
+                            Acceptance Testing) server. After approval, deployed
+                            the release to the production environment.
+                          </li>
+                        </ul>
+                        <div className="mb-3">
+                          <span className="p-1 badge bg-secondary me-3">
+                            Symfony 2.8
+                          </span>
+                          <span className="p-1 badge bg-secondary me-3">
+                            Doctrine(ORM)
+                          </span>
+                          <span className="p-1 badge bg-secondary me-3">
+                            Nginx
+                          </span>
+                          <span className="p-1 badge bg-secondary me-3">
+                            Php-fpm
+                          </span>
+                          <span className="p-1 badge bg-secondary me-3">
+                            MariaDB
+                          </span>
+                        </div>
+                        <Link href="/">
+                          visit project
+                          <FontAwesomeIcon
+                            icon={faArrowUpRightFromSquare}
+                            size="1x"
+                            className="mx-1"
+                          />
+                        </Link>
                       </div>
-                      <Link href="/">
-                        visit project
-                        <FontAwesomeIcon
-                          icon={faArrowUpRightFromSquare}
-                          size="1x"
-                          className="mx-1"
-                        />
-                      </Link>
-                      </div>
-                      <ReadMore container="project-5"/>
+                      <ReadMore container="project-5" />
                     </div>
                   </div>
                 </div>
@@ -682,94 +680,94 @@ export default function Page() {
                     </div>
                     <div className="card-body">
                       <div className="read-more" id="project-6">
-                      <h3>Purooz</h3>
-                      <p>
-                        SaaS based Real estate portal which facilitates property
-                        dealers to manage / post their properties. Buyers can
-                        search properties of their interest and submit contact
-                        requests
-                      </p>
-                      <p>
-                        Role: Senior Symfony/PHP Developer cum Technical
-                        Architect
-                      </p>
-                      <p>Status: Under development (Inhouse)</p>
-                      <ul>
-                        <li>
-                          Conduct market research in the real estate industry
-                          and design a comprehensive database schema and
-                          Elasticsearch index mappings.
-                        </li>
-                        <li>
-                          Create a search interface with various fields to allow
-                          users to find properties of interest and their nearest
-                          locations. Display search results in a listing format
-                          from the Elasticsearch index. Additionally, develop a
-                          detailed property page with a contact form to submit
-                          inquiries.
-                        </li>
-                        <li>
-                          Build a blog section with listings of articles and a
-                          detailed article page. Provide administrative tools to
-                          allow easy editing and modification of the blog
-                          content.
-                        </li>
-                        <li>
-                          Develop an administrative section that enables users
-                          to search and manage all properties within the system.
-                          Provide tools to modify almost every aspect of the
-                          public website.
-                        </li>
-                        <li>
-                          Integrate SaaS for real estate dealers, providing an
-                          administrative interface for configuring logos,
-                          company names, and other business identities.
-                        </li>
-                        <li>
-                          Create technical documentation to assist new dealers
-                          in onboarding to the system.
-                        </li>
-                      </ul>
-                      <div className="mb-3">
-                        <span className="p-1 badge bg-secondary me-3">
-                          Symfony
-                        </span>
-                        <span className="p-1 badge bg-secondary me-3">
-                          Doctrine(ORM)
-                        </span>
-                        <span className="p-1 badge bg-secondary me-3">
-                          Nginx
-                        </span>
-                        <span className="p-1 badge bg-secondary me-3">
-                          Php-fpm
-                        </span>
-                        <span className="p-1 badge bg-secondary me-3">
-                          MariaDB
-                        </span>
-                        <span className="p-1 badge bg-secondary me-3">
-                          Elasticsearch
-                        </span>
-                        <span className="p-1 badge bg-secondary me-3">
-                          API-first
-                        </span>
-                        <span className="p-1 badge bg-secondary me-3">
-                          Bootstrap 5
-                        </span>
-                        <span className="p-1 badge bg-secondary me-3">
-                          jQuery
-                        </span>
-                        <span className="p-1 badge bg-secondary me-3">
-                          Webpack
-                        </span>
-                      </div>
-                      <Link href="/">
-                        visit project
-                        <FontAwesomeIcon
-                          icon={faArrowUpRightFromSquare}
-                          size="1x"
-                          className="mx-1"
-                        />
-                      </Link>
+                        <h3>Purooz</h3>
+                        <p>
+                          SaaS based Real estate portal which facilitates
+                          property dealers to manage / post their properties.
+                          Buyers can search properties of their interest and
+                          submit contact requests
+                        </p>
+                        <p>
+                          Role: Senior Symfony/PHP Developer cum Technical
+                          Architect
+                        </p>
+                        <p>Status: Under development (Inhouse)</p>
+                        <ul>
+                          <li>
+                            Conduct market research in the real estate industry
+                            and design a comprehensive database schema and
+                            Elasticsearch index mappings.
+                          </li>
+                          <li>
+                            Create a search interface with various fields to
+                            allow users to find properties of interest and their
+                            nearest locations. Display search results in a
+                            listing format from the Elasticsearch index.
+                            Additionally, develop a detailed property page with
+                            a contact form to submit inquiries.
+                          </li>
+                          <li>
+                            Build a blog section with listings of articles and a
+                            detailed article page. Provide administrative tools
+                            to allow easy editing and modification of the blog
+                            content.
+                          </li>
+                          <li>
+                            Develop an administrative section that enables users
+                            to search and manage all properties within the
+                            system. Provide tools to modify almost every aspect
+                            of the public website.
+                          </li>
+                          <li>
+                            Integrate SaaS for real estate dealers, providing an
+                            administrative interface for configuring logos,
+                            company names, and other business identities.
+                          </li>
+                          <li>
+                            Create technical documentation to assist new dealers
+                            in onboarding to the system.
+                          </li>
+                        </ul>
+                        <div className="mb-3">
+                          <span className="p-1 badge bg-secondary me-3">
+                            Symfony
+                          </span>
+                          <span className="p-1 badge bg-secondary me-3">
+                            Doctrine(ORM)
+                          </span>
+                          <span className="p-1 badge bg-secondary me-3">
+                            Nginx
+                          </span>
+                          <span className="p-1 badge bg-secondary me-3">
+                            Php-fpm
+                          </span>
+                          <span className="p-1 badge bg-secondary me-3">
+                            MariaDB
+                          </span>
+                          <span className="p-1 badge bg-secondary me-3">
+                            Elasticsearch
+                          </span>
+                          <span className="p-1 badge bg-secondary me-3">
+                            API-first
+                          </span>
+                          <span className="p-1 badge bg-secondary me-3">
+                            Bootstrap 5
+                          </span>
+                          <span className="p-1 badge bg-secondary me-3">
+                            jQuery
+                          </span>
+                          <span className="p-1 badge bg-secondary me-3">
+                            Webpack
+                          </span>
+                        </div>
+                        <Link href="/">
+                          visit project
+                          <FontAwesomeIcon
+                            icon={faArrowUpRightFromSquare}
+                            size="1x"
+                            className="mx-1"
+                          />
+                        </Link>
                       </div>
                       <ReadMore container="project-6" />
                     </div>
