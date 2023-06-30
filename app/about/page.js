@@ -16,12 +16,21 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 
 import Image from 'next/image';
+import Head from 'next/head';
 
 import heroImage from '../../public/about.jpg';
 
 export default function Page() {
   return (
     <main>
+      <Head>
+        <title>{process.env.NEXT_PUBLIC_LOGO_TEXT}</title>
+        <meta
+          name="description"
+          content="PHP/JavaScript Technical Architect"
+          key="desc"
+        />
+      </Head>
       <section className="container-fluid px-lg-0 px-xl-0 my-5">
         <div className="row container mx-auto">
           <div className="col-md-6 col-12 col-lg-6 d-flex justify-content-center flex-column">

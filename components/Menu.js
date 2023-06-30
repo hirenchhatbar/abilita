@@ -7,7 +7,7 @@ const closeMenu = () => {
         document.getElementById('menu').classList.remove("show");
 
         document.getElementsByClassName('navbar-toggler')[0].classList.add('collapsed');
-    }, 200);
+    }, 2000);
 }
 
 export default function Menu() {
