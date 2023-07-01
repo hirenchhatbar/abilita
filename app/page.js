@@ -28,7 +28,6 @@ import {
   faTrello,
   faLinux,
 } from '@fortawesome/free-brands-svg-icons';
-import Head from 'next/head';
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -189,7 +188,7 @@ export default function Home() {
               <p>
                 I’m a software engineer specializing in building web apps and
                 websites. Currently, I’m working as a PHP/JavaScript Technical
-                Architect at
+                Architect at {" "}
                 <Link href="https://www.weignyte.com" target="_blank">
                   Weignyte
                 </Link>

@@ -13,7 +13,6 @@ import {
   faTwitter,
   faYoutube,
 } from '@fortawesome/free-brands-svg-icons';
-import Head from 'next/head';
 import Link from 'next/link';
 import Image from 'next/image';
 import heroImage from '../../public/contact.jpg';

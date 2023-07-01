@@ -3,7 +3,6 @@ import '../assets/scss/globals.scss';
 import Theme from '../components/Theme';
 import GoTop from '../components/GoTop';
 import Menu from '../components/Menu';
-import Head from 'next/head';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
@@ -20,17 +19,13 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 import Link from 'next/link';
 import Script from 'next/script';
+import Head from 'next/head';
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
-        <title>{process.env.NEXT_PUBLIC_LOGO_TEXT}</title>
-        <meta
-          name="description"
-          content="PHP/JavaScript Technical Architect"
-          key="desc"
-        />
+        <link rel="shortcut icon" href="/favicon.ico" />
       </Head>
       <body className="pt-5" data-bs-theme="light">
         <header>

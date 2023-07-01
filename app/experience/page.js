@@ -8,7 +8,6 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import Image from 'next/image';
 import Link from 'next/link';
-import Head from 'next/head';
 import heroImage from '../../public/experience.jpg';
 
 export const metadata = {

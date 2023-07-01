@@ -16,7 +16,6 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 
 import Image from 'next/image';
-import Head from 'next/head';
 
 import heroImage from '../../public/about.jpg';
 
