@@ -19,14 +19,18 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 import Link from 'next/link';
 import Script from 'next/script';
-import Head from 'next/head';
+
+export const metadata = {
+  icons: {
+    icon: '/favicon.ico',
+    shortcut: '/favicon.ico',
+    apple: '/favicon.ico',
+  },
+};
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Head>
-        <link rel="shortcut icon" href="/favicon.ico" />
-      </Head>
       <body className="pt-5" data-bs-theme="light">
         <header>
           <div className="d-flex justify-content-around align-items-center fixed-top">
