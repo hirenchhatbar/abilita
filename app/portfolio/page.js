@@ -1,15 +1,13 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 import {
   faArrowUpRightFromSquare,
-  faBuilding,
-  faPepperHot,
+  faFileWaveform,
+  faHouse,
+  faPills,
+  faTent,
+  faHouseUser,
 } from '@fortawesome/free-solid-svg-icons';
-import {
-  faAirbnb,
-  faAmazon,
-  faFacebook,
-  faPaypal,
-} from '@fortawesome/free-brands-svg-icons';
 
 import Link from 'next/link';
 import Image from 'next/image';
@@ -53,7 +51,7 @@ export default function Page() {
                   <div className="card shadow">
                     <div className="card-body">
                       <div className="card-img-actions text-center">
-                        <FontAwesomeIcon icon={faFacebook} size="7x" />
+                        <FontAwesomeIcon icon={faFileWaveform} size="7x" />
                       </div>
                     </div>
                     <div className="card-body">
@@ -200,7 +198,7 @@ export default function Page() {
                   <div className="card shadow">
                     <div className="card-body">
                       <div className="card-img-actions text-center">
-                        <FontAwesomeIcon icon={faPepperHot} size="7x" />
+                        <FontAwesomeIcon icon={faHouse} size="7x" />
                       </div>
                     </div>
                     <div className="card-body">
@@ -317,7 +315,7 @@ export default function Page() {
                         </ul>
                         <div className="mb-3">
                           <span className="p-1 badge bg-secondary me-3">
-                            Symfony 5
+                            Symfony 6
                           </span>
                           <span className="p-1 badge bg-secondary me-3">
                             Doctrine(ORM)
@@ -326,7 +324,7 @@ export default function Page() {
                             Nginx
                           </span>
                           <span className="p-1 badge bg-secondary me-3">
-                            Php-fpm
+                            PHP-fpm
                           </span>
                           <span className="p-1 badge bg-secondary me-3">
                             MariaDB
@@ -362,7 +360,7 @@ export default function Page() {
                   <div className="card shadow">
                     <div className="card-body">
                       <div className="card-img-actions text-center">
-                        <FontAwesomeIcon icon={faBuilding} size="7x" />
+                        <FontAwesomeIcon icon={faPills} size="7x" />
                       </div>
                     </div>
                     <div className="card-body">
@@ -460,7 +458,7 @@ export default function Page() {
                             Nginx
                           </span>
                           <span className="p-1 badge bg-secondary me-3">
-                            Php-fpm
+                            PHP-fpm
                           </span>
                           <span className="p-1 badge bg-secondary me-3">
                             MariaDB
@@ -502,7 +500,7 @@ export default function Page() {
                   <div className="card shadow">
                     <div className="card-body">
                       <div className="card-img-actions text-center">
-                        <FontAwesomeIcon icon={faAirbnb} size="7x" />
+                        <FontAwesomeIcon icon={faTent} size="7x" />
                       </div>
                     </div>
                     <div className="card-body">
@@ -557,7 +555,7 @@ export default function Page() {
                             Nginx
                           </span>
                           <span className="p-1 badge bg-secondary me-3">
-                            Php-fpm
+                            PHP-fpm
                           </span>
                           <span className="p-1 badge bg-secondary me-3">
                             MariaDB
@@ -596,7 +594,7 @@ export default function Page() {
                   <div className="card shadow">
                     <div className="card-body">
                       <div className="card-img-actions text-center">
-                        <FontAwesomeIcon icon={faAmazon} size="7x" />
+                        <FontAwesomeIcon icon={faFileWaveform} size="7x" />
                       </div>
                     </div>
                     <div className="card-body">
@@ -650,7 +648,7 @@ export default function Page() {
                             Nginx
                           </span>
                           <span className="p-1 badge bg-secondary me-3">
-                            Php-fpm
+                            PHP-fpm
                           </span>
                           <span className="p-1 badge bg-secondary me-3">
                             MariaDB
@@ -674,7 +672,7 @@ export default function Page() {
                   <div className="card shadow">
                     <div className="card-body">
                       <div className="card-img-actions text-center">
-                        <FontAwesomeIcon icon={faPaypal} size="7x" />
+                        <FontAwesomeIcon icon={faHouseUser} size="7x" />
                       </div>
                     </div>
                     <div className="card-body">
@@ -738,7 +736,7 @@ export default function Page() {
                             Nginx
                           </span>
                           <span className="p-1 badge bg-secondary me-3">
-                            Php-fpm
+                            PHP-fpm
                           </span>
                           <span className="p-1 badge bg-secondary me-3">
                             MariaDB

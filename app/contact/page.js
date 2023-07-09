@@ -12,6 +12,7 @@ import {
   faLinkedin,
   faTwitter,
   faYoutube,
+  faGitlab
 } from '@fortawesome/free-brands-svg-icons';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -77,38 +78,23 @@ export default function Page() {
             </div>
             <div className="mt-2">
               <span className="me-3">
-                <Link href="/">
-                  <FontAwesomeIcon icon={faGithubSquare} size="xl" />
+                <Link href="https://gitlab.com/hirenchhatbar" target="_blank">
+                  <FontAwesomeIcon icon={faGitlab} size="xl" />
                 </Link>
               </span>
               <span className="me-3">
-                <Link href="/">
+                <Link href="https://www.linkedin.com/in/hirenchhatbar" target="_blank">
                   <FontAwesomeIcon icon={faLinkedin} size="xl" />
                 </Link>
               </span>
               <span className="me-3">
-                <Link href="/">
-                  <FontAwesomeIcon icon={faYoutube} size="xl" />
-                </Link>
-              </span>
-              <span className="me-3">
-                <Link href="/">
+                <Link href="https://twitter.com/ihirenc" target="_blank">
                   <FontAwesomeIcon icon={faTwitter} size="xl" />
                 </Link>
               </span>
               <span className="me-3">
-                <Link href="/">
-                  <FontAwesomeIcon icon={faGoogle} size="xl" />
-                </Link>
-              </span>
-              <span className="me-3">
-                <Link href="/">
+                <Link href="https://www.facebook.com/hirennchhatbar" target="_blank">
                   <FontAwesomeIcon icon={faFacebook} size="xl" />
-                </Link>
-              </span>
-              <span className="me-3">
-                <Link href="/">
-                  <FontAwesomeIcon icon={faInstagram} size="xl" />
                 </Link>
               </span>
             </div>

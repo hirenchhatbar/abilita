@@ -146,7 +146,7 @@ export default function Page() {
                         data-wow-delay="0.3s"
                       >
                         <div className="timeline-icon">
-                          <FontAwesomeIcon icon={faBriefcase} size="1x" />
+                          <FontAwesomeIcon icon={faAddressCard} size="1x" />
                         </div>
                         <div className="timeline-text">
                           <h5>

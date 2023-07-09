@@ -31,7 +31,7 @@ import {
 import Link from 'next/link';
 import Image from 'next/image';
 
-import heroImage from '../public/hero.png';
+import heroImage from '../public/hero.jpg';
 
 const skills = [
   {

@@ -16,6 +16,7 @@ import {
   faLinkedin,
   faTelegram,
   faTwitter,
+  faGitlab,
 } from '@fortawesome/free-brands-svg-icons';
 import Link from 'next/link';
 import Script from 'next/script';
@@ -105,22 +106,16 @@ export default function RootLayout({ children }) {
                   Rajkot, 360005, Gujarat, India
                 </p>
                 <div className="pt-4">
-                  <Link href="/" className="me-2">
+                  <Link href="https://gitlab.com/hirenchhatbar" target="_blank" className="me-2">
+                    <FontAwesomeIcon icon={faGitlab} size="xl" />
+                  </Link>
+                  <Link href="https://www.linkedin.com/in/hirenchhatbar" target="_blank" className="me-2">
                     <FontAwesomeIcon icon={faLinkedin} size="xl" />
                   </Link>
-                  <Link href="/" className="me-2">
-                    <FontAwesomeIcon icon={faGithub} size="xl" />
-                  </Link>
-                  <Link href="mailto:hc.rajkot@gmail.com" className="me-2">
-                    <FontAwesomeIcon icon={faEnvelope} size="xl" />
-                  </Link>
-                  <Link href="/" className="me-2">
+                  <Link href="https://twitter.com/ihirenc" target="_blank" className="me-2">
                     <FontAwesomeIcon icon={faTwitter} size="xl" />
                   </Link>
-                  <Link href="/" className="me-2">
-                    <FontAwesomeIcon icon={faTelegram} size="xl" />
-                  </Link>
-                  <Link href="/" className="me-2">
+                  <Link href="https://www.facebook.com/hirennchhatbar" target="_blank" className="me-2">
                     <FontAwesomeIcon icon={faFacebook} size="xl" />
                   </Link>
                 </div>
