@@ -211,9 +211,9 @@ export default function Page() {
           <p className="mb-2">English</p>
           <div className="progress mb-4 rounded-pill">
             <div
-              className="progress-bar w-75"
+              className="progress-bar w-80"
               role="progressbar"
-              aria-valuenow="75"
+              aria-valuenow="80"
               aria-valuemin="0"
               aria-valuemax="100"
             ></div>
@@ -221,19 +221,19 @@ export default function Page() {
           <p className="mb-2">Hindi</p>
           <div className="progress mb-4 rounded-pill">
             <div
-              className="progress-bar w-50"
+              className="progress-bar w-60"
               role="progressbar"
-              aria-valuenow="50"
+              aria-valuenow="60"
               aria-valuemin="0"
               aria-valuemax="100"
             ></div>
           </div>
-          <p className="mb-2">Gujarati</p>
+          <p className="mb-2">Gujarati (mother tongue)</p>
           <div className="progress mb-4 rounded-pill">
             <div
-              className="progress-bar w-25"
+              className="progress-bar w-100"
               role="progressbar"
-              aria-valuenow="25"
+              aria-valuenow="100"
               aria-valuemin="0"
               aria-valuemax="100"
             ></div>
@@ -252,26 +252,15 @@ export default function Page() {
             Hobbies
           </h2>
           <div>
-            <span className="p-2 mx-2 mb-3 badge text-bg-dark">Primary</span>
-            <span className="p-2 mx-2 mb-3 badge text-bg-dark">Secondary</span>
-            <span className="p-2 mx-2 mb-3 badge text-bg-dark">Success</span>
-            <span className="p-2 mx-2 mb-3 badge text-bg-dark">Danger</span>
-            <span className="p-2 mx-2 mb-3 badge text-bg-dark">Warning</span>
-            <span className="p-2 mx-2 mb-3 badge text-bg-dark">Info</span>
-            <span className="p-2 mx-2 mb-3 badge text-bg-dark">Light</span>
-            <span className="p-2 mx-2 mb-3 badge text-bg-dark">Dark</span>
-            <span className="p-2 mx-2 mb-3 badge text-bg-dark">Primary</span>
-            <span className="p-2 mx-2 mb-3 badge text-bg-dark">Secondary</span>
-            <span className="p-2 mx-2 mb-3 badge text-bg-dark">Success</span>
-            <span className="p-2 mx-2 mb-3 badge text-bg-dark">Danger</span>
-            <span className="p-2 mx-2 mb-3 badge text-bg-dark">Warning</span>
-            <span className="p-2 mx-2 mb-3 badge text-bg-dark">Info</span>
-            <span className="p-2 mx-2 mb-3 badge text-bg-dark">Light</span>
-            <span className="p-2 mx-2 mb-3 badge text-bg-dark">Dark</span>
-            <span className="p-2 mx-2 badge text-bg-dark">Primary</span>
-            <span className="p-2 mx-2 badge text-bg-dark">Secondary</span>
-            <span className="p-2 mx-2 badge text-bg-dark">Success</span>
-            <span className="p-2 mx-2 badge text-bg-dark">Danger</span>
+            <span className="p-2 mx-2 mb-3 badge text-bg-dark">Nature</span>
+            <span className="p-2 mx-2 mb-3 badge text-bg-dark">Yoga</span>
+            <span className="p-2 mx-2 mb-3 badge text-bg-dark">Music</span>
+            <span className="p-2 mx-2 mb-3 badge text-bg-dark">Movies</span>
+            <span className="p-2 mx-2 mb-3 badge text-bg-dark">Cricket</span>
+            <span className="p-2 mx-2 mb-3 badge text-bg-dark">Reading</span>
+            <span className="p-2 mx-2 mb-3 badge text-bg-dark">History</span>
+            <span className="p-2 mx-2 mb-3 badge text-bg-dark">World News</span>
+            <span className="p-2 mx-2 mb-3 badge text-bg-dark">Psychology</span>
           </div>
         </div>
       </section>
@@ -287,14 +276,13 @@ export default function Page() {
               <div className="p-3 px-4">
                 <div>
                   <p className="text-center">
-                    "Far far away, behind the word mountains, far from the
-                    countries Vokalia and Consonantia."
+                    "Hiren bhai is Extremely sharp minded, Superb communicator, Quick learner, Very clear when it comes to what Language/Framework to use for any specific project/problem and he knows very well how to use Language/Framework very efficiently. I have learn a lot under him for many projects and problems that we solved. I have very high regards for him as a programmer."
                   </p>
                 </div>
                 <div className="mt-4 text-center">
                   <FontAwesomeIcon icon={faUser} size="2x" />
-                  <h5 className="mb-0">Person Name</h5>
-                  <span>Co-founder, Company</span>
+                  <h5 className="mb-0">Hardik Raval</h5>
+                  <span>Senior Web Developer, Fiare India Pvt. Ltd <br />(Source: LinkedIn)</span>
                 </div>
               </div>
             </div>
@@ -302,14 +290,13 @@ export default function Page() {
               <div className="p-3 px-4">
                 <div>
                   <p className="text-center">
-                    "Separated they live in right at the coast of the Semantics,
-                    a large language ocean."
+                    "If you need someone who is passionate about tech, cares about their work and all round great person - Hiren is your guy! I've worked on numerous digital projects with Hiren over the years relying on his expertise, he is always open and honest with a collaborative and growth mindset. I’ve loved my experience working with Hiren, and I know that anyone looking to work with him will, too."
                   </p>
                 </div>
                 <div className="mt-4 text-center">
                   <FontAwesomeIcon icon={faUser} size="2x" />
-                  <h5 className="mb-0">Person Name</h5>
-                  <span>Co-founder, Company</span>
+                  <h5 className="mb-0">Jason Pham</h5>
+                  <span>Software Delivery Manager <br />(Source: LinkedIn)</span>
                 </div>
               </div>
             </div>
@@ -317,14 +304,13 @@ export default function Page() {
               <div className="p-3 px-4">
                 <div>
                   <p className="text-center">
-                    "A small river named Duden flows by their place and supplies
-                    it with the necessary regelialia."
+                    "I have worked with Hiren remotely from the UK for the last 6 years on numerous different projects within our Business, covering a multitude of design and development projects. <br />He is incredibly efficient with a wealth of experience and knowledge that he is more than willing to share. His ideas and solutions to resolve complex technical challenges has contributed immensely to the success of our brand..."
                   </p>
                 </div>
                 <div className="mt-4 text-center">
                   <FontAwesomeIcon icon={faUser} size="2x" />
-                  <h5 className="mb-0">Person Name</h5>
-                  <span>Co-founder, Company</span>
+                  <h5 className="mb-0">Phillip Horner</h5>
+                  <span>UX/UI Designer<br />(Source: LinkedIn)</span>
                 </div>
               </div>
             </div>
