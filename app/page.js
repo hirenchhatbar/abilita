@@ -195,10 +195,10 @@ export default function Home() {
 
           <div className="container d-flex justify-content-center flex-column">
             <p className="mb-4">
-              Greetings! I am Hiren, a Technical Architect specialized in PHP
-              and JavaScript. My approach is to keep things simple,
-              straightforward, and efficient. I have a particular fondness for
-              Linux and strive to enhance my problem-solving skills every day.
+              Greetings! I am Hiren, a Senior Developer specialized in PHP and
+              JavaScript. My approach is to keep things simple, straightforward,
+              and efficient. I have a particular fondness for Linux and strive
+              to enhance my problem-solving skills every day.
             </p>
             <p className="mb-4">
               My career began as a junior PHP developer, and I still recall my

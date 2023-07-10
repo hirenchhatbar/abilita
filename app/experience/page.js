@@ -60,6 +60,7 @@ export default function Page() {
                           <FontAwesomeIcon icon={faAddressCard} size="1x" />
                         </div>
                         <div className="timeline-text">
+                          <h4>Senior JavaScript/PHP Developer</h4>
                           <h5>
                             <Link
                               href="https://www.weignyte.com"
@@ -68,9 +69,6 @@ export default function Page() {
                               Weignyte Limited (Liverpool, UK)
                             </Link>
                           </h5>
-                          <h4>
-                            Senior JavaScript/PHP Developer (Technical Lead)
-                          </h4>
                           <h6 className="d-lg-none d-xl-none d-sm-none">
                             APRIL 2023 - PRESENT
                           </h6>
@@ -151,6 +149,7 @@ export default function Page() {
                           <FontAwesomeIcon icon={faAddressCard} size="1x" />
                         </div>
                         <div className="timeline-text">
+                          <h4>Senior Symfony/PHP Developer</h4>
                           <h5>
                             <Link
                               href="https://www.weignyte.com"
@@ -159,7 +158,6 @@ export default function Page() {
                               Weignyte Limited (Liverpool, UK)
                             </Link>
                           </h5>
-                          <h4>Senior Symfony/PHP Developer (Technical Lead)</h4>
                           <h6 className="d-lg-none d-xl-none d-sm-none">
                             FEBRUARY 2020 - MARCH 2023
                           </h6>
@@ -219,12 +217,12 @@ export default function Page() {
                           <FontAwesomeIcon icon={faIdCard} size="1x" />
                         </div>
                         <div className="timeline-text">
+                          <h4>Senior Symfony/PHP Developer</h4>
                           <h5>
                             <Link href="https://aspl.in/" target="_blank">
                               Almighty Software Pvt. Ltd. (Rajkot, India)
                             </Link>
                           </h5>
-                          <h4>Senior Symfony/PHP Developer</h4>
                           <h6 className="d-lg-none d-xl-none d-sm-none">
                             JANUARY 2012 - JANUARY 2020
                           </h6>
@@ -283,6 +281,7 @@ export default function Page() {
                           <FontAwesomeIcon icon={faIdCard} size="1x" />
                         </div>
                         <div className="timeline-text">
+                          <h4>PHP Developer</h4>
                           <h5>
                             <Link
                               href="https://www.aceinfoway.com/"
@@ -291,7 +290,6 @@ export default function Page() {
                               Ace Infoway Pvt. Ltd. (Rajkot, India)
                             </Link>
                           </h5>
-                          <h4>PHP Developer</h4>
                           <h6 className="d-lg-none d-xl-none d-sm-none">
                             JANUARY 2010 - DECEMBER 2012
                           </h6>

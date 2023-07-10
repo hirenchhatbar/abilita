@@ -63,7 +63,7 @@ export default function Page() {
                           rotas, performance. The system allows managing service
                           users and their incidents as well.
                         </p>
-                        <p>Role: JavaScript Technical Architect</p>
+                        <p>Role: Senior JavaScript Developer</p>
                         <p>Status: Under development</p>
                         <ul>
                           <li>
@@ -180,14 +180,6 @@ export default function Page() {
                             Postman
                           </span>
                         </div>
-                        <Link href="/">
-                          visit project
-                          <FontAwesomeIcon
-                            icon={faArrowUpRightFromSquare}
-                            size="1x"
-                            className="mx-1"
-                          />
-                        </Link>
                       </div>
                       <ReadMore container="project-1" />
                     </div>
@@ -205,10 +197,7 @@ export default function Page() {
                       <div className="read-more" id="project-2">
                         <h3>Clearly Interiors</h3>
                         <p>A SaaS based job management web app</p>
-                        <p>
-                          Role: Senior Symfony/PHP Developer cum Technical
-                          Architect
-                        </p>
+                        <p>Role: Senior Symfony/PHP Developer</p>
                         <p>
                           Status: Fully released and stable for Clearly
                           Interiors. SaaS in MVP phase.
@@ -342,7 +331,10 @@ export default function Page() {
                             Webpack
                           </span>
                         </div>
-                        <Link href="/">
+                        <Link
+                          href="https://clearlyinteriors.managemepro.com"
+                          target="_blank"
+                        >
                           visit project
                           <FontAwesomeIcon
                             icon={faArrowUpRightFromSquare}
@@ -374,10 +366,7 @@ export default function Page() {
                           allows students to gain insights about their progress
                           and preparation.
                         </p>
-                        <p>
-                          Role: Senior Symfony/PHP Developer cum Technical
-                          Architect
-                        </p>
+                        <p>Role: Senior Symfony/PHP Developer</p>
                         <p>Status: MVP</p>
                         <ul>
                           <li>
@@ -482,14 +471,6 @@ export default function Page() {
                             Webpack
                           </span>
                         </div>
-                        <Link href="/">
-                          visit project
-                          <FontAwesomeIcon
-                            icon={faArrowUpRightFromSquare}
-                            size="1x"
-                            className="mx-1"
-                          />
-                        </Link>
                       </div>
                       <ReadMore container="project-3" />
                     </div>
@@ -576,7 +557,10 @@ export default function Page() {
                             Docker
                           </span>
                         </div>
-                        <Link href="/">
+                        <Link
+                          href="https://www.nettivuokraus.com"
+                          target="_blank"
+                        >
                           visit project
                           <FontAwesomeIcon
                             icon={faArrowUpRightFromSquare}
@@ -654,7 +638,10 @@ export default function Page() {
                             MariaDB
                           </span>
                         </div>
-                        <Link href="/">
+                        <Link
+                          href="https://www.carepreference.co.uk"
+                          target="_blank"
+                        >
                           visit project
                           <FontAwesomeIcon
                             icon={faArrowUpRightFromSquare}
@@ -684,10 +671,7 @@ export default function Page() {
                           Buyers can search properties of their interest and
                           submit contact requests
                         </p>
-                        <p>
-                          Role: Senior Symfony/PHP Developer cum Technical
-                          Architect
-                        </p>
+                        <p>Role: Senior Symfony/PHP Developer</p>
                         <p>Status: Under development (Inhouse)</p>
                         <ul>
                           <li>
@@ -757,14 +741,6 @@ export default function Page() {
                             Webpack
                           </span>
                         </div>
-                        <Link href="/">
-                          visit project
-                          <FontAwesomeIcon
-                            icon={faArrowUpRightFromSquare}
-                            size="1x"
-                            className="mx-1"
-                          />
-                        </Link>
                       </div>
                       <ReadMore container="project-6" />
                     </div>

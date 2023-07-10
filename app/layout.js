@@ -144,7 +144,7 @@ export default function RootLayout({ children }) {
               <p className="mx-auto">
                 Copyright © 2023
                 <Link className="mx-1 logo-text" href="/">
-                  {process.env.NEXT_PUBLIC_LOGO_TEXT}
+                  {process.env.NEXT_PUBLIC_LOGO_TEXT} (v1.0.0)
                 </Link>
                 All rights reserved.
               </p>
