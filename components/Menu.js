@@ -9,7 +9,7 @@ const closeMenu = () => {
     document
       .getElementsByClassName('navbar-toggler')[0]
       .classList.add('collapsed');
-  }, 2000);
+  }, 500);
 };
 
 export default function Menu() {
@@ -52,6 +52,14 @@ export default function Menu() {
             <li className="nav-item">
               <Link href="/portfolio" className="nav-link" onClick={closeMenu}>
                 Portfolio
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                href="https://www.hirenchhatbar.com/blog/"
+                className="nav-link"
+              >
+                Blog
               </Link>
             </li>
             <li className="nav-item">
