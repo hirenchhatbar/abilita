@@ -63,7 +63,9 @@ export default function Page() {
                           rotas, performance. The system allows managing service
                           users and their incidents as well.
                         </p>
-                        <p>Role: Senior JavaScript Developer</p>
+                        <p>
+                          Role: Senior JavaScript Developer (Technical Lead)
+                        </p>
                         <p>Status: Under development</p>
                         <ul>
                           <li>
@@ -197,7 +199,9 @@ export default function Page() {
                       <div className="read-more" id="project-2">
                         <h3>Clearly Interiors</h3>
                         <p>A SaaS based job management web app</p>
-                        <p>Role: Senior Symfony/PHP Developer</p>
+                        <p>
+                          Role: Senior Symfony/PHP Developer (Technical Lead)
+                        </p>
                         <p>
                           Status: Fully released and stable for Clearly
                           Interiors. SaaS in MVP phase.
@@ -366,7 +370,9 @@ export default function Page() {
                           allows students to gain insights about their progress
                           and preparation.
                         </p>
-                        <p>Role: Senior Symfony/PHP Developer</p>
+                        <p>
+                          Role: Senior Symfony/PHP Developer (Technical Lead)
+                        </p>
                         <p>Status: MVP</p>
                         <ul>
                           <li>

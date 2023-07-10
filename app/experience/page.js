@@ -60,7 +60,9 @@ export default function Page() {
                           <FontAwesomeIcon icon={faAddressCard} size="1x" />
                         </div>
                         <div className="timeline-text">
-                          <h4>Senior JavaScript/PHP Developer</h4>
+                          <h4>
+                            Senior JavaScript/PHP Developer (Technical Lead)
+                          </h4>
                           <h5>
                             <Link
                               href="https://www.weignyte.com"
