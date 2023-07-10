@@ -16,7 +16,7 @@ import ReadMore from '@/components/ReadMore';
 
 export const metadata = {
   title: process.env.NEXT_PUBLIC_LOGO_TEXT + ' | Portfolio',
-  description: 'PHP/JavaScript Technical Architect',
+  description: 'Senior JavaScript/PHP Developer (Technical Lead)',
 };
 
 export default function Page() {
@@ -36,7 +36,7 @@ export default function Page() {
             <Image
               src={heroImage}
               className="img-fluid mx-lg-5 animate__animated animate__headShake animate__delay-2s"
-              alt="Hiren Chhatbar"
+              alt={process.env.NEXT_PUBLIC_LOGO_TEXT}
             />
           </div>
         </div>

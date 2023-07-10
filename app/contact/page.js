@@ -12,7 +12,7 @@ import {
   faLinkedin,
   faTwitter,
   faYoutube,
-  faGitlab
+  faGitlab,
 } from '@fortawesome/free-brands-svg-icons';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -20,7 +20,7 @@ import heroImage from '../../public/contact.jpg';
 
 export const metadata = {
   title: process.env.NEXT_PUBLIC_LOGO_TEXT + ' | Contact',
-  description: 'PHP/JavaScript Technical Architect',
+  description: 'Senior JavaScript/PHP Developer (Technical Lead)',
 };
 
 export default function Page() {
@@ -39,7 +39,7 @@ export default function Page() {
             <Image
               src={heroImage}
               className="img-fluid mx-lg-5 animate__animated animate__headShake animate__delay-2s"
-              alt="Hiren Chhatbar"
+              alt={process.env.NEXT_PUBLIC_LOGO_TEXT}
             />
           </div>
         </div>
@@ -83,7 +83,10 @@ export default function Page() {
                 </Link>
               </span>
               <span className="me-3">
-                <Link href="https://www.linkedin.com/in/hirenchhatbar" target="_blank">
+                <Link
+                  href="https://www.linkedin.com/in/hirenchhatbar"
+                  target="_blank"
+                >
                   <FontAwesomeIcon icon={faLinkedin} size="xl" />
                 </Link>
               </span>
@@ -93,7 +96,10 @@ export default function Page() {
                 </Link>
               </span>
               <span className="me-3">
-                <Link href="https://www.facebook.com/hirennchhatbar" target="_blank">
+                <Link
+                  href="https://www.facebook.com/hirennchhatbar"
+                  target="_blank"
+                >
                   <FontAwesomeIcon icon={faFacebook} size="xl" />
                 </Link>
               </span>

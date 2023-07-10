@@ -12,7 +12,7 @@ import heroImage from '../../public/experience.jpg';
 
 export const metadata = {
   title: process.env.NEXT_PUBLIC_LOGO_TEXT + ' | Experience',
-  description: 'PHP/JavaScript Technical Architect',
+  description: 'Senior JavaScript/PHP Developer (Technical Lead)',
 };
 
 export default function Page() {
@@ -31,7 +31,7 @@ export default function Page() {
             <Image
               src={heroImage}
               className="img-fluid mx-lg-5 animate__animated animate__headShake animate__delay-2s"
-              alt="Hiren Chhatbar"
+              alt={process.env.NEXT_PUBLIC_LOGO_TEXT}
             />
           </div>
         </div>
@@ -68,7 +68,9 @@ export default function Page() {
                               Weignyte Limited (Liverpool, UK)
                             </Link>
                           </h5>
-                          <h4>PHP/JavaScript Technical Architect</h4>
+                          <h4>
+                            Senior JavaScript/PHP Developer (Technical Lead)
+                          </h4>
                           <h6 className="d-lg-none d-xl-none d-sm-none">
                             APRIL 2023 - PRESENT
                           </h6>
@@ -157,9 +159,7 @@ export default function Page() {
                               Weignyte Limited (Liverpool, UK)
                             </Link>
                           </h5>
-                          <h4>
-                            Senior Symfony/PHP Developer cum Technical Architect
-                          </h4>
+                          <h4>Senior Symfony/PHP Developer (Technical Lead)</h4>
                           <h6 className="d-lg-none d-xl-none d-sm-none">
                             FEBRUARY 2020 - MARCH 2023
                           </h6>

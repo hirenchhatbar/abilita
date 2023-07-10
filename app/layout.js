@@ -106,16 +106,32 @@ export default function RootLayout({ children }) {
                   Rajkot, 360005, Gujarat, India
                 </p>
                 <div className="pt-4">
-                  <Link href="https://gitlab.com/hirenchhatbar" target="_blank" className="me-2">
+                  <Link
+                    href="https://gitlab.com/hirenchhatbar"
+                    target="_blank"
+                    className="me-2"
+                  >
                     <FontAwesomeIcon icon={faGitlab} size="xl" />
                   </Link>
-                  <Link href="https://www.linkedin.com/in/hirenchhatbar" target="_blank" className="me-2">
+                  <Link
+                    href="https://www.linkedin.com/in/hirenchhatbar"
+                    target="_blank"
+                    className="me-2"
+                  >
                     <FontAwesomeIcon icon={faLinkedin} size="xl" />
                   </Link>
-                  <Link href="https://twitter.com/ihirenc" target="_blank" className="me-2">
+                  <Link
+                    href="https://twitter.com/ihirenc"
+                    target="_blank"
+                    className="me-2"
+                  >
                     <FontAwesomeIcon icon={faTwitter} size="xl" />
                   </Link>
-                  <Link href="https://www.facebook.com/hirennchhatbar" target="_blank" className="me-2">
+                  <Link
+                    href="https://www.facebook.com/hirennchhatbar"
+                    target="_blank"
+                    className="me-2"
+                  >
                     <FontAwesomeIcon icon={faFacebook} size="xl" />
                   </Link>
                 </div>

@@ -8,6 +8,12 @@ import {
   faLaptopCode,
   faQuestion,
   faUser,
+  faN,
+  faDatabase,
+  faFlaskVial,
+  faServer,
+  faCircleNodes,
+  faFileLines,
 } from '@fortawesome/free-solid-svg-icons';
 import {
   faSymfony,
@@ -27,6 +33,7 @@ import {
   faJira,
   faTrello,
   faLinux,
+  faJs,
 } from '@fortawesome/free-brands-svg-icons';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -63,12 +70,12 @@ const skills = [
     name: 'Linux',
   },
   {
-    icon: faQuestion,
+    icon: faN,
     name: 'Nginx',
   },
   {
-    icon: faQuestion,
-    name: 'My SQL',
+    icon: faDatabase,
+    name: 'MySQL',
   },
   {
     icon: faDocker,
@@ -83,31 +90,31 @@ const skills = [
     name: 'Jenkins',
   },
   {
-    icon: faQuestion,
+    icon: faFlaskVial,
     name: 'Selenium IDE',
   },
   {
-    icon: faQuestion,
+    icon: faFileLines,
     name: 'Twig',
   },
   {
-    icon: faQuestion,
+    icon: faDatabase,
     name: 'Doctrine',
   },
   {
-    icon: faQuestion,
-    name: 'REST API',
+    icon: faCircleNodes,
+    name: 'RESTful API',
   },
   {
-    icon: faQuestion,
+    icon: faServer,
     name: 'Elasticsearch',
   },
   {
-    icon: faQuestion,
+    icon: faServer,
     name: 'Solr',
   },
   {
-    icon: faQuestion,
+    icon: faDatabase,
     name: 'Redis',
   },
   {
@@ -115,27 +122,15 @@ const skills = [
     name: 'AWS',
   },
   {
-    icon: faGitlab,
-    name: 'GitLab',
-  },
-  {
-    icon: faBitbucket,
-    name: 'Bitbucket',
-  },
-  {
     icon: faGit,
     name: 'Git',
-  },
-  {
-    icon: faFileCsv,
-    name: 'CSV',
   },
   {
     icon: faNpm,
     name: 'NPM',
   },
   {
-    icon: faQuestion,
+    icon: faJs,
     name: 'jQuery',
   },
   {
@@ -143,20 +138,16 @@ const skills = [
     name: 'Bootstrap',
   },
   {
-    icon: faQuestion,
+    icon: faServer,
     name: 'RabbitMQ',
-  },
-  {
-    icon: faQuestion,
-    name: 'Grafana',
-  },
-  {
-    icon: faQuestion,
-    name: 'Graylog',
   },
   {
     icon: faCreditCard,
     name: 'Payment gateways',
+  },
+  {
+    icon: faJira,
+    name: 'Agile/Scrum',
   },
   {
     icon: faJira,
@@ -170,7 +161,7 @@ const skills = [
 
 export const metadata = {
   title: process.env.NEXT_PUBLIC_LOGO_TEXT,
-  description: 'PHP/JavaScript Technical Architect',
+  description: 'Senior JavaScript/PHP Developer (Technical Lead)',
 };
 
 export default function Home() {
@@ -181,14 +172,12 @@ export default function Home() {
           <div className="row container mx-auto">
             <div className="col-md-6 col-12 col-lg-6 d-flex justify-content-center flex-column">
               <h5 className="mb-0">Hi, my name is</h5>
-              <h1 className="my-3">Hiren Chhatbar</h1>
-              <h2 className="mb-3">
-                I’m a PHP/JavaScript Technical Architect.
-              </h2>
+              <h1 className="my-3">{process.env.NEXT_PUBLIC_LOGO_TEXT}</h1>
+              <h2 className="mb-3">I’m a Senior JavaScript/PHP Developer.</h2>
               <p>
                 I’m a software engineer specializing in building web apps and
                 websites. Currently, I’m working as a PHP/JavaScript Technical
-                Architect at {" "}
+                Architect at{' '}
                 <Link href="https://www.weignyte.com" target="_blank">
                   Weignyte
                 </Link>
@@ -199,7 +188,7 @@ export default function Home() {
               <Image
                 src={heroImage}
                 className="img-fluid animate__animated animate__headShake animate__delay-2s"
-                alt="Hiren Chhatbar"
+                alt={process.env.NEXT_PUBLIC_LOGO_TEXT}
               />
             </div>
           </div>
@@ -238,7 +227,7 @@ export default function Home() {
                       <FontAwesomeIcon icon={faUser} size="3x" />
                     </div>
                     <div>
-                      <h3>100+</h3>
+                      <h3>50+</h3>
                       <p>Happy Clients</p>
                     </div>
                   </div>
@@ -251,7 +240,7 @@ export default function Home() {
                       <FontAwesomeIcon icon={faGear} size="3x" />
                     </div>
                     <div>
-                      <h3>150+</h3>
+                      <h3>100+</h3>
                       <p>Projects Complete</p>
                     </div>
                   </div>
@@ -264,7 +253,7 @@ export default function Home() {
                       <FontAwesomeIcon icon={faCalendar} size="3x" />
                     </div>
                     <div>
-                      <h3>15+</h3>
+                      <h3>14+</h3>
                       <p>Years of Experience</p>
                     </div>
                   </div>

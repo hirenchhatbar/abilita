@@ -8,6 +8,8 @@ import {
   faBook,
   faTrophy,
   faUser,
+  faCertificate,
+  faBuildingColumns,
 } from '@fortawesome/free-solid-svg-icons';
 import {
   faApple,
@@ -21,7 +23,7 @@ import heroImage from '../../public/about.jpg';
 
 export const metadata = {
   title: process.env.NEXT_PUBLIC_LOGO_TEXT + ' | About',
-  description: 'PHP/JavaScript Technical Architect',
+  description: 'Senior JavaScript/PHP Developer (Technical Lead)',
 };
 
 export default function Page() {
@@ -40,7 +42,7 @@ export default function Page() {
             <Image
               src={heroImage}
               className="img-fluid mx-lg-5 animate__animated animate__headShake animate__delay-2s"
-              alt="Hiren Chhatbar"
+              alt={process.env.NEXT_PUBLIC_LOGO_TEXT}
             />
           </div>
         </div>
@@ -48,27 +50,58 @@ export default function Page() {
 
       <section className="container-fluid">
         <div className="container d-flex flex-column">
-          <p className="mb-5">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
+          <p>
+            I am a tech-savvy individual residing in the vibrant city of Rajkot,
+            Gujarat, India. I am happily married and have been blessed with a
+            beautiful child who brings joy and laughter to my life. My
+            dedication to my family is unwavering, and I cherish every moment
+            spent with my loved ones.
           </p>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
+            My passion for technology is evident in my everyday life. I have a
+            deep-rooted love for Linux and embrace its open-source philosophy. I
+            immerse myself in the world of technology, constantly learning,
+            unlearning, and relearning new concepts and skills. With each
+            passing day, I embrace the ever-evolving nature of the tech industry
+            and enthusiastically keep up with the latest advancements.
+          </p>
+          <p>
+            Beyond my tech interests, I have a diverse range of hobbies that
+            keep me engaged and well-rounded. I find solace in the beauty of
+            nature, often taking the time to appreciate its wonders. Whether
+            it's a leisurely walk in the park or an adventurous trek in the
+            mountains, I feel a deep connection to the natural world.
+          </p>
+          <p>
+            Yoga is not only a physical practice for me but also a source of
+            mental and spiritual well-being. I recognize the importance of
+            maintaining a balanced lifestyle and dedicate time to nurture my
+            mind, body, and soul through yoga and meditation.
+          </p>
+          <p>
+            Music, movies, and cricket are my go-to sources of entertainment. I
+            find joy in exploring different genres of music, from soulful
+            melodies to foot-tapping beats. Movies allow me to immerse myself in
+            captivating stories, transporting me to different worlds and
+            expanding my horizons. Cricket, a popular sport in India, fills me
+            with excitement and passion, and I closely follow the matches,
+            celebrating the triumphs and agonizing over the defeats.
+          </p>
+          <p>
+            I am also an avid reader, delving into a diverse range of subjects.
+            I have a particular interest in history, as it provides valuable
+            insights into the past and helps me better understand the present.
+            World news keeps me informed about current affairs, enabling me to
+            broaden my perspective and engage in meaningful conversations.
+            Psychology fascinates me, as I enjoy unraveling the intricacies of
+            the human mind and behavior.
+          </p>
+          <p>
+            In all aspects of my life, I exhibit a curious and open-minded
+            approach. I am driven by a desire to learn, grow, and make a
+            positive impact on the world around me. With my versatile interests
+            and unwavering enthusiasm, I am a well-rounded individual who
+            embraces life's opportunities with zest and determination.
           </p>
         </div>
       </section>
@@ -76,64 +109,34 @@ export default function Page() {
       <section className="container-fluid">
         <div className="container d-flex justify-content-center flex-column">
           <h2 className="py-5">
-            <FontAwesomeIcon icon={faBook} size="1x" className="me-2" />
+            <FontAwesomeIcon
+              icon={faBuildingColumns}
+              size="1x"
+              className="me-2"
+            />
             Education
           </h2>
           <div className="container rounded d-flex">
-            <div className="me-4 mt-3">
-              <FontAwesomeIcon icon={faUserGraduate} size="7x" />
+            <div className="me-4">
+              <FontAwesomeIcon icon={faUserGraduate} size="5x" />
             </div>
             <div className="mx-lg-4 mx-xl-4">
-              <h3>K.K. Parekh Commerce Collage - Amreli</h3>
-              <h5>Bachelor of Commerce (B.Com)</h5>
+              <h3>Bachelor of Commerce (B.Com)</h3>
+              <h5>K.K. Parekh Commerce Collage - Amreli</h5>
               <span>2004 - 2006</span>
-              <br />
-              <span>
-                Participated in the research of XXX and published 3 papers.
-              </span>
-              <ul className="mt-1">
-                <li>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and a type specimen book.
-                </li>
-                <li>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and a type specimen book.
-                </li>
-              </ul>
             </div>
           </div>
           <hr className="hr" />
           <div className="container rounded d-flex my-3">
-            <div className="me-4 mt-3">
-              <FontAwesomeIcon icon={faUserGraduate} size="7x" />
+            <div className="me-4">
+              <FontAwesomeIcon icon={faUserGraduate} size="5x" />
             </div>
             <div className="mx-lg-4 mx-xl-4">
-              <h3>K.K. Parekh & Mehta R.P Vidhyalay - Amreli</h3>
-              <h5>Higher Secondary</h5>
+              <h3>
+                Higher Secondary (12<sup>th</sup> Standard)
+              </h3>
+              <h5>K.K. Parekh & Mehta R.P Vidhyalay - Amreli</h5>
               <span>2002 - 2003</span>
-              <br />
-              <span>
-                Participated in the research of XXX and published 3 papers.
-              </span>
-              <ul className="mt-1">
-                <li>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and a type specimen book.
-                </li>
-                <li>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and a type specimen book.
-                </li>
-              </ul>
             </div>
           </div>
         </div>
@@ -149,50 +152,53 @@ export default function Page() {
             <div className="container d-flex justify-content-center mt-50 mb-50">
               <div className="row">
                 <div className="col-md-4 mt-2">
-                  <div className="card shadow">
+                  <div className="card shadow h-100">
                     <div className="card-body">
                       <div className="card-img-actions text-center">
-                        <FontAwesomeIcon icon={faGoogle} size="6x" />
+                        <FontAwesomeIcon icon={faCertificate} size="6x" />
                       </div>
                     </div>
                     <div className="card-body">
-                      <h2>DOEACC 'O' Level</h2>
-                      <p>Department of Electronics - New Delhi</p>
-                      <p>Issued Jan 2008</p>
-                      <p>Skills: Web Development - Programming</p>
+                      <h4>DOEACC 'O' Level</h4>
+                      <p>
+                        Department of Electronics - New Delhi <br /> Issued Jan
+                        2008
+                      </p>
                     </div>
                   </div>
                 </div>
 
                 <div className="col-md-4 mt-2">
-                  <div className="card shadow">
+                  <div className="card shadow h-100">
                     <div className="card-body">
                       <div className="card-img-actions text-center">
-                        <FontAwesomeIcon icon={faApple} size="6x" />
+                        <FontAwesomeIcon icon={faCertificate} size="6x" />
                       </div>
                     </div>
                     <div className="card-body">
-                      <h2>DTP (Desktop Publishing)</h2>
-                      <p>Technical Education Board - Gujarat</p>
-                      <p>Issued Jul 2007</p>
+                      <h4>DTP (Desktop Publishing)</h4>
+                      <p>
+                        Technical Education Board - Gujarat <br /> Issued Jul
+                        2007
+                      </p>
                     </div>
                   </div>
                 </div>
 
                 <div className="col-md-4 mt-2">
-                  <div className="card shadow">
+                  <div className="card shadow h-100">
                     <div className="card-body">
                       <div className="card-img-actions text-center">
-                        <FontAwesomeIcon icon={faPaypal} size="6x" />
+                        <FontAwesomeIcon icon={faCertificate} size="6x" />
                       </div>
                     </div>
                     <div className="card-body">
-                      <h2>
+                      <h4>
                         COPA (Computer Programmer cum Programming Assistant)
-                      </h2>
-                      <p>I.T.I - Amreli</p>
-                      <p>Issued Aug 2003</p>
-                      <p>Skills: Programming</p>
+                      </h4>
+                      <p>
+                        I.T.I - Amreli <br /> Issued Aug 2003
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -209,34 +215,37 @@ export default function Page() {
             Languages
           </h2>
           <p className="mb-2">English</p>
-          <div className="progress mb-4 rounded-pill">
-            <div
-              className="progress-bar w-80"
-              role="progressbar"
-              aria-valuenow="80"
-              aria-valuemin="0"
-              aria-valuemax="100"
-            ></div>
+          <div
+            className="progress mb-4 rounded-pill"
+            role="progressbar"
+            aria-label="Basic example"
+            aria-valuenow="80"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            <div className="progress-bar" style={{ width: 80 + '%' }}></div>
           </div>
           <p className="mb-2">Hindi</p>
-          <div className="progress mb-4 rounded-pill">
-            <div
-              className="progress-bar w-60"
-              role="progressbar"
-              aria-valuenow="60"
-              aria-valuemin="0"
-              aria-valuemax="100"
-            ></div>
+          <div
+            className="progress mb-4 rounded-pill"
+            role="progressbar"
+            aria-label="Basic example"
+            aria-valuenow="80"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            <div className="progress-bar" style={{ width: 70 + '%' }}></div>
           </div>
           <p className="mb-2">Gujarati (mother tongue)</p>
-          <div className="progress mb-4 rounded-pill">
-            <div
-              className="progress-bar w-100"
-              role="progressbar"
-              aria-valuenow="100"
-              aria-valuemin="0"
-              aria-valuemax="100"
-            ></div>
+          <div
+            className="progress mb-4 rounded-pill"
+            role="progressbar"
+            aria-label="Basic example"
+            aria-valuenow="80"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            <div className="progress-bar" style={{ width: 100 + '%' }}></div>
           </div>
         </div>
       </section>
@@ -276,13 +285,22 @@ export default function Page() {
               <div className="p-3 px-4">
                 <div>
                   <p className="text-center">
-                    "Hiren bhai is Extremely sharp minded, Superb communicator, Quick learner, Very clear when it comes to what Language/Framework to use for any specific project/problem and he knows very well how to use Language/Framework very efficiently. I have learn a lot under him for many projects and problems that we solved. I have very high regards for him as a programmer."
+                    "Hiren bhai is Extremely sharp minded, Superb communicator,
+                    Quick learner, Very clear when it comes to what
+                    Language/Framework to use for any specific project/problem
+                    and he knows very well how to use Language/Framework very
+                    efficiently. I have learn a lot under him for many projects
+                    and problems that we solved. I have very high regards for
+                    him as a programmer."
                   </p>
                 </div>
                 <div className="mt-4 text-center">
                   <FontAwesomeIcon icon={faUser} size="2x" />
                   <h5 className="mb-0">Hardik Raval</h5>
-                  <span>Senior Web Developer, Fiare India Pvt. Ltd <br />(Source: LinkedIn)</span>
+                  <span>
+                    Senior Web Developer, Fiare India Pvt. Ltd <br />
+                    (Source: LinkedIn)
+                  </span>
                 </div>
               </div>
             </div>
@@ -290,13 +308,22 @@ export default function Page() {
               <div className="p-3 px-4">
                 <div>
                   <p className="text-center">
-                    "If you need someone who is passionate about tech, cares about their work and all round great person - Hiren is your guy! I've worked on numerous digital projects with Hiren over the years relying on his expertise, he is always open and honest with a collaborative and growth mindset. I’ve loved my experience working with Hiren, and I know that anyone looking to work with him will, too."
+                    "If you need someone who is passionate about tech, cares
+                    about their work and all round great person - Hiren is your
+                    guy! I've worked on numerous digital projects with Hiren
+                    over the years relying on his expertise, he is always open
+                    and honest with a collaborative and growth mindset. I’ve
+                    loved my experience working with Hiren, and I know that
+                    anyone looking to work with him will, too."
                   </p>
                 </div>
                 <div className="mt-4 text-center">
                   <FontAwesomeIcon icon={faUser} size="2x" />
                   <h5 className="mb-0">Jason Pham</h5>
-                  <span>Software Delivery Manager <br />(Source: LinkedIn)</span>
+                  <span>
+                    Software Delivery Manager <br />
+                    (Source: LinkedIn)
+                  </span>
                 </div>
               </div>
             </div>
@@ -304,13 +331,24 @@ export default function Page() {
               <div className="p-3 px-4">
                 <div>
                   <p className="text-center">
-                    "I have worked with Hiren remotely from the UK for the last 6 years on numerous different projects within our Business, covering a multitude of design and development projects. <br />He is incredibly efficient with a wealth of experience and knowledge that he is more than willing to share. His ideas and solutions to resolve complex technical challenges has contributed immensely to the success of our brand..."
+                    "I have worked with Hiren remotely from the UK for the last
+                    6 years on numerous different projects within our Business,
+                    covering a multitude of design and development projects.{' '}
+                    <br />
+                    He is incredibly efficient with a wealth of experience and
+                    knowledge that he is more than willing to share. His ideas
+                    and solutions to resolve complex technical challenges has
+                    contributed immensely to the success of our brand..."
                   </p>
                 </div>
                 <div className="mt-4 text-center">
                   <FontAwesomeIcon icon={faUser} size="2x" />
                   <h5 className="mb-0">Phillip Horner</h5>
-                  <span>UX/UI Designer<br />(Source: LinkedIn)</span>
+                  <span>
+                    UX/UI Designer
+                    <br />
+                    (Source: LinkedIn)
+                  </span>
                 </div>
               </div>
             </div>
