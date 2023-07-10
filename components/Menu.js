@@ -55,12 +55,12 @@ export default function Menu() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link
+              <a
                 href="https://www.hirenchhatbar.com/blog/"
                 className="nav-link"
               >
                 Blog
-              </Link>
+              </a>
             </li>
             <li className="nav-item">
               <Link href="/contact" className="nav-link" onClick={closeMenu}>
