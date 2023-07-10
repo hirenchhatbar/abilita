@@ -40,6 +40,8 @@ import Image from 'next/image';
 
 import heroImage from '../public/hero.jpg';
 
+import Typed from '@/components/Typed';
+
 const skills = [
   {
     icon: faSymfony,
@@ -173,7 +175,10 @@ export default function Home() {
             <div className="col-md-6 col-12 col-lg-6 d-flex justify-content-center flex-column">
               <h5 className="mb-0">Hi, my name is</h5>
               <h1 className="my-3">{process.env.NEXT_PUBLIC_LOGO_TEXT}</h1>
-              <h2 className="mb-3">I’m a Senior JavaScript/PHP Developer.</h2>
+              <h2 className="mb-3">
+                I’m a{' '}
+                <span id="heading2">Senior JavaScript/PHP Developer.</span>
+              </h2>
               <p>
                 I’m a software engineer specializing in building web apps and
                 websites. Currently, I’m working as a PHP/JavaScript Technical
@@ -187,7 +192,7 @@ export default function Home() {
             <div className="col-md-6 col-12 col-lg-6">
               <Image
                 src={heroImage}
-                className="img-fluid animate__animated animate__headShake animate__delay-2s"
+                className="img-fluid"
                 alt={process.env.NEXT_PUBLIC_LOGO_TEXT}
               />
             </div>
@@ -292,6 +297,16 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <Typed
+        containerId="heading2"
+        strings={[
+          'Senior JavaScript Developer.',
+          'Senior PHP Developer.',
+          'Senior Fullstack Developer.',
+          'Technical Lead (JavaScript/PHP).',
+          'Senior JavaScript/PHP Developer.',
+        ]}
+      />
     </>
   );
 }
