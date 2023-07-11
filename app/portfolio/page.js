@@ -56,7 +56,7 @@ export default function Page() {
                     </div>
                     <div className="card-body">
                       <div className="read-more" id="project-1">
-                        <h3>Care Preference (v2)</h3>
+                        <h3>Health Care System v2.0</h3>
                         <p>
                           An online platform for the UK's care provider in the
                           healthcare domain to manage employees, their training,
@@ -197,7 +197,7 @@ export default function Page() {
                     </div>
                     <div className="card-body">
                       <div className="read-more" id="project-2">
-                        <h3>Clearly Interiors</h3>
+                        <h3>Job Management Tool</h3>
                         <p>A SaaS based job management web app</p>
                         <p>
                           Role: Senior Symfony/PHP Developer (Technical Lead)
@@ -361,7 +361,7 @@ export default function Page() {
                     </div>
                     <div className="card-body">
                       <div className="read-more" id="project-3">
-                        <h3>Yellow Meducation</h3>
+                        <h3>Online Revision Platform</h3>
                         <p>
                           An online platform by NHS UK which allows medical
                           students to prepare for FRCEM exams by purchasing a
@@ -492,7 +492,7 @@ export default function Page() {
                     </div>
                     <div className="card-body">
                       <div className="read-more" id="project-4">
-                        <h3>Nettivuokraus</h3>
+                        <h3>Online Rental Platform</h3>
                         <p>Rental solution operating in Finland</p>
                         <p>Role: Senior Symfony/PHP Developer</p>
                         <p>Status: Live (Production - Stable)</p>
@@ -563,17 +563,6 @@ export default function Page() {
                             Docker
                           </span>
                         </div>
-                        <Link
-                          href="https://www.nettivuokraus.com"
-                          target="_blank"
-                        >
-                          visit project
-                          <FontAwesomeIcon
-                            icon={faArrowUpRightFromSquare}
-                            size="1x"
-                            className="mx-1"
-                          />
-                        </Link>
                       </div>
                       <ReadMore container="project-4" />
                     </div>
@@ -589,7 +578,7 @@ export default function Page() {
                     </div>
                     <div className="card-body">
                       <div className="read-more" id="project-5">
-                        <h3>Care Preference(v1)</h3>
+                        <h3>Health Care System v1.0</h3>
                         <p>
                           An online platform for the UK's care provider in the
                           healthcare domain to manage employees, their training,
@@ -644,17 +633,6 @@ export default function Page() {
                             MariaDB
                           </span>
                         </div>
-                        <Link
-                          href="https://www.carepreference.co.uk"
-                          target="_blank"
-                        >
-                          visit project
-                          <FontAwesomeIcon
-                            icon={faArrowUpRightFromSquare}
-                            size="1x"
-                            className="mx-1"
-                          />
-                        </Link>
                       </div>
                       <ReadMore container="project-5" />
                     </div>

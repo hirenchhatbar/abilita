@@ -55,17 +55,17 @@ export default function Menu() {
               </Link>
             </li>
             <li className="nav-item">
+              <Link href="/contact" className="nav-link" onClick={closeMenu}>
+                Contact
+              </Link>
+            </li>
+            <li className="nav-item">
               <a
                 href="https://www.hirenchhatbar.com/blog/"
                 className="nav-link"
               >
                 Blog
               </a>
-            </li>
-            <li className="nav-item">
-              <Link href="/contact" className="nav-link" onClick={closeMenu}>
-                Contact
-              </Link>
             </li>
           </ul>
         </div>

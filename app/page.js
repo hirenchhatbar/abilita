@@ -280,7 +280,7 @@ export default function Home() {
                     className="col-sm-4 col-md-3 col-xs-3 col-lg-2 col-xl-2 pt-4"
                     key={skill.name}
                   >
-                    <div className="card shadow d-flex justify-content-center flex-column align-items-center">
+                    <div className="card shadow d-flex justify-content-center flex-column align-items-center h-100">
                       <FontAwesomeIcon
                         icon={skill.icon}
                         className="mt-2"
