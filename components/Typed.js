@@ -7,6 +7,7 @@ import { useEffect } from 'react';
 export default function ReadMore({ containerId, strings }) {
   useEffect(() => {
     const element = document.getElementById(containerId);
+
     const typed = new Typed(element, {
       strings: strings,
       typeSpeed: 100,
@@ -23,5 +24,5 @@ export default function ReadMore({ containerId, strings }) {
       // Destroy Typed instance during cleanup to stop animation
       typed.destroy();
     };
-  }, []);
+  }, [containerId, strings]);
 }

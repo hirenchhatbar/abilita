@@ -203,8 +203,7 @@ export default function Page() {
                           Role: Senior Symfony/PHP Developer (Technical Lead)
                         </p>
                         <p>
-                          Status: Fully released and stable for Clearly
-                          Interiors. SaaS in MVP phase.
+                          Status: Live (Production - Stable)
                         </p>
                         <ul>
                           <li>
@@ -335,17 +334,6 @@ export default function Page() {
                             Webpack
                           </span>
                         </div>
-                        <Link
-                          href="https://clearlyinteriors.managemepro.com"
-                          target="_blank"
-                        >
-                          visit project
-                          <FontAwesomeIcon
-                            icon={faArrowUpRightFromSquare}
-                            size="1x"
-                            className="mx-1"
-                          />
-                        </Link>
                       </div>
                       <ReadMore container="project-2" />
                     </div>
