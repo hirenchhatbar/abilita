@@ -2,11 +2,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faCalendar,
   faCreditCard,
-  faFileCsv,
   faGear,
   faInfinity,
   faLaptopCode,
-  faQuestion,
   faUser,
   faN,
   faDatabase,
@@ -34,6 +32,8 @@ import {
   faTrello,
   faLinux,
   faJs,
+  faWordpress,
+  faLaravel,
 } from '@fortawesome/free-brands-svg-icons';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -158,6 +158,22 @@ const skills = [
   {
     icon: faTrello,
     name: 'Trello',
+  },
+  {
+    icon: faTrello,
+    name: 'Postman',
+  },
+  {
+    icon: faWordpress,
+    name: 'WordPress',
+  },
+  {
+    icon: faPhp,
+    name: 'Composer',
+  },
+  {
+    icon: faLaravel,
+    name: 'Packagist',
   },
 ];
 

@@ -12,14 +12,13 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import {
   faFacebook,
-  faGithub,
   faLinkedin,
-  faTelegram,
   faTwitter,
   faGitlab,
 } from '@fortawesome/free-brands-svg-icons';
 import Link from 'next/link';
 import Script from 'next/script';
+import GoogleAnalytics from '@/components/GoogleAnalytics';
 
 export const metadata = {
   icons: {
@@ -39,6 +38,7 @@ export default function RootLayout({ children }) {
           </div>
         </header>
 
+        <GoogleAnalytics/>
         {children}
 
         <GoTop />

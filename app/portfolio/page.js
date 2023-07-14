@@ -1,12 +1,12 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import {
-  faArrowUpRightFromSquare,
   faFileWaveform,
   faHouse,
   faPills,
   faTent,
   faHouseUser,
+  faBagShopping,
 } from '@fortawesome/free-solid-svg-icons';
 
 import Link from 'next/link';
@@ -202,9 +202,7 @@ export default function Page() {
                         <p>
                           Role: Senior Symfony/PHP Developer (Technical Lead)
                         </p>
-                        <p>
-                          Status: Live (Production - Stable)
-                        </p>
+                        <p>Status: Live (Production - Stable)</p>
                         <ul>
                           <li>
                             Develop a job listing page that includes a search
@@ -631,11 +629,127 @@ export default function Page() {
                   <div className="card shadow">
                     <div className="card-body">
                       <div className="card-img-actions text-center">
-                        <FontAwesomeIcon icon={faHouseUser} size="7x" />
+                        <FontAwesomeIcon icon={faBagShopping} size="7x" />
                       </div>
                     </div>
                     <div className="card-body">
                       <div className="read-more" id="project-6">
+                        <h3>Abilita v1.0</h3>
+                        <p>
+                          An exceptional yet simple open-source portfolio and
+                          personal website designed specifically for web
+                          developers. This platform serves as an ideal showcase
+                          for your outstanding skill sets, industry experience,
+                          and an impressive collection of projects you have
+                          created.
+                        </p>
+                        <p>
+                          Role: Senior JavaScript Developer (Technical Lead)
+                        </p>
+                        <p>Status: Live (Production)</p>
+                        <ul>
+                          <li>
+                            Establish a robust foundation for the project by
+                            configuring Next.js, ensuring optimal performance
+                            and scalability. Define a well-organised directory
+                            structure that promotes modular development and
+                            maintainability. Establish clear and consistent
+                            naming conventions and coding guidelines to foster a
+                            collaborative and efficient development process.
+                          </li>
+                          <li>
+                            Implement strategies to seamlessly integrate
+                            Bootstrap JavaScript on the client-side while
+                            preserving server-side rendering (SSR). Enable
+                            search engines like Google and Bing to effectively
+                            crawl and index the website, ensuring maximum
+                            visibility and discoverability.
+                          </li>
+                          <li>
+                            Integrate animate.css, a versatile CSS animation
+                            library, to bring captivating visual effects to
+                            images and heading texts on various pages. Utilise
+                            typed.js to add dynamic and engaging
+                            typewriter-style animations, enhancing the overall
+                            user experience.
+                          </li>
+                          <li>
+                            Leverage js-cookie to effectively handle
+                            browser-side cookies, facilitating the retention of
+                            theme selections and enabling the website to load
+                            accordingly during subsequent visits. Provide a
+                            seamless and personalised browsing experience for
+                            users, ensuring their preferences are preserved
+                            across sessions.
+                          </li>
+                          <li>
+                            Seamlessly integrate Google Analytics, empowering
+                            the project with powerful data-driven insights. Gain
+                            valuable information about user behaviour, traffic
+                            sources, and other relevant metrics, enabling
+                            data-informed decision-making and continuous
+                            improvement.
+                          </li>
+                          <li>
+                            Integrate prettier and eslint, industry-standard
+                            tools for code formatting and static analysis.
+                            Enforce consistent coding styles and best practices,
+                            ensuring code readability, maintainability, and
+                            minimising potential errors.
+                          </li>
+                          <li>
+                            Leverage the power of Next.js's Static Site
+                            Generation (SSG) capabilities to generate performant
+                            and optimised production code.
+                          </li>
+                          <li>
+                            Set up a robust and secure production environment
+                            using Nginx, a high-performance web server.
+                          </li>
+                          <li>
+                            Create detailed documentation covering all essential
+                            aspects of the project, including commands, NPM
+                            packages, and external references.
+                          </li>
+                        </ul>
+                        <div className="mb-3">
+                          <span className="p-1 badge bg-secondary me-3">
+                            Next.js (SSG)
+                          </span>
+                          <span className="p-1 badge bg-secondary me-3">
+                            React
+                          </span>
+                          <span className="p-1 badge bg-secondary me-3">
+                            Bootstrap
+                          </span>
+                          <span className="p-1 badge bg-secondary me-3">
+                            SASS
+                          </span>
+                          <span className="p-1 badge bg-secondary me-3">
+                            Font Awesome
+                          </span>
+                          <span className="p-1 badge bg-secondary me-3">
+                            Animate.css
+                          </span>
+                          <span className="p-1 badge bg-secondary me-3">
+                            Typed.js
+                          </span>
+                        </div>
+                      </div>
+                      <ReadMore container="project-6" />
+                    </div>
+                  </div>
+                </div>
+
+                <div className="col-md-6 mt-4">
+                  <div className="card shadow">
+                    <div className="card-body">
+                      <div className="card-img-actions text-center">
+                        <FontAwesomeIcon icon={faHouseUser} size="7x" />
+                      </div>
+                    </div>
+                    <div className="card-body">
+                      <div className="read-more" id="project-7">
                         <h3>Purooz</h3>
                         <p>
                           SaaS based Real estate portal which facilitates
@@ -714,7 +828,7 @@ export default function Page() {
                           </span>
                         </div>
                       </div>
-                      <ReadMore container="project-6" />
+                      <ReadMore container="project-7" />
                     </div>
                   </div>
                 </div>
