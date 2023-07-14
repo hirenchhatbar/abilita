@@ -1,55 +1,47 @@
-'use client'
-import { useRouter } from 'next/navigation';
-import Script from 'next/script';
+'use client';
+
 import { memo, useEffect } from 'react';
 
+import { usePathname, useSearchParams } from 'next/navigation';
+
+import Script from 'next/script';
+
 const GoogleAnalytics = () => {
-  const TRACKING_ID = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID;
-  const router = useRouter();
+  const pathname = usePathname();
+
+  const searchParams = useSearchParams();
+
   useEffect(() => {
-    if (!TRACKING_ID || router.isPreview) return;
-    gtag('config', TRACKING_ID, {
-      send_page_view: false,
+    const url = pathname + searchParams.toString();
+
+    window.gtag('config', process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID, {
+      page_path: url,
     });
-    gtag('event', 'page_view', {
-      page_path: window.location.pathname,
-      send_to: TRACKING_ID,
-    });
-  }, []);
-  useEffect(() => {
-    const handleRouteChange = (url) => {
-      if (!TRACKING_ID || router.isPreview) return;
-      gtag('event', 'page_view', {
-        page_path: url,
-        send_to: TRACKING_ID,
-      });
-    };
-    router.events.on('routeChangeComplete', handleRouteChange);
-    router.events.on('hashChangeComplete', handleRouteChange);
-    return () => {
-      router.events.off('routeChangeComplete', handleRouteChange);
-      router.events.off('hashChangeComplete', handleRouteChange);
-    };
-  }, [router.events, router.isPreview]);
-  if (!TRACKING_ID || router.isPreview) {
-    return null;
-  }
+  }, [pathname, searchParams, process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID]);
+
   return (
     <>
       <Script
-        src={`https://www.googletagmanager.com/gtag/js?id=${TRACKING_ID}`}
-      ></Script>
-      <Script
-        id="gtag-init"
-        dangerouslySetInnerHTML={{
-          __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-          `,
-        }}
+        strategy="afterInteractive"
+        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID}`}
       />
+      <Script strategy="afterInteractive" id="ga">
+        {`
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+              dataLayer.push(arguments);
+            }
+
+            gtag('js', new Date());
+
+            gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID}', {
+              page_path: window.location.pathname,
+            });
+          `}
+      </Script>
     </>
   );
 };
+
 export default memo(GoogleAnalytics);
