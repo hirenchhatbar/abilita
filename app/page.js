@@ -41,7 +41,7 @@ import Image from 'next/image';
 import heroImage from '../public/hero.jpg';
 
 import Typed from '@/components/Typed';
-import ScrollAnimation from '@/components/ScrollAnimation';
+import Aos from '@/components/Aos';
 
 const skills = [
   {
@@ -206,7 +206,7 @@ export default function Home() {
                 .
               </p>
             </div>
-            <div className="col-md-6 col-12 col-lg-6" id="heroimage" data-aos="fade-up">
+            <div className="col-md-6 col-12 col-lg-6" id="heroimage" data-aos="fade-left" data-aos-duration="2000">
               <Image
                 src={heroImage}
                 className="img-fluid"
@@ -297,7 +297,7 @@ export default function Home() {
                     className="col-sm-4 col-md-3 col-xs-3 col-lg-2 col-xl-2 pt-4"
                     key={skill.name}
                   >
-                    <div className="card shadow d-flex justify-content-center flex-column align-items-center h-100">
+                    <div className="card shadow d-flex justify-content-center flex-column align-items-center h-100" data-aos="fade-up">
                       <FontAwesomeIcon
                         icon={skill.icon}
                         className="mt-2"
@@ -314,9 +314,9 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <ScrollAnimation 
-        containerId="heroimage"
-        />
+
+      <Aos />
+
       <Typed
         containerId="heading2"
         strings={[

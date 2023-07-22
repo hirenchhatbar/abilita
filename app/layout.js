@@ -3,8 +3,6 @@ import '../assets/scss/globals.scss';
 import Theme from '../components/Theme';
 import GoTop from '../components/GoTop';
 import Menu from '../components/Menu';
-import AOS from 'aos';
-import 'aos/dist/aos.css'; 
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
@@ -21,7 +19,6 @@ import {
 import Link from 'next/link';
 import Script from 'next/script';
 import GoogleAnalytics from '@/components/GoogleAnalytics'
-import { useEffect } from 'react';
 
 export const metadata = {
   icons: {
@@ -32,9 +29,6 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-  // useEffect(()=>{
-  //   AOS.init({duration: 2000});
-  // },[]);
   return (
     <html lang="en">
       <body className="pt-5" data-bs-theme="light">
@@ -158,11 +152,9 @@ export default function RootLayout({ children }) {
           </div>
         </footer>
       </body>
-      <Script src="https://unpkg.com/aos@3.0.0/dist/aos.js" />
-      <Script>
-        AOS.init();
-      </Script>
+
       <Script src="/bootstrap.bundle.min.js" />
+
       {process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID && <GoogleAnalytics />}
     </html>
   );
