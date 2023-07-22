@@ -41,6 +41,7 @@ import Image from 'next/image';
 import heroImage from '../public/hero.jpg';
 
 import Typed from '@/components/Typed';
+import ScrollAnimation from '@/components/ScrollAnimation';
 
 const skills = [
   {
@@ -205,7 +206,7 @@ export default function Home() {
                 .
               </p>
             </div>
-            <div className="col-md-6 col-12 col-lg-6">
+            <div className="col-md-6 col-12 col-lg-6" id="heroimage" data-aos="fade-up">
               <Image
                 src={heroImage}
                 className="img-fluid"
@@ -313,6 +314,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <ScrollAnimation 
+        containerId="heroimage"
+        />
       <Typed
         containerId="heading2"
         strings={[
