@@ -17,6 +17,7 @@ import {
 import Link from 'next/link';
 import Image from 'next/image';
 import heroImage from '../../public/contact.jpg';
+import Aos from '@/components/Aos';
 
 export const metadata = {
   title: process.env.NEXT_PUBLIC_LOGO_TEXT + ' | Contact',
@@ -35,10 +36,10 @@ export default function Page() {
               conversation about your project.
             </p>
           </div>
-          <div className="col-md-6 col-12 col-lg-6">
+          <div className="col-md-6 col-12 col-lg-6" data-aos="fade-left" data-aos-duration="3000">
             <Image
               src={heroImage}
-              className="img-fluid mx-lg-5 animate__animated animate__headShake animate__delay-2s"
+              className="img-fluid mx-lg-5"
               alt={process.env.NEXT_PUBLIC_LOGO_TEXT}
             />
           </div>
@@ -107,6 +108,7 @@ export default function Page() {
           </div>
         </div>
       </section>
+      <Aos />
     </main>
   );
 }

@@ -18,7 +18,7 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 import Link from 'next/link';
 import Script from 'next/script';
-import GoogleAnalytics from '@/components/GoogleAnalytics';
+import GoogleAnalytics from '@/components/GoogleAnalytics'
 
 export const metadata = {
   icons: {
@@ -33,7 +33,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className="pt-5" data-bs-theme="light">
         <header>
-          <div className="d-flex justify-content-around align-items-center fixed-top">
+          <div className="d-flex justify-content-around align-items-center fixed-top" >
             <Menu />
           </div>
         </header>
@@ -152,6 +152,7 @@ export default function RootLayout({ children }) {
           </div>
         </footer>
       </body>
+
       <Script src="/bootstrap.bundle.min.js" />
 
       {process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID && <GoogleAnalytics />}
