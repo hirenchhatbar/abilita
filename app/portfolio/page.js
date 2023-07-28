@@ -33,10 +33,10 @@ export default function Page() {
               and inspire them to take action.
             </p>
           </div>
-          <div className="col-md-6 col-12 col-lg-6">
+          <div className="col-md-6 col-12 col-lg-6" data-aos="fade-left" data-aos-duration="3000">
             <Image
               src={heroImage}
-              className="img-fluid mx-lg-5 animate__animated animate__headShake animate__delay-2s"
+              className="img-fluid mx-lg-5"
               alt={process.env.NEXT_PUBLIC_LOGO_TEXT}
             />
           </div>

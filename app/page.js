@@ -206,7 +206,7 @@ export default function Home() {
                 .
               </p>
             </div>
-            <div className="col-md-6 col-12 col-lg-6" id="heroimage" data-aos="fade-left" data-aos-duration="2000">
+            <div className="col-md-6 col-12 col-lg-6" id="heroimage" data-aos="fade-left" data-aos-duration="3000">
               <Image
                 src={heroImage}
                 className="img-fluid"
