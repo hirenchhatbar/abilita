@@ -1,4 +1,3 @@
-import 'animate.css';
 import '../assets/scss/globals.scss';
 import Theme from '../components/Theme';
 import GoTop from '../components/GoTop';

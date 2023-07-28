@@ -3,6 +3,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
+import Aos from '@/components/Aos';
+
 export default function Error({ error, reset }) {
   return (
     <main>
@@ -11,12 +13,12 @@ export default function Error({ error, reset }) {
           <div className="col-md-6 col-12 col-lg-6 d-flex justify-content-center flex-column">
             <h1 className="mb-4">500 - Error</h1>
           </div>
-          <div className="col-md-6 col-12 col-lg-6">
+          <div className="col-md-6 col-12 col-lg-6" data-aos="fade-left" data-aos-duration="3000"> 
             <Image
               src="/error-500.jpg"
               width={500}
               height={500}
-              className="img-fluid mx-lg-5 animate__animated animate__headShake animate__delay-2s"
+              className="img-fluid mx-lg-5"
               alt={process.env.NEXT_PUBLIC_LOGO_TEXT}
             />
           </div>
@@ -50,6 +52,7 @@ export default function Error({ error, reset }) {
           </p>
         </div>
       </section>
+      <Aos />
     </main>
   );
 }
