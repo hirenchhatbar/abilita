@@ -13,6 +13,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import heroImage from '../../public/portfolio.jpg';
 import ReadMore from '@/components/ReadMore';
+import Aos from '@/components/Aos';
 
 export const metadata = {
   title: process.env.NEXT_PUBLIC_LOGO_TEXT + ' | Portfolio',
@@ -47,7 +48,7 @@ export default function Page() {
           <div className="row mb-5">
             <div className="container d-flex justify-content-center mt-50 mb-50">
               <div className="row">
-                <div className="col-md-6 mt-3">
+                <div className="col-md-6 mt-3" data-aos="fade-right" data-aos-duration="2000" data-aos-easing="ease-in-sine">
                   <div className="card shadow">
                     <div className="card-body">
                       <div className="card-img-actions text-center">
@@ -188,7 +189,7 @@ export default function Page() {
                   </div>
                 </div>
 
-                <div className="col-md-6 mt-3">
+                <div className="col-md-6 mt-3" data-aos="fade-left" data-aos-duration="2000" data-aos-easing="ease-in-sine">
                   <div className="card shadow">
                     <div className="card-body">
                       <div className="card-img-actions text-center">
@@ -338,7 +339,7 @@ export default function Page() {
                   </div>
                 </div>
 
-                <div className="col-md-6 mt-3">
+                <div className="col-md-6 mt-3" data-aos="fade-right" data-aos-duration="2000" data-aos-easing="ease-in-sine">
                   <div className="card shadow">
                     <div className="card-body">
                       <div className="card-img-actions text-center">
@@ -469,7 +470,7 @@ export default function Page() {
                   </div>
                 </div>
 
-                <div className="col-md-6 mt-3">
+                <div className="col-md-6 mt-3" data-aos="fade-left" data-aos-duration="2000" data-aos-easing="ease-in-sine">
                   <div className="card shadow">
                     <div className="card-body">
                       <div className="card-img-actions text-center">
@@ -555,7 +556,7 @@ export default function Page() {
                   </div>
                 </div>
 
-                <div className="col-md-6 mt-4">
+                <div className="col-md-6 mt-4" data-aos="fade-right" data-aos-duration="2000" data-aos-easing="ease-in-sine">
                   <div className="card shadow">
                     <div className="card-body">
                       <div className="card-img-actions text-center">
@@ -625,7 +626,7 @@ export default function Page() {
                   </div>
                 </div>
 
-                <div className="col-md-6 mt-4">
+                <div className="col-md-6 mt-4" data-aos="fade-left" data-aos-duration="2000" data-aos-easing="ease-in-sine">
                   <div className="card shadow">
                     <div className="card-body">
                       <div className="card-img-actions text-center">
@@ -741,7 +742,7 @@ export default function Page() {
                   </div>
                 </div>
 
-                <div className="col-md-6 mt-4">
+                <div className="col-md-6 mt-4" data-aos="fade-right" data-aos-duration="2000" data-aos-easing="ease-in-sine">
                   <div className="card shadow">
                     <div className="card-body">
                       <div className="card-img-actions text-center">
@@ -837,6 +838,7 @@ export default function Page() {
           </div>
         </div>
       </section>
+      <Aos />
     </main>
   );
 }
