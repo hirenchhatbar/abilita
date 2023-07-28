@@ -17,7 +17,7 @@ const GoogleAnalytics = () => {
     window.gtag('config', process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID, {
       page_path: url,
     });
-  }, [pathname, searchParams, process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID]);
+  }, [pathname, searchParams]);
 
   return (
     <>

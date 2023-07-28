@@ -1,4 +1,7 @@
 import '../assets/scss/globals.scss';
+
+import { Suspense } from 'react';
+
 import Theme from '../components/Theme';
 import GoTop from '../components/GoTop';
 import Menu from '../components/Menu';
@@ -26,6 +29,10 @@ export const metadata = {
     apple: '/favicon.ico',
   },
 };
+
+const GoogleAnalyticsFallback = () => {
+  return <></>
+}
 
 export default function RootLayout({ children }) {
   return (
@@ -154,7 +161,11 @@ export default function RootLayout({ children }) {
 
       <Script src="/bootstrap.bundle.min.js" />
 
-      {process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID && <GoogleAnalytics />}
+      {process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID && (
+        <Suspense fallback={<GoogleAnalyticsFallback />}>
+            <GoogleAnalytics />
+        </Suspense>
+      )}
     </html>
   );
 }
