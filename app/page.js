@@ -181,7 +181,7 @@ const skills = [
 export const metadata = {
   title: process.env.NEXT_PUBLIC_LOGO_TEXT,
   description: 'Senior JavaScript/PHP Developer (Technical Lead)',
-}; 
+};
 
 export default function Home() {
   return (
@@ -211,6 +211,7 @@ export default function Home() {
                 src={heroImage}
                 className="img-fluid"
                 alt={process.env.NEXT_PUBLIC_LOGO_TEXT}
+                priority={true}
               />
             </div>
           </div>

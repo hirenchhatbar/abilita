@@ -38,6 +38,7 @@ export default function Page() {
               src={heroImage}
               className="img-fluid mx-lg-5"
               alt={process.env.NEXT_PUBLIC_LOGO_TEXT}
+              priority={true}
             />
           </div>
         </div>

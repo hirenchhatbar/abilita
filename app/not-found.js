@@ -18,6 +18,7 @@ export default function NotFound() {
               height={500}
               className="img-fluid mx-lg-5"
               alt={process.env.NEXT_PUBLIC_LOGO_TEXT}
+              priority={true}
             />
           </div>
         </div>
