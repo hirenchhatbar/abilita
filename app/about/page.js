@@ -19,7 +19,7 @@ import {
 
 import Image from 'next/image';
 
-import heroImage from '../../public/about.jpg';
+import heroImage from '../../public/about.webp';
 import Aos from '@/components/Aos';
 
 export const metadata = {
@@ -39,7 +39,7 @@ export default function Page() {
               difference: all the pieces are in your head.
             </p>
           </div>
-          <div className="col-md-6 col-12 col-lg-6" data-aos="fade-left" data-aos-duration="3000">
+          <div className="col-md-6 col-12 col-lg-6" data-aos="fade-left" data-aos-duration="2000">
             <Image
               src={heroImage}
               className="img-fluid mx-lg-5"
@@ -153,7 +153,7 @@ export default function Page() {
             <div className="container d-flex justify-content-center mt-50 mb-50">
               <div className="row">
                 <div className="col-md-4 mt-2">
-                  <div className="card shadow h-100" data-aos="flip-left" data-aos-duration="2000">
+                  <div className="card shadow h-100" data-aos="flip-left" data-aos-duration="1000">
                     <div className="card-body">
                       <div className="card-img-actions text-center">
                         <FontAwesomeIcon icon={faCertificate} size="6x" />
@@ -170,7 +170,7 @@ export default function Page() {
                 </div>
 
                 <div className="col-md-4 mt-2">
-                  <div className="card shadow h-100" data-aos="flip-left" data-aos-duration="2000">
+                  <div className="card shadow h-100" data-aos="flip-left" data-aos-duration="1000">
                     <div className="card-body">
                       <div className="card-img-actions text-center">
                         <FontAwesomeIcon icon={faCertificate} size="6x" />
@@ -187,7 +187,7 @@ export default function Page() {
                 </div>
 
                 <div className="col-md-4 mt-2">
-                  <div className="card shadow h-100" data-aos="flip-left" data-aos-duration="2000">
+                  <div className="card shadow h-100" data-aos="flip-left" data-aos-duration="1000">
                     <div className="card-body">
                       <div className="card-img-actions text-center">
                         <FontAwesomeIcon icon={faCertificate} size="6x" />
@@ -215,7 +215,7 @@ export default function Page() {
             <FontAwesomeIcon icon={faCode} size="1x" className="me-2" />
             Languages
           </h2>
-          <div data-aos="fade-right" data-aos-duration="2000">
+          <div data-aos="fade-right" data-aos-duration="1000">
           <p className="mb-2">English</p>
           <div
             className="progress mb-4 rounded-pill"
@@ -228,7 +228,7 @@ export default function Page() {
             <div className="progress-bar" style={{ width: 80 + '%' }}></div>
           </div>
           </div>
-          <div data-aos="fade-right" data-aos-duration="2000">
+          <div data-aos="fade-right" data-aos-duration="1000">
           <p className="mb-2">Hindi</p>
           <div
             className="progress mb-4 rounded-pill"
@@ -241,7 +241,7 @@ export default function Page() {
             <div className="progress-bar" style={{ width: 70 + '%' }}></div>
           </div>
           </div>
-          <div data-aos="fade-right" data-aos-duration="2000">
+          <div data-aos="fade-right" data-aos-duration="1000">
           <p className="mb-2">Gujarati (mother tongue)</p>
           <div
             className="progress mb-4 rounded-pill"
@@ -289,7 +289,7 @@ export default function Page() {
           </h2>
           <div className="row mb-3">
             <div className="col-md-4">
-              <div className="p-3 px-4" data-aos="flip-up" data-aos-duration="2000">
+              <div className="p-3 px-4" data-aos="flip-up" data-aos-duration="1000">
                 <div>
                   <p className="text-center">
                     "Hiren bhai is Extremely sharp minded, Superb communicator,
@@ -312,7 +312,7 @@ export default function Page() {
               </div>
             </div>
             <div className="col-md-4">
-              <div className="p-3 px-4" data-aos="flip-up" data-aos-duration="2000">
+              <div className="p-3 px-4" data-aos="flip-up" data-aos-duration="1000">
                 <div>
                   <p className="text-center">
                     "If you need someone who is passionate about tech, cares
@@ -335,7 +335,7 @@ export default function Page() {
               </div>
             </div>
             <div className="col-md-4">
-              <div className="p-3 px-4" data-aos="flip-up" data-aos-duration="2000">
+              <div className="p-3 px-4" data-aos="flip-up" data-aos-duration="1000">
                 <div>
                   <p className="text-center">
                     "I have worked with Hiren remotely from the UK for the last

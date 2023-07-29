@@ -6,8 +6,10 @@ import AOS from 'aos';
 
 import { useEffect } from 'react';
 
+const width = window.innerWidth;
+
 export default function Aos() {
   useEffect(() => {
-    AOS.init();
-  }, []);
+    {width > 376 ? AOS.init() : AOS.init()};
+  }, [width]);
 }

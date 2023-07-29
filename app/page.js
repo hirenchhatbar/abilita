@@ -38,7 +38,7 @@ import {
 import Link from 'next/link';
 import Image from 'next/image';
 
-import heroImage from '../public/hero.jpg';
+import heroImage from '../public/hero.webp';
 
 import Typed from '@/components/Typed';
 import Aos from '@/components/Aos';
@@ -181,7 +181,7 @@ const skills = [
 export const metadata = {
   title: process.env.NEXT_PUBLIC_LOGO_TEXT,
   description: 'Senior JavaScript/PHP Developer (Technical Lead)',
-};
+}; 
 
 export default function Home() {
   return (
@@ -206,7 +206,7 @@ export default function Home() {
                 .
               </p>
             </div>
-            <div className="col-md-6 col-12 col-lg-6" id="heroimage" data-aos="fade-left" data-aos-duration="3000">
+            <div className="col-md-6 col-12 col-lg-6" id="heroimage" data-aos="fade-left" data-aos-duration="2000">
               <Image
                 src={heroImage}
                 className="img-fluid"
