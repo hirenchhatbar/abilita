@@ -1,13 +1,21 @@
 'use client';
 
-import 'aos/src/sass/aos.scss';
+import React, { useState, useEffect } from 'react';
 
-import AOS from 'aos';
+import mobile from 'is-mobile';
 
-import { useEffect } from 'react';
+const AosScript = React.lazy(() => import('./AosScript'));
 
 export default function Aos() {
+  const [init, setInit] = useState(false);
+
   useEffect(() => {
-    AOS.init();
+    setInit(false == mobile());
   }, []);
+
+  return (
+    <>
+      {init && <AosScript />}
+    </>
+  );
 }

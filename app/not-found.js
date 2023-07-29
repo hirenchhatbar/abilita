@@ -11,13 +11,14 @@ export default function NotFound() {
           <div className="col-md-6 col-12 col-lg-6 d-flex justify-content-center flex-column">
             <h1 className="mb-4">400 - Not Found</h1>
           </div>
-          <div className="col-md-6 col-12 col-lg-6" data-aos="fade-left" data-aos-duration="3000">
+          <div className="col-md-6 col-12 col-lg-6" data-aos="fade-left" data-aos-duration="2000">
             <Image
-              src="/error-500.jpg"
+              src="/error-500.webp"
               width={500}
               height={500}
               className="img-fluid mx-lg-5"
               alt={process.env.NEXT_PUBLIC_LOGO_TEXT}
+              priority={true}
             />
           </div>
         </div>

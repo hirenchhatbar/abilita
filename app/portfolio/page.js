@@ -11,7 +11,7 @@ import {
 
 import Link from 'next/link';
 import Image from 'next/image';
-import heroImage from '../../public/portfolio.jpg';
+import heroImage from '../../public/portfolio.webp';
 import ReadMore from '@/components/ReadMore';
 import Aos from '@/components/Aos';
 
@@ -33,11 +33,12 @@ export default function Page() {
               and inspire them to take action.
             </p>
           </div>
-          <div className="col-md-6 col-12 col-lg-6" data-aos="fade-left" data-aos-duration="3000">
+          <div className="col-md-6 col-12 col-lg-6" data-aos="fade-left" data-aos-duration="2000">
             <Image
               src={heroImage}
               className="img-fluid mx-lg-5"
               alt={process.env.NEXT_PUBLIC_LOGO_TEXT}
+              priority={true}
             />
           </div>
         </div>
@@ -48,7 +49,7 @@ export default function Page() {
           <div className="row mb-5">
             <div className="container d-flex justify-content-center mt-50 mb-50">
               <div className="row">
-                <div className="col-md-6 mt-3" data-aos="fade-right" data-aos-duration="2000" data-aos-easing="ease-in-sine">
+                <div className="col-md-6 mt-3">
                   <div className="card shadow">
                     <div className="card-body">
                       <div className="card-img-actions text-center">
@@ -189,7 +190,7 @@ export default function Page() {
                   </div>
                 </div>
 
-                <div className="col-md-6 mt-3" data-aos="fade-left" data-aos-duration="2000" data-aos-easing="ease-in-sine">
+                <div className="col-md-6 mt-3">
                   <div className="card shadow">
                     <div className="card-body">
                       <div className="card-img-actions text-center">
@@ -339,7 +340,7 @@ export default function Page() {
                   </div>
                 </div>
 
-                <div className="col-md-6 mt-3" data-aos="fade-right" data-aos-duration="2000" data-aos-easing="ease-in-sine">
+                <div className="col-md-6 mt-3" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-sine">
                   <div className="card shadow">
                     <div className="card-body">
                       <div className="card-img-actions text-center">
@@ -470,7 +471,7 @@ export default function Page() {
                   </div>
                 </div>
 
-                <div className="col-md-6 mt-3" data-aos="fade-left" data-aos-duration="2000" data-aos-easing="ease-in-sine">
+                <div className="col-md-6 mt-3" data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-in-sine">
                   <div className="card shadow">
                     <div className="card-body">
                       <div className="card-img-actions text-center">
@@ -556,7 +557,7 @@ export default function Page() {
                   </div>
                 </div>
 
-                <div className="col-md-6 mt-4" data-aos="fade-right" data-aos-duration="2000" data-aos-easing="ease-in-sine">
+                <div className="col-md-6 mt-4" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-sine">
                   <div className="card shadow">
                     <div className="card-body">
                       <div className="card-img-actions text-center">
@@ -626,7 +627,7 @@ export default function Page() {
                   </div>
                 </div>
 
-                <div className="col-md-6 mt-4" data-aos="fade-left" data-aos-duration="2000" data-aos-easing="ease-in-sine">
+                <div className="col-md-6 mt-4" data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-in-sine">
                   <div className="card shadow">
                     <div className="card-body">
                       <div className="card-img-actions text-center">
@@ -742,7 +743,7 @@ export default function Page() {
                   </div>
                 </div>
 
-                <div className="col-md-6 mt-4" data-aos="fade-right" data-aos-duration="2000" data-aos-easing="ease-in-sine">
+                <div className="col-md-6 mt-4" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-sine">
                   <div className="card shadow">
                     <div className="card-body">
                       <div className="card-img-actions text-center">

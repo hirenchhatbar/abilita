@@ -6,17 +6,13 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import {
   faFacebook,
-  faGithubSquare,
-  faGoogle,
-  faInstagram,
   faLinkedin,
   faTwitter,
-  faYoutube,
   faGitlab,
 } from '@fortawesome/free-brands-svg-icons';
 import Link from 'next/link';
 import Image from 'next/image';
-import heroImage from '../../public/contact.jpg';
+import heroImage from '../../public/contact.webp';
 import Aos from '@/components/Aos';
 
 export const metadata = {
@@ -36,11 +32,12 @@ export default function Page() {
               conversation about your project.
             </p>
           </div>
-          <div className="col-md-6 col-12 col-lg-6" data-aos="fade-left" data-aos-duration="3000">
+          <div className="col-md-6 col-12 col-lg-6" data-aos="fade-left" data-aos-duration="2000">
             <Image
               src={heroImage}
               className="img-fluid mx-lg-5"
               alt={process.env.NEXT_PUBLIC_LOGO_TEXT}
+              priority={true}
             />
           </div>
         </div>
