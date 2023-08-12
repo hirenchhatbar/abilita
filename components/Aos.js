@@ -13,9 +13,5 @@ export default function Aos() {
     setInit(false == mobile());
   }, []);
 
-  return (
-    <>
-      {init && <AosScript />}
-    </>
-  );
+  return <>{init && <AosScript />}</>;
 }

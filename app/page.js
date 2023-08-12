@@ -180,7 +180,7 @@ const skills = [
 
 export const metadata = {
   title: process.env.NEXT_PUBLIC_LOGO_TEXT,
-  description: 'Senior JavaScript/PHP Developer (Technical Lead)',
+  description: 'Senior Full Stack Developer',
 };
 
 export default function Home() {
@@ -193,20 +193,23 @@ export default function Home() {
               <h5 className="mb-0">Hi, my name is</h5>
               <h1 className="my-3">{process.env.NEXT_PUBLIC_LOGO_TEXT}</h1>
               <h2 className="mb-3">
-                I’m a{' '}
-                <span id="heading2">Senior JavaScript/PHP Developer.</span>
+                I’m a <span id="heading2">Senior Full Stack Developer.</span>
               </h2>
               <p>
                 I’m a software engineer specializing in building web apps and
-                websites. Currently, I’m working as a PHP/JavaScript Technical
-                Architect at{' '}
+                websites. Currently, I’m working as a Full Stack Developer at{' '}
                 <Link href="https://www.weignyte.com" target="_blank">
                   Weignyte
                 </Link>
                 .
               </p>
             </div>
-            <div className="col-md-6 col-12 col-lg-6" id="heroimage" data-aos="fade-left" data-aos-duration="2000">
+            <div
+              className="col-md-6 col-12 col-lg-6"
+              id="heroimage"
+              data-aos="fade-left"
+              data-aos-duration="2000"
+            >
               <Image
                 src={heroImage}
                 className="img-fluid"
@@ -298,7 +301,10 @@ export default function Home() {
                     className="col-sm-4 col-md-3 col-xs-3 col-lg-2 col-xl-2 pt-4"
                     key={skill.name}
                   >
-                    <div className="card shadow d-flex justify-content-center flex-column align-items-center h-100" data-aos="fade-up">
+                    <div
+                      className="card shadow d-flex justify-content-center flex-column align-items-center h-100"
+                      data-aos="fade-up"
+                    >
                       <FontAwesomeIcon
                         icon={skill.icon}
                         className="mt-2"
@@ -321,11 +327,9 @@ export default function Home() {
       <Typed
         containerId="heading2"
         strings={[
+          'Senior Full Stack Developer',
           'Senior JavaScript Developer.',
           'Senior PHP Developer.',
-          'Senior Fullstack Developer.',
-          'Technical Lead (JavaScript/PHP).',
-          'Senior JavaScript/PHP Developer.',
         ]}
       />
     </>

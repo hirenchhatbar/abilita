@@ -17,7 +17,7 @@ import Aos from '@/components/Aos';
 
 export const metadata = {
   title: process.env.NEXT_PUBLIC_LOGO_TEXT + ' | Portfolio',
-  description: 'Senior JavaScript/PHP Developer (Technical Lead)',
+  description: 'Senior Full Stack Developer',
 };
 
 export default function Page() {
@@ -33,7 +33,11 @@ export default function Page() {
               and inspire them to take action.
             </p>
           </div>
-          <div className="col-md-6 col-12 col-lg-6" data-aos="fade-left" data-aos-duration="2000">
+          <div
+            className="col-md-6 col-12 col-lg-6"
+            data-aos="fade-left"
+            data-aos-duration="2000"
+          >
             <Image
               src={heroImage}
               className="img-fluid mx-lg-5"
@@ -65,9 +69,7 @@ export default function Page() {
                           rotas, performance. The system allows managing service
                           users and their incidents as well.
                         </p>
-                        <p>
-                          Role: Senior JavaScript Developer (Technical Lead)
-                        </p>
+                        <p>Role: Senior Full Stack Developer</p>
                         <p>Status: Under development</p>
                         <ul>
                           <li>
@@ -201,9 +203,7 @@ export default function Page() {
                       <div className="read-more" id="project-2">
                         <h3>Job Management Tool</h3>
                         <p>A SaaS based job management web app</p>
-                        <p>
-                          Role: Senior Symfony/PHP Developer (Technical Lead)
-                        </p>
+                        <p>Role: Senior Full Stack Developer</p>
                         <p>Status: Live (Production - Stable)</p>
                         <ul>
                           <li>
@@ -340,7 +340,12 @@ export default function Page() {
                   </div>
                 </div>
 
-                <div className="col-md-6 mt-3" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+                <div
+                  className="col-md-6 mt-3"
+                  data-aos="fade-right"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease-in-sine"
+                >
                   <div className="card shadow">
                     <div className="card-body">
                       <div className="card-img-actions text-center">
@@ -358,9 +363,7 @@ export default function Page() {
                           allows students to gain insights about their progress
                           and preparation.
                         </p>
-                        <p>
-                          Role: Senior Symfony/PHP Developer (Technical Lead)
-                        </p>
+                        <p>Role: Senior Full Stack Developer</p>
                         <p>Status: MVP</p>
                         <ul>
                           <li>
@@ -471,7 +474,12 @@ export default function Page() {
                   </div>
                 </div>
 
-                <div className="col-md-6 mt-3" data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+                <div
+                  className="col-md-6 mt-3"
+                  data-aos="fade-left"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease-in-sine"
+                >
                   <div className="card shadow">
                     <div className="card-body">
                       <div className="card-img-actions text-center">
@@ -557,7 +565,12 @@ export default function Page() {
                   </div>
                 </div>
 
-                <div className="col-md-6 mt-4" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+                <div
+                  className="col-md-6 mt-4"
+                  data-aos="fade-right"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease-in-sine"
+                >
                   <div className="card shadow">
                     <div className="card-body">
                       <div className="card-img-actions text-center">
@@ -627,7 +640,12 @@ export default function Page() {
                   </div>
                 </div>
 
-                <div className="col-md-6 mt-4" data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+                <div
+                  className="col-md-6 mt-4"
+                  data-aos="fade-left"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease-in-sine"
+                >
                   <div className="card shadow">
                     <div className="card-body">
                       <div className="card-img-actions text-center">
@@ -645,9 +663,7 @@ export default function Page() {
                           and an impressive collection of projects you have
                           created.
                         </p>
-                        <p>
-                          Role: Senior JavaScript Developer (Technical Lead)
-                        </p>
+                        <p>Role: Senior Full Stack Developer</p>
                         <p>Status: Live (Production)</p>
                         <ul>
                           <li>
@@ -743,7 +759,12 @@ export default function Page() {
                   </div>
                 </div>
 
-                <div className="col-md-6 mt-4" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+                <div
+                  className="col-md-6 mt-4"
+                  data-aos="fade-right"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease-in-sine"
+                >
                   <div className="card shadow">
                     <div className="card-body">
                       <div className="card-img-actions text-center">

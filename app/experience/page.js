@@ -13,7 +13,7 @@ import Aos from '@/components/Aos';
 
 export const metadata = {
   title: process.env.NEXT_PUBLIC_LOGO_TEXT + ' | Experience',
-  description: 'Senior JavaScript/PHP Developer (Technical Lead)',
+  description: 'Senior Full Stack Developer',
 };
 
 export default function Page() {
@@ -28,7 +28,11 @@ export default function Page() {
               at a time.
             </p>
           </div>
-          <div className="col-md-6 col-12 col-lg-6" data-aos="fade-left" data-aos-duration="2000">
+          <div
+            className="col-md-6 col-12 col-lg-6"
+            data-aos="fade-left"
+            data-aos-duration="2000"
+          >
             <Image
               src={heroImage}
               className="img-fluid mx-lg-5"
@@ -62,9 +66,7 @@ export default function Page() {
                           <FontAwesomeIcon icon={faAddressCard} size="1x" />
                         </div>
                         <div className="timeline-text">
-                          <h4>
-                            Senior JavaScript/PHP Developer (Technical Lead)
-                          </h4>
+                          <h4>Senior Full Stack Developer</h4>
                           <h5>
                             <Link
                               href="https://www.weignyte.com"
@@ -149,8 +151,8 @@ export default function Page() {
                         className="single-timeline-content d-flex wow fadeInLeft"
                         data-wow-delay="0.3s"
                         data-aos="zoom-in-left"
-      data-aos-easing="ease-out-cubic"
-      data-aos-duration="1000"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="1000"
                       >
                         <div className="timeline-icon">
                           <FontAwesomeIcon icon={faAddressCard} size="1x" />
@@ -220,8 +222,8 @@ export default function Page() {
                         className="single-timeline-content d-flex wow fadeInLeft"
                         data-wow-delay="0.3s"
                         data-aos="zoom-in-right"
-      data-aos-easing="ease-out-cubic"
-      data-aos-duration="1000"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="1000"
                       >
                         <div className="timeline-icon">
                           <FontAwesomeIcon icon={faIdCard} size="1x" />
@@ -287,8 +289,8 @@ export default function Page() {
                         className="single-timeline-content d-flex wow fadeInLeft"
                         data-wow-delay="0.3s"
                         data-aos="zoom-in-left"
-      data-aos-easing="ease-out-cubic"
-      data-aos-duration="1000"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="1000"
                       >
                         <div className="timeline-icon">
                           <FontAwesomeIcon icon={faIdCard} size="1x" />
