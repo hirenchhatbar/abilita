@@ -13,7 +13,11 @@ export default function Error({ error, reset }) {
           <div className="col-md-6 col-12 col-lg-6 d-flex justify-content-center flex-column">
             <h1 className="mb-4">500 - Error</h1>
           </div>
-          <div className="col-md-6 col-12 col-lg-6" data-aos="fade-left" data-aos-duration="2000">
+          <div
+            className="col-md-6 col-12 col-lg-6"
+            data-aos="fade-left"
+            data-aos-duration="2000"
+          >
             <Image
               src="/error-500.webp"
               width={500}

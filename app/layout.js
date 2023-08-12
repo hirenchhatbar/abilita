@@ -20,7 +20,7 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 import Link from 'next/link';
 import Script from 'next/script';
-import GoogleAnalytics from '@/components/GoogleAnalytics'
+import GoogleAnalytics from '@/components/GoogleAnalytics';
 
 export const metadata = {
   icons: {
@@ -31,15 +31,15 @@ export const metadata = {
 };
 
 const GoogleAnalyticsFallback = () => {
-  return <></>
-}
+  return <></>;
+};
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="pt-5" data-bs-theme="light">
         <header>
-          <div className="d-flex justify-content-around align-items-center fixed-top" >
+          <div className="d-flex justify-content-around align-items-center fixed-top">
             <Menu />
           </div>
         </header>
@@ -163,7 +163,7 @@ export default function RootLayout({ children }) {
 
       {process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID && (
         <Suspense fallback={<GoogleAnalyticsFallback />}>
-            <GoogleAnalytics />
+          <GoogleAnalytics />
         </Suspense>
       )}
     </html>
