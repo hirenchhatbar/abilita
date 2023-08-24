@@ -12,7 +12,7 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 import Link from 'next/link';
 import Image from 'next/image';
-import heroImage from '../../public/contact.webp';
+import heroImage from '{process.env.NEXT_PUBLIC_NEXT_THEME}/contact.webp';
 import Aos from '@/components/Aos';
 
 export const metadata = {
