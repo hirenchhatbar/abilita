@@ -19,7 +19,7 @@ import {
 
 import Image from 'next/image';
 
-import heroImage from '{process.env.NEXT_PUBLIC_NEXT_THEME}/about.webp';
+import heroImage from '../../public/about.webp';
 import Aos from '@/components/Aos';
 
 export const metadata = {

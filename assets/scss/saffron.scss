@@ -1,0 +1,24 @@
+:root,
+[data-bs-theme='saffron'] {
+  --bs-body-color: rgb(0, 0, 0);
+  --bs-body-bg: #F4C430;
+
+  --bs-btn-color: #F4C430;
+  --bs-btn-bg: black;
+
+  --bs-white-rgb: 244, 196, 48;
+
+  --bs-link-color: black;
+  --bs-link-hover-color: black;
+  --bs-link-color-rgb: black;
+  --bs-link-hover-color-rgb: black;
+
+  .navbar {
+    --bs-navbar-color: black;
+    --bs-navbar-hover-color: black;
+  }
+
+  .progress {
+    --bs-progress-bar-bg: rgb(0, 0, 0);
+  }
+}

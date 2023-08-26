@@ -8,11 +8,11 @@ import { useEffect, useState } from 'react';
 import Cookies from 'js-cookie';
 
 export default function Theme() {
-  const [theme, setTheme] = useState('light');
+  const [theme, setTheme] = useState('white');
 
   useEffect(() => {
     // the cook runs when page loads, reads cookie
-    const theme = Cookies.get('theme') ?? 'light';
+    const theme = Cookies.get('theme') ?? 'white';
 
     // it sets the theme
     document.querySelector('body').setAttribute('data-bs-theme', theme);
@@ -23,9 +23,9 @@ export default function Theme() {
 
   const switchTheme = () => {
     let theme =
-      'light' === document.querySelector('body').getAttribute('data-bs-theme')
+      'white' === document.querySelector('body').getAttribute('data-bs-theme')
         ? 'dark'
-        : 'light';
+        : 'white' ;
     document.querySelector('body').setAttribute('data-bs-theme', theme);
 
     // display proper icon in footer
@@ -38,7 +38,7 @@ export default function Theme() {
   return (
     <div className="btn-group">
       <button onClick={switchTheme} className="btn btn-link">
-        {'light' === theme ? (
+        {'white' === theme ? (
           <FontAwesomeIcon icon={faMoon} size="lg" />
         ) : (
           <FontAwesomeIcon icon={faSun} size="lg" />

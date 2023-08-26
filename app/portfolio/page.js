@@ -11,7 +11,7 @@ import {
 
 import Link from 'next/link';
 import Image from 'next/image';
-import heroImage from '{process.env.NEXT_PUBLIC_NEXT_THEME}/portfolio.webp';
+import heroImage from '../../public/portfolio.webp';
 import ReadMore from '@/components/ReadMore';
 import Aos from '@/components/Aos';
 

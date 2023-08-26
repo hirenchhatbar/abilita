@@ -8,7 +8,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import Image from 'next/image';
 import Link from 'next/link';
-import heroImage from '{process.env.NEXT_PUBLIC_NEXT_THEME}/experience.webp';
+import heroImage from '../../public/experience.webp';
 import Aos from '@/components/Aos';
 
 export const metadata = {

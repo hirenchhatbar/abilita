@@ -1,0 +1,25 @@
+:root,
+[data-bs-theme='purple'] {
+  --bs-body-color: white;
+  --bs-body-bg: #5C469C;
+
+  --bs-btn-color: #5C469C;
+  --bs-btn-bg: white;
+  
+  --bs-emphasis-color-rgb: 255, 255, 255;
+  --bs-white-rgb: 92, 70, 156;
+
+  --bs-link-color: white;
+  --bs-link-hover-color: white;
+  --bs-link-color-rgb: white;
+  --bs-link-hover-color-rgb: white;
+
+  .navbar {
+    --bs-navbar-color: white;
+    --bs-navbar-hover-color: white;
+  }
+
+  .progress {
+    --bs-progress-bar-bg: rgb(92, 70, 156);
+  }
+}

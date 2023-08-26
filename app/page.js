@@ -38,7 +38,7 @@ import {
 import Link from 'next/link';
 import Image from 'next/image';
 
-import heroImage from `{process.env.NEXT_PUBLIC_NEXT_THEME}/hero.web`;
+import heroImage from '../public/hero.webp';
 
 import Typed from '@/components/Typed';
 import Aos from '@/components/Aos';
