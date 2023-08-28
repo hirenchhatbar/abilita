@@ -1,5 +1,10 @@
-:root,
 [data-bs-theme='saffron'] {
+  color-scheme: saffron;
+  --bs-body-line-height: 1.75;
+
+  --bs-body-font-family: 'Roboto';
+  --bs-headings-font-family: 'Nunito';
+
   --bs-body-color: rgb(0, 0, 0);
   --bs-body-bg: #F4C430;
 

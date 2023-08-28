@@ -1,5 +1,10 @@
-:root,
 [data-bs-theme='purple'] {
+  color-scheme: purple;
+  --bs-body-line-height: 1.75;
+
+  --bs-body-font-family: 'Roboto';
+  --bs-headings-font-family: 'Nunito';
+
   --bs-body-color: white;
   --bs-body-bg: #5C469C;
 
