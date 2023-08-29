@@ -37,7 +37,7 @@ const GoogleAnalyticsFallback = () => {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="pt-5" data-bs-theme="purple">
+      <body className="pt-5" data-bs-theme={process.env.NEXT_PUBLIC_NEXT_THEME}>
         <header>
           <div className="d-flex justify-content-around align-items-center fixed-top">
             <Menu />
