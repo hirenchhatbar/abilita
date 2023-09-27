@@ -1,0 +1,30 @@
+:root,
+[data-bs-theme='white'] {
+  --bs-body-line-height: 1.75;
+
+  --bs-body-font-family: 'Roboto';
+  --bs-headings-font-family: 'Nunito';
+  
+  --bs-body-color: rgb(0, 0, 0);
+  --bs-body-bg: white;
+
+  --bs-btn-color: white;
+  --bs-btn-bg: black;
+
+  --bs-emphasis-color-rgb: 0, 0, 0;
+  --bs-white-rgb: 255, 255, 255;
+
+  --bs-link-color: black;
+  --bs-link-hover-color: black;
+  --bs-link-color-rgb: black;
+  --bs-link-hover-color-rgb: black;
+
+  .navbar {
+    --bs-navbar-color: black;
+    --bs-navbar-hover-color: black;
+  }
+
+  .progress {
+    --bs-progress-bar-bg: rgb(0, 0, 0);
+  }
+}

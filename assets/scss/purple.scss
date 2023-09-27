@@ -1,0 +1,29 @@
+[data-bs-theme='purple'] {
+  --bs-body-line-height: 1.75;
+
+  --bs-body-font-family: 'Roboto';
+  --bs-headings-font-family: 'Nunito';
+
+  --bs-body-color: white;
+  --bs-body-bg: #4D004C;
+
+  --bs-btn-color: #4D004C;
+  --bs-btn-bg: white;
+  
+  --bs-emphasis-color-rgb: 255, 255, 255;
+  --bs-white-rgb: 77, 0, 76;
+
+  --bs-link-color: white;
+  --bs-link-hover-color: white;
+  --bs-link-color-rgb: white;
+  --bs-link-hover-color-rgb: white;
+
+  .navbar {
+    --bs-navbar-color: white;
+    --bs-navbar-hover-color: white;
+  }
+
+  .progress {
+    --bs-progress-bar-bg: rgb(77, 0, 76);
+  }
+}

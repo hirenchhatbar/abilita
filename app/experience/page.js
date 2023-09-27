@@ -66,7 +66,7 @@ export default function Page() {
                           <FontAwesomeIcon icon={faAddressCard} size="1x" />
                         </div>
                         <div className="timeline-text">
-                          <h4>Senior Full Stack Developer</h4>
+                          <h4>Senior Full Stack Developer (JavaScript/PHP)</h4>
                           <h5>
                             <Link
                               href="https://www.weignyte.com"
@@ -76,14 +76,25 @@ export default function Page() {
                             </Link>
                           </h5>
                           <h6 className="d-lg-none d-xl-none d-sm-none">
-                            APRIL 2023 - PRESENT
+                            FEBRUARY 2020 - PRESENT
                           </h6>
                           <ul>
                             <li>
                               Develop comprehensive design and structure for
-                              PHP/JavaScript applications, selecting appropriate
-                              frameworks, libraries, and other tools to ensure a
-                              robust, scalable, and maintainable product.
+                              JavaScript/PHP websites and web applications,
+                              selecting appropriate frameworks, libraries, and
+                              other tools to ensure a robust, scalable, and
+                              maintainable product.
+                            </li>
+                            <li>
+                              Integrate web applications with various systems
+                              and services by collaborating with APIs,
+                              databases, and third-party services.
+                            </li>
+                            <li>
+                              Enhance web application performance by optimising
+                              code, reducing HTTP requests, and improving page
+                              load times.
                             </li>
                             <li>
                               Establish and enforce coding standards,
@@ -92,24 +103,45 @@ export default function Page() {
                               codebase.
                             </li>
                             <li>
-                              Integrate web applications with various systems
-                              and services by collaborating with APIs,
-                              databases, and third-party services
-                            </li>
-                            <li>
-                              Enhance web application performance by optimising
-                              code, reducing HTTP requests, and improving page
-                              load times.
-                            </li>
-                            <li>
-                              Identify and troubleshoot technical issues related
-                              to scalability, security, and performance during
-                              the development process.
-                            </li>
-                            <li>
                               Ensure that web applications are thoroughly tested
                               by creating automated tests, writing test cases,
                               and coordinating with the testing team.
+                            </li>
+                            <li>
+                              Implement security measures to protect the
+                              application from common vulnerabilities, such as
+                              SQL injection, XSS, and CSRF attacks.
+                            </li>
+                            <li>
+                              Manage projects, their environments (DTAP), and
+                              execute releases and server upgrades.
+                            </li>
+                            <li>
+                              Implement and maintain CI/CD pipelines to ensure
+                              smooth and automated deployment of code changes to
+                              production environments.
+                            </li>
+                            <li>
+                              Utilise version control systems like Git
+                              effectively, ensuring proper branching, merging,
+                              and collaboration with other developers.
+                            </li>
+                            <li>
+                              Adhere to an Agile/Scrum framework-based software
+                              development life cycle.
+                            </li>
+                            <li>
+                              Collaborate with UX/UI designers to create
+                              user-friendly and visually appealing interfaces
+                              that enhance user experience.
+                            </li>
+                            <li>
+                              Collaborate with project managers to estimate
+                              project timelines, provide technical insights, and
+                              communicate potential risks and challenges.
+                              Conduct feasibility studies to assist project
+                              managers and stakeholders in identifying suitable
+                              solutions.
                             </li>
                             <li>
                               Review development team's code to ensure adherence
@@ -118,17 +150,17 @@ export default function Page() {
                               for improvement.
                             </li>
                             <li>
-                              Offer mentorship and support to junior developers,
-                              fostering their growth and development of skills.
-                            </li>
-                            <li>
                               Document web application design, architecture, and
                               code through creation of technical documentation,
                               user guides, and other relevant materials.
                             </li>
                             <li>
+                              Offer mentorship and support to junior developers,
+                              fostering their growth and development of skills.
+                            </li>
+                            <li>
                               Keep up-to-date with the latest trends,
-                              technologies, and best practices in PHP/JavaScript
+                              technologies, and best practices in JavaScript/PHP
                               development and apply this knowledge to improve
                               the application development process.
                             </li>
@@ -143,7 +175,7 @@ export default function Page() {
                     className="timeline-date wow fadeInLeft"
                     data-wow-delay="0.1s"
                   >
-                    <p>February 2020</p>
+                    <p>January 2012</p>
                   </div>
                   <div className="row">
                     <div className="col-12">
@@ -164,75 +196,7 @@ export default function Page() {
                               href="https://www.weignyte.com"
                               target="_blank"
                             >
-                              Weignyte Limited (Liverpool, UK)
-                            </Link>
-                          </h5>
-                          <h6 className="d-lg-none d-xl-none d-sm-none">
-                            FEBRUARY 2020 - MARCH 2023
-                          </h6>
-                          <ul>
-                            <li>
-                              Develop solutions utilising Symfony 5/6, PHP 8,
-                              and LEMP stack for diverse industries such as
-                              interior design, education, real estate, and
-                              healthcare.
-                            </li>
-                            <li>
-                              Formulate architectural solutions using design
-                              patterns in Symfony.
-                            </li>
-                            <li>
-                              Manage projects, their environments (DTAP), and
-                              execute releases and server upgrades.
-                            </li>
-                            <li>
-                              Establish front-end development architectures
-                              using Webpack and Nodejs.
-                            </li>
-                            <li>
-                              Adhere to an Agile/Scrum framework-based software
-                              development life cycle.
-                            </li>
-                            <li>
-                              Collaborate effectively with team members through
-                              clear communication.
-                            </li>
-                            <li>
-                              Conduct feasibility studies to assist project
-                              managers and stakeholders in identifying suitable
-                              solutions.
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="single-timeline-area">
-                  <div
-                    className="timeline-date wow fadeInLeft"
-                    data-wow-delay="0.1s"
-                  >
-                    <p>January 2012</p>
-                  </div>
-                  <div className="row">
-                    <div className="col-12">
-                      <div
-                        className="single-timeline-content d-flex wow fadeInLeft"
-                        data-wow-delay="0.3s"
-                        data-aos="zoom-in-right"
-                        data-aos-easing="ease-out-cubic"
-                        data-aos-duration="1000"
-                      >
-                        <div className="timeline-icon">
-                          <FontAwesomeIcon icon={faIdCard} size="1x" />
-                        </div>
-                        <div className="timeline-text">
-                          <h4>Senior Symfony/PHP Developer</h4>
-                          <h5>
-                            <Link href="https://aspl.in/" target="_blank">
-                              Almighty Software Pvt. Ltd. (Rajkot, India)
+                              ALMIGHTY SOFTWARE PVT. LTD. (RAJKOT, INDIA)
                             </Link>
                           </h5>
                           <h6 className="d-lg-none d-xl-none d-sm-none">
@@ -276,6 +240,7 @@ export default function Page() {
                     </div>
                   </div>
                 </div>
+
                 <div className="single-timeline-area">
                   <div
                     className="timeline-date wow fadeInLeft"
@@ -288,7 +253,7 @@ export default function Page() {
                       <div
                         className="single-timeline-content d-flex wow fadeInLeft"
                         data-wow-delay="0.3s"
-                        data-aos="zoom-in-left"
+                        data-aos="zoom-in-right"
                         data-aos-easing="ease-out-cubic"
                         data-aos-duration="1000"
                       >
@@ -298,11 +263,8 @@ export default function Page() {
                         <div className="timeline-text">
                           <h4>PHP Developer</h4>
                           <h5>
-                            <Link
-                              href="https://www.aceinfoway.com/"
-                              target="_blank"
-                            >
-                              Ace Infoway Pvt. Ltd. (Rajkot, India)
+                            <Link href="https://aspl.in/" target="_blank">
+                              ACE INFOWAY PVT. LTD. (RAJKOT, INDIA)
                             </Link>
                           </h5>
                           <h6 className="d-lg-none d-xl-none d-sm-none">
@@ -310,8 +272,8 @@ export default function Page() {
                           </h6>
                           <ul>
                             <li>
-                              Develop web applications and websites using core
-                              PHP programming language.
+                              Develop web applications and websites using the
+                              core PHP programming language.
                             </li>
                             <li>
                               Collaborate with project managers to define UI/UX
