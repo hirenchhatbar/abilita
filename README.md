@@ -31,6 +31,15 @@ npm run build
 
 ## Enable Google Analytics
 
+### Method 1
+
+- Set NEXT_PUBLIC_GOOGLE_ANALYTICS_ID environment variable
+```
+# .env.production
+NEXT_PUBLIC_GOOGLE_ANALYTICS_ID = "G-<GA_ID>"
+```
+
+### Method 2
 - Set environment variable in your Linux shell and perform build
 ```
 export NEXT_PUBLIC_GOOGLE_ANALYTICS_ID="G-<GA_ID>" && npm run build
