@@ -59,7 +59,7 @@ export default function Menu() {
                 Contact
               </Link>
             </li>
-            <li className="nav-item">
+            <li className="nav-item d-none">
               <a
                 href="https://www.hirenchhatbar.com/blog/"
                 className="nav-link"
