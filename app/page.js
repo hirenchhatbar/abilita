@@ -12,6 +12,11 @@ import {
   faServer,
   faCircleNodes,
   faFileLines,
+  faChartDiagram,
+  faTruck,
+  faVials,
+  faVial,
+  faBrain,
 } from '@fortawesome/free-solid-svg-icons';
 import {
   faSymfony,
@@ -34,6 +39,8 @@ import {
   faJs,
   faWordpress,
   faLaravel,
+  faGolang,
+  faGoogle,
 } from '@fortawesome/free-brands-svg-icons';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -77,8 +84,16 @@ const skills = [
     name: 'Nginx',
   },
   {
+    icon: faGolang,
+    name: 'Go',
+  },
+  {
     icon: faDatabase,
     name: 'MySQL',
+  },
+  {
+    icon: faDatabase,
+    name: 'Postgres',
   },
   {
     icon: faDocker,
@@ -89,12 +104,24 @@ const skills = [
     name: 'CI/CD',
   },
   {
+    icon: faTruck,
+    name: 'Argo CD',
+  },
+  {
     icon: faJenkins,
     name: 'Jenkins',
   },
   {
     icon: faFlaskVial,
     name: 'Selenium IDE',
+  },
+  {
+    icon: faVials,
+    name: 'PHPUnit',
+  },
+  {
+    icon: faVial,
+    name: 'Pest',
   },
   {
     icon: faFileLines,
@@ -109,6 +136,10 @@ const skills = [
     name: 'RESTful API',
   },
   {
+    icon: faCircleNodes,
+    name: 'gRPC',
+  },
+  {
     icon: faServer,
     name: 'Elasticsearch',
   },
@@ -119,6 +150,14 @@ const skills = [
   {
     icon: faDatabase,
     name: 'Redis',
+  },
+  {
+    icon: faGoogle,
+    name: 'GCP',
+  },
+  {
+    icon: faServer,
+    name: 'Kubernetes',
   },
   {
     icon: faAws,
@@ -143,6 +182,10 @@ const skills = [
   {
     icon: faServer,
     name: 'RabbitMQ',
+  },
+  {
+    icon: faServer,
+    name: 'Grafana',
   },
   {
     icon: faCreditCard,
@@ -175,6 +218,14 @@ const skills = [
   {
     icon: faLaravel,
     name: 'Packagist',
+  },
+  {
+    icon: faBrain,
+    name: 'OpenAI',
+  },
+  {
+    icon: faBrain,
+    name: 'Gemini',
   },
 ];
 
@@ -279,7 +330,7 @@ export default function Home() {
                       <FontAwesomeIcon icon={faCalendar} size="3x" />
                     </div>
                     <div>
-                      <h3>14+</h3>
+                      <h3>15+</h3>
                       <p>Years of Experience</p>
                     </div>
                   </div>
