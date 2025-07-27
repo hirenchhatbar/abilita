@@ -66,7 +66,86 @@ export default function Page() {
                           <FontAwesomeIcon icon={faAddressCard} size="1x" />
                         </div>
                         <div className="timeline-text">
-                          <h4>Senior Full Stack Developer (JavaScript/PHP)</h4>
+                          <h4>Senior Backend Engineer</h4>
+                          <h5>
+                            <Link
+                              href="https://www.weignyte.com"
+                              target="_blank"
+                            >
+                              Openprovider (Rotterdam, The Netherlands)
+                            </Link>
+                          </h5>
+                          <h6>FEBRUARY 2024 - PRESENT</h6>
+                          <ul>
+                            <li>
+                              Design and develop reliable software solutions for
+                              the domain business using PHP and Go, ensuring
+                              they meet performance and business requirements.
+                            </li>
+                            <li>
+                              Build and maintain APIs and backend services that
+                              are stable, scalable, and easy for customers and
+                              internal teams to integrate with.
+                            </li>
+                            <li>
+                              Contribute to software quality by actively
+                              participating in design discussions, performing
+                              thorough code reviews, writing unit tests, fixing
+                              defects, and preparing systems for production
+                              deployment.
+                            </li>
+                            <li>
+                              Implement strong security practices across all
+                              software processes and ensure ongoing compliance
+                              with ISO 27001 security standards.
+                            </li>
+                            <li>
+                              Apply object-oriented analysis and design
+                              principles to create clean, modular, and
+                              maintainable codebases.
+                            </li>
+                            <li>
+                              Develop software solutions that are built to
+                              scale, remain secure under load, and are
+                              maintainable over the long term.
+                            </li>
+                            <li>
+                              Use modern development tools such as GitHub or
+                              Bitbucket for source control, JIRA for issue
+                              tracking, Jenkins for continuous integration, and
+                              Docker for containerization and deployment.
+                            </li>
+                            <li>
+                              Collaborate in agile environments using
+                              methodologies like Scrum or Kanban, with
+                              experience or familiarity in practices like
+                              Test-Driven Development (TDD) or Behavior-Driven
+                              Development (BDD).
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="single-timeline-area">
+                  <div
+                    className="timeline-date wow fadeInLeft"
+                    data-wow-delay="0.1s"
+                  >
+                    <p>2020</p>
+                  </div>
+                  <div className="row">
+                    <div className="col-12">
+                      <div
+                        className="single-timeline-content d-flex wow fadeInLeft"
+                        data-wow-delay="0.3s"
+                      >
+                        <div className="timeline-icon">
+                          <FontAwesomeIcon icon={faAddressCard} size="1x" />
+                        </div>
+                        <div className="timeline-text">
+                          <h4>Senior Full Stack Developer (PHP/JavaScript)</h4>
                           <h5>
                             <Link
                               href="https://www.weignyte.com"
@@ -75,13 +154,11 @@ export default function Page() {
                               Weignyte Limited (Liverpool, UK)
                             </Link>
                           </h5>
-                          <h6 className="d-lg-none d-xl-none d-sm-none">
-                            FEBRUARY 2020 - PRESENT
-                          </h6>
+                          <h6>FEBRUARY 2020 - FEBRUARY 2024</h6>
                           <ul>
                             <li>
                               Develop comprehensive design and structure for
-                              JavaScript/PHP websites and web applications,
+                              PHP/JavaScript websites and web applications,
                               selecting appropriate frameworks, libraries, and
                               other tools to ensure a robust, scalable, and
                               maintainable product.
@@ -160,7 +237,7 @@ export default function Page() {
                             </li>
                             <li>
                               Keep up-to-date with the latest trends,
-                              technologies, and best practices in JavaScript/PHP
+                              technologies, and best practices in PHP/JavaScript
                               development and apply this knowledge to improve
                               the application development process.
                             </li>
@@ -175,7 +252,7 @@ export default function Page() {
                     className="timeline-date wow fadeInLeft"
                     data-wow-delay="0.1s"
                   >
-                    <p>January 2012</p>
+                    <p>2012</p>
                   </div>
                   <div className="row">
                     <div className="col-12">
@@ -199,9 +276,7 @@ export default function Page() {
                               ALMIGHTY SOFTWARE PVT. LTD. (RAJKOT, INDIA)
                             </Link>
                           </h5>
-                          <h6 className="d-lg-none d-xl-none d-sm-none">
-                            JANUARY 2012 - JANUARY 2020
-                          </h6>
+                          <h6>JANUARY 2012 - JANUARY 2020</h6>
                           <ul>
                             <li>
                               Utilise proprietary platforms built on Symfony and
@@ -246,7 +321,7 @@ export default function Page() {
                     className="timeline-date wow fadeInLeft"
                     data-wow-delay="0.1s"
                   >
-                    <p>January 2010</p>
+                    <p>2010</p>
                   </div>
                   <div className="row">
                     <div className="col-12">
@@ -267,9 +342,7 @@ export default function Page() {
                               ACE INFOWAY PVT. LTD. (RAJKOT, INDIA)
                             </Link>
                           </h5>
-                          <h6 className="d-lg-none d-xl-none d-sm-none">
-                            JANUARY 2010 - DECEMBER 2012
-                          </h6>
+                          <h6>JANUARY 2010 - DECEMBER 2012</h6>
                           <ul>
                             <li>
                               Develop web applications and websites using the

@@ -12,7 +12,8 @@ export default function Theme() {
 
   useEffect(() => {
     // the cook runs when page loads, reads cookie
-    const theme = Cookies.get('theme') ?? `${process.env.NEXT_PUBLIC_NEXT_THEME}`;
+    const theme =
+      Cookies.get('theme') ?? `${process.env.NEXT_PUBLIC_NEXT_THEME}`;
 
     // it sets the theme
     document.querySelector('body').setAttribute('data-bs-theme', theme);
@@ -23,7 +24,8 @@ export default function Theme() {
 
   const switchTheme = () => {
     let theme =
-      `${process.env.NEXT_PUBLIC_NEXT_THEME}` === document.querySelector('body').getAttribute('data-bs-theme')
+      `${process.env.NEXT_PUBLIC_NEXT_THEME}` ===
+      document.querySelector('body').getAttribute('data-bs-theme')
         ? 'dark'
         : `${process.env.NEXT_PUBLIC_NEXT_THEME}`;
     document.querySelector('body').setAttribute('data-bs-theme', theme);

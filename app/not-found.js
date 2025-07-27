@@ -17,7 +17,7 @@ export default function NotFound() {
             data-aos-duration="2000"
           >
             <Image
-              src='/error-500.webp'
+              src="/error-500.webp"
               width={500}
               height={500}
               className="img-fluid mx-lg-5"
